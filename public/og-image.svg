@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#10121b"/><circle cx="1030" cy="80" r="330" fill="#4f46b5" opacity=".28"/><circle cx="970" cy="610" r="270" fill="#c4b5fd" opacity=".1"/><path d="M0 510h1200M0 420h1200M0 330h1200M0 240h1200M0 150h1200M150 0v630M300 0v630M450 0v630M600 0v630M750 0v630M900 0v630M1050 0v630" stroke="#fff" opacity=".035"/><text x="90" y="135" fill="#a5b4fc" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">ACADEMIC RESEARCH PORTFOLIO</text><text x="90" y="270" fill="#fff" font-family="Georgia,serif" font-size="82">Dr. Aarya Mehta</text><text x="90" y="345" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="31">Trustworthy AI · Human-centered ML · Climate informatics</text><rect x="90" y="415" width="95" height="7" rx="3.5" fill="#818cf8"/><text x="90" y="495" fill="#94a3b8" font-family="Arial,sans-serif" font-size="24">Research with rigor, designed for impact.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Mohit Tiwari academic research portal">
+  <rect width="1200" height="630" fill="#10121b"/>
+  <circle cx="1030" cy="80" r="330" fill="#4f46b5" opacity=".28"/>
+  <circle cx="970" cy="610" r="270" fill="#c4b5fd" opacity=".1"/>
+  <path d="M0 510h1200M0 420h1200M0 330h1200M0 240h1200M0 150h1200M150 0v630M300 0v630M450 0v630M600 0v630M750 0v630M900 0v630M1050 0v630" stroke="#fff" opacity=".035"/>
+  <text x="90" y="135" fill="#a5b4fc" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">ACADEMIC RESEARCH PORTAL</text>
+  <text x="90" y="270" fill="#fff" font-family="Georgia,serif" font-size="82">Mohit Tiwari</text>
+  <text x="90" y="345" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="29">Artificial Intelligence · Cyber Security · Software Engineering</text>
+  <rect x="90" y="415" width="95" height="7" rx="3.5" fill="#818cf8"/>
+  <text x="90" y="495" fill="#94a3b8" font-family="Arial,sans-serif" font-size="24">Assistant Professor · BVCOE · New Delhi</text>
+</svg>

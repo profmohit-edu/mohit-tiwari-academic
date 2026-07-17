@@ -1,67 +1,104 @@
-# Academic Research Portal
+# Mohit Tiwari Academic Research Portal
 
-A static-first, multi-page academic research portal built with Next.js 15, React 19, TypeScript, Tailwind CSS, and a deliberately small client runtime.
+Production academic website for **Mohit Tiwari**, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.
 
-## What the portal includes
+The portal is a static-first Next.js application. Academic records are synchronized from authoritative public sources and kept separate from React presentation components.
 
-- Searchable and filterable publication library
-- Applied research project portfolio with repository links
-- Unified research resource hub for datasets, software, and patents
-- Teaching, media, CV, and contact pages
-- Light and dark themes with system preference support
-- Per-route metadata, canonical URLs, Open Graph metadata, JSON-LD, robots, and sitemap
-- Accessible navigation, skip links, semantic landmarks, visible focus states, and reduced-motion support
-- Static export and GitHub Pages deployment workflow
+## Source architecture
 
-## Development
+```text
+app/                         Static routes and route metadata
+components/                  Shared layout, domain, interaction, and UI components
+data/profile.json            Verified identity and researcher-profile configuration
+data/manual/                 Explicitly maintained teaching, patent, and talk records
+data/synced/                 Generated ORCID, Crossref, OpenAlex, GitHub, and metric data
+lib/content.ts               Typed content selectors and derived collections
+lib/metadata.ts              Route metadata factory
+lib/navigation.ts            Site information architecture
+lib/site.ts                  Identity, canonical URL, and deployment configuration
+scripts/sync/                Reusable synchronization pipeline
+types/research.ts            Publication, repository, metric, and academic data models
+```
+
+React components never contain imported publication or repository records. They consume normalized files in `data/synced/`, allowing the data pipeline to evolve independently of the interface.
+
+## Synchronization
+
+### ORCID, Crossref, and OpenAlex
+
+```bash
+npm run sync-orcid
+```
+
+The ORCID importer reads public works for `0000-0003-1836-3451`, selects the best source inside each ORCID group, deduplicates by DOI or normalized title/year, and stores the complete normalized record in `data/synced/orcid-works.json`.
+
+The newest site records are enriched by DOI through Crossref and OpenAlex. Enrichment is cached in `data/synced/enrichment-cache.json`, so subsequent runs continue from the existing cache instead of repeating completed requests.
+
+Useful controls:
+
+```bash
+SYNC_PUBLICATION_LIMIT=300  # Number of recent normalized works exposed to the site
+SYNC_ENRICH_LIMIT=40        # Maximum new DOI enrichments per run; use 0 for all
+SYNC_CONCURRENCY=3          # Concurrent external requests
+SYNC_REFRESH_ENRICHMENT=1   # Refresh cached DOI metadata
+```
+
+### GitHub
+
+```bash
+npm run sync-github
+```
+
+The GitHub importer reads public repositories for `profmohit-edu`, including topics, descriptions, language byte counts, stars, forks, licenses, homepages, README summaries, and update timestamps. Repositories are classified as Research Software, AI, Cyber Security, Teaching, Research Platforms, or Utilities.
+
+Set `GITHUB_TOKEN` to increase API limits. The importer only requests public repositories.
+
+### All sources
+
+```bash
+npm run sync-all
+```
+
+The scheduled GitHub Actions workflow in `.github/workflows/sync.yml` runs the complete synchronization every Monday and commits changed generated records. The normal deployment workflow remains compatible with GitHub Pages.
+
+## Manual information
+
+Only verified records should be added to `data/manual/`:
+
+- `teaching.json` — confirmed courses and terms
+- `patents.json` — confirmed patent identifiers and status
+- `talks.json` — confirmed event and recording URLs
+
+Researcher profiles without verified URLs remain `null` with an explicit TODO in `data/profile.json`; the public interface hides them until configured.
+
+## Development and validation
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
-
-## Quality gates
-
-```bash
-npm run lint
-npm run typecheck
-npm run build
-```
-
-Run every gate together with:
+Run the complete quality pipeline with:
 
 ```bash
 npm run check
 ```
 
-The production site is exported to `out/`.
+Individual commands:
 
-## Architecture
-
-```text
-app/                 Routes, route metadata, sitemap, and robots
-components/          Shared layout, navigation, domain, and UI components
-data/                Domain-separated, versionable research content
-lib/content.ts       Typed content access and derived collections
-lib/metadata.ts      Shared route metadata factory
-lib/navigation.ts    Primary, secondary, and footer information architecture
-lib/site.ts          Identity, deployment URL, and base-path utilities
-types/research.ts    Shared research domain types
-public/              Static CV, icons, social image, and web manifest
+```bash
+npm run validate:content
+npm run lint
+npm run typecheck
+npm run build
 ```
 
-Route files are kept presentation-focused. Content is imported through `lib/content.ts`, shared domain cards live in `components/`, and site-wide configuration is centralized in `lib/`.
+The production static export is written to `out/`.
 
-## Updating content
+## GitHub Pages deployment
 
-Research records are organized by domain in `data/*.json`. Keep dates and numeric fields consistent with their existing shapes; TypeScript domain interfaces are defined in `types/research.ts`.
+The deployment workflow applies `NEXT_PUBLIC_BASE_PATH` from the repository name, runs validation, linting, type checking, and the production build, then uploads `out/` through the official Pages actions. Select **GitHub Actions** as the Pages source in repository settings.
 
-`npm run validate:content` checks required fields, unique identifiers, and secure external URLs before a deployment build.
+Canonical URLs are configured for:
 
-Update identity, production URL, contact details, and profile links in `lib/site.ts`. Replace the placeholder CV at `public/aarya-mehta-cv.pdf` and social image at `public/og-image.svg` before publishing a real profile.
-
-## GitHub Pages
-
-Push to `main`, then select **GitHub Actions** as the Pages source in repository settings. The workflow runs all quality gates, applies the repository base path, exports the site, and deploys `out/`.
+`https://profmohit-edu.github.io/mohit-tiwari-academic`

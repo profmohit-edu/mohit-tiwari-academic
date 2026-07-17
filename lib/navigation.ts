@@ -16,7 +16,7 @@ export const secondaryNavigation: NavigationItem[] = [
   { label: "Software", href: "/software", description: "Open-source research tools" },
   { label: "Patents", href: "/patents", description: "Inventions and technology transfer" },
   { label: "Talks & media", href: "/media", description: "Lectures and public scholarship" },
-  { label: "Curriculum vitae", href: "/cv", description: "Appointments, education, and awards" },
+  { label: "Academic profile", href: "/cv", description: "Appointment and researcher identifiers" },
 ];
 
 export const footerNavigation = [

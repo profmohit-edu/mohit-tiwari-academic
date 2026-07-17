@@ -1,5 +1,0 @@
-[
-  { "title": "CivicLens", "description": "An open auditing workbench that helps public institutions inspect model behavior, document risks, and publish transparent impact reports.", "tags": ["Responsible AI", "Next.js", "Python"], "status": "Active", "link": "https://github.com/aaryamehta", "period": "2024—Now" },
-  { "title": "TerraCast", "description": "Probabilistic forecasting models for neighborhood-scale energy demand with uncertainty that remains legible to grid operators.", "tags": ["Climate AI", "PyTorch", "Forecasting"], "status": "Field trial", "link": "https://github.com/aaryamehta", "period": "2023—Now" },
-  { "title": "Model Commons", "description": "A participatory governance toolkit for co-designing evaluation criteria with communities affected by automated decisions.", "tags": ["HCI", "Governance", "Toolkits"], "status": "Published", "link": "https://github.com/aaryamehta", "period": "2021—2024" }
-]

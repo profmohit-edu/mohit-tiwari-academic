@@ -26,7 +26,7 @@ export function SiteHeader() {
   return (
     <header className="pointer-events-none fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5 sm:pt-4">
       <div className="glass pointer-events-auto mx-auto flex h-14 max-w-[1240px] items-center justify-between rounded-2xl px-3 sm:h-16 sm:rounded-[1.35rem] sm:px-4">
-        <Link href="/" className="flex items-center gap-3 font-semibold" aria-label={`AM — ${siteConfig.name}, home`}>
+        <Link href="/" className="flex items-center gap-3 font-semibold" aria-label={`${siteConfig.shortName} — ${siteConfig.name}, home`}>
           <span className="grid size-9 place-items-center rounded-xl bg-primary text-xs text-primary-foreground shadow-[0_10px_24px_-12px_hsl(var(--primary))]">{siteConfig.shortName}</span>
           <span className="hidden sm:inline">{siteConfig.name}</span>
         </Link>

@@ -1,45 +1,85 @@
-export type PublicationType = "Conference" | "Journal";
+export type PublicationType =
+  | "Journal Article"
+  | "Conference Paper"
+  | "Book"
+  | "Book Chapter"
+  | "Dataset"
+  | "Software"
+  | "Patent"
+  | "Preprint"
+  | "Other";
+
+export interface PublicationLinks {
+  doi: string | null;
+  pdf: string | null;
+  slides: string | null;
+  video: string | null;
+  github: string | null;
+  dataset: string | null;
+  publisher: string | null;
+}
 
 export interface Publication {
-  year: number;
+  id: string;
   title: string;
-  authors: string;
-  venue: string;
+  year: number | null;
+  publicationDate: string | null;
   type: PublicationType;
-  featured: boolean;
-  doi: string;
-  abstract: string;
+  sourceType: string;
+  authors: string[];
+  venue: string | null;
+  publisher: string | null;
+  volume: string | null;
+  issue: string | null;
+  pages: string | null;
+  doi: string | null;
+  abstract: string | null;
+  keywords: string[];
+  researchAreas: string[];
+  citation: string;
+  bibtex: string | null;
+  citationCount: number | null;
+  links: PublicationLinks;
+  sources: string[];
 }
 
-export interface ResearchProject {
-  title: string;
-  description: string;
-  tags: string[];
-  status: string;
-  link: string;
-  period: string;
-}
+export type RepositoryCategory =
+  | "Research Software"
+  | "AI"
+  | "Cyber Security"
+  | "Teaching"
+  | "Research Platforms"
+  | "Utilities";
 
-export interface Dataset {
+export interface Repository {
+  id: number;
   name: string;
-  description: string;
-  size: string;
-  license: string;
-  records: string;
-  version: string;
-  link: string;
+  fullName: string;
+  description: string | null;
+  url: string;
+  homepage: string | null;
+  topics: string[];
+  languages: Record<string, number>;
+  primaryLanguage: string | null;
+  stars: number;
+  forks: number;
+  license: string | null;
+  readmeSummary: string | null;
+  category: RepositoryCategory;
+  archived: boolean;
+  fork: boolean;
+  updatedAt: string;
 }
 
-export interface SoftwareProject {
-  name: string;
-  description: string;
-  language: string;
-  stars: string;
-  link: string;
-  license: string;
+export interface Metric {
+  key: string;
+  label: string;
+  value: number | null;
+  source: "ORCID" | "GitHub" | "OpenAlex" | "Manual";
+  todo: string | null;
 }
 
-export interface Course {
+export interface TeachingItem {
   code: string;
   title: string;
   term: string;
@@ -48,10 +88,19 @@ export interface Course {
   topics: string[];
 }
 
-export interface Patent {
+export interface PatentRecord {
   number: string;
-  year: number;
+  year: number | null;
   title: string;
   status: string;
-  inventors: string;
+  inventors: string[];
+  url: string | null;
+}
+
+export interface Talk {
+  title: string;
+  event: string;
+  year: number;
+  videoUrl: string;
+  description: string;
 }

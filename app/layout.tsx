@@ -4,13 +4,13 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { JsonLd } from "@/components/json-ld";
-import { absoluteUrl, siteConfig, withBasePath } from "@/lib/site";
+import { absoluteUrl, configuredProfiles, siteConfig, withBasePath } from "@/lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: { default: `${siteConfig.name} — ${siteConfig.title}`, template: `%s · ${siteConfig.name}` },
   description: siteConfig.description,
-  keywords: ["trustworthy AI", "machine learning", "human-centered AI", "climate informatics", "academic research"],
+  keywords: [...siteConfig.researchAreas, "Mohit Tiwari", "BVCOE", "academic research"],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   alternates: { canonical: absoluteUrl() },
@@ -30,11 +30,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       "@type": "Person",
       name: siteConfig.name,
       url: absoluteUrl(),
-      jobTitle: "Associate Professor and AI Researcher",
+      jobTitle: siteConfig.designation,
       email: `mailto:${siteConfig.email}`,
-      address: { "@type": "PostalAddress", addressLocality: siteConfig.location },
-      sameAs: [siteConfig.github, siteConfig.scholar, siteConfig.linkedin, siteConfig.youtube],
-      knowsAbout: ["Trustworthy artificial intelligence", "Human-centered machine learning", "Climate informatics", "Responsible data systems"],
+      worksFor: { "@type": "CollegeOrUniversity", name: siteConfig.institution },
+      affiliation: { "@type": "Organization", name: siteConfig.department },
+      address: { "@type": "PostalAddress", addressLocality: "New Delhi", addressCountry: "India" },
+      sameAs: configuredProfiles.map((profile) => profile.url),
+      knowsAbout: siteConfig.researchAreas,
     },
     {
       "@context": "https://schema.org",

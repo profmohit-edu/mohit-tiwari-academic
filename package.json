@@ -1,12 +1,15 @@
 {
-  "name": "academic-research-portfolio",
+  "name": "mohit-tiwari-academic",
   "version": "1.0.0",
   "private": true,
-  "description": "A production-ready academic research portfolio built with Next.js.",
+  "description": "Academic research portal for Mohit Tiwari, Assistant Professor at BVCOE New Delhi.",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "sync-orcid": "node scripts/sync/orcid.mjs",
+    "sync-github": "node scripts/sync/github.mjs",
+    "sync-all": "node scripts/sync/all.mjs",
     "validate:content": "node scripts/validate-content.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",

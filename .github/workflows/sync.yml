@@ -1,0 +1,40 @@
+name: Synchronize academic data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: academic-data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run sync-all
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm run validate:content
+      - name: Commit synchronized records
+        run: |
+          if git diff --quiet -- data/synced; then
+            echo "No synchronized data changes."
+            exit 0
+          fi
+          git config user.name "academic-data-sync[bot]"
+          git config user.email "academic-data-sync[bot]@users.noreply.github.com"
+          git add data/synced
+          git commit -m "chore: synchronize ORCID and GitHub data"
+          git push

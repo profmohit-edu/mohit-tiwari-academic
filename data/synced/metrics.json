@@ -1,0 +1,86 @@
+[
+  {
+    "key": "publications",
+    "label": "Publications",
+    "value": 699,
+    "source": "ORCID",
+    "todo": null
+  },
+  {
+    "key": "citations",
+    "label": "Citations",
+    "value": null,
+    "source": "OpenAlex",
+    "todo": "TODO: complete OpenAlex enrichment before publishing this metric"
+  },
+  {
+    "key": "hIndex",
+    "label": "h-index",
+    "value": null,
+    "source": "OpenAlex",
+    "todo": "TODO: complete OpenAlex enrichment before publishing this metric"
+  },
+  {
+    "key": "i10Index",
+    "label": "i10-index",
+    "value": null,
+    "source": "OpenAlex",
+    "todo": "TODO: complete OpenAlex enrichment before publishing this metric"
+  },
+  {
+    "key": "patents",
+    "label": "Patents",
+    "value": 0,
+    "source": "ORCID",
+    "todo": null
+  },
+  {
+    "key": "datasets",
+    "label": "Datasets",
+    "value": 1,
+    "source": "ORCID",
+    "todo": null
+  },
+  {
+    "key": "software",
+    "label": "Software",
+    "value": 5,
+    "source": "GitHub",
+    "todo": null
+  },
+  {
+    "key": "projects",
+    "label": "Projects",
+    "value": 12,
+    "source": "GitHub",
+    "todo": null
+  },
+  {
+    "key": "researchReviews",
+    "label": "Research Reviews",
+    "value": null,
+    "source": "Manual",
+    "todo": "TODO: add a verified research-review count"
+  },
+  {
+    "key": "studentsGuided",
+    "label": "Students Guided",
+    "value": null,
+    "source": "Manual",
+    "todo": "TODO: add a verified students-guided count"
+  },
+  {
+    "key": "invitedTalks",
+    "label": "Invited Talks",
+    "value": null,
+    "source": "Manual",
+    "todo": "TODO: add a verified invited-talk count"
+  },
+  {
+    "key": "conferencePapers",
+    "label": "Conference Papers",
+    "value": 266,
+    "source": "ORCID",
+    "todo": null
+  }
+]

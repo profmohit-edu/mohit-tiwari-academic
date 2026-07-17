@@ -1,0 +1,33 @@
+{
+  "name": "Mohit Tiwari",
+  "initials": "MT",
+  "designation": "Assistant Professor",
+  "department": "Department of Computer Science & Engineering",
+  "institution": "Bharati Vidyapeeth's College of Engineering",
+  "location": "New Delhi, India",
+  "email": "mohit.t.bvcoe@gmail.com",
+  "orcidId": "0000-0003-1836-3451",
+  "githubUsername": "profmohit-edu",
+  "introduction": "Mohit Tiwari is an Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi. His research spans artificial intelligence, cyber security, software engineering, blockchain and smart contracts, machine learning, cloud computing, and the Internet of Things, with an emphasis on building secure, reproducible, and practically relevant computing systems.",
+  "researchAreas": [
+    "Artificial Intelligence",
+    "Cyber Security",
+    "Software Engineering",
+    "Blockchain",
+    "Smart Contracts",
+    "Machine Learning",
+    "Cloud Computing",
+    "Internet of Things"
+  ],
+  "profiles": {
+    "orcid": { "label": "ORCID", "id": "0000-0003-1836-3451", "url": "https://orcid.org/0000-0003-1836-3451", "todo": null },
+    "github": { "label": "GitHub", "id": "profmohit-edu", "url": "https://github.com/profmohit-edu", "todo": null },
+    "linkedin": { "label": "LinkedIn", "id": "mtiw", "url": "https://www.linkedin.com/in/mtiw", "todo": null },
+    "scopus": { "label": "Scopus", "id": "24483852000", "url": "https://www.scopus.com/inward/authorDetails.url?authorID=24483852000&partnerID=MN8TOARS", "todo": null },
+    "webOfScience": { "label": "Web of Science", "id": "GRA-7654-2022", "url": "https://www.webofscience.com/wos/author/record/GRA-7654-2022", "todo": null },
+    "googleScholar": { "label": "Google Scholar", "id": null, "url": null, "todo": "TODO: add the verified Google Scholar profile URL" },
+    "researchGate": { "label": "ResearchGate", "id": null, "url": null, "todo": "TODO: add the verified ResearchGate profile URL" },
+    "vidwan": { "label": "Vidwan", "id": null, "url": null, "todo": "TODO: add the verified Vidwan profile URL" },
+    "dblp": { "label": "DBLP", "id": null, "url": null, "todo": "TODO: add the verified DBLP profile URL" }
+  }
+}

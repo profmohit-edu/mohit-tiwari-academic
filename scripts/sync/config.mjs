@@ -15,6 +15,8 @@ export const syncConfig = {
     metrics: resolve("data/synced/metrics.json"),
     enrichmentCache: resolve("data/synced/enrichment-cache.json"),
     metadata: resolve("data/synced/sync-metadata.json"),
+    assistantIndex: resolve("data/synced/assistant-index.json"),
     manualPatents: resolve("data/manual/patents.json"),
+    manualTeaching: resolve("data/manual/teaching.json"),
   },
 };

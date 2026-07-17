@@ -53,6 +53,25 @@ const expectedMetrics = ["publications", "citations", "hIndex", "i10Index", "pat
 for (const key of expectedMetrics) if (!metrics.some((metric) => metric.key === key)) failures.push(`metrics: missing ${key}`);
 for (const metric of metrics) if (metric.value === null && !metric.todo) failures.push(`metrics.${metric.key}: a null value requires a TODO`);
 
+const assistantIndex = await readJson("data/synced/assistant-index.json");
+const assistantCollections = new Set(["Publications", "Projects", "Datasets", "Software", "GitHub", "Patents", "Teaching", "Metrics"]);
+const assistantIds = new Set();
+if (!Array.isArray(assistantIndex.documents)) failures.push("assistant-index: documents must be an array");
+if (assistantIndex.documentCount !== assistantIndex.documents?.length) failures.push("assistant-index: documentCount does not match documents length");
+for (const [index, document] of (assistantIndex.documents ?? []).entries()) {
+  requireFields(document, ["id", "collections", "title", "summary", "content", "researchAreas", "keywords", "url", "metadata"], `assistant-index.documents[${index}]`);
+  if (assistantIds.has(document.id)) failures.push(`assistant-index: duplicate id ${document.id}`);
+  assistantIds.add(document.id);
+  if (!Array.isArray(document.collections) || document.collections.length === 0) failures.push(`assistant-index.documents[${index}]: at least one collection is required`);
+  for (const collection of document.collections ?? []) {
+    if (!assistantCollections.has(collection)) failures.push(`assistant-index.documents[${index}]: unknown collection ${collection}`);
+  }
+  validateHttps(document.url, `assistant-index.documents[${index}].url`);
+}
+const assistantCounts = assistantIndex.collectionCounts ?? {};
+if ((assistantCounts.Publications ?? 0) < publications.length) failures.push("assistant-index: not all publications are searchable");
+if ((assistantCounts.GitHub ?? 0) < repositories.length) failures.push("assistant-index: not all GitHub repositories are searchable");
+
 for (const path of ["data/manual/teaching.json", "data/manual/patents.json", "data/manual/talks.json"]) {
   if (!Array.isArray(await readJson(path))) failures.push(`${path}: expected an array`);
 }
@@ -62,4 +81,4 @@ if (failures.length > 0) {
   process.exit(1);
 }
 
-console.log(`Content validation passed: ${publications.length} publications, ${repositories.length} repositories, ${metrics.length} metrics.`);
+console.log(`Content validation passed: ${publications.length} publications, ${repositories.length} repositories, ${metrics.length} metrics, ${assistantIndex.documentCount} assistant records.`);

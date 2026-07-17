@@ -6,6 +6,7 @@ export const dynamic = "force-static";
 const routes = [
   ["", 1, "monthly"],
   ["/publications", 0.9, "monthly"],
+  ["/assistant", 0.85, "monthly"],
   ["/projects", 0.8, "monthly"],
   ["/resources", 0.85, "monthly"],
   ["/datasets", 0.8, "monthly"],

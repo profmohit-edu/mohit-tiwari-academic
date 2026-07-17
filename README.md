@@ -15,10 +15,14 @@ data/synced/                 Generated ORCID, Crossref, OpenAlex, GitHub, and me
 lib/content.ts               Typed content selectors and derived collections
 lib/citations.ts             APA, IEEE, MLA, Chicago, BibTeX, and RIS utilities
 lib/related-research.ts      Cross-output research relationship inference
+lib/assistant/               Local retrieval, ranking, and grounded response generation
 lib/metadata.ts              Route metadata factory
 lib/navigation.ts            Site information architecture
 lib/site.ts                  Identity, canonical URL, and deployment configuration
 scripts/sync/                Reusable synchronization pipeline
+scripts/build-assistant-index.mjs  Local knowledge-index builder
+server/assistant-api.mjs     Optional streaming OpenAI gateway
+types/assistant.ts           Assistant corpus, search, and response contracts
 types/research.ts            Publication, repository, metric, and academic data models
 ```
 
@@ -101,6 +105,46 @@ npm run build
 `validate:research` checks DOI syntax, DOI and title/year duplicates, duplicate authors, HTTPS links, required author identifiers, and missing metadata. It writes the non-destructive coverage report to `data/synced/research-quality.json` and fails on integrity errors.
 
 The production static export is written to `out/`.
+
+## AI Research Assistant
+
+The `/assistant` route searches only synchronized and manually verified portal data. Its knowledge index covers publications, projects, datasets, software, GitHub repositories, patents, teaching records, and metrics. The browser downloads the index only after a question is submitted, keeping the initial page lightweight.
+
+The assistant is split into independent layers:
+
+- `lib/assistant/retriever.ts` applies source, research-area, year, and publication-type filters, then scores exact terms and domain-aware semantic concepts.
+- `lib/assistant/ranker.ts` combines lexical, semantic, field, authority, and query-intent signals.
+- `lib/assistant/generator.ts` creates deterministic, source-linked answers and explicitly reports unavailable evidence.
+- `components/assistant/` provides the streaming chat, filters, recent questions, suggested prompts, copy action, and conversation controls.
+- `server/assistant-api.mjs` optionally sends only the retrieved local evidence to OpenAI and streams the grounded result over server-sent events.
+
+Rebuild the local knowledge index after changing synchronized or manual records:
+
+```bash
+npm run build:assistant-index
+```
+
+`npm run sync-all` also rebuilds the index automatically.
+
+### Optional GPT responses
+
+Local deterministic retrieval is the default and requires no external service. To enable GPT-assisted synthesis, keep the API key on a trusted server and run the optional gateway:
+
+```bash
+cp .env.example .env.local
+export OPENAI_API_KEY="your-server-side-key"
+export OPENAI_MODEL="gpt-5.6-terra"
+export ASSISTANT_ALLOWED_ORIGIN="http://localhost:3000"
+npm run assistant:server
+```
+
+Expose the gateway to the frontend at build time:
+
+```bash
+NEXT_PUBLIC_ASSISTANT_API_URL="http://127.0.0.1:8787/assistant" npm run dev
+```
+
+For GitHub Pages, deploy the gateway separately over HTTPS, set `ASSISTANT_ALLOWED_ORIGIN` to the production Pages origin, and provide its `/assistant` endpoint as `NEXT_PUBLIC_ASSISTANT_API_URL` during the static build. Never put `OPENAI_API_KEY` in a `NEXT_PUBLIC_*` variable. If the endpoint is absent or unavailable, the interface automatically uses deterministic local retrieval.
 
 ## GitHub Pages deployment
 

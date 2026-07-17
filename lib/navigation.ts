@@ -6,6 +6,7 @@ export interface NavigationItem {
 
 export const primaryNavigation: NavigationItem[] = [
   { label: "Publications", href: "/publications" },
+  { label: "Assistant", href: "/assistant" },
   { label: "Projects", href: "/projects" },
   { label: "Resources", href: "/resources" },
   { label: "Teaching", href: "/teaching" },
@@ -22,7 +23,7 @@ export const secondaryNavigation: NavigationItem[] = [
 export const footerNavigation = [
   {
     title: "Research",
-    links: [primaryNavigation[0], primaryNavigation[1], secondaryNavigation[2]],
+    links: [primaryNavigation[0], primaryNavigation[1], primaryNavigation[2], secondaryNavigation[2]],
   },
   {
     title: "Open work",
@@ -30,6 +31,6 @@ export const footerNavigation = [
   },
   {
     title: "Profile",
-    links: [primaryNavigation[3], secondaryNavigation[4], { label: "Contact", href: "/contact" }],
+    links: [primaryNavigation[4], secondaryNavigation[4], { label: "Contact", href: "/contact" }],
   },
 ];

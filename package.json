@@ -10,6 +10,8 @@
     "sync-orcid": "node scripts/sync/orcid.mjs",
     "sync-github": "node scripts/sync/github.mjs",
     "sync-all": "node scripts/sync/all.mjs",
+    "build:assistant-index": "node scripts/build-assistant-index.mjs",
+    "assistant:server": "node server/assistant-api.mjs",
     "validate:content": "node scripts/validate-content.mjs",
     "validate:research": "node scripts/validate-research.mjs",
     "lint": "eslint .",

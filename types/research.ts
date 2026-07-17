@@ -19,6 +19,11 @@ export interface PublicationLinks {
   publisher: string | null;
 }
 
+export interface AuthorIdentifier {
+  name: string;
+  orcid: string | null;
+}
+
 export interface Publication {
   id: string;
   title: string;
@@ -27,6 +32,7 @@ export interface Publication {
   type: PublicationType;
   sourceType: string;
   authors: string[];
+  authorIdentifiers: AuthorIdentifier[];
   venue: string | null;
   publisher: string | null;
   volume: string | null;
@@ -39,8 +45,28 @@ export interface Publication {
   citation: string;
   bibtex: string | null;
   citationCount: number | null;
+  openAccess: "open" | "unknown";
   links: PublicationLinks;
   sources: string[];
+}
+
+export type CitationStyle = "APA" | "IEEE" | "MLA" | "Chicago";
+
+export interface RelatedResearchItem {
+  id: string;
+  kind: "Publication" | "Dataset" | "Software" | "GitHub" | "Patent" | "Talk";
+  title: string;
+  href: string | null;
+  external: boolean;
+}
+
+export interface RelatedResearch {
+  publications: RelatedResearchItem[];
+  datasets: RelatedResearchItem[];
+  software: RelatedResearchItem[];
+  repositories: RelatedResearchItem[];
+  patents: RelatedResearchItem[];
+  talks: RelatedResearchItem[];
 }
 
 export type RepositoryCategory =
@@ -68,7 +94,18 @@ export interface Repository {
   category: RepositoryCategory;
   archived: boolean;
   fork: boolean;
+  createdAt: string;
   updatedAt: string;
+}
+
+export interface AcademicHighlight {
+  key: "publication" | "software" | "dataset" | "repository" | "activity";
+  eyebrow: string;
+  title: string;
+  description: string;
+  date: string | null;
+  href: string;
+  external: boolean;
 }
 
 export interface Metric {

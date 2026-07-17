@@ -81,8 +81,14 @@ function normalizeOrcidWork(group) {
   };
 }
 
-function workKey(work) {
-  return work.doi ?? `${work.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()}|${work.year ?? ""}`;
+function workFingerprint(work) {
+  return `${work.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()}|${work.year ?? ""}`;
+}
+
+function workQuality(work) {
+  const typeScore = { "Journal Article": 9, "Conference Paper": 8, Book: 7, "Book Chapter": 7, Dataset: 6, Software: 6, Patent: 6, Preprint: 3, Other: 1 }[work.type] ?? 0;
+  const sourceIndex = sourcePriority.findIndex((source) => work.sourceName?.includes(source));
+  return (work.doi ? 20 : 0) + typeScore + (sourceIndex < 0 ? 0 : sourcePriority.length - sourceIndex);
 }
 
 function datePartsToIso(parts) {
@@ -97,6 +103,10 @@ function normalizeCrossref(payload) {
   return {
     title: stripMarkup(work.title?.[0]),
     authors: (work.author ?? []).map((author) => [author.given, author.family].filter(Boolean).join(" ")).filter(Boolean),
+    authorIdentifiers: (work.author ?? []).map((author) => ({
+      name: [author.given, author.family].filter(Boolean).join(" "),
+      orcid: author.ORCID ? author.ORCID.replace(/^https?:\/\/orcid\.org\//i, "") : null,
+    })).filter((author) => author.name),
     venue: stripMarkup(work["container-title"]?.[0]),
     publisher: stripMarkup(work.publisher),
     volume: work.volume ?? null,
@@ -125,6 +135,10 @@ function normalizeOpenAlex(work) {
   return {
     title: stripMarkup(work.title),
     authors: (work.authorships ?? []).map((authorship) => authorship.author?.display_name).filter(Boolean),
+    authorIdentifiers: (work.authorships ?? []).map((authorship) => ({
+      name: authorship.author?.display_name ?? "",
+      orcid: authorship.author?.orcid?.replace(/^https?:\/\/orcid\.org\//i, "") ?? null,
+    })).filter((author) => author.name),
     venue: work.primary_location?.source?.display_name ?? null,
     publisher: work.primary_location?.source?.host_organization_name ?? null,
     publicationDate: work.publication_date ?? null,
@@ -134,6 +148,8 @@ function normalizeOpenAlex(work) {
       ...(work.topics ?? []).map((topic) => topic.display_name),
     ]),
     citationCount: Number.isFinite(work.cited_by_count) ? work.cited_by_count : null,
+    isOpenAccess: work.open_access?.is_oa === true,
+    openAccessUrl: work.best_oa_location?.landing_page_url ?? work.best_oa_location?.pdf_url ?? null,
     pdf: work.best_oa_location?.pdf_url ?? null,
     publisherUrl: work.primary_location?.landing_page_url ?? work.doi ?? null,
   };
@@ -199,6 +215,13 @@ function mergePublication(work, enrichment) {
   const crossref = enrichment?.crossref;
   const openAlex = enrichment?.openAlex;
   const publicationDate = crossref?.publicationDate ?? openAlex?.publicationDate ?? work.publicationDate;
+  const authors = crossref?.authors?.length ? crossref.authors : openAlex?.authors?.length ? openAlex.authors : [];
+  const enrichedIdentifiers = crossref?.authorIdentifiers?.length ? crossref.authorIdentifiers : openAlex?.authorIdentifiers ?? [];
+  const authorIdentifiers = authors.map((name) => {
+    const matched = enrichedIdentifiers.find((author) => author.name.toLowerCase() === name.toLowerCase());
+    const isMohitTiwari = /^(prof\.?\s+)?mohit\s+tiwari$/i.test(name.trim());
+    return { name, orcid: matched?.orcid ?? (isMohitTiwari ? syncConfig.orcidId : null) };
+  });
   const publication = {
     id: work.id,
     title: crossref?.title ?? openAlex?.title ?? work.title,
@@ -206,7 +229,8 @@ function mergePublication(work, enrichment) {
     publicationDate,
     type: crossref?.type ?? work.type,
     sourceType: work.sourceType,
-    authors: crossref?.authors?.length ? crossref.authors : openAlex?.authors?.length ? openAlex.authors : [],
+    authors,
+    authorIdentifiers,
     venue: crossref?.venue ?? openAlex?.venue ?? work.venue,
     publisher: crossref?.publisher ?? openAlex?.publisher ?? null,
     volume: crossref?.volume ?? null,
@@ -219,6 +243,7 @@ function mergePublication(work, enrichment) {
     citation: "",
     bibtex: null,
     citationCount: openAlex?.citationCount ?? null,
+    openAccess: openAlex?.isOpenAccess === true || Boolean(openAlex?.pdf) ? "open" : "unknown",
     links: {
       doi: work.doi ? `https://doi.org/${work.doi}` : null,
       pdf: secureUrl(crossref?.pdf ?? openAlex?.pdf),
@@ -226,7 +251,7 @@ function mergePublication(work, enrichment) {
       video: null,
       github: null,
       dataset: work.type === "Dataset" ? secureUrl(work.url) : null,
-      publisher: secureUrl(crossref?.publisherUrl ?? openAlex?.publisherUrl ?? work.url),
+      publisher: secureUrl(openAlex?.openAccessUrl ?? crossref?.publisherUrl ?? openAlex?.publisherUrl ?? work.url),
     },
     sources: unique(["ORCID", crossref && "Crossref", openAlex && "OpenAlex"]),
   };
@@ -242,17 +267,23 @@ export async function syncOrcid() {
   const deduplicated = new Map();
   for (const group of payload.group ?? []) {
     const work = normalizeOrcidWork(group);
-    const key = workKey(work);
+    const key = workFingerprint(work);
     const existing = deduplicated.get(key);
-    if (!existing || (!existing.doi && work.doi)) deduplicated.set(key, work);
+    if (!existing || workQuality(work) > workQuality(existing)) deduplicated.set(key, work);
   }
-  const works = [...deduplicated.values()].sort((left, right) => (right.year ?? 0) - (left.year ?? 0) || left.title.localeCompare(right.title));
+  const identifierDeduplicated = new Map();
+  for (const work of deduplicated.values()) {
+    const key = work.doi ? `doi:${work.doi}` : workFingerprint(work);
+    const existing = identifierDeduplicated.get(key);
+    if (!existing || workQuality(work) > workQuality(existing)) identifierDeduplicated.set(key, work);
+  }
+  const works = [...identifierDeduplicated.values()].sort((left, right) => (right.year ?? 0) - (left.year ?? 0) || Number(Boolean(right.doi)) - Number(Boolean(left.doi)) || left.title.localeCompare(right.title));
   await writeJson(syncConfig.paths.orcidWorks, works);
 
-  const siteWorks = works.slice(0, syncConfig.maxSitePublications);
+  const candidateWorks = works.slice(0, syncConfig.maxSitePublications + 75);
   const cache = await readJson(syncConfig.paths.enrichmentCache, {});
   const refresh = process.env.SYNC_REFRESH_ENRICHMENT === "1";
-  const missing = siteWorks.filter((work) => work.doi && (refresh || !cache[work.doi]));
+  const missing = candidateWorks.filter((work) => work.doi && (refresh || !cache[work.doi]));
   const selected = syncConfig.enrichmentLimit === 0 ? missing : missing.slice(0, syncConfig.enrichmentLimit);
   if (selected.length) {
     console.log(`Enriching ${selected.length} DOI records with Crossref and OpenAlex…`);
@@ -263,7 +294,15 @@ export async function syncOrcid() {
     await writeJson(syncConfig.paths.enrichmentCache, cache);
   }
 
-  const publications = siteWorks.map((work) => mergePublication(work, work.doi ? cache[work.doi] : null));
+  const publicationMap = new Map();
+  const seenPublicationDois = new Set();
+  for (const publication of candidateWorks.map((work) => mergePublication(work, work.doi ? cache[work.doi] : null))) {
+    const fingerprint = `${publication.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()}|${publication.year ?? ""}`;
+    if ((publication.doi && seenPublicationDois.has(publication.doi)) || publicationMap.has(fingerprint)) continue;
+    publicationMap.set(fingerprint, publication);
+    if (publication.doi) seenPublicationDois.add(publication.doi);
+  }
+  const publications = [...publicationMap.values()].slice(0, syncConfig.maxSitePublications);
   await writeJson(syncConfig.paths.publications, publications);
   await rebuildMetrics();
   await updateSyncMetadata("orcid", {

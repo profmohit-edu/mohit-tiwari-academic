@@ -16,18 +16,25 @@ const validateHttps = (value, location) => {
 };
 
 const profile = await readJson("data/profile.json");
-requireFields(profile, ["name", "initials", "designation", "department", "institution", "location", "email", "orcidId", "githubUsername", "introduction", "researchAreas", "profiles"], "profile");
+requireFields(profile, ["name", "initials", "designation", "department", "institution", "location", "email", "orcidId", "githubUsername", "introduction", "researchAreas", "academicService", "professionalMemberships", "profiles"], "profile");
 for (const [key, value] of Object.entries(profile.profiles)) {
   requireFields(value, ["label", "id", "url", "todo"], `profile.profiles.${key}`);
   validateHttps(value.url, `profile.profiles.${key}.url`);
   if (value.url === null && !value.todo) failures.push(`profile.profiles.${key}: an unconfigured profile requires a TODO`);
+}
+for (const [key, value] of Object.entries(profile.academicService)) {
+  if (value === null && !profile.academicService[`${key}Todo`]) failures.push(`profile.academicService.${key}: a null value requires a TODO`);
+}
+for (const [index, membership] of profile.professionalMemberships.entries()) {
+  requireFields(membership, ["label", "detail", "profileKey"], `profile.professionalMemberships[${index}]`);
+  if (membership.profileKey && !profile.profiles[membership.profileKey]) failures.push(`profile.professionalMemberships[${index}]: unknown profileKey`);
 }
 
 const publications = await readJson("data/synced/publications.json");
 if (!Array.isArray(publications) || publications.length === 0) failures.push("publications: run npm run sync-orcid before building");
 const publicationIds = new Set();
 publications.forEach((publication, index) => {
-  requireFields(publication, ["id", "title", "type", "sourceType", "authors", "keywords", "researchAreas", "citation", "links", "sources"], `publications[${index}]`);
+  requireFields(publication, ["id", "title", "type", "sourceType", "authors", "authorIdentifiers", "keywords", "researchAreas", "citation", "citationCount", "openAccess", "links", "sources"], `publications[${index}]`);
   if (publicationIds.has(publication.id)) failures.push(`publications: duplicate id ${publication.id}`);
   publicationIds.add(publication.id);
   for (const [key, value] of Object.entries(publication.links ?? {})) validateHttps(value, `publications[${index}].links.${key}`);
@@ -36,7 +43,7 @@ publications.forEach((publication, index) => {
 const repositories = await readJson("data/synced/github-repositories.json");
 if (!Array.isArray(repositories) || repositories.length === 0) failures.push("repositories: run npm run sync-github before building");
 repositories.forEach((repository, index) => {
-  requireFields(repository, ["id", "name", "fullName", "url", "topics", "languages", "stars", "forks", "category", "updatedAt"], `repositories[${index}]`);
+  requireFields(repository, ["id", "name", "fullName", "url", "topics", "languages", "stars", "forks", "category", "createdAt", "updatedAt"], `repositories[${index}]`);
   validateHttps(repository.url, `repositories[${index}].url`);
   validateHttps(repository.homepage, `repositories[${index}].homepage`);
 });

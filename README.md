@@ -13,6 +13,8 @@ data/profile.json            Verified identity and researcher-profile configurat
 data/manual/                 Explicitly maintained teaching, patent, and talk records
 data/synced/                 Generated ORCID, Crossref, OpenAlex, GitHub, and metric data
 lib/content.ts               Typed content selectors and derived collections
+lib/citations.ts             APA, IEEE, MLA, Chicago, BibTeX, and RIS utilities
+lib/related-research.ts      Cross-output research relationship inference
 lib/metadata.ts              Route metadata factory
 lib/navigation.ts            Site information architecture
 lib/site.ts                  Identity, canonical URL, and deployment configuration
@@ -30,9 +32,11 @@ React components never contain imported publication or repository records. They 
 npm run sync-orcid
 ```
 
-The ORCID importer reads public works for `0000-0003-1836-3451`, selects the best source inside each ORCID group, deduplicates by DOI or normalized title/year, and stores the complete normalized record in `data/synced/orcid-works.json`.
+The ORCID importer reads public works for `0000-0003-1836-3451`, selects the best source inside each ORCID group, deduplicates DOI and normalized title/year manifestations, and stores the complete normalized record in `data/synced/orcid-works.json`.
 
 The newest site records are enriched by DOI through Crossref and OpenAlex. Enrichment is cached in `data/synced/enrichment-cache.json`, so subsequent runs continue from the existing cache instead of repeating completed requests.
+
+Normalized records retain author identifiers when providers expose them, conservative open-access status, citation counts with source attribution, publication types, abstracts, keywords, research-area assignments, and export metadata. The interface derives related publications, datasets, software, repositories, patents, and talks without hardcoding relationships in React.
 
 Useful controls:
 
@@ -88,10 +92,13 @@ Individual commands:
 
 ```bash
 npm run validate:content
+npm run validate:research
 npm run lint
 npm run typecheck
 npm run build
 ```
+
+`validate:research` checks DOI syntax, DOI and title/year duplicates, duplicate authors, HTTPS links, required author identifiers, and missing metadata. It writes the non-destructive coverage report to `data/synced/research-quality.json` and fails on integrity errors.
 
 The production static export is written to `out/`.
 

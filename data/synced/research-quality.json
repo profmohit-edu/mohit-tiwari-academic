@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-07-17T08:10:01.481Z",
+  "recordsChecked": 300,
+  "criticalIssueCount": 0,
+  "integrity": {
+    "invalidDois": 0,
+    "duplicateDois": 0,
+    "duplicateRecords": 0,
+    "duplicateAuthors": 0,
+    "invalidLinks": 0
+  },
+  "metadataCoverage": {
+    "authors": {
+      "missing": 76,
+      "total": 300,
+      "coveragePercent": 74.7
+    },
+    "venue": {
+      "missing": 31,
+      "total": 300,
+      "coveragePercent": 89.7
+    },
+    "publisher": {
+      "missing": 103,
+      "total": 300,
+      "coveragePercent": 65.7
+    },
+    "abstract": {
+      "missing": 120,
+      "total": 300,
+      "coveragePercent": 60
+    },
+    "keywords": {
+      "missing": 75,
+      "total": 300,
+      "coveragePercent": 75
+    },
+    "researchAreas": {
+      "missing": 49,
+      "total": 300,
+      "coveragePercent": 83.7
+    },
+    "doi": {
+      "missing": 75,
+      "total": 300,
+      "coveragePercent": 75
+    },
+    "authorOrcidIds": {
+      "missing": 935,
+      "total": 1176,
+      "coveragePercent": 20.5
+    }
+  },
+  "notes": [
+    "External URLs are validated structurally as HTTPS during every check; provider availability is intentionally not treated as deterministic build state.",
+    "Missing co-author ORCID identifiers are reported but never inferred.",
+    "Open-access status is published only when an OpenAlex open-access location is available."
+  ]
+}

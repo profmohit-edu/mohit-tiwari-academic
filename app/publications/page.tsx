@@ -3,7 +3,8 @@ import { Library } from "lucide-react";
 import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { ContentSection, PageShell } from "@/components/page-shell";
-import { PublicationExplorer } from "@/components/publication-explorer";
+import { PublicationAnalyticsApplication, PublicationExplorerApplication } from "@/components/publication-intelligence";
+import { ResearchDashboard } from "@/components/research-dashboard";
 import { publications, syncMetadata } from "@/lib/content";
 import { createPageMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
@@ -11,7 +12,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = createPageMetadata({ title: "Publications", description: "ORCID-synchronized publications by Mohit Tiwari across artificial intelligence, cyber security, software engineering, blockchain, cloud computing, and IoT.", path: "/publications" });
 
 export default function PublicationsPage() {
-  const structuredData = publications.slice(0, 100).map((paper) => ({
+  const structuredData = publications.slice(0, 30).map((paper) => ({
     "@context": "https://schema.org",
     "@type": paper.type === "Book" ? "Book" : paper.type === "Dataset" ? "Dataset" : paper.type === "Software" ? "SoftwareSourceCode" : "ScholarlyArticle",
     headline: paper.title,
@@ -23,5 +24,5 @@ export default function PublicationsPage() {
     identifier: paper.doi ?? paper.id,
     copyrightHolder: { "@type": "Person", name: siteConfig.name },
   }));
-  return <PageShell><JsonLd data={structuredData} /><PageHero eyebrow="ORCID-synchronized scholarship" title="Publications" description="Search an automatically synchronized scholarly record, enriched with Crossref and OpenAlex metadata where DOI records are available." icon={Library} /><ContentSection><div className="mb-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground"><span>ORCID: {siteConfig.orcidId}</span><span>Last synchronized: {syncMetadata.orcid ? new Intl.DateTimeFormat("en", { dateStyle: "medium" }).format(new Date(syncMetadata.orcid.synchronizedAt)) : "Not yet synchronized"}</span></div><PublicationExplorer /></ContentSection></PageShell>;
+  return <PageShell><JsonLd data={structuredData} /><PageHero eyebrow="ORCID-synchronized scholarship" title="Publications" description="Explore a verified scholarly record with advanced discovery, citation exports, related research, interactive analytics, and Crossref/OpenAlex enrichment." icon={Library} /><ResearchDashboard /><PublicationAnalyticsApplication /><ContentSection className="content-auto"><div className="mb-12 flex flex-wrap gap-x-6 gap-y-2 rounded-2xl border border-border/70 bg-muted/25 px-5 py-4 text-sm text-muted-foreground"><span>ORCID: {siteConfig.orcidId}</span><span>Records: {publications.length}</span><span>Last synchronized: {syncMetadata.orcid ? new Intl.DateTimeFormat("en", { dateStyle: "medium" }).format(new Date(syncMetadata.orcid.synchronizedAt)) : "Not yet synchronized"}</span><span>Enrichment: Crossref + OpenAlex</span></div><PublicationExplorerApplication /></ContentSection></PageShell>;
 }

@@ -11,9 +11,10 @@
     "sync-github": "node scripts/sync/github.mjs",
     "sync-all": "node scripts/sync/all.mjs",
     "validate:content": "node scripts/validate-content.mjs",
+    "validate:research": "node scripts/validate-research.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "check": "npm run validate:content && npm run lint && npm run typecheck && npm run build"
+    "check": "npm run validate:content && npm run validate:research && npm run lint && npm run typecheck && npm run build"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",

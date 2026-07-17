@@ -27,6 +27,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: npm run validate:content
+      - run: npm run validate:research
       - name: Commit synchronized records
         run: |
           if git diff --quiet -- data/synced; then

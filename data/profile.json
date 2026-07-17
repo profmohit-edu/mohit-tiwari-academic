@@ -19,6 +19,21 @@
     "Cloud Computing",
     "Internet of Things"
   ],
+  "academicService": {
+    "reviewerRoles": null,
+    "reviewerRolesTodo": "TODO: add verified reviewer appointments",
+    "editorialBoards": null,
+    "editorialBoardsTodo": "TODO: add verified editorial-board appointments"
+  },
+  "professionalMemberships": [
+    { "label": "IEEE", "detail": "Senior Member", "profileKey": null },
+    { "label": "ACM", "detail": "Member", "profileKey": null },
+    { "label": "ORCID", "detail": "Verified researcher record", "profileKey": "orcid" },
+    { "label": "Scopus", "detail": "Author profile", "profileKey": "scopus" },
+    { "label": "Web of Science", "detail": "Researcher profile", "profileKey": "webOfScience" },
+    { "label": "GitHub", "detail": "Open-source profile", "profileKey": "github" },
+    { "label": "LinkedIn", "detail": "Professional profile", "profileKey": "linkedin" }
+  ],
   "profiles": {
     "orcid": { "label": "ORCID", "id": "0000-0003-1836-3451", "url": "https://orcid.org/0000-0003-1836-3451", "todo": null },
     "github": { "label": "GitHub", "id": "profmohit-edu", "url": "https://github.com/profmohit-edu", "todo": null },

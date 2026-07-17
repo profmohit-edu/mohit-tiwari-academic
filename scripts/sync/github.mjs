@@ -64,6 +64,7 @@ export async function syncGithub() {
       category: "Utilities",
       archived: repository.archived,
       fork: repository.fork,
+      createdAt: repository.created_at,
       updatedAt: repository.updated_at,
     };
     normalized.category = categorize(normalized);

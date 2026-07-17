@@ -2,7 +2,7 @@
   {
     "key": "publications",
     "label": "Publications",
-    "value": 699,
+    "value": 596,
     "source": "ORCID",
     "todo": null
   },
@@ -44,7 +44,7 @@
   {
     "key": "software",
     "label": "Software",
-    "value": 5,
+    "value": 4,
     "source": "GitHub",
     "todo": null
   },
@@ -79,7 +79,7 @@
   {
     "key": "conferencePapers",
     "label": "Conference Papers",
-    "value": 266,
+    "value": 214,
     "source": "ORCID",
     "todo": null
   }

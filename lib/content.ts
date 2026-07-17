@@ -1,18 +1,18 @@
 import profileData from "@/data/profile.json";
 import patentsData from "@/data/manual/patents.json";
 import talksData from "@/data/manual/talks.json";
-import teachingData from "@/data/manual/teaching.json";
 import repositoriesData from "@/data/synced/github-repositories.json";
 import metricsData from "@/data/synced/metrics.json";
 import publicationsData from "@/data/synced/publications.json";
 import syncMetadataData from "@/data/synced/sync-metadata.json";
-import type { AcademicHighlight, Metric, PatentRecord, Publication, Repository, Talk, TeachingItem } from "@/types/research";
+import type { AcademicHighlight, Metric, PatentRecord, Publication, Repository, Talk } from "@/types/research";
+import { teachingCourses } from "@/lib/teaching";
 
 export const profile = profileData;
 export const publications = publicationsData as Publication[];
 export const repositories = repositoriesData as unknown as Repository[];
 export const metrics = metricsData as Metric[];
-export const courses = teachingData as TeachingItem[];
+export const courses = teachingCourses;
 export const manualPatents = patentsData as PatentRecord[];
 export const talks = talksData as Talk[];
 export const syncMetadata = syncMetadataData;

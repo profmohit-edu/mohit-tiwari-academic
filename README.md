@@ -10,7 +10,7 @@ The portal is a static-first Next.js application. Academic records are synchroni
 app/                         Static routes and route metadata
 components/                  Shared layout, domain, interaction, and UI components
 data/profile.json            Verified identity and researcher-profile configuration
-data/manual/                 Explicitly maintained teaching, patent, and talk records
+data/manual/                 Verified teaching, contribution, project, patent, and talk records
 data/synced/                 Generated ORCID, Crossref, OpenAlex, GitHub, and metric data
 lib/content.ts               Typed content selectors and derived collections
 lib/citations.ts             APA, IEEE, MLA, Chicago, BibTeX, and RIS utilities
@@ -23,6 +23,7 @@ scripts/sync/                Reusable synchronization pipeline
 scripts/build-assistant-index.mjs  Local knowledge-index builder
 server/assistant-api.mjs     Optional streaming OpenAI gateway
 types/assistant.ts           Assistant corpus, search, and response contracts
+types/teaching.ts            Course, resource, contribution, project, and metric models
 types/research.ts            Publication, repository, metric, and academic data models
 ```
 
@@ -73,9 +74,14 @@ The scheduled GitHub Actions workflow in `.github/workflows/sync.yml` runs the c
 
 Only verified records should be added to `data/manual/`:
 
-- `teaching.json` — confirmed courses and terms
+- `teaching.json` — courses, plans, schedules, assessments, activities, FAQs, and resource links
+- `academic-contributions.json` — verified service, supervision, session-chair, editorial, and reviewer work
+- `student-projects.json` — mentored projects, technologies, repositories, reports, and presentations
+- `teaching-metrics.json` — verified student and lecture-hour totals; unknown values remain explicit TODOs
 - `patents.json` — confirmed patent identifiers and status
 - `talks.json` — confirmed event and recording URLs
+
+The teaching portal derives filters, analytics, downloads, category coverage, and statically generated `/teaching/[slug]` detail pages directly from these files. Missing course materials or administrative appointments are rendered as unavailable instead of being inferred.
 
 Researcher profiles without verified URLs remain `null` with an explicit TODO in `data/profile.json`; the public interface hides them until configured.
 

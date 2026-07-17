@@ -116,15 +116,6 @@ export interface Metric {
   todo: string | null;
 }
 
-export interface TeachingItem {
-  code: string;
-  title: string;
-  term: string;
-  level: string;
-  description: string;
-  topics: string[];
-}
-
 export interface PatentRecord {
   number: string;
   year: number | null;

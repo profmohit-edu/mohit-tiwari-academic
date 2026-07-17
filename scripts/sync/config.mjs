@@ -18,5 +18,8 @@ export const syncConfig = {
     assistantIndex: resolve("data/synced/assistant-index.json"),
     manualPatents: resolve("data/manual/patents.json"),
     manualTeaching: resolve("data/manual/teaching.json"),
+    manualAcademicContributions: resolve("data/manual/academic-contributions.json"),
+    manualStudentProjects: resolve("data/manual/student-projects.json"),
+    manualTeachingMetrics: resolve("data/manual/teaching-metrics.json"),
   },
 };

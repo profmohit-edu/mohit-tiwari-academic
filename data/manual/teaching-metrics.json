@@ -1,0 +1,16 @@
+[
+  {
+    "key": "studentsTaught",
+    "label": "Students taught",
+    "value": null,
+    "unit": "students",
+    "todo": "TODO: add a verified cumulative student count"
+  },
+  {
+    "key": "lectureHours",
+    "label": "Lecture hours",
+    "value": null,
+    "unit": "hours",
+    "todo": "TODO: add verified cumulative lecture hours"
+  }
+]

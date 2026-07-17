@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { absoluteUrl } from "@/lib/site";
+import { teachingCourses } from "@/lib/teaching";
 
 export const dynamic = "force-static";
 
@@ -19,9 +20,9 @@ const routes = [
 ] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(([path, priority, changeFrequency]) => ({
+  return [...routes.map(([path, priority, changeFrequency]) => ({
     url: absoluteUrl(path),
     priority,
     changeFrequency,
-  }));
+  })), ...teachingCourses.map((course) => ({ url: absoluteUrl(`/teaching/${course.slug}`), priority: .75, changeFrequency: "monthly" as const }))];
 }

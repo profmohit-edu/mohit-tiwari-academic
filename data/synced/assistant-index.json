@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-17T10:04:20.663Z",
-  "documentCount": 324,
+  "generatedAt": "2026-07-17T10:31:53.844Z",
+  "documentCount": 334,
   "collectionCounts": {
     "Publications": 300,
-    "Projects": 12,
+    "Projects": 13,
     "Datasets": 1,
     "Software": 6,
     "GitHub": 12,
     "Patents": 0,
-    "Teaching": 5,
-    "Metrics": 12
+    "Teaching": 15,
+    "Metrics": 14
   },
   "documents": [
     {
@@ -10502,6 +10502,240 @@
         "forks": 0,
         "license": "MIT",
         "updatedAt": "2025-06-28T05:20:21Z"
+      }
+    },
+    {
+      "id": "teaching:project-management-for-engineers",
+      "collections": [
+        "Teaching"
+      ],
+      "title": "MS-302 — Project Management for Engineers",
+      "summary": "An engineering management course documented in the Department of Computer Science & Engineering's innovative teaching and learning practices. The recorded delivery uses project-based learning with individual topics assigned to students.",
+      "content": "MS-302 Project Management for Engineers Undergraduate Bharati Vidyapeeth's College of Engineering B.Tech. Engineering Management An engineering management course documented in the Department of Computer Science & Engineering's innovative teaching and learning practices. The recorded delivery uses project-based learning with individual topics assigned to students. Engineering Management Project-Based Learning Project-based learning with individual topics assigned to students.",
+      "year": null,
+      "publicationType": null,
+      "researchAreas": [
+        "Software Engineering"
+      ],
+      "keywords": [
+        "Engineering Management",
+        "Project-Based Learning"
+      ],
+      "url": "https://bvcoend.ac.in/index.php/innovative-teaching-and-learning-practices-cse/",
+      "metadata": {
+        "code": "MS-302",
+        "category": "Undergraduate",
+        "semester": null,
+        "academicYear": null,
+        "programme": "B.Tech.",
+        "resources": 0
+      }
+    },
+    {
+      "id": "teaching:cyber-security-with-linux-2023-24",
+      "collections": [
+        "Teaching"
+      ],
+      "title": "Cyber Security with Linux",
+      "summary": "An in-house summer training option documented by the BVCOE Training & Placement Department for second-year students across departments.",
+      "content": "Cyber Security with Linux Workshop Bharati Vidyapeeth's College of Engineering 2023–24 Second-year students across departments (2026 batch) Cyber Security An in-house summer training option documented by the BVCOE Training & Placement Department for second-year students across departments. Cyber Security Linux",
+      "year": 2023,
+      "publicationType": null,
+      "researchAreas": [
+        "Cyber Security"
+      ],
+      "keywords": [
+        "Cyber Security",
+        "Linux"
+      ],
+      "url": "https://bvcoend.ac.in/wp-content/uploads/2024/10/Annexure-29.pdf",
+      "metadata": {
+        "code": null,
+        "category": "Workshop",
+        "semester": null,
+        "academicYear": "2023–24",
+        "programme": "Second-year students across departments (2026 batch)",
+        "resources": 0
+      }
+    },
+    {
+      "id": "teaching-contribution:intel-unnati-faculty-mentor-2025",
+      "collections": [
+        "Teaching"
+      ],
+      "title": "Faculty Mentor — Intel Unnati Industrial Training 2025",
+      "summary": "Served as a faculty mentor for the documented industrial training programme.",
+      "content": "Research Supervision Faculty Mentor — Intel Unnati Industrial Training 2025 Intel Technology India, EdGate Technologies, and AICTE 20 May–12 July 2025 Served as a faculty mentor for the documented industrial training programme.",
+      "year": 2025,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Research Supervision",
+        "Intel Technology India, EdGate Technologies, and AICTE"
+      ],
+      "url": "https://bvcoend.ac.in/index.php/department-of-computer-science-engineering-faculty-achievement/",
+      "metadata": {
+        "category": "Research Supervision",
+        "organization": "Intel Technology India, EdGate Technologies, and AICTE",
+        "period": "20 May–12 July 2025"
+      }
+    },
+    {
+      "id": "teaching-contribution:lgpr-session-chair-2025",
+      "collections": [
+        "Teaching"
+      ],
+      "title": "Session Chair — Lincoln Global Postdoctoral and Research Associate Programme",
+      "summary": "Served as a session chair for the institutionally recorded research programme.",
+      "content": "Session Chair Roles Session Chair — Lincoln Global Postdoctoral and Research Associate Programme Lincoln University College, Malaysia 8–9 November 2025 Served as a session chair for the institutionally recorded research programme.",
+      "year": 2025,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Session Chair Roles",
+        "Lincoln University College, Malaysia"
+      ],
+      "url": "https://bvcoend.ac.in/index.php/department-of-computer-science-engineering-faculty-achievement/",
+      "metadata": {
+        "category": "Session Chair Roles",
+        "organization": "Lincoln University College, Malaysia",
+        "period": "8–9 November 2025"
+      }
+    },
+    {
+      "id": "teaching-contribution:iccida-session-chair-2022",
+      "collections": [
+        "Teaching"
+      ],
+      "title": "Session Chair — International Conference on Computing, Intelligence and Data Analytics",
+      "summary": "Served as a session chair at the international conference.",
+      "content": "Session Chair Roles Session Chair — International Conference on Computing, Intelligence and Data Analytics ICCIDA 2022, Turkey 16–17 September 2022 Served as a session chair at the international conference.",
+      "year": 2022,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Session Chair Roles",
+        "ICCIDA 2022, Turkey"
+      ],
+      "url": "https://bvcoend.ac.in/index.php/department-of-computer-science-engineering-faculty-achievement/",
+      "metadata": {
+        "category": "Session Chair Roles",
+        "organization": "ICCIDA 2022, Turkey",
+        "period": "16–17 September 2022"
+      }
+    },
+    {
+      "id": "teaching-contribution:mantech-editorial-board-2025",
+      "collections": [
+        "Teaching"
+      ],
+      "title": "Editorial Board Member — four computing journals",
+      "summary": "Appointed to editorial boards covering AI ethics, AI advances, cloud computing and IoT, and computer, internet and network security.",
+      "content": "Editorial Activities Editorial Board Member — four computing journals ManTech Publications Pvt. Ltd. Academic Year 2024–25 Appointed to editorial boards covering AI ethics, AI advances, cloud computing and IoT, and computer, internet and network security.",
+      "year": 2024,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Editorial Activities",
+        "ManTech Publications Pvt. Ltd."
+      ],
+      "url": "https://bvcoend.ac.in/index.php/department-of-computer-science-engineering-faculty-achievement/",
+      "metadata": {
+        "category": "Editorial Activities",
+        "organization": "ManTech Publications Pvt. Ltd.",
+        "period": "Academic Year 2024–25"
+      }
+    },
+    {
+      "id": "teaching-contribution:icsiscet-reviewer-2025",
+      "collections": [
+        "Teaching"
+      ],
+      "title": "Program Committee Member and Reviewer — ICSISCET 2025",
+      "summary": "Served on the programme committee and as a reviewer for the conference.",
+      "content": "Reviewer Activities Program Committee Member and Reviewer — ICSISCET 2025 Madhav Institute of Technology & Science, Gwalior 1–2 November 2025 Served on the programme committee and as a reviewer for the conference.",
+      "year": 2025,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Reviewer Activities",
+        "Madhav Institute of Technology & Science, Gwalior"
+      ],
+      "url": "https://bvcoend.ac.in/index.php/department-of-computer-science-engineering-faculty-achievement/",
+      "metadata": {
+        "category": "Reviewer Activities",
+        "organization": "Madhav Institute of Technology & Science, Gwalior",
+        "period": "1–2 November 2025"
+      }
+    },
+    {
+      "id": "student-project:intel-unnati-industrial-training-2025",
+      "collections": [
+        "Teaching",
+        "Projects"
+      ],
+      "title": "Intel Unnati Industrial Training 2025",
+      "summary": "A documented faculty-mentored industrial training engagement conducted with Intel Technology India, EdGate Technologies, and AICTE from 20 May to 12 July 2025.",
+      "content": "Industry Collaboration Intel Unnati Industrial Training 2025 2025 A documented faculty-mentored industrial training engagement conducted with Intel Technology India, EdGate Technologies, and AICTE from 20 May to 12 July 2025.",
+      "year": 2025,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Industry Collaboration"
+      ],
+      "url": "https://bvcoend.ac.in/index.php/department-of-computer-science-engineering-faculty-achievement/",
+      "metadata": {
+        "category": "Industry Collaboration",
+        "programme": null,
+        "academicYear": "2025"
+      }
+    },
+    {
+      "id": "teaching-metric:studentsTaught",
+      "collections": [
+        "Teaching",
+        "Metrics"
+      ],
+      "title": "Students taught",
+      "summary": "A verified teaching value is unavailable. TODO: add a verified cumulative student count",
+      "content": "studentsTaught Students taught unavailable students TODO: add a verified cumulative student count",
+      "year": null,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "studentsTaught",
+        "Students taught",
+        "students"
+      ],
+      "url": null,
+      "metadata": {
+        "value": null,
+        "unit": "students",
+        "status": "unavailable"
+      }
+    },
+    {
+      "id": "teaching-metric:lectureHours",
+      "collections": [
+        "Teaching",
+        "Metrics"
+      ],
+      "title": "Lecture hours",
+      "summary": "A verified teaching value is unavailable. TODO: add verified cumulative lecture hours",
+      "content": "lectureHours Lecture hours unavailable hours TODO: add verified cumulative lecture hours",
+      "year": null,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "lectureHours",
+        "Lecture hours",
+        "hours"
+      ],
+      "url": null,
+      "metadata": {
+        "value": null,
+        "unit": "hours",
+        "status": "unavailable"
       }
     },
     {

@@ -72,7 +72,55 @@ const assistantCounts = assistantIndex.collectionCounts ?? {};
 if ((assistantCounts.Publications ?? 0) < publications.length) failures.push("assistant-index: not all publications are searchable");
 if ((assistantCounts.GitHub ?? 0) < repositories.length) failures.push("assistant-index: not all GitHub repositories are searchable");
 
-for (const path of ["data/manual/teaching.json", "data/manual/patents.json", "data/manual/talks.json"]) {
+const teachingCourses = await readJson("data/manual/teaching.json");
+const courseCategories = new Set(["Undergraduate", "Postgraduate", "Workshop", "Faculty Development Program"]);
+const resourceTypes = new Set(["Lecture Slides", "Syllabus", "Reading List", "Assignment", "Lab Manual", "Tutorial", "Question Bank", "Reference Book", "Video"]);
+const teachingIds = new Set();
+const teachingSlugs = new Set();
+for (const [index, course] of teachingCourses.entries()) {
+  requireFields(course, ["id", "slug", "category", "title", "code", "institution", "semester", "academicYear", "programme", "domain", "overview", "learningOutcomes", "topics", "weeklyTeachingPlan", "lectureSchedule", "resources", "assessmentPattern", "classActivities", "projectIdeas", "faqs", "googleClassroomUrl", "courseWebsiteUrl", "sourceUrls", "verificationNote"], `teaching[${index}]`);
+  if (teachingIds.has(course.id)) failures.push(`teaching: duplicate id ${course.id}`);
+  if (teachingSlugs.has(course.slug)) failures.push(`teaching: duplicate slug ${course.slug}`);
+  teachingIds.add(course.id);
+  teachingSlugs.add(course.slug);
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(course.slug)) failures.push(`teaching[${index}]: invalid slug`);
+  if (!courseCategories.has(course.category)) failures.push(`teaching[${index}]: invalid category ${course.category}`);
+  if (!Array.isArray(course.sourceUrls) || course.sourceUrls.length === 0) failures.push(`teaching[${index}]: at least one verification source is required`);
+  for (const [sourceIndex, url] of (course.sourceUrls ?? []).entries()) validateHttps(url, `teaching[${index}].sourceUrls[${sourceIndex}]`);
+  validateHttps(course.googleClassroomUrl, `teaching[${index}].googleClassroomUrl`);
+  validateHttps(course.courseWebsiteUrl, `teaching[${index}].courseWebsiteUrl`);
+  for (const [resourceIndex, resource] of (course.resources ?? []).entries()) {
+    requireFields(resource, ["id", "title", "type", "description", "topic", "week", "url"], `teaching[${index}].resources[${resourceIndex}]`);
+    if (!resourceTypes.has(resource.type)) failures.push(`teaching[${index}].resources[${resourceIndex}]: invalid type ${resource.type}`);
+    validateHttps(resource.url, `teaching[${index}].resources[${resourceIndex}].url`);
+  }
+}
+
+const academicContributions = await readJson("data/manual/academic-contributions.json");
+const contributionCategories = new Set(["NBA Responsibilities", "Incubation Cell", "Department Committees", "Research Supervision", "Session Chair Roles", "Editorial Activities", "Reviewer Activities"]);
+for (const [index, contribution] of academicContributions.entries()) {
+  requireFields(contribution, ["id", "category", "title", "organization", "period", "description", "sourceUrl"], `academicContributions[${index}]`);
+  if (!contributionCategories.has(contribution.category)) failures.push(`academicContributions[${index}]: invalid category ${contribution.category}`);
+  validateHttps(contribution.sourceUrl, `academicContributions[${index}].sourceUrl`);
+}
+
+const studentProjects = await readJson("data/manual/student-projects.json");
+const projectCategories = new Set(["B.Tech", "MBA", "BCA", "Hackathon", "Industry Collaboration"]);
+for (const [index, project] of studentProjects.entries()) {
+  requireFields(project, ["id", "title", "category", "academicYear", "programme", "abstract", "technologies", "githubUrl", "reportUrl", "presentationUrl", "sourceUrl"], `studentProjects[${index}]`);
+  if (!projectCategories.has(project.category)) failures.push(`studentProjects[${index}]: invalid category ${project.category}`);
+  for (const key of ["githubUrl", "reportUrl", "presentationUrl", "sourceUrl"]) validateHttps(project[key], `studentProjects[${index}].${key}`);
+}
+
+const teachingMetrics = await readJson("data/manual/teaching-metrics.json");
+for (const [index, metric] of teachingMetrics.entries()) {
+  requireFields(metric, ["key", "label", "value", "unit", "todo"], `teachingMetrics[${index}]`);
+  if (metric.value === null && !metric.todo) failures.push(`teachingMetrics[${index}]: a null value requires a TODO`);
+}
+const minimumTeachingDocuments = teachingCourses.length + academicContributions.length + studentProjects.length + teachingMetrics.length;
+if ((assistantCounts.Teaching ?? 0) < minimumTeachingDocuments) failures.push("assistant-index: not all teaching records are searchable");
+
+for (const path of ["data/manual/patents.json", "data/manual/talks.json"]) {
   if (!Array.isArray(await readJson(path))) failures.push(`${path}: expected an array`);
 }
 
@@ -81,4 +129,4 @@ if (failures.length > 0) {
   process.exit(1);
 }
 
-console.log(`Content validation passed: ${publications.length} publications, ${repositories.length} repositories, ${metrics.length} metrics, ${assistantIndex.documentCount} assistant records.`);
+console.log(`Content validation passed: ${publications.length} publications, ${repositories.length} repositories, ${metrics.length} metrics, ${teachingCourses.length} courses, ${assistantIndex.documentCount} assistant records.`);

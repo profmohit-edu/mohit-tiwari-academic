@@ -1,0 +1,5 @@
+[
+  { "name": "auditkit", "description": "Composable fairness, calibration, and shift diagnostics for machine-learning pipelines.", "language": "Python", "stars": "1.8k", "link": "https://github.com/aaryamehta", "license": "Apache-2.0" },
+  { "name": "uncertainty-vis", "description": "Accessible visual components for communicating predictive uncertainty.", "language": "TypeScript", "stars": "940", "link": "https://github.com/aaryamehta", "license": "MIT" },
+  { "name": "datasheets-cli", "description": "Generate and validate structured documentation for research datasets.", "language": "Rust", "stars": "620", "link": "https://github.com/aaryamehta", "license": "MIT" }
+]

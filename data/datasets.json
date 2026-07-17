@@ -1,0 +1,5 @@
+[
+  { "name": "UrbanGrid-IND", "description": "Hourly, privacy-preserving energy demand signals across 18 urban regions.", "size": "4.2 GB", "license": "CC BY 4.0", "records": "12.4M", "version": "2.1", "link": "https://github.com/aaryamehta" },
+  { "name": "CivicQA", "description": "Expert-annotated public policy questions for grounded model evaluation.", "size": "860 MB", "license": "ODC-BY", "records": "84K", "version": "1.3", "link": "https://github.com/aaryamehta" },
+  { "name": "ShiftScenes", "description": "Multimodal distribution-shift benchmark spanning weather, geography, and sensor changes.", "size": "28 GB", "license": "CC BY-NC 4.0", "records": "610K", "version": "1.0", "link": "https://github.com/aaryamehta" }
+]

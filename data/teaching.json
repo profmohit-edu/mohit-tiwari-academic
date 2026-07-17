@@ -1,0 +1,5 @@
+[
+  { "code": "CS 684", "title": "Trustworthy Machine Learning", "term": "Spring 2026", "level": "Graduate", "description": "Reliability, fairness, interpretability, privacy, and governance for deployed machine-learning systems.", "topics": ["Calibration", "Algorithmic fairness", "Model auditing"] },
+  { "code": "CS 412", "title": "Human-Centered Artificial Intelligence", "term": "Autumn 2025", "level": "Undergraduate", "description": "Designing AI systems around human capabilities, institutional contexts, and public values.", "topics": ["Participatory design", "Human-AI interaction", "Evaluation"] },
+  { "code": "DS 701", "title": "Research Methods for Data Science", "term": "Spring 2025", "level": "Graduate", "description": "From research questions and study design to reproducible analysis and scholarly communication.", "topics": ["Study design", "Reproducibility", "Research ethics"] }
+]

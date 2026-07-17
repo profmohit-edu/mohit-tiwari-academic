@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 30% 98%;
+    --foreground: 228 32% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 35% 12%;
+    --primary: 247 61% 50%;
+    --primary-foreground: 0 0% 100%;
+    --muted: 225 24% 95%;
+    --muted-foreground: 223 10% 38%;
+    --accent: 240 25% 93%;
+    --accent-foreground: 245 45% 30%;
+    --border: 225 18% 87%;
+  }
+  .dark {
+    --background: 228 28% 7%;
+    --foreground: 210 25% 96%;
+    --card: 228 24% 10%;
+    --card-foreground: 210 25% 96%;
+    --primary: 245 82% 74%;
+    --primary-foreground: 245 45% 12%;
+    --muted: 225 18% 15%;
+    --muted-foreground: 220 13% 70%;
+    --accent: 230 19% 17%;
+    --accent-foreground: 210 25% 96%;
+    --border: 225 16% 22%;
+  }
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
+  body { @apply bg-background text-foreground antialiased; font-feature-settings: "kern" 1, "liga" 1, "calt" 1; text-rendering: optimizeLegibility; }
+  body { min-width: 320px; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  ::selection { @apply bg-primary/20 text-foreground; }
+  :focus-visible { @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background; }
+  main:focus { outline: none; }
+}
+
+@layer components {
+  .skip-link {
+    @apply fixed left-4 top-3 z-[100] -translate-y-20 rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-lg transition-transform focus:translate-y-0;
+  }
+  .nav-link {
+    @apply rounded-full px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-accent hover:text-foreground aria-[current=page]:bg-accent aria-[current=page]:text-foreground;
+  }
+  .glass {
+    @apply border border-white/50 bg-white/70 shadow-[0_1px_0_rgba(255,255,255,.7)_inset,0_20px_60px_-32px_rgba(15,23,42,.28)] backdrop-blur-2xl dark:border-white/10 dark:bg-slate-950/65 dark:shadow-[0_1px_0_rgba(255,255,255,.06)_inset,0_24px_70px_-36px_rgba(0,0,0,.8)];
+  }
+  .luxury-card {
+    @apply relative overflow-hidden border-border/70 bg-card/80 shadow-[0_24px_70px_-42px_rgba(15,23,42,.35)] backdrop-blur-sm transition-[transform,border-color,box-shadow] duration-500 ease-out hover:-translate-y-1.5 hover:border-primary/30 hover:shadow-[0_32px_90px_-42px_rgba(79,70,229,.3)] dark:shadow-[0_28px_80px_-46px_rgba(0,0,0,.85)];
+  }
+  .luxury-card::before {
+    content: "";
+    @apply pointer-events-none absolute inset-x-8 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent opacity-70 dark:via-white/20;
+  }
+  .eyebrow { @apply text-[.7rem] font-bold uppercase tracking-[.24em] text-primary; }
+  .enter-item {
+    animation: enter-soft .7s cubic-bezier(.16, 1, .3, 1) both;
+  }
+  .enter-sequence > .enter-item:nth-child(2) { animation-delay: .06s; }
+  .enter-sequence > .enter-item:nth-child(3) { animation-delay: .1s; }
+  .enter-sequence > .enter-item:nth-child(4) { animation-delay: .14s; }
+  .enter-sequence > .enter-item:nth-child(5) { animation-delay: .2s; }
+  .reveal {
+    animation: enter-soft .75s var(--reveal-delay, 0ms) cubic-bezier(.16, 1, .3, 1) both;
+  }
+  .content-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 700px;
+  }
+  .nav-more[open] > summary { @apply bg-accent text-foreground; }
+  .nav-more[open] > summary svg { transform: rotate(180deg); }
+}
+
+@keyframes enter-soft {
+  from { opacity: 0; transform: translateY(18px); filter: blur(6px); }
+  to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+@keyframes float-soft {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(0, -14px, 0) scale(1.015); }
+}
+
+@keyframes shimmer {
+  from { transform: translateX(-120%) skewX(-18deg); }
+  to { transform: translateX(240%) skewX(-18deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+@media (hover: none) {
+  .luxury-card:hover { transform: none; }
+}

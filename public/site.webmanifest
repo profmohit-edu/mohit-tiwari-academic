@@ -1,0 +1,17 @@
+{
+  "name": "Dr. Aarya Mehta Research Portfolio",
+  "short_name": "AM Research",
+  "description": "Research portfolio in trustworthy machine learning, human-centered AI, and computational sustainability.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#4f46b5",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

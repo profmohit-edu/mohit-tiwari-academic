@@ -1,0 +1,32 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1079 >>
+stream
+BT /F1 24 Tf 72 750 Td (Dr. Aarya Mehta) Tj /F1 12 Tf 0 -28 Td (Associate Professor of Computer Science) Tj 0 -18 Td (Trustworthy AI - Human-Centered ML - Climate Informatics) Tj 0 -32 Td /F1 15 Tf (Appointments) Tj /F1 11 Tf 0 -20 Td (2024-Present  Associate Professor, Institute for Intelligent Systems) Tj 0 -16 Td (2021-2024     Assistant Professor, Centre for Data and Society) Tj 0 -30 Td /F1 15 Tf (Education) Tj /F1 11 Tf 0 -20 Td (PhD Computer Science, University of Edinburgh, 2019) Tj 0 -30 Td /F1 15 Tf (Selected Research) Tj /F1 11 Tf 0 -20 Td (Calibrated Explanations for Decision-Critical Foundation Models, CHI 2026) Tj 0 -16 Td (Auditing Multimodal Models Under Distribution Shift, NeurIPS 2025) Tj 0 -16 Td (Uncertainty-Aware Forecasting for Regional Energy Grids, Nature MI 2024) Tj 0 -30 Td /F1 15 Tf (Recognition) Tj /F1 11 Tf 0 -20 Td (Young Scientist Medal, Indian National Science Academy, 2025) Tj 0 -16 Td (Google Research Scholar Award, 2024) Tj 0 -30 Td /F1 15 Tf (Contact) Tj /F1 11 Tf 0 -20 Td (aarya.mehta@research.example - Bengaluru, India) Tj ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1442
+%%EOF

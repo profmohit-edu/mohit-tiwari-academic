@@ -1,0 +1,20 @@
+{
+  "stats": [
+    { "value": "42+", "label": "Peer-reviewed papers" },
+    { "value": "2.8k", "label": "Research citations" },
+    { "value": "11", "label": "Open-source projects" },
+    { "value": "8", "label": "Years in research" }
+  ],
+  "interests": ["Trustworthy AI", "Human-centered ML", "Climate informatics", "Responsible data systems"],
+  "timeline": [
+    { "year": "2024—Now", "role": "Associate Professor of Computer Science", "place": "Institute for Intelligent Systems" },
+    { "year": "2021—2024", "role": "Assistant Professor", "place": "Centre for Data & Society" },
+    { "year": "2019—2021", "role": "Postdoctoral Research Fellow", "place": "MIT Center for Collective Intelligence" },
+    { "year": "2014—2019", "role": "PhD in Computer Science", "place": "University of Edinburgh" }
+  ],
+  "awards": [
+    { "year": 2025, "title": "Young Scientist Medal", "issuer": "Indian National Science Academy" },
+    { "year": 2024, "title": "Google Research Scholar Award", "issuer": "Google Research" },
+    { "year": 2022, "title": "Distinguished Paper Award", "issuer": "ACM FAccT" }
+  ]
+}

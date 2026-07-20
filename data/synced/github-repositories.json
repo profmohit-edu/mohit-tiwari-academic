@@ -1,5 +1,53 @@
 [
   {
+    "id": 1304683648,
+    "name": "CyberShield-AI",
+    "fullName": "profmohit-edu/CyberShield-AI",
+    "description": "Explainable AI Copilot for Smart Contract Security",
+    "url": "https://github.com/profmohit-edu/CyberShield-AI",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "Python": 79227,
+      "HTML": 24987,
+      "CSS": 1724,
+      "Dockerfile": 1315,
+      "JavaScript": 61
+    },
+    "primaryLanguage": "Python",
+    "stars": 0,
+    "forks": 0,
+    "license": "NOASSERTION",
+    "readmeSummary": "CyberShield AI is an open-source platform for explainable Solidity smart-contract security analysis. It coordinates established security tools, correlates their findings, and presents evidence for human review. The platform is intended to support security assessment; it does not replace an independent audit or authorize deployment.",
+    "category": "AI",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-07-18T07:06:25Z",
+    "updatedAt": "2026-07-20T06:19:04Z"
+  },
+  {
+    "id": 1304208455,
+    "name": "econmentor-ai",
+    "fullName": "profmohit-edu/econmentor-ai",
+    "description": "AI-powered interactive economics decision laboratory for the IBM AI Builders Challenge",
+    "url": "https://github.com/profmohit-edu/econmentor-ai",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "HTML": 4119
+    },
+    "primaryLanguage": "HTML",
+    "stars": 0,
+    "forks": 0,
+    "license": "NOASSERTION",
+    "readmeSummary": null,
+    "category": "AI",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-07-17T16:56:04Z",
+    "updatedAt": "2026-07-17T16:58:08Z"
+  },
+  {
     "id": 1303651719,
     "name": "mohit-tiwari-academic",
     "fullName": "profmohit-edu/mohit-tiwari-academic",
@@ -8,8 +56,8 @@
     "homepage": null,
     "topics": [],
     "languages": {
-      "TypeScript": 72994,
-      "JavaScript": 28107,
+      "TypeScript": 195561,
+      "JavaScript": 64136,
       "CSS": 4140
     },
     "primaryLanguage": "TypeScript",
@@ -21,7 +69,7 @@
     "archived": false,
     "fork": false,
     "createdAt": "2026-07-17T06:33:39Z",
-    "updatedAt": "2026-07-17T07:27:30Z"
+    "updatedAt": "2026-07-17T11:19:51Z"
   },
   {
     "id": 1301265105,

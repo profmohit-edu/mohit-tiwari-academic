@@ -5,19 +5,19 @@
     "deduplicatedWorkCount": 667,
     "sitePublicationCount": 300,
     "enrichedPublicationCount": 225,
-    "synchronizedAt": "2026-07-17T07:57:10.416Z"
+    "synchronizedAt": "2026-07-20T06:25:20.083Z"
   },
   "github": {
     "username": "profmohit-edu",
-    "repositoryCount": 12,
+    "repositoryCount": 14,
     "categoryCounts": {
+      "AI": 4,
       "Research Platforms": 1,
-      "AI": 2,
       "Research Software": 2,
       "Teaching": 5,
       "Cyber Security": 1,
       "Utilities": 1
     },
-    "synchronizedAt": "2026-07-17T07:35:21.798Z"
+    "synchronizedAt": "2026-07-20T06:25:21.475Z"
   }
 }

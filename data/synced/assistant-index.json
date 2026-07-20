@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-17T10:31:53.844Z",
-  "documentCount": 334,
+  "generatedAt": "2026-07-20T06:25:21.490Z",
+  "documentCount": 336,
   "collectionCounts": {
     "Publications": 300,
-    "Projects": 13,
+    "Projects": 15,
     "Datasets": 1,
     "Software": 6,
-    "GitHub": 12,
+    "GitHub": 14,
     "Patents": 0,
     "Teaching": 15,
     "Metrics": 14
@@ -10140,6 +10140,68 @@
       }
     },
     {
+      "id": "repository:1304683648",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "CyberShield-AI",
+      "summary": "Explainable AI Copilot for Smart Contract Security",
+      "content": "CyberShield-AI Explainable AI Copilot for Smart Contract Security CyberShield AI is an open-source platform for explainable Solidity smart-contract security analysis. It coordinates established security tools, correlates their findings, and presents evidence for human review. The platform is intended to support security assessment; it does not replace an independent audit or authorize deployment. Python HTML CSS Dockerfile JavaScript AI NOASSERTION",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [
+        "Artificial Intelligence",
+        "Cyber Security",
+        "Smart Contracts"
+      ],
+      "keywords": [
+        "Python",
+        "HTML",
+        "CSS",
+        "Dockerfile",
+        "JavaScript",
+        "AI"
+      ],
+      "url": "https://github.com/profmohit-edu/CyberShield-AI",
+      "metadata": {
+        "category": "AI",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": "NOASSERTION",
+        "updatedAt": "2026-07-20T06:19:04Z"
+      }
+    },
+    {
+      "id": "repository:1304208455",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "econmentor-ai",
+      "summary": "AI-powered interactive economics decision laboratory for the IBM AI Builders Challenge",
+      "content": "econmentor-ai AI-powered interactive economics decision laboratory for the IBM AI Builders Challenge HTML AI NOASSERTION",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [
+        "Artificial Intelligence"
+      ],
+      "keywords": [
+        "HTML",
+        "AI"
+      ],
+      "url": "https://github.com/profmohit-edu/econmentor-ai",
+      "metadata": {
+        "category": "AI",
+        "language": "HTML",
+        "stars": 0,
+        "forks": 0,
+        "license": "NOASSERTION",
+        "updatedAt": "2026-07-17T16:58:08Z"
+      }
+    },
+    {
       "id": "repository:1303651719",
       "collections": [
         "Projects",
@@ -10164,7 +10226,7 @@
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-07-17T07:27:30Z"
+        "updatedAt": "2026-07-17T11:19:51Z"
       }
     },
     {
@@ -10905,8 +10967,8 @@
         "Metrics"
       ],
       "title": "Projects",
-      "summary": "Projects: 12. Source: GitHub.",
-      "content": "projects Projects 12 GitHub ",
+      "summary": "Projects: 14. Source: GitHub.",
+      "content": "projects Projects 14 GitHub ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -10917,7 +10979,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 12,
+        "value": 14,
         "source": "GitHub",
         "status": "verified"
       }

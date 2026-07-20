@@ -16152,5 +16152,1713 @@
       "publisherUrl": "https://doi.org/10.1155/2022/4003403"
     },
     "enrichedAt": "2026-07-17T07:57:10.367Z"
+  },
+  "10.1109/icacite53722.2022.9823927": {
+    "crossref": {
+      "title": "Empirical Analysis of Deep Learning for Big Data and Its Applications using CNN",
+      "authors": [
+        "Rakesh Arya",
+        "Manisha Khanduja",
+        "P.Shobha Rani",
+        "Prachi Pundhir",
+        "Mohit Tiwari",
+        "Chetan Jagannath Shelke"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Rakesh Arya",
+          "orcid": null
+        },
+        {
+          "name": "Manisha Khanduja",
+          "orcid": null
+        },
+        {
+          "name": "P.Shobha Rani",
+          "orcid": null
+        },
+        {
+          "name": "Prachi Pundhir",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Chetan Jagannath Shelke",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": "IEEE",
+      "volume": null,
+      "issue": null,
+      "pages": "01-05",
+      "publicationDate": "2022-04-28",
+      "type": "Conference Paper",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823927"
+    },
+    "openAlex": {
+      "title": "Empirical Analysis of Deep Learning for Big Data and Its Applications using CNN",
+      "authors": [
+        "Rakesh Arya",
+        "Manisha Khanduja",
+        "P. Shobha Rani",
+        "Prachi Pundhir",
+        "Mohit Tiwari",
+        "Chetan J. Shelke"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Rakesh Arya",
+          "orcid": "0000-0003-2436-3060"
+        },
+        {
+          "name": "Manisha Khanduja",
+          "orcid": null
+        },
+        {
+          "name": "P. Shobha Rani",
+          "orcid": "0000-0002-5465-8444"
+        },
+        {
+          "name": "Prachi Pundhir",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Chetan J. Shelke",
+          "orcid": "0000-0002-2200-1130"
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": null,
+      "publicationDate": "2022-04-28",
+      "abstract": "Deep Learning has taken an utmost interest in the field of big data analytics due to its feature extraction and classification properties. Traditionally, researchers used Machine Learning algorithms to classify big data; however, the feature extraction was carried out by a human-driven process. Thus, researchers discovered the deep learning approaches to carry out the feature extraction by using algorithms. In this research, a “Convolutional Neural Network” or CNN algorithm has been selected to understand the accuracy of big data analytics. Primary research has been carried out to understand how hidden layers and nodes impact the accuracy of this neural network. Moreover, CNN has been compared with other neural networks to understand if CNN is out-competing the rest algorithms or not (other two algorithms selected are “Recurrent Neural Network” or RNN and “Artificial Neural Network” or ANN). In the primary research, CNN and other algorithms were tasted for accuracy against hidden layers, nodes, training and validation time. Regression and Correlation analyses have been carried out where independent variables were: Training time, Validation time, Hidden layers and Hidden nodes. Dependent variables were CNN, ANN and RNN. Findings showed that CNN is 92% accurate whereas other neural networks possess less than 90% of accuracy in big data analytics. The hidden nodes have significant positive impact on the accuracy of CNN.",
+      "keywords": [
+        "Convolutional neural network",
+        "Computer science",
+        "Artificial intelligence",
+        "Deep learning",
+        "Big data",
+        "Feature extraction",
+        "Artificial neural network",
+        "Machine learning",
+        "Feature (linguistics)",
+        "Recurrent neural network",
+        "Analytics",
+        "Pattern recognition (psychology)",
+        "Data mining",
+        "Internet of Things and AI",
+        "Smart Systems and Machine Learning",
+        "Currency Recognition and Detection"
+      ],
+      "citationCount": 4,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823927"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.281Z"
+  },
+  "10.1109/icacite53722.2022.9823697": {
+    "crossref": {
+      "title": "Heart Attack Anxiety Disorder using Machine Learning and Artificial Neural Networks (ANN) Approaches",
+      "authors": [
+        "Naveen Chakravarthy Sattaru",
+        "Mohammed Rashad Baker",
+        "Dhananjay Umrao",
+        "Umesh Kumar Pandey",
+        "Mohit Tiwari",
+        "M. Kalyan Chakravarthi"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Naveen Chakravarthy Sattaru",
+          "orcid": null
+        },
+        {
+          "name": "Mohammed Rashad Baker",
+          "orcid": "0000-0001-6986-4921"
+        },
+        {
+          "name": "Dhananjay Umrao",
+          "orcid": null
+        },
+        {
+          "name": "Umesh Kumar Pandey",
+          "orcid": "0000-0002-8828-4719"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "M. Kalyan Chakravarthi",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": "IEEE",
+      "volume": null,
+      "issue": null,
+      "pages": "680-683",
+      "publicationDate": "2022-04-28",
+      "type": "Conference Paper",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823697"
+    },
+    "openAlex": {
+      "title": "Heart Attack Anxiety Disorder using Machine Learning and Artificial Neural Networks (ANN) Approaches",
+      "authors": [
+        "Naveen Chakravarthy Sattaru",
+        "Mohammed Rashad Baker",
+        "Dhananjay Umrao",
+        "Umesh Kumar Pandey",
+        "Mohit Tiwari",
+        "M. Kalyan Chakravarthi"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Naveen Chakravarthy Sattaru",
+          "orcid": null
+        },
+        {
+          "name": "Mohammed Rashad Baker",
+          "orcid": "0000-0001-6986-4921"
+        },
+        {
+          "name": "Dhananjay Umrao",
+          "orcid": null
+        },
+        {
+          "name": "Umesh Kumar Pandey",
+          "orcid": "0000-0002-8828-4719"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "M. Kalyan Chakravarthi",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": null,
+      "publicationDate": "2022-04-28",
+      "abstract": "Heart attack and anxiety disorder are proving to be two major medical complexities in the present scenario. This study illustrates the role of machine learning and artificial neural networks in making successful predictions of these two medical abnormalities. This research paper presents the significance of incorporating artificial intelligence-based mechanisms in minimising the errors of the diagnosis process. In this context, a brief description of the evolution of the usage of AI technology in medical diagnosis has been portrayed here. The different branches of AI like machine learning, artificial neural networks and their contribution to the analysis and interpretation of heart diseases are elaborated in this research paper. Besides primary research has been conducted for the purpose of gaining knowledge about what is the human perception of this technology and its relevance in the modern healthcare system. Analysis and interpretation have also been provided in this research paper to present a clear description of experimental result. Findings suggested that “Random Forest” and Vector Machine are the most used algorithms in heart attack risk prediction and ANN is the least used algorithm. However, developing ANN by integrating autoencoder and feature classifier can perform better in anxiety disorder heart attack prediction.",
+      "keywords": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Artificial neural network",
+        "Computer science",
+        "Context (archaeology)",
+        "Support vector machine",
+        "Autoencoder",
+        "Relevance (law)",
+        "Random forest",
+        "Internet of Things and AI",
+        "Smart Systems and Machine Learning",
+        "Advanced Technologies in Various Fields"
+      ],
+      "citationCount": 14,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823697"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.328Z"
+  },
+  "10.3389/fpls.2022.1050765": {
+    "crossref": {
+      "title": "Heritable priming by Trichoderma: A sustainable approach for wheat protection against Bipolaris sorokiniana",
+      "authors": [
+        "Menka Tiwari",
+        "Rajat Singh",
+        "Rintu Jha",
+        "Prashant Singh"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Menka Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Rajat Singh",
+          "orcid": null
+        },
+        {
+          "name": "Rintu Jha",
+          "orcid": null
+        },
+        {
+          "name": "Prashant Singh",
+          "orcid": null
+        }
+      ],
+      "venue": "Frontiers in Plant Science",
+      "publisher": "Frontiers Media SA",
+      "volume": "13",
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2022-12-16",
+      "type": "Journal Article",
+      "abstract": "Crop plants encounter a variety of biotic challenges in the field and faces significant reduction in crop yield. In the current scenario of an ever increasing global population, there is an urgent need to protect plant health by using sustainable approach to maximize the crop productivity and to mitigate the food demands. Nowadays, we mostly rely on chemical crop protection techniques, which are causing a number of environmental and health difficulties. Defence priming is a chemical-free, eco-friendly, and sustainable strategy of crop protection, which is also called “green vaccination. In the present study, for the first time, we used Trichoderma as a priming agent to protect wheat crop from spot blotch disease. We have established Trichoderma -mediated defence priming in wheat against Bipolaris sorokiniana for sustainable crop improvement. We have characterised the morphological, disease phenotype, biochemical and yield parameters of Trichoderma -primed and non-primed wheat under disease pressure. Trichoderma -primed plants were found to be more protected against B. sorokiniana as compared to non-primed plants. Biochemical studies indicated that there is no direct defence response after priming stimulus but the defence response was activated only after triggering stimulus in terms of enhanced defence metabolites in primed plants as compared to non-primed plants. In the present study, since defence was activated only when required, that is under disease pressure, there was no unnecessary allocation of resources towards defence. Hence, no yield penalty was shown in primed plants as compared to control. We further evaluated the inheritance of primed state to the next generation and found that progeny of primed parents also performed better than progeny of non-primed parents under disease pressure in terms of protection from B. sorokiniana as well as yield performance. This strategy has the potential to protect crop without any yield penalty and causing environmental degradation. Our research findings indicate that Trichoderma -mediated defence priming could be an alternative approach for improving wheat productivity under biotic stress. To be our best knowledge, this is the first documented report for the Trichoderma- mediated defence priming and induced inheritance in wheat plant. This study will open new arenas in sustainable crop protection strategies for the exploitation of defence priming in crop plants.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.3389/fpls.2022.1050765"
+    },
+    "openAlex": {
+      "title": "Heritable priming by Trichoderma: A sustainable approach for wheat protection against Bipolaris sorokiniana",
+      "authors": [
+        "Menka Tiwari",
+        "Rajat Singh",
+        "Rintu Jha",
+        "Prashant Singh"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Menka Tiwari",
+          "orcid": "0009-0000-1648-698X"
+        },
+        {
+          "name": "Rajat Singh",
+          "orcid": "0000-0002-2394-4747"
+        },
+        {
+          "name": "Rintu Jha",
+          "orcid": null
+        },
+        {
+          "name": "Prashant Singh",
+          "orcid": "0000-0002-7630-4786"
+        }
+      ],
+      "venue": "Frontiers in Plant Science",
+      "publisher": "Frontiers Media",
+      "publicationDate": "2022-12-16",
+      "abstract": "Crop plants encounter a variety of biotic challenges in the field and faces significant reduction in crop yield. In the current scenario of an ever increasing global population, there is an urgent need to protect plant health by using sustainable approach to maximize the crop productivity and to mitigate the food demands. Nowadays, we mostly rely on chemical crop protection techniques, which are causing a number of environmental and health difficulties. Defence priming is a chemical-free, eco-friendly, and sustainable strategy of crop protection, which is also called “green vaccination. In the present study, for the first time, we used Trichoderma as a priming agent to protect wheat crop from spot blotch disease. We have established Trichoderma -mediated defence priming in wheat against Bipolaris sorokiniana for sustainable crop improvement. We have characterised the morphological, disease phenotype, biochemical and yield parameters of Trichoderma -primed and non-primed wheat under disease pressure. Trichoderma -primed plants were found to be more protected against B. sorokiniana as compared to non-primed plants. Biochemical studies indicated that there is no direct defence response after priming stimulus but the defence response was activated only after triggering stimulus in terms of enhanced defence metabolites in primed plants as compared to non-primed plants. In the present study, since defence was activated only when required, that is under disease pressure, there was no unnecessary allocation of resources towards defence. Hence, no yield penalty was shown in primed plants as compared to control. We further evaluated the inheritance of primed state to the next generation and found that progeny of primed parents also performed better than progeny of non-primed parents under disease pressure in terms of protection from B. sorokiniana as well as yield performance. This strategy has the potential to protect crop without any yield penalty and causing environmental degradation. Our research findings indicate that Trichoderma -mediated defence priming could be an alternative approach for improving wheat productivity under biotic stress. To be our best knowledge, this is the first documented report for the Trichoderma- mediated defence priming and induced inheritance in wheat plant. This study will open new arenas in sustainable crop protection strategies for the exploitation of defence priming in crop plants.",
+      "keywords": [
+        "Bipolaris",
+        "Biology",
+        "Crop protection",
+        "Crop yield",
+        "Population",
+        "Agronomy",
+        "Crop",
+        "Fungicide",
+        "Biotechnology",
+        "Trichoderma",
+        "Beneficial organism",
+        "Microorganism",
+        "Medicine",
+        "Environmental health",
+        "Plant-Microbe Interactions and Immunity",
+        "Plant tissue culture and regeneration",
+        "Nematode management and characterization studies"
+      ],
+      "citationCount": 31,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.3389/fpls.2022.1050765",
+      "pdf": "https://www.frontiersin.org/articles/10.3389/fpls.2022.1050765/pdf",
+      "publisherUrl": "https://doi.org/10.3389/fpls.2022.1050765"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.380Z"
+  },
+  "10.1109/icacrs55517.2022.10029167": {
+    "crossref": {
+      "title": "Hybrid Particle Swarm Optimization with Deep Learning Driven Sarcasm Detection on Social Media",
+      "authors": [
+        "J. Anitha Josephine",
+        "Santosh Kumar Maharana",
+        "Md. Abul Ala Walid",
+        "Thulasimani T",
+        "Mohammad Shabbir Alam",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "J. Anitha Josephine",
+          "orcid": null
+        },
+        {
+          "name": "Santosh Kumar Maharana",
+          "orcid": null
+        },
+        {
+          "name": "Md. Abul Ala Walid",
+          "orcid": null
+        },
+        {
+          "name": "Thulasimani T",
+          "orcid": null
+        },
+        {
+          "name": "Mohammad Shabbir Alam",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 International Conference on Automation, Computing and Renewable Systems (ICACRS)",
+      "publisher": "IEEE",
+      "volume": null,
+      "issue": null,
+      "pages": "687-693",
+      "publicationDate": "2022-12-13",
+      "type": "Conference Paper",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacrs55517.2022.10029167"
+    },
+    "openAlex": {
+      "title": "Hybrid Particle Swarm Optimization with Deep Learning Driven Sarcasm Detection on Social Media",
+      "authors": [
+        "J. Anitha Josephine",
+        "Santosh Kumar Maharana",
+        "Md. Abul Ala Walid",
+        "T Thulasimani",
+        "Mohammad Shabbir Alam",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "J. Anitha Josephine",
+          "orcid": "0000-0001-8440-4819"
+        },
+        {
+          "name": "Santosh Kumar Maharana",
+          "orcid": "0000-0003-0458-3568"
+        },
+        {
+          "name": "Md. Abul Ala Walid",
+          "orcid": "0000-0001-6001-8374"
+        },
+        {
+          "name": "T Thulasimani",
+          "orcid": null
+        },
+        {
+          "name": "Mohammad Shabbir Alam",
+          "orcid": "0000-0002-0866-2565"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "2022 International Conference on Automation, Computing and Renewable Systems (ICACRS)",
+      "publisher": null,
+      "publicationDate": "2022-12-13",
+      "abstract": "Sarcasm is a language phrase that transports the polar opposite of what is being said, usually something extremely disagreeable to mock or offend someone. Sarcasm was commonly employed on social networking sites daily. Since sarcasm might alter the significance of statement, the opinion analysis process is error-prone. Concerns regarding the integrity of analytics have developed as the utilization of automatic social media analytics apparatuses has extended. Based on the earlier study, sarcastic statements alone have considerably decreased the performance of automated sentiment analysis. This article develops a Hybrid Particle Swarm Optimization with Deep Learning Driven Sarcasm Detection (HPSO-DLSD) technique. The presented HPSO-DLSD technique mainly concentrates on the recognition of sarcasm on social media. In the presented HPSO-DLSD technique, the initial stage of data preprocessing is carried out. To detect and classify sarcasm, sparse stacked autoencoder (SAE) model is exploited and the detection performance can be boosted via the HPSO algorithm. The experimental result analysis of the HPSO-DLSD technique can be tested on benchmark dataset and the outcomes emphasized the enhancements of the HPSO-DLSD method over other current approaches.",
+      "keywords": [
+        "Sarcasm",
+        "Artificial intelligence",
+        "Autoencoder",
+        "Computer science",
+        "Particle swarm optimization",
+        "Social media",
+        "Machine learning",
+        "Benchmark (surveying)",
+        "Sentiment analysis",
+        "Preprocessor",
+        "Natural language processing",
+        "Deep learning",
+        "Irony",
+        "Linguistics",
+        "Sentiment Analysis and Opinion Mining",
+        "Spam and Phishing Detection",
+        "Hate Speech and Cyberbullying Detection"
+      ],
+      "citationCount": 6,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacrs55517.2022.10029167"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.449Z"
+  },
+  "10.1155/2022/6501975": {
+    "crossref": {
+      "title": "Implementing Critical Machine Learning (ML) Approaches for Generating Robust Discriminative Neuroimaging Representations Using Structural Equation Model (SEM)",
+      "authors": [
+        "Mohammed Rashad Baker",
+        "D. Lakshmi Padmaja",
+        "R. Puviarasi",
+        "Suman Mann",
+        "Jeidy Panduro-Ramirez",
+        "Mohit Tiwari",
+        "Issah Abubakari Samori"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohammed Rashad Baker",
+          "orcid": "0000-0001-6986-4921"
+        },
+        {
+          "name": "D. Lakshmi Padmaja",
+          "orcid": "0000-0001-8262-6821"
+        },
+        {
+          "name": "R. Puviarasi",
+          "orcid": "0000-0003-2353-9108"
+        },
+        {
+          "name": "Suman Mann",
+          "orcid": "0000-0002-1067-2586"
+        },
+        {
+          "name": "Jeidy Panduro-Ramirez",
+          "orcid": "0000-0001-9512-4329"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Issah Abubakari Samori",
+          "orcid": "0000-0001-9990-5552"
+        }
+      ],
+      "venue": "Computational and Mathematical Methods in Medicine",
+      "publisher": "Wiley",
+      "volume": "2022",
+      "issue": null,
+      "pages": "1-12",
+      "publicationDate": "2022-04-14",
+      "type": "Journal Article",
+      "abstract": "Critical ML or CML is a critical approach development of the standard ML (SML) procedure. Conventional ML (ML) is being used in radiology departments where complex neuroimages are discriminated using ML technology. Radiologists and researchers found that sole decision by the ML algorithms is not accurate enough to implement the treatment procedure. Thus, an intelligent decision is required further by the radiologists after evaluating the ML outcomes. The current research is based on the critical ML, where radiologists’ critical thinking ability, IQ (intelligence quotient), and experience in radiology have been examined to understand how these factors affect the accuracy of neuroimaging discrimination. A primary quantitative survey has been carried out, and the data were analysed in IBM SPSS. The results showed that experience in works has a positive impact on neuroimaging discrimination accuracy. IQ and trained ML are also responsible for improving the accuracy as well. Thus, radiologists with more experience in that field are able to improve the discriminative and diagnostic capability of CML.",
+      "keywords": [],
+      "pdf": "http://downloads.hindawi.com/journals/cmmm/2022/6501975.pdf",
+      "publisherUrl": "https://doi.org/10.1155/2022/6501975"
+    },
+    "openAlex": {
+      "title": "Implementing Critical Machine Learning (ML) Approaches for Generating Robust Discriminative Neuroimaging Representations Using Structural Equation Model (SEM)",
+      "authors": [
+        "Mohammed Rashad Baker",
+        "D. Lakshmi Padmaja",
+        "R. Puviarasi",
+        "Suman Mann",
+        "Jeidy Panduro-Ramírez",
+        "Mohit Tiwari",
+        "Issah Abubakari Samori"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohammed Rashad Baker",
+          "orcid": "0000-0001-6986-4921"
+        },
+        {
+          "name": "D. Lakshmi Padmaja",
+          "orcid": "0000-0001-8262-6821"
+        },
+        {
+          "name": "R. Puviarasi",
+          "orcid": null
+        },
+        {
+          "name": "Suman Mann",
+          "orcid": "0000-0002-1067-2586"
+        },
+        {
+          "name": "Jeidy Panduro-Ramírez",
+          "orcid": "0000-0001-9512-4329"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Issah Abubakari Samori",
+          "orcid": "0000-0001-9990-5552"
+        }
+      ],
+      "venue": "Computational and Mathematical Methods in Medicine",
+      "publisher": "Hindawi Publishing Corporation",
+      "publicationDate": "2022-04-14",
+      "abstract": "Critical ML or CML is a critical approach development of the standard ML (SML) procedure. Conventional ML (ML) is being used in radiology departments where complex neuroimages are discriminated using ML technology. Radiologists and researchers found that sole decision by the ML algorithms is not accurate enough to implement the treatment procedure. Thus, an intelligent decision is required further by the radiologists after evaluating the ML outcomes. The current research is based on the critical ML, where radiologists' critical thinking ability, IQ (intelligence quotient), and experience in radiology have been examined to understand how these factors affect the accuracy of neuroimaging discrimination. A primary quantitative survey has been carried out, and the data were analysed in IBM SPSS. The results showed that experience in works has a positive impact on neuroimaging discrimination accuracy. IQ and trained ML are also responsible for improving the accuracy as well. Thus, radiologists with more experience in that field are able to improve the discriminative and diagnostic capability of CML.",
+      "keywords": [
+        "Neuroimaging",
+        "Discriminative model",
+        "Artificial intelligence",
+        "IBM",
+        "Computer science",
+        "Medical physics",
+        "Critical thinking",
+        "Machine learning",
+        "Affect (linguistics)",
+        "Field (mathematics)",
+        "Psychology",
+        "Radiology",
+        "Medicine",
+        "Psychiatry",
+        "Mathematics education",
+        "Mathematics",
+        "Artificial Intelligence in Healthcare and Education",
+        "Smart Systems and Machine Learning",
+        "Explainable Artificial Intelligence (XAI)"
+      ],
+      "citationCount": 11,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.1155/2022/6501975",
+      "pdf": "https://downloads.hindawi.com/journals/cmmm/2022/6501975.pdf",
+      "publisherUrl": "https://doi.org/10.1155/2022/6501975"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.472Z"
+  },
+  "10.1016/j.micpro.2022.104633": {
+    "crossref": {
+      "title": "LCIPA: Lightweight clustering protocol for industry 4.0 enabled precision agriculture",
+      "authors": [
+        "Hemant B. Mahajan",
+        "Aparna A. Junnarkar",
+        "Mohit Tiwari",
+        "Tripti Tiwari",
+        "Makarand Upadhyaya"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Hemant B. Mahajan",
+          "orcid": "0000-0001-6703-7711"
+        },
+        {
+          "name": "Aparna A. Junnarkar",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Tripti Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Makarand Upadhyaya",
+          "orcid": null
+        }
+      ],
+      "venue": "Microprocessors and Microsystems",
+      "publisher": "Elsevier BV",
+      "volume": "94",
+      "issue": null,
+      "pages": "104633",
+      "publicationDate": "2022-10-01",
+      "type": "Journal Article",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1016/j.micpro.2022.104633"
+    },
+    "openAlex": {
+      "title": "LCIPA: Lightweight clustering protocol for industry 4.0 enabled precision agriculture",
+      "authors": [
+        "Hemant B. Mahajan",
+        "Aparna A. Junnarkar",
+        "Mohit Tiwari",
+        "Tripti Tiwari",
+        "Makarand Upadhyaya"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Hemant B. Mahajan",
+          "orcid": "0000-0001-6703-7711"
+        },
+        {
+          "name": "Aparna A. Junnarkar",
+          "orcid": "0000-0002-3187-9228"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Tripti Tiwari",
+          "orcid": "0000-0002-9016-1988"
+        },
+        {
+          "name": "Makarand Upadhyaya",
+          "orcid": "0000-0003-4026-3801"
+        }
+      ],
+      "venue": "Microprocessors and Microsystems",
+      "publisher": "Elsevier BV",
+      "publicationDate": "2022-08-19",
+      "abstract": null,
+      "keywords": [
+        "Computer science",
+        "Cluster analysis",
+        "Routing protocol",
+        "Automation",
+        "Protocol (science)",
+        "Fitness function",
+        "Efficient energy use",
+        "Data mining",
+        "Distributed computing",
+        "Computer network",
+        "Routing (electronic design automation)",
+        "Artificial intelligence",
+        "Machine learning",
+        "Genetic algorithm",
+        "Engineering",
+        "Smart Agriculture and AI",
+        "IoT and Edge/Fog Computing",
+        "IoT Networks and Protocols"
+      ],
+      "citationCount": 55,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1016/j.micpro.2022.104633"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.521Z"
+  },
+  "10.1109/ic3i56241.2022.10073318": {
+    "crossref": {
+      "title": "Loan Eligibility Prediction using Machine Learning based on Personal Information",
+      "authors": [
+        "M. Meenaakumari",
+        "P. Jayasuriya",
+        "Nasa Dhanraj",
+        "Seema Sharma",
+        "Geetha Manoharan",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "M. Meenaakumari",
+          "orcid": null
+        },
+        {
+          "name": "P. Jayasuriya",
+          "orcid": null
+        },
+        {
+          "name": "Nasa Dhanraj",
+          "orcid": null
+        },
+        {
+          "name": "Seema Sharma",
+          "orcid": null
+        },
+        {
+          "name": "Geetha Manoharan",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 5th International Conference on Contemporary Computing and Informatics (IC3I)",
+      "publisher": "IEEE",
+      "volume": null,
+      "issue": null,
+      "pages": "1383-1387",
+      "publicationDate": "2022-12-14",
+      "type": "Conference Paper",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/ic3i56241.2022.10073318"
+    },
+    "openAlex": {
+      "title": "Loan Eligibility Prediction using Machine Learning based on Personal Information",
+      "authors": [
+        "M. Meenaakumari",
+        "P. Jayasuriya",
+        "Nasa Dhanraj",
+        "Seema Sharma",
+        "Geetha Manoharan",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "M. Meenaakumari",
+          "orcid": null
+        },
+        {
+          "name": "P. Jayasuriya",
+          "orcid": null
+        },
+        {
+          "name": "Nasa Dhanraj",
+          "orcid": null
+        },
+        {
+          "name": "Seema Sharma",
+          "orcid": "0009-0008-4137-0303"
+        },
+        {
+          "name": "Geetha Manoharan",
+          "orcid": "0000-0002-8644-8871"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": null,
+      "publicationDate": "2022-12-14",
+      "abstract": "Banks serves the basic necessities of everyone next to hospitals and schools. People reach out to banks for various purposes. But one of the most common services offered by banks is loans. However, many common people are not completely aware of the banking procedures and eligibility criteria for loans. This study aims to develop a Machine Learning (ML) model which is capable of predicting whether the person is eligible for a health loan or not by analyzing some basic values entered by the user. For this process, a dataset consisting of all necessary parameters for a loan application is collected from Kaggle. The collected dataset is then preprocessed by two methods namely the null value elimination method and encoding. Simultaneously, three ML models were developed using three different algorithms. They are the Random Forest (RF), Naive Bayes (NB), and Linear Regression (LR). The preprocessed data will next be used to train the models. Following that, a comparison of a few parameters will be used to assess the models' effectiveness. The results of the analysis prove that the RF algorithm is the best in terms of both accuracy and error. The accuracy of the RF algorithm is 91% and it also predicts loan eligibility with lesser error values. The LR model has the lowest accuracy values and the highest error value making it the least efficient algorithm that can be used in loan prediction.",
+      "keywords": [
+        "Loan",
+        "Random forest",
+        "Computer science",
+        "Naive Bayes classifier",
+        "Machine learning",
+        "Regression",
+        "Process (computing)",
+        "Artificial intelligence",
+        "Value (mathematics)",
+        "Predictive modelling",
+        "Data mining",
+        "Statistics",
+        "Finance",
+        "Support vector machine",
+        "Mathematics",
+        "Business",
+        "Artificial Intelligence in Healthcare"
+      ],
+      "citationCount": 20,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/ic3i56241.2022.10073318"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.590Z"
+  },
+  "10.1109/icacite53722.2022.9823734": {
+    "crossref": {
+      "title": "Machine Learning as a Predictive Technology And Its Impact on Digital Pricing and Cryptocurrency Markets",
+      "authors": [
+        "Naveen Chakravarthy Sattaru",
+        "Dhananjay Umrao",
+        "K K Ramachandran",
+        "K K Karthick",
+        "Mohit Tiwari",
+        "Suresh Kumar M V"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Naveen Chakravarthy Sattaru",
+          "orcid": null
+        },
+        {
+          "name": "Dhananjay Umrao",
+          "orcid": null
+        },
+        {
+          "name": "K K Ramachandran",
+          "orcid": null
+        },
+        {
+          "name": "K K Karthick",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Suresh Kumar M V",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": "IEEE",
+      "volume": null,
+      "issue": null,
+      "pages": "1077-1080",
+      "publicationDate": "2022-04-28",
+      "type": "Conference Paper",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823734"
+    },
+    "openAlex": {
+      "title": "Machine Learning as a Predictive Technology And Its Impact on Digital Pricing and Cryptocurrency Markets",
+      "authors": [
+        "Naveen Chakravarthy Sattaru",
+        "Dhananjay Umrao",
+        "K. K. Ramachandran",
+        "K. Karthick",
+        "Mohit Tiwari",
+        "Suresh Kumar M V"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Naveen Chakravarthy Sattaru",
+          "orcid": null
+        },
+        {
+          "name": "Dhananjay Umrao",
+          "orcid": null
+        },
+        {
+          "name": "K. K. Ramachandran",
+          "orcid": "0000-0003-0589-4448"
+        },
+        {
+          "name": "K. Karthick",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Suresh Kumar M V",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": null,
+      "publicationDate": "2022-04-28",
+      "abstract": "In this current era, Machine Learning (ML) Approach is widely used as a predictive technology in transportation, finance, advertising, travel, healthcare, and various manufacturing industries across the globe. The modern-day financial market around the globe has experienced its deep impact on various aspects of digital pricing. Enormous organizations use numerous digital pricing techniques in order to generate maximum profit percentages for a sustainable future while conducting global business. On the other hand, the effective applications of the machine learning approach also offer relevant advantages in the Cryptocurrency Markets worldwide. It has been identified that with the use of ML approaches, organizations can conduct faster as well as cheaper transfers and exchange of money through virtual mediums easier than before. Moreover, Machine learning can easily improve all the trading strategies in the cryptocurrency and digital pricing markets for gaining more profit as well as adaptable business experience for future experiments. Researchers are going to investigate the particular research topic with an effective quantitative method by conducting secondary method as well as asking topic-related questions. In the modern share markets, undertaking numerous innovative ML technologies for enhancing efficiency in digital pricing and cryptocurrency has become easier. Therefore, the research paper sheds some important light on the impacts of ML approaches and their contributions in cryptocurrency trading and digital pricing for obtaining further research scopes.",
+      "keywords": [
+        "Cryptocurrency",
+        "Globe",
+        "Digital currency",
+        "Profit (economics)",
+        "Computer science",
+        "Pricing strategies",
+        "Variable pricing",
+        "Business model",
+        "Dynamic pricing",
+        "Artificial intelligence",
+        "Industrial organization",
+        "Data science",
+        "Marketing",
+        "Business",
+        "Economics",
+        "Computer security",
+        "World Wide Web",
+        "Microeconomics",
+        "Blockchain Technology Applications and Security",
+        "Stock Market Forecasting Methods",
+        "Internet of Things and AI"
+      ],
+      "citationCount": 4,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823734"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.635Z"
+  },
+  "10.1109/icacite53722.2022.9823417": {
+    "crossref": {
+      "title": "Medical Image Classification for Disease Prediction with the Aid of Deep Learning Approaches",
+      "authors": [
+        "M. Pandiyarajan",
+        "J Thimmiaraja",
+        "Jayaraj Ramasamy",
+        "Mohit Tiwari",
+        "Seira Shinde",
+        "M. Kalyan Chakravarthi"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "M. Pandiyarajan",
+          "orcid": null
+        },
+        {
+          "name": "J Thimmiaraja",
+          "orcid": null
+        },
+        {
+          "name": "Jayaraj Ramasamy",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Seira Shinde",
+          "orcid": null
+        },
+        {
+          "name": "M. Kalyan Chakravarthi",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": "IEEE",
+      "volume": null,
+      "issue": null,
+      "pages": "724-727",
+      "publicationDate": "2022-04-28",
+      "type": "Conference Paper",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823417"
+    },
+    "openAlex": {
+      "title": "Medical Image Classification for Disease Prediction with the Aid of Deep Learning Approaches",
+      "authors": [
+        "M. Pandiyarajan",
+        "J. Thimmia Raja",
+        "Jayaraj Ramasamy",
+        "Mohit Tiwari",
+        "Seira Shinde",
+        "M. Kalyan Chakravarthi"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "M. Pandiyarajan",
+          "orcid": null
+        },
+        {
+          "name": "J. Thimmia Raja",
+          "orcid": "0000-0001-9078-482X"
+        },
+        {
+          "name": "Jayaraj Ramasamy",
+          "orcid": "0000-0003-0651-2210"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Seira Shinde",
+          "orcid": null
+        },
+        {
+          "name": "M. Kalyan Chakravarthi",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": null,
+      "publicationDate": "2022-04-28",
+      "abstract": "Machine learning as well as deep learning algorithms is recently in huge demand in the field of image classification. This research paper illustrates the relevance of these two prospects for making further improvement in the treatment system in the upcoming days. In this context the evolution of the machine learning from its invention to the modern stage has been discussed. The limitations of machine learning are elaborated and as a consequence the emergence of deep learning have been depicted. The study also provides an insight to the different leaning process and their relevance in the field of image classification and image analysis. Opinion of people are gathered about this aspect and presented in a survey format. The overall presentation illustrates a precise discussion about the relevance and evaluation of artificial learning system in the context of image classification which can be used in diagnostic process. The different fields of medical treatment which are seeing benefits of introduction of deep learning network and convolutional neural network are also discussed here. At the end a conclusive summary about the machine learning process and its pros and cons are elaborated to get an idea about the present standing point of machine learning on the field of medical science.",
+      "keywords": [
+        "Artificial intelligence",
+        "Computer science",
+        "Machine learning",
+        "Deep learning",
+        "Relevance (law)",
+        "Context (archaeology)",
+        "Convolutional neural network",
+        "Field (mathematics)",
+        "Process (computing)",
+        "Contextual image classification",
+        "Image (mathematics)",
+        "Smart Systems and Machine Learning",
+        "Internet of Things and AI",
+        "COVID-19 diagnosis using AI"
+      ],
+      "citationCount": 8,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823417"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.647Z"
+  },
+  "10.36909/jer.icmet.17161": {
+    "crossref": {
+      "title": "Modelling and analysis of artificial intelligence approaches in enhancing the speech recognition for effective multi-functional machine learning platform – A multi regression modelling approach",
+      "authors": [
+        "Atul Kumar Dwivedi",
+        "Deepali Virmani",
+        "Anusuya Ramasamy",
+        "Purnendu Bikash Acharjee",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Atul Kumar Dwivedi",
+          "orcid": null
+        },
+        {
+          "name": "Deepali Virmani",
+          "orcid": null
+        },
+        {
+          "name": "Anusuya Ramasamy",
+          "orcid": null
+        },
+        {
+          "name": "Purnendu Bikash Acharjee",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        }
+      ],
+      "venue": "Journal of Engineering Research",
+      "publisher": "Elsevier BV",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2022-04-06",
+      "type": "Journal Article",
+      "abstract": "Speech is considered as the fundamental aspect of communication between human being, speech recognition is stated as the overall process to convert the sound into corresponding text based on a specific language. The implementation of speech recognition has supported individuals, business and others in order to possess better communication and interaction so as to realise its objectives. This been regarded as the process of collating text message or in some form of meaning based on the input received from voice of another individual. The speech analytics is stated as the key part in the speech recognition as it converts the individual voice into digital form so as to store them and transmit it as and when required using computing equipments.The speech synthesis is considered as the reversal of speech recognition as they convert the data from the digitised format into voice which supports the users to listen quickly and easily.The application of speech recognition in organisation is confined in building more interactive virtual assistants, supports the customers in addressing their queries and offer solutions at quick span of time, furthermore organisations can use speech recognition to identify the individuals so that they can access classified information or reset their password etc. The enhanced development in the technology domain has deepened the importance of artificial intelligence in different areas of work and life, The implementation of AI in speech recognition supports the business and individuals in apprehending better services to the stakeholders and perform the task in an efficient manner. Hence, this study is focused in analysing the key determinates of using AI in speech recognition for effective multifunctional Machine learning platform using regression analysis.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.36909/jer.icmet.17161"
+    },
+    "openAlex": {
+      "title": "Modelling and analysis of artificial intelligence approaches in enhancing the speech recognition for effective multi-functional machine learning platform – A multi regression modelling approach",
+      "authors": [
+        "Atul Kumar Dwivedi",
+        "Deepali Virmani",
+        "Anusuya Ramasamy",
+        "Purnendu Bikash Acharjee",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Atul Kumar Dwivedi",
+          "orcid": "0000-0003-4221-806X"
+        },
+        {
+          "name": "Deepali Virmani",
+          "orcid": "0000-0002-4132-9254"
+        },
+        {
+          "name": "Anusuya Ramasamy",
+          "orcid": "0000-0001-5526-7667"
+        },
+        {
+          "name": "Purnendu Bikash Acharjee",
+          "orcid": "0000-0002-2674-7378"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "Journal of Engineering Research",
+      "publisher": "Elsevier BV",
+      "publicationDate": "2022-04-06",
+      "abstract": "Speech is considered as the fundamental aspect of communication between human being, speech recognition is stated as the overall process to convert the sound into corresponding text based on a specific language. The implementation of speech recognition has supported individuals, business and others in order to possess better communication and interaction so as to realise its objectives. This been regarded as the process of collating text message or in some form of meaning based on the input received from voice of another individual. The speech analytics is stated as the key part in the speech recognition as it converts the individual voice into digital form so as to store them and transmit it as and when required using computing equipments.The speech synthesis is considered as the reversal of speech recognition as they convert the data from the digitised format into voice which supports the users to listen quickly and easily.The application of speech recognition in organisation is confined in building more interactive virtual assistants, supports the customers in addressing their queries and offer solutions at quick span of time, furthermore organisations can use speech recognition to identify the individuals so that they can access classified information or reset their password etc. The enhanced development in the technology domain has deepened the importance of artificial intelligence in different areas of work and life, The implementation of AI in speech recognition supports the business and individuals in apprehending better services to the stakeholders and perform the task in an efficient manner. Hence, this study is focused in analysing the key determinates of using AI in speech recognition for effective multifunctional Machine learning platform using regression analysis.",
+      "keywords": [
+        "Computer science",
+        "Speech analytics",
+        "Speech recognition",
+        "Process (computing)",
+        "Task (project management)",
+        "Audio mining",
+        "Speech processing",
+        "Artificial intelligence",
+        "Natural language processing",
+        "Human–computer interaction",
+        "Voice activity detection",
+        "Internet of Things and AI",
+        "Smart Systems and Machine Learning",
+        "Machine Learning and ELM"
+      ],
+      "citationCount": 6,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.36909/jer.icmet.17161",
+      "pdf": "https://kuwaitjournals.org/jer/index.php/JER/article/download/17161/3261",
+      "publisherUrl": "https://doi.org/10.36909/jer.icmet.17161"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.742Z"
+  },
+  "10.1109/lca.2022.3210483": {
+    "crossref": {
+      "title": "Revisiting Browser Performance Benchmarking From an Architectural Perspective",
+      "authors": [
+        "Yongye Zhu",
+        "Shijia Wei",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Yongye Zhu",
+          "orcid": "0000-0002-6191-8187"
+        },
+        {
+          "name": "Shijia Wei",
+          "orcid": "0000-0002-4513-5334"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0002-0384-3308"
+        }
+      ],
+      "venue": "IEEE Computer Architecture Letters",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "volume": "21",
+      "issue": "2",
+      "pages": "113-116",
+      "publicationDate": "2022-07-01",
+      "type": "Journal Article",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/lca.2022.3210483"
+    },
+    "openAlex": {
+      "title": "Revisiting Browser Performance Benchmarking From an Architectural Perspective",
+      "authors": [
+        "Yongye Zhu",
+        "Shijia Wei",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Yongye Zhu",
+          "orcid": "0000-0002-6191-8187"
+        },
+        {
+          "name": "Shijia Wei",
+          "orcid": "0000-0002-4513-5334"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0002-0384-3308"
+        }
+      ],
+      "venue": "IEEE Computer Architecture Letters",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "publicationDate": "2022-07-01",
+      "abstract": "Web browser are traditionally benchmarked using user-centric page-load times. We found such metrics inaccurate from an architectural perspective, and limit hardware and systems optimization efforts, for performance and energy efficiency. In this article, we introduce <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">SysPLT</i> , an accurate and stable metric targeting system optimization for browsers. <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">SysPLT</i> tracks page load time based on browser's architectural activities. <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">SysPLT</i> captures on average 2.29× micro-architectural events compared to existing user-centric metrics, and provides insights to correct counter-intuitive system design choices recommended by user-centric metrics. We also show that <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">SysPLT</i> is more stable across repeated runs and different machine settings.",
+      "keywords": [
+        "Computer science",
+        "Perspective (graphical)",
+        "Metric (unit)",
+        "Benchmarking",
+        "Information retrieval",
+        "World Wide Web",
+        "Artificial intelligence",
+        "Software System Performance and Reliability",
+        "Caching and Content Delivery",
+        "Web Data Mining and Analysis"
+      ],
+      "citationCount": 2,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/lca.2022.3210483"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.799Z"
+  },
+  "10.1088/1755-1315/1077/1/011001": {
+    "crossref": {
+      "title": "Preface",
+      "authors": [],
+      "authorIdentifiers": [],
+      "venue": "IOP Conference Series: Earth and Environmental Science",
+      "publisher": "IOP Publishing",
+      "volume": "1077",
+      "issue": "1",
+      "pages": "011001",
+      "publicationDate": "2022-09-01",
+      "type": "Journal Article",
+      "abstract": "Proceedings of the Global Sustainability Conference GSC 2022 We are honored and glad to welcome you at the Global Sustainability Conference 2022 organized by Advanced Computing Research Society on 18-19 April, 2022. The Conference was hosted at the Seminar hall of Bonfils Automation Technologies Pvt. Ltd., Chennai. Due to the ongoing pandemic situation, authors were given the opportunity to present both in online and offline mode. This conference and these proceedings are a unique opportunity for sharing ideas and achievements, discoveries and innovation for growing together our knowledge and contribute to expand the knowledge of humanity. The technological areas addressed in this meeting is in response to United Nations call of action to end poverty, protect the planet and ensure that all people enjoy peace and prosperity by 2030. The conference covers topics on the interdisciplinary areas of agriculture and food security, biodiversity conservation, circular economy, cities and urbanisation, climate change in holistic context, development, economy, ecosystem services, ecological protection, education, energy, environmental development, environmental law, finance, gender equality, green infrastructure, health and environment, human population, industrialization, innovation, land cover and land use change, natural capital, natural resources conservation and management, pollution, poverty, social and cultural, supply chain, waste, water–energy–food and water-soil-waste connections and others, all as related to sustainability. We received 36 papers and after peer review 13 papers were accepted and presented in this conference. The papers were evaluated on the basis of completeness, relevance to the conference, originality, sufficiently novel, technical quality, structure and presentation of the paper and adequate references to previous work. Every paper was reviewed by at least 3 reviewers and the review comments were shared with the authors for incorporating the suggestions and comments. List of Editors of the Proceedings, Committees are available in this pdf.",
+      "keywords": [],
+      "pdf": "https://iopscience.iop.org/article/10.1088/1755-1315/1077/1/011001/pdf",
+      "publisherUrl": "https://doi.org/10.1088/1755-1315/1077/1/011001"
+    },
+    "openAlex": {
+      "title": "Preface",
+      "authors": [
+        "G. Geetha",
+        "Agamutu Pariatamby",
+        "Abdeltif Amrane"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "G. Geetha",
+          "orcid": "0000-0001-7338-973X"
+        },
+        {
+          "name": "Agamutu Pariatamby",
+          "orcid": null
+        },
+        {
+          "name": "Abdeltif Amrane",
+          "orcid": null
+        }
+      ],
+      "venue": "IOP Conference Series Earth and Environmental Science",
+      "publisher": "IOP Publishing",
+      "publicationDate": "2022-09-01",
+      "abstract": "Proceedings of the Global Sustainability Conference GSC 2022 We are honored and glad to welcome you at the Global Sustainability Conference 2022 organized by Advanced Computing Research Society on 18-19 April, 2022. The Conference was hosted at the Seminar hall of Bonfils Automation Technologies Pvt. Ltd., Chennai. Due to the ongoing pandemic situation, authors were given the opportunity to present both in online and offline mode. This conference and these proceedings are a unique opportunity for sharing ideas and achievements, discoveries and innovation for growing together our knowledge and contribute to expand the knowledge of humanity. The technological areas addressed in this meeting is in response to United Nations call of action to end poverty, protect the planet and ensure that all people enjoy peace and prosperity by 2030. The conference covers topics on the interdisciplinary areas of agriculture and food security, biodiversity conservation, circular economy, cities and urbanisation, climate change in holistic context, development, economy, ecosystem services, ecological protection, education, energy, environmental development, environmental law, finance, gender equality, green infrastructure, health and environment, human population, industrialization, innovation, land cover and land use change, natural capital, natural resources conservation and management, pollution, poverty, social and cultural, supply chain, waste, water–energy–food and water-soil-waste connections and others, all as related to sustainability. We received 36 papers and after peer review 13 papers were accepted and presented in this conference. The papers were evaluated on the basis of completeness, relevance to the conference, originality, sufficiently novel, technical quality, structure and presentation of the paper and adequate references to previous work. Every paper was reviewed by at least 3 reviewers and the review comments were shared with the authors for incorporating the suggestions and comments. List of Editors of the Proceedings, Committees are available in this pdf.",
+      "keywords": [
+        "Sustainability",
+        "Natural resource",
+        "Prosperity",
+        "Political science",
+        "Population",
+        "Business",
+        "Economic growth",
+        "Environmental planning",
+        "Engineering",
+        "Geography",
+        "Sociology",
+        "Economics",
+        "Ecology",
+        "Sustainable Supply Chain Management",
+        "Smart Cities and Technologies"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.1088/1755-1315/1077/1/011001",
+      "pdf": "https://iopscience.iop.org/article/10.1088/1755-1315/1077/1/011001/pdf",
+      "publisherUrl": "https://doi.org/10.1088/1755-1315/1077/1/011001"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.810Z"
+  },
+  "10.1109/icacite53722.2022.9823626": {
+    "crossref": {
+      "title": "Systematic Healthcare Smart Systems with the Integration of the Sensor Using Cloud Computing Techniques",
+      "authors": [
+        "Taru Singh",
+        "Parag Rastogi",
+        "Umesh Kumar Pandey",
+        "Aarsha Geetha",
+        "Mohit Tiwari",
+        "M. Kalyan Chakravarthi"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Taru Singh",
+          "orcid": null
+        },
+        {
+          "name": "Parag Rastogi",
+          "orcid": "0000-0002-1469-3747"
+        },
+        {
+          "name": "Umesh Kumar Pandey",
+          "orcid": "0000-0002-8828-4719"
+        },
+        {
+          "name": "Aarsha Geetha",
+          "orcid": "0000-0001-9784-715X"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "M. Kalyan Chakravarthi",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": "IEEE",
+      "volume": null,
+      "issue": null,
+      "pages": "708-712",
+      "publicationDate": "2022-04-28",
+      "type": "Conference Paper",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823626"
+    },
+    "openAlex": {
+      "title": "Systematic Healthcare Smart Systems with the Integration of the Sensor Using Cloud Computing Techniques",
+      "authors": [
+        "Taru Singh",
+        "Parag Rastogi",
+        "Umesh Kumar Pandey",
+        "Aarsha Geetha",
+        "Mohit Tiwari",
+        "M. Kalyan Chakravarthi"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Taru Singh",
+          "orcid": "0000-0002-5421-5272"
+        },
+        {
+          "name": "Parag Rastogi",
+          "orcid": "0000-0002-9026-8080"
+        },
+        {
+          "name": "Umesh Kumar Pandey",
+          "orcid": "0000-0002-8828-4719"
+        },
+        {
+          "name": "Aarsha Geetha",
+          "orcid": "0000-0001-9784-715X"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "M. Kalyan Chakravarthi",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": null,
+      "publicationDate": "2022-04-28",
+      "abstract": "Towards processing efficient technology management in healthcare sectors, the contribution of cloud computing is at once essential. In order to reduce human efforts, cloud computing and its benefits are used immensely for the growth and development of the entire health care sector. Regarding analyzing various advantages, bringing technological changes and improvements in healthcare aspects become easier than before. Today, systemic and smart healthcare approaches promote both the cooperation and exchanges of essential medical records and services. Designing proper sensor-based smart healthcare systems is an essential concern for physicians with the use of cloud computing technology. The process includes cost-effective sharing and storing of essential medical records for a safer and more successful generation of sensor-based smart systems. However, with this innovative use of cloud technology, physicians can easily track any relevant patient's information from a large database. In contrast to that, cloud computing techniques also help doctors to detect and diagnose any type of medical complications in today's clinical sectors for a sustainable future. A quantitative method has been adopted in the research study through conducting survey analysis among 60 participants. In order to analyze the importance of applying cloud computing as one of the innovative technologies along with smart designing of health care systems, these survey results can be highly effective. Moreover, a detailed interpretation, analysis, and discussion have been also conducted successfully after evaluating all the survey results regarding the particular research topic.",
+      "keywords": [
+        "Cloud computing",
+        "Computer science",
+        "Health care",
+        "Data science",
+        "Risk analysis (engineering)",
+        "Process management",
+        "Knowledge management",
+        "Business",
+        "Internet of Things and AI",
+        "IoT and Edge/Fog Computing",
+        "Smart Systems and Machine Learning"
+      ],
+      "citationCount": 7,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823626"
+    },
+    "enrichedAt": "2026-07-20T06:25:19.884Z"
+  },
+  "10.1109/icacite53722.2022.9823892": {
+    "crossref": {
+      "title": "The Role of Implementing Cloud Computing Technology for Addressing Critical Security Issues and Overcoming the Challenges Effectively",
+      "authors": [
+        "Melanie Lourens",
+        "Manish Kaushik",
+        "Jayanti Goyal",
+        "Rajesh Singh",
+        "Shikha Kuchhal",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Melanie Lourens",
+          "orcid": null
+        },
+        {
+          "name": "Manish Kaushik",
+          "orcid": null
+        },
+        {
+          "name": "Jayanti Goyal",
+          "orcid": null
+        },
+        {
+          "name": "Rajesh Singh",
+          "orcid": null
+        },
+        {
+          "name": "Shikha Kuchhal",
+          "orcid": "0000-0002-2249-4107"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": "IEEE",
+      "volume": null,
+      "issue": null,
+      "pages": "2303-2306",
+      "publicationDate": "2022-04-28",
+      "type": "Conference Paper",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823892"
+    },
+    "openAlex": {
+      "title": "The Role of Implementing Cloud Computing Technology for Addressing Critical Security Issues and Overcoming the Challenges Effectively",
+      "authors": [
+        "Melanie Lourens",
+        "M. Kaushik",
+        "Jayanti Goyal",
+        "Rajesh Singh",
+        "Shikha Kuchhal",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Melanie Lourens",
+          "orcid": "0000-0002-4288-8277"
+        },
+        {
+          "name": "M. Kaushik",
+          "orcid": "0000-0002-3647-8757"
+        },
+        {
+          "name": "Jayanti Goyal",
+          "orcid": "0000-0003-4087-4899"
+        },
+        {
+          "name": "Rajesh Singh",
+          "orcid": null
+        },
+        {
+          "name": "Shikha Kuchhal",
+          "orcid": "0000-0002-2249-4107"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "publisher": null,
+      "publicationDate": "2022-04-28",
+      "abstract": "The term cloud computing possesses the critical aspect to enhance the network by leveraging the available resources in an effective manner. It has been widely stated that the usage of enhanced IT infrastructure support in realising the goals of the stakeholders in an easier aspect. Cloud computing is a shared pool of operations that is growing in popularity due to its low cost, high efficiency, and high output. Along with its many advantages, cloud computing presents a considerably more difficult scenario in terms of data privacy, intellectual property rights, authenticated access, data security, and so on. Cloud computing technology is becoming ever more challenging in today&#x0027;s society as a result of these challenges. This paper aims to evaluate the security issues in cloud services and implementation of advanced technology to prevent these challenges. In this context, mixed method has been considered (primary quantitative and secondary qualitative) to gather relevant and factual information.",
+      "keywords": [
+        "Cloud computing",
+        "Computer science",
+        "Cloud computing security",
+        "Popularity",
+        "Context (archaeology)",
+        "Computer security",
+        "Utility computing",
+        "Data science",
+        "Internet of Things and AI",
+        "Cloud Data Security Solutions",
+        "Blockchain Technology Applications and Security"
+      ],
+      "citationCount": 3,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacite53722.2022.9823892"
+    },
+    "enrichedAt": "2026-07-20T06:25:20.037Z"
+  },
+  "10.1109/icacrs55517.2022.10029163": {
+    "crossref": {
+      "title": "Towards Internet of Things: Integration of Wireless Sensor Network to Cloud Services for Data Collection and Sharing",
+      "authors": [
+        "Anil Kumar N",
+        "S. Vijayalakshmi",
+        "D. Baswaraj",
+        "Padmanayaki Selvarajan",
+        "S. Chandramohan",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Anil Kumar N",
+          "orcid": null
+        },
+        {
+          "name": "S. Vijayalakshmi",
+          "orcid": null
+        },
+        {
+          "name": "D. Baswaraj",
+          "orcid": null
+        },
+        {
+          "name": "Padmanayaki Selvarajan",
+          "orcid": null
+        },
+        {
+          "name": "S. Chandramohan",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 International Conference on Automation, Computing and Renewable Systems (ICACRS)",
+      "publisher": "IEEE",
+      "volume": null,
+      "issue": null,
+      "pages": "363-369",
+      "publicationDate": "2022-12-13",
+      "type": "Conference Paper",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1109/icacrs55517.2022.10029163"
+    },
+    "openAlex": {
+      "title": "Towards Internet of Things: Integration of Wireless Sensor Network to Cloud Services for Data Collection and Sharing",
+      "authors": [
+        "Anil Kumar N",
+        "S. Vijayalakshmi",
+        "D. Baswaraj",
+        "Padmanayaki Selvarajan",
+        "S. Chandramohan",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Anil Kumar N",
+          "orcid": null
+        },
+        {
+          "name": "S. Vijayalakshmi",
+          "orcid": null
+        },
+        {
+          "name": "D. Baswaraj",
+          "orcid": null
+        },
+        {
+          "name": "Padmanayaki Selvarajan",
+          "orcid": null
+        },
+        {
+          "name": "S. Chandramohan",
+          "orcid": "0009-0001-0724-6922"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "2022 International Conference on Automation, Computing and Renewable Systems (ICACRS)",
+      "publisher": null,
+      "publicationDate": "2022-12-13",
+      "abstract": "Web applications with special computation and storage requirements benefit greatly from the cloud computing model. With an extensible and flexible architecture, Wireless Sensor Networks are integrated with the Cloud. It is possible to directly integrate REST-based Web services into other application domains, such as e-health care, smart homes, and even vehicular area networks (VANs). An IP-based WSN testbed has been used to implement a proof of concept REST API web service for accessing data from anywhere using a REST API. When monitoring data exceeds values or events of interest, users will receive notifications by email or tweet.",
+      "keywords": [
+        "Testbed",
+        "Computer science",
+        "Cloud computing",
+        "Web service",
+        "Computer network",
+        "The Internet",
+        "Wireless sensor network",
+        "Service-oriented architecture",
+        "World Wide Web",
+        "Operating system",
+        "Energy Efficient Wireless Sensor Networks",
+        "IoT and Edge/Fog Computing",
+        "IoT-based Smart Home Systems"
+      ],
+      "citationCount": 10,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "http://dx.doi.org/10.1109/icacrs55517.2022.10029163"
+    },
+    "enrichedAt": "2026-07-20T06:25:20.050Z"
+  },
+  "10.1016/j.stress.2022.100072": {
+    "crossref": {
+      "title": "The Impact of Microbes in Plant Immunity and Priming Induced Inheritance: A Sustainable Approach for Crop protection",
+      "authors": [
+        "Menka Tiwari",
+        "Debasish Pati",
+        "Reecha Mohapatra",
+        "Binod Bihari Sahu",
+        "Prashant Singh"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Menka Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Debasish Pati",
+          "orcid": null
+        },
+        {
+          "name": "Reecha Mohapatra",
+          "orcid": "0000-0002-1737-2439"
+        },
+        {
+          "name": "Binod Bihari Sahu",
+          "orcid": "0000-0002-2151-0654"
+        },
+        {
+          "name": "Prashant Singh",
+          "orcid": "0000-0002-7630-4786"
+        }
+      ],
+      "venue": "Plant Stress",
+      "publisher": "Elsevier BV",
+      "volume": "4",
+      "issue": null,
+      "pages": "100072",
+      "publicationDate": "2022-04-01",
+      "type": "Journal Article",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1016/j.stress.2022.100072"
+    },
+    "openAlex": {
+      "title": "The Impact of Microbes in Plant Immunity and Priming Induced Inheritance: A Sustainable Approach for Crop protection",
+      "authors": [
+        "Menka Tiwari",
+        "Debasish Pati",
+        "Reecha Mohapatra",
+        "Binod Bihari Sahu",
+        "Prashant Singh"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Menka Tiwari",
+          "orcid": "0009-0000-1648-698X"
+        },
+        {
+          "name": "Debasish Pati",
+          "orcid": "0000-0003-0425-3884"
+        },
+        {
+          "name": "Reecha Mohapatra",
+          "orcid": "0000-0002-1737-2439"
+        },
+        {
+          "name": "Binod Bihari Sahu",
+          "orcid": "0000-0002-2151-0654"
+        },
+        {
+          "name": "Prashant Singh",
+          "orcid": "0000-0002-7630-4786"
+        }
+      ],
+      "venue": "Plant Stress",
+      "publisher": "Elsevier BV",
+      "publicationDate": "2022-03-06",
+      "abstract": "Food security has become the most challenging task in the current scenario of population growth and the future perspective in the everchanging environment. Cultivation and management of plants is now a major challenge for modern food production, which is further compounded by the lack of common background among many disease control disciplines. All crop plants simultaneously engage with billions of microbes from their surroundings, most of which are harmless and rather beneficial to the plant as they promote plant growth and provide protection in opposition to diseases. However, a few species-specific adapted microbes cause diseases with devastating effects on crop yields. To prevent pathogen infection, plants have evolved an innate immune system that recognises conserved cell surface molecules that most pathogen species possess. Activation of the plant immune system ceases the non-adapted pathogen invasion, but this comes with a fitness cost that significantly reduces plant growth and leads to a yield penalty. Apart from their innate immune systems controlling pre-programmed defence reactions, plants can also increase the responsiveness of their immune systems in response to selected environmental signals. This phenomenon is known as \"defence priming\". The fitness costs of priming are lower than those of constitutively activated defences, suggesting that priming functions as an ecological adaptation of the plant to respond faster to a hostile environment. Although defence priming rarely provides full protection, its broad spectrum effectiveness, long-lasting durability, and inheritance to future generations make it attractive for integrated disease management.",
+      "keywords": [
+        "Biology",
+        "Priming (agriculture)",
+        "Innate immune system",
+        "Immune system",
+        "Population",
+        "Disease",
+        "Crop protection",
+        "Ecology",
+        "Biotechnology",
+        "Immunology",
+        "Agronomy",
+        "Environmental health",
+        "Medicine",
+        "Plant-Microbe Interactions and Immunity",
+        "Plant Parasitism and Resistance",
+        "Transgenic Plants and Applications"
+      ],
+      "citationCount": 80,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.1016/j.stress.2022.100072",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1016/j.stress.2022.100072"
+    },
+    "enrichedAt": "2026-07-20T06:25:20.052Z"
   }
 }

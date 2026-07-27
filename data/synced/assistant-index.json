@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T06:25:21.490Z",
+  "generatedAt": "2026-07-27T06:40:17.171Z",
   "documentCount": 336,
   "collectionCounts": {
     "Publications": 300,
@@ -48,6 +48,28 @@
         "citations": 0,
         "openAccess": "unknown",
         "authors": "Surya Selwin, Shaiqa Nasreen, Jui Pattnayak, Neeraj Chandnani, Mohit Tiwari, Mukesh Madanan"
+      }
+    },
+    {
+      "id": "publication:doi:10.6084/m9.figshare.33088022",
+      "collections": [
+        "Publications"
+      ],
+      "title": "AICMF-HEI Research Instruments and Validation Codebook",
+      "summary": "Mohit Tiwari (2026). AICMF-HEI Research Instruments and Validation Codebook. figshare. https://doi.org/10.6084/m9.figshare.33088022",
+      "content": "AICMF-HEI Research Instruments and Validation Codebook Mohit Tiwari (2026). AICMF-HEI Research Instruments and Validation Codebook. figshare. https://doi.org/10.6084/m9.figshare.33088022 figshare 10.6084/m9.figshare.33088022 ORCID",
+      "year": 2026,
+      "publicationType": "Other",
+      "researchAreas": [],
+      "keywords": [],
+      "url": "https://doi.org/10.6084/m9.figshare.33088022",
+      "metadata": {
+        "doi": "10.6084/m9.figshare.33088022",
+        "venue": "figshare",
+        "publisher": null,
+        "citations": null,
+        "openAccess": "unknown",
+        "authors": ""
       }
     },
     {
@@ -10109,37 +10131,6 @@
       }
     },
     {
-      "id": "publication:doi:10.13140/rg.2.2.10515.66084",
-      "collections": [
-        "Publications"
-      ],
-      "title": "This is to certify that Mohit Tiwari has presented a paper titled Automatic Detection and Epidemiologic Trends in Head and Neck Cancer using Fast-R-CNN and SVM Methods at the 7th International Conference on Electronics, Communication and Aerospace Technology (ICECA 2023) held from 22 to 24 November 2023 at RVS Technical Campus Coimbatore, Tamil Nadu, India.",
-      "summary": "Mohit Tiwari (2023). This is to certify that Mohit Tiwari has presented a paper titled Automatic Detection and Epidemiologic Trends in Head and Neck Cancer using Fast-R-CNN and SVM Methods at the 7th International Conference on Electronics, Communication and Aerospace Technology (ICECA 2023) held from 22 to 24 November 2023 at RVS Technical Campus Coimbatore, Tamil Nadu, India.. https://doi.org/10.13140/rg.2.2.10515.66084",
-      "content": "This is to certify that Mohit Tiwari has presented a paper titled Automatic Detection and Epidemiologic Trends in Head and Neck Cancer using Fast-R-CNN and SVM Methods at the 7th International Conference on Electronics, Communication and Aerospace Technology (ICECA 2023) held from 22 to 24 November 2023 at RVS Technical Campus Coimbatore, Tamil Nadu, India. Mohit Tiwari Mohit Tiwari (2023). This is to certify that Mohit Tiwari has presented a paper titled Automatic Detection and Epidemiologic Trends in Head and Neck Cancer using Fast-R-CNN and SVM Methods at the 7th International Conference on Electronics, Communication and Aerospace Technology (ICECA 2023) held from 22 to 24 November 2023 at RVS Technical Campus Coimbatore, Tamil Nadu, India.. https://doi.org/10.13140/rg.2.2.10515.66084 10.13140/rg.2.2.10515.66084 0 citations cited Head and neck cancer Head and neck Head (geology) Support vector machine Cancer Mycorrhizal Fungi and Plant Interactions Genomics and Phylogenetic Studies Plant Pathogens and Fungal Diseases ORCID OpenAlex",
-      "year": 2023,
-      "publicationType": "Conference Paper",
-      "researchAreas": [],
-      "keywords": [
-        "Head and neck cancer",
-        "Head and neck",
-        "Head (geology)",
-        "Support vector machine",
-        "Cancer",
-        "Mycorrhizal Fungi and Plant Interactions",
-        "Genomics and Phylogenetic Studies",
-        "Plant Pathogens and Fungal Diseases"
-      ],
-      "url": "https://doi.org/10.13140/rg.2.2.10515.66084",
-      "metadata": {
-        "doi": "10.13140/rg.2.2.10515.66084",
-        "venue": null,
-        "publisher": null,
-        "citations": 0,
-        "openAccess": "open",
-        "authors": "Mohit Tiwari"
-      }
-    },
-    {
       "id": "repository:1304683648",
       "collections": [
         "Projects",
@@ -10147,7 +10138,7 @@
       ],
       "title": "CyberShield-AI",
       "summary": "Explainable AI Copilot for Smart Contract Security",
-      "content": "CyberShield-AI Explainable AI Copilot for Smart Contract Security CyberShield AI is an open-source platform for explainable Solidity smart-contract security analysis. It coordinates established security tools, correlates their findings, and presents evidence for human review. The platform is intended to support security assessment; it does not replace an independent audit or authorize deployment. Python HTML CSS Dockerfile JavaScript AI NOASSERTION",
+      "content": "CyberShield-AI Explainable AI Copilot for Smart Contract Security CyberShield AI is an open-source platform for explainable Solidity smart-contract security analysis. It coordinates established security tools, correlates their findings, and presents evidence for human review. The platform is intended to support security assessment; it does not replace an independent audit or authorize deployment. Python HTML Jinja CSS Dockerfile JavaScript AI NOASSERTION",
       "year": 2026,
       "publicationType": null,
       "researchAreas": [
@@ -10158,6 +10149,7 @@
       "keywords": [
         "Python",
         "HTML",
+        "Jinja",
         "CSS",
         "Dockerfile",
         "JavaScript",
@@ -10170,7 +10162,35 @@
         "stars": 0,
         "forks": 0,
         "license": "NOASSERTION",
-        "updatedAt": "2026-07-20T06:19:04Z"
+        "updatedAt": "2026-07-20T07:11:46Z"
+      }
+    },
+    {
+      "id": "repository:1303651719",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "mohit-tiwari-academic",
+      "summary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
+      "content": "mohit-tiwari-academic Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi. TypeScript JavaScript CSS Research Platforms",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Research Platforms"
+      ],
+      "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
+      "metadata": {
+        "category": "Research Platforms",
+        "language": "TypeScript",
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-07-20T06:25:33Z"
       }
     },
     {
@@ -10199,34 +10219,6 @@
         "forks": 0,
         "license": "NOASSERTION",
         "updatedAt": "2026-07-17T16:58:08Z"
-      }
-    },
-    {
-      "id": "repository:1303651719",
-      "collections": [
-        "Projects",
-        "GitHub"
-      ],
-      "title": "mohit-tiwari-academic",
-      "summary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
-      "content": "mohit-tiwari-academic Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi. TypeScript JavaScript CSS Research Platforms",
-      "year": 2026,
-      "publicationType": null,
-      "researchAreas": [],
-      "keywords": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Research Platforms"
-      ],
-      "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
-      "metadata": {
-        "category": "Research Platforms",
-        "language": "TypeScript",
-        "stars": 0,
-        "forks": 0,
-        "license": null,
-        "updatedAt": "2026-07-17T11:19:51Z"
       }
     },
     {

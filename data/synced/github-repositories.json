@@ -8,8 +8,9 @@
     "homepage": null,
     "topics": [],
     "languages": {
-      "Python": 79227,
-      "HTML": 24987,
+      "Python": 217461,
+      "HTML": 38871,
+      "Jinja": 14269,
       "CSS": 1724,
       "Dockerfile": 1315,
       "JavaScript": 61
@@ -23,29 +24,7 @@
     "archived": false,
     "fork": false,
     "createdAt": "2026-07-18T07:06:25Z",
-    "updatedAt": "2026-07-20T06:19:04Z"
-  },
-  {
-    "id": 1304208455,
-    "name": "econmentor-ai",
-    "fullName": "profmohit-edu/econmentor-ai",
-    "description": "AI-powered interactive economics decision laboratory for the IBM AI Builders Challenge",
-    "url": "https://github.com/profmohit-edu/econmentor-ai",
-    "homepage": null,
-    "topics": [],
-    "languages": {
-      "HTML": 4119
-    },
-    "primaryLanguage": "HTML",
-    "stars": 0,
-    "forks": 0,
-    "license": "NOASSERTION",
-    "readmeSummary": null,
-    "category": "AI",
-    "archived": false,
-    "fork": false,
-    "createdAt": "2026-07-17T16:56:04Z",
-    "updatedAt": "2026-07-17T16:58:08Z"
+    "updatedAt": "2026-07-20T07:11:46Z"
   },
   {
     "id": 1303651719,
@@ -69,7 +48,29 @@
     "archived": false,
     "fork": false,
     "createdAt": "2026-07-17T06:33:39Z",
-    "updatedAt": "2026-07-17T11:19:51Z"
+    "updatedAt": "2026-07-20T06:25:33Z"
+  },
+  {
+    "id": 1304208455,
+    "name": "econmentor-ai",
+    "fullName": "profmohit-edu/econmentor-ai",
+    "description": "AI-powered interactive economics decision laboratory for the IBM AI Builders Challenge",
+    "url": "https://github.com/profmohit-edu/econmentor-ai",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "HTML": 4119
+    },
+    "primaryLanguage": "HTML",
+    "stars": 0,
+    "forks": 0,
+    "license": "NOASSERTION",
+    "readmeSummary": null,
+    "category": "AI",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-07-17T16:56:04Z",
+    "updatedAt": "2026-07-17T16:58:08Z"
   },
   {
     "id": 1301265105,

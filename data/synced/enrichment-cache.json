@@ -17865,5 +17865,164 @@
     "crossref": null,
     "openAlex": null,
     "enrichedAt": "2026-07-27T06:40:15.641Z"
+  },
+  "10.33774/coe-2026-x7sps": {
+    "crossref": {
+      "title": "Development and Validation of an AI-Assisted Cyber Maturity Framework for Higher Education Institutions: A Mixed-Methods Research Protocol",
+      "authors": [
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": "Cambridge University Press (CUP)",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2026-07-28",
+      "type": "Preprint",
+      "abstract": "This protocol describes a sequential, multi-phase study to develop and validate an AI-Assisted Cyber Maturity Framework for Higher Education Institutions (AICMF-HEI). Existing cybersecurity assessments often inadequately represent the distributed governance, mixed missions, transient populations, research environments, third-party dependencies, and resource diversity of higher education institutions. Phase 1 will refine the construct and candidate domains through evidence synthesis. Phase 2 will use semi-structured interviews with higher-education and cybersecurity stakeholders. Phase 3 will establish content validity and consensus through a modified Delphi study. Phase 4 will develop and cognitively test an assessment instrument. Phase 5 will examine reliability and exploratory factor structure. Phase 6 will conduct confirmatory validation using an independent multi-institutional sample and evaluate inter-rater agreement, convergent and discriminant validity, measurement invariance, usability, and decision usefulness. Phase 7 will evaluate a bounded AI-assistance prototype for evidence retrieval, mapping, contradiction detection, and rationale drafting under human oversight. The protocol prespecifies governance, ethics, data protection, stopping criteria, and transparent reporting. It does not report empirical results. The intended outcome is an evidence-centred and managerially useful framework rather than an autonomous certification system.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.33774/coe-2026-x7sps"
+    },
+    "openAlex": {
+      "title": "Development and Validation of an AI-Assisted Cyber Maturity Framework for Higher Education Institutions: A Mixed-Methods Research Protocol",
+      "authors": [
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": null,
+      "publicationDate": "2026-07-28",
+      "abstract": "This protocol describes a sequential, multi-phase study to develop and validate an AI-Assisted Cyber Maturity Framework for Higher Education Institutions (AICMF-HEI). Existing cybersecurity assessments often inadequately represent the distributed governance, mixed missions, transient populations, research environments, third-party dependencies, and resource diversity of higher education institutions. Phase 1 will refine the construct and candidate domains through evidence synthesis. Phase 2 will use semi-structured interviews with higher-education and cybersecurity stakeholders. Phase 3 will establish content validity and consensus through a modified Delphi study. Phase 4 will develop and cognitively test an assessment instrument. Phase 5 will examine reliability and exploratory factor structure. Phase 6 will conduct confirmatory validation using an independent multi-institutional sample and evaluate inter-rater agreement, convergent and discriminant validity, measurement invariance, usability, and decision usefulness. Phase 7 will evaluate a bounded AI-assistance prototype for evidence retrieval, mapping, contradiction detection, and rationale drafting under human oversight. The protocol prespecifies governance, ethics, data protection, stopping criteria, and transparent reporting. It does not report empirical results. The intended outcome is an evidence-centred and managerially useful framework rather than an autonomous certification system.",
+      "keywords": [
+        "Delphi method",
+        "Protocol (science)",
+        "Exploratory factor analysis",
+        "Construct (python library)",
+        "Certification",
+        "Reliability (semiconductor)",
+        "Discriminant validity",
+        "Confirmatory factor analysis",
+        "Phase (matter)",
+        "Sample (material)",
+        "Ethics and Social Impacts of AI",
+        "Artificial Intelligence in Healthcare and Education",
+        "Information and Cyber Security"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.33774/coe-2026-x7sps",
+      "pdf": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/6a644c694770e67d923d45d3/original/development-and-validation-of-an-ai-assisted-cyber-maturity-framework-for-higher-education-institutions-a-mixed-methods-research-protocol.pdf",
+      "publisherUrl": "https://doi.org/10.33774/coe-2026-x7sps"
+    },
+    "enrichedAt": "2026-08-03T06:33:14.906Z"
+  },
+  "10.7910/dvn/isqf8d": {
+    "crossref": null,
+    "openAlex": {
+      "title": "HEI Cybersecurity Governance and Policy Evidence Catalogue",
+      "authors": [
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "Harvard Dataverse",
+      "publisher": "Harvard University",
+      "publicationDate": "2026-07-26",
+      "abstract": "This dataset presents version 1.0.0 of the HEI Cybersecurity Governance and Policy Evidence Catalogue. It contains 30 curated records describing authoritative and sector-relevant public resources for designing, evaluating, and auditing cybersecurity governance in higher education institutions. The catalogue covers governance, policy, risk management, privacy, institutional resilience, workforce capability, supplier governance, incident preparedness, and responsible artificial intelligence. Each record provides structured source metadata and an original conceptual mapping to higher-education cybersecurity governance and evidence requirements. The dataset contains no participant responses, confidential institutional records, cybersecurity findings, maturity scores, or fabricated empirical results. The mappings represent the author’s conceptual synthesis and require expert review and future empirical validation. No proprietary standards text is reproduced.",
+      "keywords": [
+        "Metadata",
+        "Confidentiality",
+        "Corporate governance",
+        "Information governance",
+        "Data governance",
+        "Audit",
+        "Workforce",
+        "Data breach",
+        "Empirical evidence"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.7910/dvn/isqf8d",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.7910/dvn/isqf8d"
+    },
+    "enrichedAt": "2026-08-03T06:33:14.911Z"
+  },
+  "10.21203/rs.3.rs-10504205/v1": {
+    "crossref": {
+      "title": "Mapping Cybersecurity Standards to Higher-Education Maturity Domains: A Reproducible Cross-Framework Content Analysis",
+      "authors": [
+        "Prof. Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Prof. Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": "Springer Science and Business Media LLC",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2026-07-29",
+      "type": "Preprint",
+      "abstract": "Abstract Higher-education institutions (HEIs) must reconcile broad cybersecurity frameworks with sector-specific governance, open academic environments, privacy obligations, research partnerships, and emerging artificial-intelligence (AI) risks. This study analyzes a publicly released 50-record crosswalk that maps ten proposed HEI cybersecurity-maturity domains to high-level components of ten authoritative cybersecurity, governance, maturity, incident-response, and responsible-AI frameworks. A structured content-analysis design was used. Each record was examined by maturity domain, source framework, and mapping strength (Direct, Supporting, or Contextual). Reproducible frequency, incidence, concentration, and diversity measures were calculated from the deposited CSV file. Of the 50 mappings, 36 (72%) were Direct, nine (18%) Supporting, and five (10%) Contextual. NIST Cybersecurity Framework 2.0 covered all ten proposed domains, while C2M2 v2.1 covered nine. The three most represented sources contributed 52% of records, but normalized source entropy was 0.904, indicating that the crosswalk was not dominated by a single framework. Incident preparedness and response had five Direct mappings; the AI-readiness domain had the most mixed profile and uniquely incorporated NIST AI RMF 1.0 and ISO/IEC 42001:2023. The findings support a layered HEI design in which a general risk framework provides the backbone, capability and control sources add operational depth, sector guidance supplies context, and AI standards extend the model. The analysis is descriptive and does not validate the domains, assess any institution, or establish maturity scores. Independent expert coding and empirical testing are required.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.21203/rs.3.rs-10504205/v1"
+    },
+    "openAlex": {
+      "title": "Mapping Cybersecurity Standards to Higher-Education Maturity Domains: A Reproducible Cross-Framework Content Analysis",
+      "authors": [
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "Research Square",
+      "publisher": null,
+      "publicationDate": "2026-07-29",
+      "abstract": null,
+      "keywords": [
+        "NIST",
+        "Schema crosswalk",
+        "Capability Maturity Model",
+        "Content analysis",
+        "Preparedness",
+        "Maturity (psychological)",
+        "Descriptive statistics",
+        "Entropy (arrow of time)",
+        "Coding (social sciences)",
+        "Information and Cyber Security",
+        "Cybersecurity and Cyber Warfare Studies",
+        "Scientific Computing and Data Management"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.21203/rs.3.rs-10504205/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-10504205/latest.pdf",
+      "publisherUrl": "https://doi.org/10.21203/rs.3.rs-10504205/v1"
+    },
+    "enrichedAt": "2026-08-03T06:33:14.939Z"
   }
 }

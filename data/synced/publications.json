@@ -606,6 +606,183 @@
     ]
   },
   {
+    "id": "doi:10.33774/coe-2026-x7sps",
+    "title": "Development and Validation of an AI-Assisted Cyber Maturity Framework for Higher Education Institutions: A Mixed-Methods Research Protocol",
+    "year": 2026,
+    "publicationDate": "2026-07-28",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "authors": [
+      "Mohit Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      }
+    ],
+    "venue": null,
+    "publisher": "Cambridge University Press (CUP)",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.33774/coe-2026-x7sps",
+    "abstract": "This protocol describes a sequential, multi-phase study to develop and validate an AI-Assisted Cyber Maturity Framework for Higher Education Institutions (AICMF-HEI). Existing cybersecurity assessments often inadequately represent the distributed governance, mixed missions, transient populations, research environments, third-party dependencies, and resource diversity of higher education institutions. Phase 1 will refine the construct and candidate domains through evidence synthesis. Phase 2 will use semi-structured interviews with higher-education and cybersecurity stakeholders. Phase 3 will establish content validity and consensus through a modified Delphi study. Phase 4 will develop and cognitively test an assessment instrument. Phase 5 will examine reliability and exploratory factor structure. Phase 6 will conduct confirmatory validation using an independent multi-institutional sample and evaluate inter-rater agreement, convergent and discriminant validity, measurement invariance, usability, and decision usefulness. Phase 7 will evaluate a bounded AI-assistance prototype for evidence retrieval, mapping, contradiction detection, and rationale drafting under human oversight. The protocol prespecifies governance, ethics, data protection, stopping criteria, and transparent reporting. It does not report empirical results. The intended outcome is an evidence-centred and managerially useful framework rather than an autonomous certification system.",
+    "keywords": [
+      "Delphi method",
+      "Protocol (science)",
+      "Exploratory factor analysis",
+      "Construct (python library)",
+      "Certification",
+      "Reliability (semiconductor)",
+      "Discriminant validity",
+      "Confirmatory factor analysis",
+      "Phase (matter)",
+      "Sample (material)",
+      "Ethics and Social Impacts of AI",
+      "Artificial Intelligence in Healthcare and Education",
+      "Information and Cyber Security"
+    ],
+    "researchAreas": [
+      "Artificial Intelligence",
+      "Cyber Security"
+    ],
+    "citation": "Mohit Tiwari (2026). Development and Validation of an AI-Assisted Cyber Maturity Framework for Higher Education Institutions: A Mixed-Methods Research Protocol. https://doi.org/10.33774/coe-2026-x7sps",
+    "bibtex": "@misc{tiwari2026development,\n  title = {Development and Validation of an AI-Assisted Cyber Maturity Framework for Higher Education Institutions: A Mixed-Methods Research Protocol},\n  author = {Mohit Tiwari},\n  year = {2026},\n  publisher = {Cambridge University Press (CUP)},\n  doi = {10.33774/coe-2026-x7sps}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.33774/coe-2026-x7sps",
+      "pdf": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/6a644c694770e67d923d45d3/original/development-and-validation-of-an-ai-assisted-cyber-maturity-framework-for-higher-education-institutions-a-mixed-methods-research-protocol.pdf",
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.33774/coe-2026-x7sps"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
+    "id": "doi:10.7910/dvn/isqf8d",
+    "title": "HEI Cybersecurity Governance and Policy Evidence Catalogue",
+    "year": 2026,
+    "publicationDate": "2026-07-26",
+    "type": "Other",
+    "sourceType": "data-set",
+    "authors": [
+      "Mohit Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      }
+    ],
+    "venue": "Harvard Dataverse",
+    "publisher": "Harvard University",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.7910/dvn/isqf8d",
+    "abstract": "This dataset presents version 1.0.0 of the HEI Cybersecurity Governance and Policy Evidence Catalogue. It contains 30 curated records describing authoritative and sector-relevant public resources for designing, evaluating, and auditing cybersecurity governance in higher education institutions. The catalogue covers governance, policy, risk management, privacy, institutional resilience, workforce capability, supplier governance, incident preparedness, and responsible artificial intelligence. Each record provides structured source metadata and an original conceptual mapping to higher-education cybersecurity governance and evidence requirements. The dataset contains no participant responses, confidential institutional records, cybersecurity findings, maturity scores, or fabricated empirical results. The mappings represent the author’s conceptual synthesis and require expert review and future empirical validation. No proprietary standards text is reproduced.",
+    "keywords": [
+      "Metadata",
+      "Confidentiality",
+      "Corporate governance",
+      "Information governance",
+      "Data governance",
+      "Audit",
+      "Workforce",
+      "Data breach",
+      "Empirical evidence"
+    ],
+    "researchAreas": [
+      "Artificial Intelligence",
+      "Cyber Security",
+      "Software Engineering"
+    ],
+    "citation": "Mohit Tiwari (2026). HEI Cybersecurity Governance and Policy Evidence Catalogue. Harvard Dataverse. https://doi.org/10.7910/dvn/isqf8d",
+    "bibtex": "@misc{tiwari2026cybersecurity,\n  title = {HEI Cybersecurity Governance and Policy Evidence Catalogue},\n  author = {Mohit Tiwari},\n  year = {2026},\n  booktitle = {Harvard Dataverse},\n  publisher = {Harvard University},\n  doi = {10.7910/dvn/isqf8d}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.7910/dvn/isqf8d",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.7910/dvn/isqf8d"
+    },
+    "sources": [
+      "ORCID",
+      "OpenAlex"
+    ]
+  },
+  {
+    "id": "doi:10.21203/rs.3.rs-10504205/v1",
+    "title": "Mapping Cybersecurity Standards to Higher-Education Maturity Domains: A Reproducible Cross-Framework Content Analysis",
+    "year": 2026,
+    "publicationDate": "2026-07-29",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "authors": [
+      "Prof. Mohit Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Prof. Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      }
+    ],
+    "venue": "Research Square",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.21203/rs.3.rs-10504205/v1",
+    "abstract": "Abstract Higher-education institutions (HEIs) must reconcile broad cybersecurity frameworks with sector-specific governance, open academic environments, privacy obligations, research partnerships, and emerging artificial-intelligence (AI) risks. This study analyzes a publicly released 50-record crosswalk that maps ten proposed HEI cybersecurity-maturity domains to high-level components of ten authoritative cybersecurity, governance, maturity, incident-response, and responsible-AI frameworks. A structured content-analysis design was used. Each record was examined by maturity domain, source framework, and mapping strength (Direct, Supporting, or Contextual). Reproducible frequency, incidence, concentration, and diversity measures were calculated from the deposited CSV file. Of the 50 mappings, 36 (72%) were Direct, nine (18%) Supporting, and five (10%) Contextual. NIST Cybersecurity Framework 2.0 covered all ten proposed domains, while C2M2 v2.1 covered nine. The three most represented sources contributed 52% of records, but normalized source entropy was 0.904, indicating that the crosswalk was not dominated by a single framework. Incident preparedness and response had five Direct mappings; the AI-readiness domain had the most mixed profile and uniquely incorporated NIST AI RMF 1.0 and ISO/IEC 42001:2023. The findings support a layered HEI design in which a general risk framework provides the backbone, capability and control sources add operational depth, sector guidance supplies context, and AI standards extend the model. The analysis is descriptive and does not validate the domains, assess any institution, or establish maturity scores. Independent expert coding and empirical testing are required.",
+    "keywords": [
+      "NIST",
+      "Schema crosswalk",
+      "Capability Maturity Model",
+      "Content analysis",
+      "Preparedness",
+      "Maturity (psychological)",
+      "Descriptive statistics",
+      "Entropy (arrow of time)",
+      "Coding (social sciences)",
+      "Information and Cyber Security",
+      "Cybersecurity and Cyber Warfare Studies",
+      "Scientific Computing and Data Management"
+    ],
+    "researchAreas": [
+      "Cyber Security"
+    ],
+    "citation": "Prof. Mohit Tiwari (2026). Mapping Cybersecurity Standards to Higher-Education Maturity Domains: A Reproducible Cross-Framework Content Analysis. Research Square. https://doi.org/10.21203/rs.3.rs-10504205/v1",
+    "bibtex": "@misc{tiwari2026mapping,\n  title = {Mapping Cybersecurity Standards to Higher-Education Maturity Domains: A Reproducible Cross-Framework Content Analysis},\n  author = {Prof. Mohit Tiwari},\n  year = {2026},\n  booktitle = {Research Square},\n  publisher = {Springer Science and Business Media LLC},\n  doi = {10.21203/rs.3.rs-10504205/v1}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.21203/rs.3.rs-10504205/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-10504205/latest.pdf",
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.21203/rs.3.rs-10504205/v1"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
     "id": "doi:10.5281/zenodo.19318222",
     "title": "NordVPN Toggle for Ubuntu v1.0.1",
     "year": 2026,
@@ -20478,253 +20655,6 @@
       "github": null,
       "dataset": null,
       "publisher": "https://doi.org/10.1007/978-981-19-0108-9_23"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.1109/aece59614.2023.10428302",
-    "title": "The Impact of Artificial Intelligence as Advanced Technologies on Bitcoin Industries",
-    "year": 2023,
-    "publicationDate": "2023-11-23",
-    "type": "Conference Paper",
-    "sourceType": "conference-paper",
-    "authors": [
-      "Srinivas D",
-      "Bhagyashree Ambore",
-      "Sumit Chauhan",
-      "Abhijit Tarawade",
-      "Melanie Lourens",
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Srinivas D",
-        "orcid": null
-      },
-      {
-        "name": "Bhagyashree Ambore",
-        "orcid": null
-      },
-      {
-        "name": "Sumit Chauhan",
-        "orcid": null
-      },
-      {
-        "name": "Abhijit Tarawade",
-        "orcid": null
-      },
-      {
-        "name": "Melanie Lourens",
-        "orcid": "0000-0002-4288-8277"
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": "2023 3rd International Conference on Advancement in Electronics & Communication Engineering (AECE)",
-    "publisher": "IEEE",
-    "volume": null,
-    "issue": null,
-    "pages": "944-948",
-    "doi": "10.1109/aece59614.2023.10428302",
-    "abstract": "Cryptocurrencies have become a leading kind of digital currency in recent years, and the financial system is also becoming a key factor. Some Artificial Intelligence techniques are needed to lower investing risk and anticipate price, trend, portfolio construction, and fraud detection. The most well-known cryptocurrency, Bitcoin, is discussed along with recent research on AI approaches for cryptocurrencies. The goal of this study is to examine how well machine learning (ML) and artificial intelligence (AI) techniques forecast the value of cryptocurrencies like bitcoin. With regard to Bitcoin, the largest decentralized digital currency in terms of market capitalization, we investigate the possibility of offering unusual risk-changed rewards using Support Vector Machines (SVM) and Artificial Neural Networks (ANN) assembled techniques. The outcomes demonstrate the way that trader can utilize SVM to create moderate profits from a risk changed premise, even subsequent to thinking about exchange costs. The exploration likewise suggests that ANN can outflank even buy and-hold procedures during delayed bull patterns by using transient educational shortcomings to create abnormal benefits.",
-    "keywords": [
-      "Computer science",
-      "Computer security",
-      "Blockchain Technology Applications and Security"
-    ],
-    "researchAreas": [
-      "Artificial Intelligence",
-      "Cyber Security",
-      "Blockchain",
-      "Machine Learning"
-    ],
-    "citation": "Srinivas D, Bhagyashree Ambore, Sumit Chauhan, Abhijit Tarawade, Melanie Lourens, Mohit Tiwari (2023). The Impact of Artificial Intelligence as Advanced Technologies on Bitcoin Industries. 2023 3rd International Conference on Advancement in Electronics & Communication Engineering (AECE). https://doi.org/10.1109/aece59614.2023.10428302",
-    "bibtex": "@inproceedings{tiwari2023impact,\n  title = {The Impact of Artificial Intelligence as Advanced Technologies on Bitcoin Industries},\n  author = {Srinivas D and Bhagyashree Ambore and Sumit Chauhan and Abhijit Tarawade and Melanie Lourens and Mohit Tiwari},\n  year = {2023},\n  booktitle = {2023 3rd International Conference on Advancement in Electronics & Communication Engineering (AECE)},\n  publisher = {IEEE},\n  pages = {944-948},\n  doi = {10.1109/aece59614.2023.10428302}\n}",
-    "citationCount": 0,
-    "openAccess": "unknown",
-    "links": {
-      "doi": "https://doi.org/10.1109/aece59614.2023.10428302",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.1109/aece59614.2023.10428302"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.1109/icacite57410.2023.10182734",
-    "title": "The Use of Images Analysis for IoT-Based Smart Traffic Densities Management",
-    "year": 2023,
-    "publicationDate": "2023-05-12",
-    "type": "Conference Paper",
-    "sourceType": "conference-paper",
-    "authors": [
-      "A. Pavani",
-      "P. Krishna Priya",
-      "Manish Gupta",
-      "Kapil Joshi",
-      "Bajila Swathi",
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "A. Pavani",
-        "orcid": null
-      },
-      {
-        "name": "P. Krishna Priya",
-        "orcid": null
-      },
-      {
-        "name": "Manish Gupta",
-        "orcid": null
-      },
-      {
-        "name": "Kapil Joshi",
-        "orcid": null
-      },
-      {
-        "name": "Bajila Swathi",
-        "orcid": null
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": "2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
-    "publisher": "IEEE",
-    "volume": null,
-    "issue": null,
-    "pages": "1794-1798",
-    "doi": "10.1109/icacite57410.2023.10182734",
-    "abstract": "Traffic jam is caused by the rise in traffic capacity brought on by the accelerated growth of roadway facilities. Inside the Sultanate of Oman, the similar situation is present. One of the biggest issues in Muscat & similar towns inside the Sultanate of Oman is transportation traffic. It is mostly driven by the quick increase in automobile numbers over a short period of time. It is necessary to create an IoT-based transportation management technology to mitigate the effects of road gridlock. A calculation of the real vehicle volume on the roadway would serve as the foundation for the suggested method. . Genuine film & picture analysis tools will be used for this. In order to determine the thickness, the photographs that were taken & saved on the computer will be matched to the live pictures from the cameras. The goal is to manage transportation by calculating the amount of traffic on every sides of the route & providing the customer with a technology application-based signal signals management choice.",
-    "keywords": [
-      "Gridlock",
-      "Computer science",
-      "Transport engineering",
-      "Traffic volume",
-      "Order (exchange)",
-      "Computer security",
-      "Telecommunications",
-      "Engineering",
-      "Business",
-      "Flow Measurement and Analysis",
-      "Infrastructure Maintenance and Monitoring",
-      "Applied Advanced Technologies"
-    ],
-    "researchAreas": [
-      "Cyber Security",
-      "Internet of Things"
-    ],
-    "citation": "A. Pavani, P. Krishna Priya, Manish Gupta, Kapil Joshi, Bajila Swathi, Mohit Tiwari (2023). The Use of Images Analysis for IoT-Based Smart Traffic Densities Management. 2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE). https://doi.org/10.1109/icacite57410.2023.10182734",
-    "bibtex": "@inproceedings{tiwari2023images,\n  title = {The Use of Images Analysis for IoT-Based Smart Traffic Densities Management},\n  author = {A. Pavani and P. Krishna Priya and Manish Gupta and Kapil Joshi and Bajila Swathi and Mohit Tiwari},\n  year = {2023},\n  booktitle = {2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)},\n  publisher = {IEEE},\n  pages = {1794-1798},\n  doi = {10.1109/icacite57410.2023.10182734}\n}",
-    "citationCount": 2,
-    "openAccess": "unknown",
-    "links": {
-      "doi": "https://doi.org/10.1109/icacite57410.2023.10182734",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.1109/icacite57410.2023.10182734"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.1109/icacite57410.2023.10182752",
-    "title": "Retracted: The Use of Virtual Private Networks to Facilitate Remote Working: A Critical Review of Cyber Security Implications to Develop Successful VPN Systems",
-    "year": 2023,
-    "publicationDate": "2023-05-12",
-    "type": "Conference Paper",
-    "sourceType": "conference-paper",
-    "authors": [
-      "Molli Srinivasa Rao",
-      "Aadesh Ajit Shinde",
-      "Sanjay Sood",
-      "Deepa Bisht",
-      "Mohit Tiwari",
-      "Kasharaju Balakrishna"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Molli Srinivasa Rao",
-        "orcid": null
-      },
-      {
-        "name": "Aadesh Ajit Shinde",
-        "orcid": null
-      },
-      {
-        "name": "Sanjay Sood",
-        "orcid": null
-      },
-      {
-        "name": "Deepa Bisht",
-        "orcid": null
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      },
-      {
-        "name": "Kasharaju Balakrishna",
-        "orcid": null
-      }
-    ],
-    "venue": "2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
-    "publisher": "IEEE",
-    "volume": null,
-    "issue": null,
-    "pages": "592-595",
-    "doi": "10.1109/icacite57410.2023.10182752",
-    "abstract": "A significant expansion in monetary misfortunes gathering due to PC and organization assaults on RuNet objects demonstrates that current strategies for security are not adequately compelling. Examination of data security episodes shows that crooks to accomplish their goals apply different and multidirectional cyber assaults. At the point when the pandemic struck and education went online around the world, colleges needed to go with squeezing choices that decent cyber security against different variables, including well-being and security, convenience, and cost. A few colleges reflexively advanced virtual private organizations used for movements of every sort. However, due to the licences and resources needed for the large number of clients and the high-throughput applications they rely on, such a methodology would not have been feasible at IU. Maybe much more terrible, it would have expanded the possibility that the VPN would be inaccessible during a basic episode or other circumstance in which secure correspondences should be ensured.",
-    "keywords": [
-      "sort",
-      "Computer security",
-      "Private network",
-      "Point (geometry)",
-      "Computer science",
-      "Internet privacy",
-      "Internet of Things and AI",
-      "IoT and Edge/Fog Computing",
-      "Software-Defined Networks and 5G"
-    ],
-    "researchAreas": [
-      "Cyber Security",
-      "Software Engineering",
-      "Cloud Computing",
-      "Internet of Things"
-    ],
-    "citation": "Molli Srinivasa Rao, Aadesh Ajit Shinde, Sanjay Sood, Deepa Bisht, Mohit Tiwari, Kasharaju Balakrishna (2023). Retracted: The Use of Virtual Private Networks to Facilitate Remote Working: A Critical Review of Cyber Security Implications to Develop Successful VPN Systems. 2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE). https://doi.org/10.1109/icacite57410.2023.10182752",
-    "bibtex": "@inproceedings{tiwari2023retracted,\n  title = {Retracted: The Use of Virtual Private Networks to Facilitate Remote Working: A Critical Review of Cyber Security Implications to Develop Successful VPN Systems},\n  author = {Molli Srinivasa Rao and Aadesh Ajit Shinde and Sanjay Sood and Deepa Bisht and Mohit Tiwari and Kasharaju Balakrishna},\n  year = {2023},\n  booktitle = {2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)},\n  publisher = {IEEE},\n  pages = {592-595},\n  doi = {10.1109/icacite57410.2023.10182752}\n}",
-    "citationCount": 2,
-    "openAccess": "unknown",
-    "links": {
-      "doi": "https://doi.org/10.1109/icacite57410.2023.10182752",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.1109/icacite57410.2023.10182752"
     },
     "sources": [
       "ORCID",

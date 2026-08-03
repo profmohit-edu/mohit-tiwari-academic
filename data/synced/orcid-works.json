@@ -140,6 +140,48 @@
     "orcidPath": "/0000-0003-1836-3451/work/205469401"
   },
   {
+    "id": "doi:10.33774/coe-2026-x7sps",
+    "putCode": 222030203,
+    "title": "Development and Validation of an AI-Assisted Cyber Maturity Framework for Higher Education Institutions: A Mixed-Methods Research Protocol",
+    "year": 2026,
+    "publicationDate": "2026-07-28",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.33774/coe-2026-x7sps",
+    "url": "https://doi.org/10.33774/coe-2026-x7sps",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/222030203"
+  },
+  {
+    "id": "doi:10.7910/dvn/isqf8d",
+    "putCode": 221966672,
+    "title": "HEI Cybersecurity Governance and Policy Evidence Catalogue",
+    "year": 2026,
+    "publicationDate": "2026-01-01",
+    "type": "Other",
+    "sourceType": "data-set",
+    "venue": "Harvard Dataverse",
+    "doi": "10.7910/dvn/isqf8d",
+    "url": "https://doi.org/10.7910/dvn/isqf8d",
+    "sourceName": "DataCite",
+    "orcidPath": "/0000-0003-1836-3451/work/221966672"
+  },
+  {
+    "id": "doi:10.21203/rs.3.rs-10504205/v1",
+    "putCode": 222130507,
+    "title": "Mapping Cybersecurity Standards to Higher-Education Maturity Domains: A Reproducible Cross-Framework Content Analysis",
+    "year": 2026,
+    "publicationDate": "2026-07-29",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.21203/rs.3.rs-10504205/v1",
+    "url": "https://doi.org/10.21203/rs.3.rs-10504205/v1",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/222130507"
+  },
+  {
     "id": "doi:10.5281/zenodo.19318222",
     "putCode": 210065331,
     "title": "NordVPN Toggle for Ubuntu v1.0.1",

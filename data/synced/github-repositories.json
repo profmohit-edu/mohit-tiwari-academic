@@ -1,5 +1,25 @@
 [
   {
+    "id": 1327480509,
+    "name": "economics-for-engineers",
+    "fullName": "profmohit-edu/economics-for-engineers",
+    "description": "A student-friendly GitBook for HS-301 Economics for Engineers",
+    "url": "https://github.com/profmohit-edu/economics-for-engineers",
+    "homepage": null,
+    "topics": [],
+    "languages": {},
+    "primaryLanguage": null,
+    "stars": 0,
+    "forks": 0,
+    "license": "NOASSERTION",
+    "readmeSummary": "Institution: Bharati Vidyapeeth's College of Engineering, New Delhi",
+    "category": "Utilities",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-08-08T06:28:42Z",
+    "updatedAt": "2026-08-08T06:54:44Z"
+  },
+  {
     "id": 1303651719,
     "name": "mohit-tiwari-academic",
     "fullName": "profmohit-edu/mohit-tiwari-academic",
@@ -21,7 +41,7 @@
     "archived": false,
     "fork": false,
     "createdAt": "2026-07-17T06:33:39Z",
-    "updatedAt": "2026-07-27T06:40:28Z"
+    "updatedAt": "2026-08-03T06:34:30Z"
   },
   {
     "id": 1304683648,

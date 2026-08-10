@@ -18024,5 +18024,41 @@
       "publisherUrl": "https://doi.org/10.21203/rs.3.rs-10504205/v1"
     },
     "enrichedAt": "2026-08-03T06:33:14.939Z"
+  },
+  "10.5281/zenodo.21830881": {
+    "crossref": null,
+    "openAlex": {
+      "title": "Cybersecurity Governance in Indian Higher Education Institutions: Reproducibility Package for an Audited Computational Content Analysis",
+      "authors": [
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "publisher": "European Organization for Nuclear Research",
+      "publicationDate": "2026-08-07",
+      "abstract": "This reproducibility package supports an audited computational content analysis of cybersecurity-governance statements derived from seven official public sources. It contains 37 source-verified statements, precise locators, coding rules, an audit trail, executable Python and JavaScript workflows, generated tables and figures, and complete source–domain traceability. The audited analysis produced 26 exact agreements out of 37 statements (70.27%) and Cohen’s κ = 0.6452. The package supports a preliminary six-domain organizational maturity architecture and does not claim expert, construct, or institutional validation.",
+      "keywords": [
+        "Audit",
+        "Python (programming language)",
+        "Executable",
+        "Content analysis",
+        "Corporate governance",
+        "JavaScript",
+        "Architecture",
+        "Audit trail",
+        "XBRL"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.5281/zenodo.21830881",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.5281/zenodo.21830881"
+    },
+    "enrichedAt": "2026-08-10T04:52:17.633Z"
   }
 }

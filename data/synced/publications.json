@@ -606,6 +606,61 @@
     ]
   },
   {
+    "id": "doi:10.5281/zenodo.21830881",
+    "title": "Cybersecurity Governance in Indian Higher Education Institutions: Reproducibility Package for an Audited Computational Content Analysis",
+    "year": 2026,
+    "publicationDate": "2026-08-07",
+    "type": "Other",
+    "sourceType": "data-set",
+    "authors": [
+      "Mohit Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      }
+    ],
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "publisher": "European Organization for Nuclear Research",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.5281/zenodo.21830881",
+    "abstract": "This reproducibility package supports an audited computational content analysis of cybersecurity-governance statements derived from seven official public sources. It contains 37 source-verified statements, precise locators, coding rules, an audit trail, executable Python and JavaScript workflows, generated tables and figures, and complete source–domain traceability. The audited analysis produced 26 exact agreements out of 37 statements (70.27%) and Cohen’s κ = 0.6452. The package supports a preliminary six-domain organizational maturity architecture and does not claim expert, construct, or institutional validation.",
+    "keywords": [
+      "Audit",
+      "Python (programming language)",
+      "Executable",
+      "Content analysis",
+      "Corporate governance",
+      "JavaScript",
+      "Architecture",
+      "Audit trail",
+      "XBRL"
+    ],
+    "researchAreas": [
+      "Cyber Security"
+    ],
+    "citation": "Mohit Tiwari (2026). Cybersecurity Governance in Indian Higher Education Institutions: Reproducibility Package for an Audited Computational Content Analysis. Zenodo (CERN European Organization for Nuclear Research). https://doi.org/10.5281/zenodo.21830881",
+    "bibtex": "@misc{tiwari2026cybersecurity,\n  title = {Cybersecurity Governance in Indian Higher Education Institutions: Reproducibility Package for an Audited Computational Content Analysis},\n  author = {Mohit Tiwari},\n  year = {2026},\n  booktitle = {Zenodo (CERN European Organization for Nuclear Research)},\n  publisher = {European Organization for Nuclear Research},\n  doi = {10.5281/zenodo.21830881}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.5281/zenodo.21830881",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.5281/zenodo.21830881"
+    },
+    "sources": [
+      "ORCID",
+      "OpenAlex"
+    ]
+  },
+  {
     "id": "doi:10.33774/coe-2026-x7sps",
     "title": "Development and Validation of an AI-Assisted Cyber Maturity Framework for Higher Education Institutions: A Mixed-Methods Research Protocol",
     "year": 2026,
@@ -20577,84 +20632,6 @@
       "github": null,
       "dataset": null,
       "publisher": "https://doi.org/10.1109/ic3i59117.2023.10397850"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.1007/978-981-19-0108-9_23",
-    "title": "The Future Impact of Technological Developments on Digital Marketing Through Artificial Intelligence",
-    "year": 2022,
-    "publicationDate": "2022-06-27",
-    "type": "Book Chapter",
-    "sourceType": "conference-paper",
-    "authors": [
-      "K. Guru",
-      "S. Raja",
-      "J. Sasiganth",
-      "Dilip Kumar Sharma",
-      "Mohit Tiwari",
-      "Tripti Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "K. Guru",
-        "orcid": null
-      },
-      {
-        "name": "S. Raja",
-        "orcid": null
-      },
-      {
-        "name": "J. Sasiganth",
-        "orcid": null
-      },
-      {
-        "name": "Dilip Kumar Sharma",
-        "orcid": null
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      },
-      {
-        "name": "Tripti Tiwari",
-        "orcid": null
-      }
-    ],
-    "venue": "Smart Innovation, Systems and Technologies",
-    "publisher": "Springer Nature Singapore",
-    "volume": null,
-    "issue": null,
-    "pages": "217-225",
-    "doi": "10.1007/978-981-19-0108-9_23",
-    "abstract": null,
-    "keywords": [
-      "Business",
-      "Marketing",
-      "Digital marketing",
-      "Digital Marketing and Social Media",
-      "AI in Service Interactions",
-      "Technology Adoption and User Behaviour"
-    ],
-    "researchAreas": [
-      "Artificial Intelligence"
-    ],
-    "citation": "K. Guru, S. Raja, J. Sasiganth, Dilip Kumar Sharma, Mohit Tiwari, Tripti Tiwari (2022). The Future Impact of Technological Developments on Digital Marketing Through Artificial Intelligence. Smart Innovation, Systems and Technologies. https://doi.org/10.1007/978-981-19-0108-9_23",
-    "bibtex": "@incollection{tiwari2022future,\n  title = {The Future Impact of Technological Developments on Digital Marketing Through Artificial Intelligence},\n  author = {K. Guru and S. Raja and J. Sasiganth and Dilip Kumar Sharma and Mohit Tiwari and Tripti Tiwari},\n  year = {2022},\n  booktitle = {Smart Innovation, Systems and Technologies},\n  publisher = {Springer Nature Singapore},\n  pages = {217-225},\n  doi = {10.1007/978-981-19-0108-9_23}\n}",
-    "citationCount": 6,
-    "openAccess": "unknown",
-    "links": {
-      "doi": "https://doi.org/10.1007/978-981-19-0108-9_23",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.1007/978-981-19-0108-9_23"
     },
     "sources": [
       "ORCID",

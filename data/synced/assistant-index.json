@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-03T06:33:16.316Z",
-  "documentCount": 336,
+  "generatedAt": "2026-08-10T04:52:20.152Z",
+  "documentCount": 337,
   "collectionCounts": {
     "Publications": 300,
-    "Projects": 15,
+    "Projects": 16,
     "Datasets": 1,
     "Software": 6,
-    "GitHub": 14,
+    "GitHub": 15,
     "Patents": 0,
     "Teaching": 15,
     "Metrics": 14
@@ -344,6 +344,40 @@
         "publisher": "European Organization for Nuclear Research",
         "citations": 0,
         "openAccess": "unknown",
+        "authors": "Mohit Tiwari"
+      }
+    },
+    {
+      "id": "publication:doi:10.5281/zenodo.21830881",
+      "collections": [
+        "Publications"
+      ],
+      "title": "Cybersecurity Governance in Indian Higher Education Institutions: Reproducibility Package for an Audited Computational Content Analysis",
+      "summary": "This reproducibility package supports an audited computational content analysis of cybersecurity-governance statements derived from seven official public sources. It contains 37 source-verified statements, precise locators, coding rules, an audit trail, executable Python and JavaScript workflows, generated tables and figures, and complete source–domain traceability. The audited analysis produced 26 exact agreements out of 37 statements (70.27%) and Cohen’s κ = 0.6452. The package supports a preliminary six-domain organizational maturity architecture and does not claim expert, construct, or institutional validation.",
+      "content": "Cybersecurity Governance in Indian Higher Education Institutions: Reproducibility Package for an Audited Computational Content Analysis Mohit Tiwari This reproducibility package supports an audited computational content analysis of cybersecurity-governance statements derived from seven official public sources. It contains 37 source-verified statements, precise locators, coding rules, an audit trail, executable Python and JavaScript workflows, generated tables and figures, and complete source–domain traceability. The audited analysis produced 26 exact agreements out of 37 statements (70.27%) and Cohen’s κ = 0.6452. The package supports a preliminary six-domain organizational maturity architecture and does not claim expert, construct, or institutional validation. Mohit Tiwari (2026). Cybersecurity Governance in Indian Higher Education Institutions: Reproducibility Package for an Audited Computational Content Analysis. Zenodo (CERN European Organization for Nuclear Research). https://doi.org/10.5281/zenodo.21830881 Zenodo (CERN European Organization for Nuclear Research) European Organization for Nuclear Research 10.5281/zenodo.21830881 0 citations cited Audit Python (programming language) Executable Content analysis Corporate governance JavaScript Architecture Audit trail XBRL Cyber Security ORCID OpenAlex",
+      "year": 2026,
+      "publicationType": "Other",
+      "researchAreas": [
+        "Cyber Security"
+      ],
+      "keywords": [
+        "Audit",
+        "Python (programming language)",
+        "Executable",
+        "Content analysis",
+        "Corporate governance",
+        "JavaScript",
+        "Architecture",
+        "Audit trail",
+        "XBRL"
+      ],
+      "url": "https://doi.org/10.5281/zenodo.21830881",
+      "metadata": {
+        "doi": "10.5281/zenodo.21830881",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "publisher": "European Organization for Nuclear Research",
+        "citations": 0,
+        "openAccess": "open",
         "authors": "Mohit Tiwari"
       }
     },
@@ -10106,34 +10140,28 @@
       }
     },
     {
-      "id": "publication:doi:10.1007/978-981-19-0108-9_23",
+      "id": "repository:1327480509",
       "collections": [
-        "Publications"
+        "Projects",
+        "GitHub"
       ],
-      "title": "The Future Impact of Technological Developments on Digital Marketing Through Artificial Intelligence",
-      "summary": "K. Guru, S. Raja, J. Sasiganth, Dilip Kumar Sharma, Mohit Tiwari, Tripti Tiwari (2022). The Future Impact of Technological Developments on Digital Marketing Through Artificial Intelligence. Smart Innovation, Systems and Technologies. https://doi.org/10.1007/978-981-19-0108-9_23",
-      "content": "The Future Impact of Technological Developments on Digital Marketing Through Artificial Intelligence K. Guru S. Raja J. Sasiganth Dilip Kumar Sharma Mohit Tiwari Tripti Tiwari K. Guru, S. Raja, J. Sasiganth, Dilip Kumar Sharma, Mohit Tiwari, Tripti Tiwari (2022). The Future Impact of Technological Developments on Digital Marketing Through Artificial Intelligence. Smart Innovation, Systems and Technologies. https://doi.org/10.1007/978-981-19-0108-9_23 Smart Innovation, Systems and Technologies Springer Nature Singapore 10.1007/978-981-19-0108-9_23 6 citations cited Business Marketing Digital marketing Digital Marketing and Social Media AI in Service Interactions Technology Adoption and User Behaviour Artificial Intelligence ORCID Crossref OpenAlex",
-      "year": 2022,
-      "publicationType": "Book Chapter",
-      "researchAreas": [
-        "Artificial Intelligence"
-      ],
+      "title": "economics-for-engineers",
+      "summary": "A student-friendly GitBook for HS-301 Economics for Engineers",
+      "content": "economics-for-engineers A student-friendly GitBook for HS-301 Economics for Engineers Institution: Bharati Vidyapeeth's College of Engineering, New Delhi Utilities NOASSERTION",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
       "keywords": [
-        "Business",
-        "Marketing",
-        "Digital marketing",
-        "Digital Marketing and Social Media",
-        "AI in Service Interactions",
-        "Technology Adoption and User Behaviour"
+        "Utilities"
       ],
-      "url": "https://doi.org/10.1007/978-981-19-0108-9_23",
+      "url": "https://github.com/profmohit-edu/economics-for-engineers",
       "metadata": {
-        "doi": "10.1007/978-981-19-0108-9_23",
-        "venue": "Smart Innovation, Systems and Technologies",
-        "publisher": "Springer Nature Singapore",
-        "citations": 6,
-        "openAccess": "unknown",
-        "authors": "K. Guru, S. Raja, J. Sasiganth, Dilip Kumar Sharma, Mohit Tiwari, Tripti Tiwari"
+        "category": "Utilities",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "license": "NOASSERTION",
+        "updatedAt": "2026-08-08T06:54:44Z"
       }
     },
     {
@@ -10161,7 +10189,7 @@
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-07-27T06:40:28Z"
+        "updatedAt": "2026-08-03T06:34:30Z"
       }
     },
     {
@@ -10965,8 +10993,8 @@
         "Metrics"
       ],
       "title": "Projects",
-      "summary": "Projects: 14. Source: GitHub.",
-      "content": "projects Projects 14 GitHub ",
+      "summary": "Projects: 15. Source: GitHub.",
+      "content": "projects Projects 15 GitHub ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -10977,7 +11005,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 14,
+        "value": 15,
         "source": "GitHub",
         "status": "verified"
       }

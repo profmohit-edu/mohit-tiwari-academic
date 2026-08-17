@@ -140,6 +140,20 @@
     "orcidPath": "/0000-0003-1836-3451/work/205469401"
   },
   {
+    "id": "doi:10.2139/ssrn.7255078",
+    "putCode": 223614358,
+    "title": "Cybersecurity Governance in Indian Higher Education Institutions: A Reproducible Computational Content Analysis and Organizational Maturity Architecture",
+    "year": 2026,
+    "publicationDate": "2026-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.2139/ssrn.7255078",
+    "url": "https://doi.org/10.2139/ssrn.7255078",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/223614358"
+  },
+  {
     "id": "doi:10.5281/zenodo.21830881",
     "putCode": 222979144,
     "title": "Cybersecurity Governance in Indian Higher Education Institutions: Reproducibility Package for an Audited Computational Content Analysis",
@@ -236,6 +250,20 @@
     "url": "https://doi.org/10.4018/979-8-3373-7779-7.ch002",
     "sourceName": "Crossref",
     "orcidPath": "/0000-0003-1836-3451/work/207395515"
+  },
+  {
+    "id": "doi:10.5281/zenodo.21911023",
+    "putCode": 223624325,
+    "title": "Reproducibility Evidence for Domain-Disjoint Evaluation of the PhiUSIIL Phishing URL Benchmark",
+    "year": 2026,
+    "publicationDate": "2026-08-13",
+    "type": "Other",
+    "sourceType": "data-set",
+    "venue": "Zenodo",
+    "doi": "10.5281/zenodo.21911023",
+    "url": "https://doi.org/10.5281/zenodo.21911023",
+    "sourceName": "DataCite",
+    "orcidPath": "/0000-0003-1836-3451/work/223624325"
   },
   {
     "id": "doi:10.5281/zenodo.18754014",
@@ -462,6 +490,20 @@
     "orcidPath": "/0000-0003-1836-3451/work/177064719"
   },
   {
+    "id": "doi:10.2139/ssrn.5091206",
+    "putCode": 223789841,
+    "title": "Comparative Analysis of Teacher Professional Development Models in Indian Higher Education: Implications for NEP Implementation",
+    "year": 2025,
+    "publicationDate": "2025-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.2139/ssrn.5091206",
+    "url": "https://doi.org/10.2139/ssrn.5091206",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/223789841"
+  },
+  {
     "id": "doi:10.1109/tce.2025.3597749",
     "putCode": 189622665,
     "title": "Cross-Platform Acceleration of Holographic Rendering in IoT Devices Using Open CL-Based Heterogeneous Computing",
@@ -616,6 +658,34 @@
     "orcidPath": "/0000-0003-1836-3451/work/216707804"
   },
   {
+    "id": "doi:10.2139/ssrn.5076047",
+    "putCode": 223864795,
+    "title": "Improvement of Secure Communication with IDS in a Decentralized Network using Deep Learning",
+    "year": 2025,
+    "publicationDate": "2025-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.2139/ssrn.5076047",
+    "url": "https://doi.org/10.2139/ssrn.5076047",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/223864795"
+  },
+  {
+    "id": "doi:10.2139/ssrn.5075191",
+    "putCode": 223864786,
+    "title": "Improving Security and Communication Protocols in Smart Grid using Deep Learning to Ensure Data Privacy",
+    "year": 2025,
+    "publicationDate": "2025-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.2139/ssrn.5075191",
+    "url": "https://doi.org/10.2139/ssrn.5075191",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/223864786"
+  },
+  {
     "id": "doi:10.1109/tce.2025.3552301",
     "putCode": 180272582,
     "title": "Integration of Consumer Electronics in Precision Agriculture Using Low-Carbon Wheat Lodging Drone Images",
@@ -740,6 +810,20 @@
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85218471141&partnerID=MN8TOARS",
     "sourceName": "Scopus - Elsevier",
     "orcidPath": "/0000-0003-1836-3451/work/188895737"
+  },
+  {
+    "id": "doi:10.2139/ssrn.5088795",
+    "putCode": 223987562,
+    "title": "Performance Evaluation of AI-Driven Network Slicing in 5G Wireless Communication Networks",
+    "year": 2025,
+    "publicationDate": "2025-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.2139/ssrn.5088795",
+    "url": "https://doi.org/10.2139/ssrn.5088795",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/223987562"
   },
   {
     "id": "doi:10.5281/zenodo.21263555",

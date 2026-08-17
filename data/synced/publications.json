@@ -606,6 +606,67 @@
     ]
   },
   {
+    "id": "doi:10.2139/ssrn.7255078",
+    "title": "Cybersecurity Governance in Indian Higher Education Institutions: A Reproducible Computational Content Analysis and Organizational Maturity Architecture",
+    "year": 2026,
+    "publicationDate": "2026-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "authors": [
+      "Mohit Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      }
+    ],
+    "venue": "SSRN Electronic Journal",
+    "publisher": "Elsevier BV",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.2139/ssrn.7255078",
+    "abstract": "Indian higher education institutions (HEIs) depend on interconnected platforms for teaching, assessment, research, finance, admissions and student services, yet cybersecurity is often treated as an operational technology responsibility rather than an institutional governance capability. This study asks which governance domains recur across authoritative sources and how they can support a management-oriented maturity architecture for Indian HEIs. A structured integrative synthesis was followed by a reproducible computational content analysis of 37 governance statements drawn from seven openly accessible official sources. Each statement received an author-assigned primarydomain code and an independently reproducible rule-based prediction. The documentary analysis found universal source coverage for leadership and accountability, policy and compliance, and resource and capability (100% each); risk governance and monitoring and improvement appeared in six of seven sources (85.7% each), while culture and awareness appeared in four (57.1%). After every paraphrase and locator was checked against its official source and corrected where necessary, rule-based coding agreed with the author-assigned primary-domain codes for 26 of 37 statements (70.27%), with Cohen's kappa of 0.6452 when all observed categories, including Unclassified predictions, were retained. The 11 disagreements reveal semantic overlap among the domains rather than establishing measurement validity. The evidence informs a preliminary six-domain, five-level organizational maturity architecture. Its contribution is twofold: an auditable documentary result and a management-oriented design that translates fragmented obligations into governance questions and observable evidence. The study does not claim expert, institutional or construct validation; those remain subsequent empirical phases.",
+    "keywords": [
+      "Corporate governance",
+      "Content analysis",
+      "Maturity (psychological)",
+      "Information governance",
+      "Misappropriation",
+      "Higher education",
+      "Secure coding",
+      "Capability Maturity Model",
+      "Construct (python library)",
+      "Source code",
+      "Information and Cyber Security",
+      "Information Technology Governance and Strategy",
+      "Cybersecurity and Cyber Warfare Studies"
+    ],
+    "researchAreas": [
+      "Cyber Security",
+      "Machine Learning"
+    ],
+    "citation": "Mohit Tiwari (2026). Cybersecurity Governance in Indian Higher Education Institutions: A Reproducible Computational Content Analysis and Organizational Maturity Architecture. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.7255078",
+    "bibtex": "@misc{tiwari2026cybersecurity,\n  title = {Cybersecurity Governance in Indian Higher Education Institutions: A Reproducible Computational Content Analysis and Organizational Maturity Architecture},\n  author = {Mohit Tiwari},\n  year = {2026},\n  booktitle = {SSRN Electronic Journal},\n  publisher = {Elsevier BV},\n  doi = {10.2139/ssrn.7255078}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.2139/ssrn.7255078",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.2139/ssrn.7255078"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
     "id": "doi:10.5281/zenodo.21830881",
     "title": "Cybersecurity Governance in Indian Higher Education Institutions: Reproducibility Package for an Audited Computational Content Analysis",
     "year": 2026,
@@ -1069,6 +1130,64 @@
     "sources": [
       "ORCID",
       "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
+    "id": "doi:10.5281/zenodo.21911023",
+    "title": "Reproducibility Evidence for Domain-Disjoint Evaluation of the PhiUSIIL Phishing URL Benchmark",
+    "year": 2026,
+    "publicationDate": "2026-08-13",
+    "type": "Other",
+    "sourceType": "data-set",
+    "authors": [
+      "Mohit Tiwari",
+      "Tripti Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      },
+      {
+        "name": "Tripti Tiwari",
+        "orcid": "0000-0002-9016-1988"
+      }
+    ],
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "publisher": "European Organization for Nuclear Research",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.5281/zenodo.21911023",
+    "abstract": "Frozen reproducibility evidence supporting the InCoWoCo 2026 conference manuscript ‘When Random Splits Mislead: Domain-Disjoint Evaluation of the PhiUSIIL Phishing URL Benchmark.’ The deposit is not a new release of the original PhiUSIIL dataset. It contains the frozen primary P1–P4 evaluation evidence plus separate authoritative Phase 7 feature-forensics and Phase 8 domain-disjoint feature-ablation archives. The study covers conservative canonical-URL deduplication; record-random and registered-domain-disjoint protocols; fixed-seed evaluation; prediction-derived metrics; bootstrap uncertainty and paired protocol comparisons; seen-versus-unseen-domain diagnostics; lexical sensitivity; feature forensics; and targeted ablation. The evidence demonstrates extreme internal PhiUSIIL benchmark separability under the evaluated controls. It does not establish target leakage, causality, memorization, or external, temporal, zero-day, campaign-level, or deployment generalization.",
+    "keywords": [
+      "Benchmark (surveying)",
+      "Protocol (science)",
+      "Phishing",
+      "Feature (linguistics)",
+      "Reproducibility",
+      "Software deployment"
+    ],
+    "researchAreas": [
+      "Software Engineering",
+      "Machine Learning"
+    ],
+    "citation": "Mohit Tiwari, Tripti Tiwari (2026). Reproducibility Evidence for Domain-Disjoint Evaluation of the PhiUSIIL Phishing URL Benchmark. Zenodo (CERN European Organization for Nuclear Research). https://doi.org/10.5281/zenodo.21911023",
+    "bibtex": "@misc{tiwari2026reproducibility,\n  title = {Reproducibility Evidence for Domain-Disjoint Evaluation of the PhiUSIIL Phishing URL Benchmark},\n  author = {Mohit Tiwari and Tripti Tiwari},\n  year = {2026},\n  booktitle = {Zenodo (CERN European Organization for Nuclear Research)},\n  publisher = {European Organization for Nuclear Research},\n  doi = {10.5281/zenodo.21911023}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.5281/zenodo.21911023",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.5281/zenodo.21911023"
+    },
+    "sources": [
+      "ORCID",
       "OpenAlex"
     ]
   },
@@ -2185,6 +2304,68 @@
     ]
   },
   {
+    "id": "doi:10.2139/ssrn.5091206",
+    "title": "Comparative Analysis of Teacher Professional Development Models in Indian Higher Education: Implications for NEP Implementation",
+    "year": 2025,
+    "publicationDate": "2025-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "authors": [
+      "Mohit Tiwari",
+      "Tripti Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      },
+      {
+        "name": "Tripti Tiwari",
+        "orcid": null
+      }
+    ],
+    "venue": "SSRN Electronic Journal",
+    "publisher": "Elsevier BV",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.2139/ssrn.5091206",
+    "abstract": "Several types of instructor development programs in the advanced learning system in India are compared in this study, emphasizing how they align and what that means for the New Education Policy (NEP) as it is being implemented. Evaluating the efficacy of various professional growth methods is the main goal and determine the best approaches that support the goals of the NEP. The study's principal data source consists of semi-structured conversations with legislators and teachers, which were conducted using a method known as qualitative research. The method used to interpret the gathered data is thematic analysis. The crucial findings point to important constraints, similar as scarce coffers, shy executive support, and technological walls, and show that current professional development approaches are only kindly effective. Programs that are more specifically designed to meet the requirements of individual preceptors and institutional surrounds are desperately demanded, indeed in the face of favorable goods on tutoring quality. Comprehensive distribution and exposure programs are necessary, as substantiated by a considerable difference in preceptors' and lawmakers' knowledge and appreciation of NEP regulations. These findings point to the urgent need for implementation techniques and legislative adjustments that bring models of career growth that are more directly in line with NEP objectives. This study adds to the conversation about growth opportunities for teachers in Indian universities. It also derives a framework for enhancing the effectiveness and quality of such programs as well as legislative reforms that can be made.",
+    "keywords": [
+      "Professional development",
+      "Mathematics education",
+      "Pedagogy",
+      "Sociology",
+      "Political science",
+      "Psychology",
+      "Teacher Professional Development and Motivation",
+      "Teacher Education and Leadership Studies",
+      "Educational Practices and Challenges"
+    ],
+    "researchAreas": [
+      "Software Engineering",
+      "Cloud Computing"
+    ],
+    "citation": "Mohit Tiwari, Tripti Tiwari (2025). Comparative Analysis of Teacher Professional Development Models in Indian Higher Education: Implications for NEP Implementation. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.5091206",
+    "bibtex": "@misc{tiwari2025comparative,\n  title = {Comparative Analysis of Teacher Professional Development Models in Indian Higher Education: Implications for NEP Implementation},\n  author = {Mohit Tiwari and Tripti Tiwari},\n  year = {2025},\n  booktitle = {SSRN Electronic Journal},\n  publisher = {Elsevier BV},\n  doi = {10.2139/ssrn.5091206}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.2139/ssrn.5091206",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.2139/ssrn.5091206"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
     "id": "doi:10.1109/tce.2025.3597749",
     "title": "Cross-Platform Acceleration of Holographic Rendering in IoT Devices Using Open CL-Based Heterogeneous Computing",
     "year": 2025,
@@ -3081,6 +3262,171 @@
     ]
   },
   {
+    "id": "doi:10.2139/ssrn.5076047",
+    "title": "Improvement of Secure Communication with IDS in a Decentralized Network using Deep Learning",
+    "year": 2025,
+    "publicationDate": "2025-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "authors": [
+      "M. Guru Vimal Kumar",
+      "P. Udayasankaran",
+      "T.R. Muhibur Rahman",
+      "P Shanmugaraja",
+      "P M D Ali Khan",
+      "Mohit Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "M. Guru Vimal Kumar",
+        "orcid": null
+      },
+      {
+        "name": "P. Udayasankaran",
+        "orcid": null
+      },
+      {
+        "name": "T.R. Muhibur Rahman",
+        "orcid": null
+      },
+      {
+        "name": "P Shanmugaraja",
+        "orcid": null
+      },
+      {
+        "name": "P M D Ali Khan",
+        "orcid": null
+      },
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      }
+    ],
+    "venue": "SSRN Electronic Journal",
+    "publisher": "Elsevier BV",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.2139/ssrn.5076047",
+    "abstract": "The emergence of new lossless decentralized networks, due to the rapid evolution of decentralized networks, has unlocked new possibilities for secure communication, but this has brought some pain points in intrusion detection. Most importantly, a powerful scheme based on hybrid deep learning and optimized by the NAdam and conjugate gradient is presented to guarantee better robustness in distributed networks. This is achieved with a two-pronged training approach using NAdam and conjugate gradient optimizer methods to speed up the training of deep learning model. NAdam is a variant of the Adam optimization algorithm, which incorporates Nesterov momentum into the update function. Given the adaptive learning rate and momentum aspects, NAdam achieves faster convergence and better generalization performance. This is complemented by the conjugate gradient optimization method which results in a smoother subsequent learning of optimal model parameters that prevents the model from oscillating and possibly diverging during training. The incorporation of these advanced techniques contributes to several advantages in the proposed approach for decentralized networks. First of all, it significantly improves the accuracy of the intrusion detection by accurately reduction of false positives and false negatives. Second, the hybrid deep learning system allows the model to adjust and learn in evolving network conditions and provides continuous defense against new threats coming up. Finally, The combination of NAdam and conjugate gradient optimization techniques speeds up the training and makes the system applicable in real-time for large-scale decentralized networks. It is important to note that the existing results show that the implemented system can outperform traditional methods in addition to the deep learning techniques independently with a major advantage of being a decentralized system providing security and integrity for the data they interact with.",
+    "keywords": [
+      "Computer science",
+      "Deep learning",
+      "Artificial intelligence",
+      "Computer security",
+      "Computer network",
+      "Network Security and Intrusion Detection",
+      "Internet Traffic Analysis and Secure E-voting",
+      "Advanced Steganography and Watermarking Techniques"
+    ],
+    "researchAreas": [
+      "Artificial Intelligence",
+      "Cyber Security",
+      "Machine Learning"
+    ],
+    "citation": "M. Guru Vimal Kumar, P. Udayasankaran, T.R. Muhibur Rahman, P Shanmugaraja, P M D Ali Khan, Mohit Tiwari (2025). Improvement of Secure Communication with IDS in a Decentralized Network using Deep Learning. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.5076047",
+    "bibtex": "@misc{tiwari2025improvement,\n  title = {Improvement of Secure Communication with IDS in a Decentralized Network using Deep Learning},\n  author = {M. Guru Vimal Kumar and P. Udayasankaran and T.R. Muhibur Rahman and P Shanmugaraja and P M D Ali Khan and Mohit Tiwari},\n  year = {2025},\n  booktitle = {SSRN Electronic Journal},\n  publisher = {Elsevier BV},\n  doi = {10.2139/ssrn.5076047}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.2139/ssrn.5076047",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.2139/ssrn.5076047"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
+    "id": "doi:10.2139/ssrn.5075191",
+    "title": "Improving Security and Communication Protocols in Smart Grid using Deep Learning to Ensure Data Privacy",
+    "year": 2025,
+    "publicationDate": "2025-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "authors": [
+      "V.Anusha Sowbarnika",
+      "S. Thanga Ramya",
+      "D. Praveena",
+      "Lydia D. Issac",
+      "Suresh Babu Jugunta",
+      "Mohit Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "V.Anusha Sowbarnika",
+        "orcid": null
+      },
+      {
+        "name": "S. Thanga Ramya",
+        "orcid": null
+      },
+      {
+        "name": "D. Praveena",
+        "orcid": null
+      },
+      {
+        "name": "Lydia D. Issac",
+        "orcid": null
+      },
+      {
+        "name": "Suresh Babu Jugunta",
+        "orcid": null
+      },
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      }
+    ],
+    "venue": "SSRN Electronic Journal",
+    "publisher": "Elsevier BV",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.2139/ssrn.5075191",
+    "abstract": "Data centers in the smart grid, which automate the business of electricity delivery through the integration of the electronic technology and the electrical infrastructure Because the smart grid relies on the transfer of sensitive data, keeping that data secure from unauthorized access and other cyber threats is extremely difficult. In particular, the issued system focuses on a new method, which exploring the CNN with RNN using LSTM networks to a smart grid security and communication protocol. Realizing this, the hybrid CNN, RNN, and LSTM models proposed in this manuscript hierarchically focus on multi-level domains for data privacy and security. Your CNN portion is great for grabbing the spatial features of the data being passed to it, which itself can help to get a read on whether the information being relayed is suspicious or not. On the other hand, the RNN part of the model is trained to recognize temporal dependencies within the data, allowing it to provide a system capable of recognizing sequences of actions[6] that may indicate potential threats or breaches. Moreover, LSTM module's ability to retain recent information helps it to learns from past data effectively before making predictions on future patterns, empowering the system to anticipate and address potential safety threats proactively. By using the hybrid of CNN, RNN, and LSTM, the smart grid can learn and adapt over time, making it more effective at detecting and preventing attacks, which in turn reduces the likelihood of data breaches and protects the privacy of data for both consumers and service providers. In addition, it is to mention that the secure message channels integration with the DNN-based protection system guarantees the security of those sensitive data while providing end-to-end encryption for the users.",
+    "keywords": [
+      "Computer science",
+      "Smart grid",
+      "Computer security",
+      "Internet privacy",
+      "Engineering",
+      "Smart Grid Security and Resilience",
+      "Internet Traffic Analysis and Secure E-voting",
+      "Blockchain Technology Applications and Security"
+    ],
+    "researchAreas": [
+      "Artificial Intelligence",
+      "Cyber Security",
+      "Blockchain",
+      "Machine Learning"
+    ],
+    "citation": "V.Anusha Sowbarnika, S. Thanga Ramya, D. Praveena, Lydia D. Issac, Suresh Babu Jugunta, Mohit Tiwari (2025). Improving Security and Communication Protocols in Smart Grid using Deep Learning to Ensure Data Privacy. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.5075191",
+    "bibtex": "@misc{tiwari2025improving,\n  title = {Improving Security and Communication Protocols in Smart Grid using Deep Learning to Ensure Data Privacy},\n  author = {V.Anusha Sowbarnika and S. Thanga Ramya and D. Praveena and Lydia D. Issac and Suresh Babu Jugunta and Mohit Tiwari},\n  year = {2025},\n  booktitle = {SSRN Electronic Journal},\n  publisher = {Elsevier BV},\n  doi = {10.2139/ssrn.5075191}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.2139/ssrn.5075191",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.2139/ssrn.5075191"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
     "id": "doi:10.1109/tce.2025.3552301",
     "title": "Integration of Consumer Electronics in Precision Agriculture Using Low-Carbon Wheat Lodging Drone Images",
     "year": 2025,
@@ -3836,6 +4182,94 @@
       "github": null,
       "dataset": null,
       "publisher": "https://doi.org/10.1007/978-3-031-80842-5_22"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
+    "id": "doi:10.2139/ssrn.5088795",
+    "title": "Performance Evaluation of AI-Driven Network Slicing in 5G Wireless Communication Networks",
+    "year": 2025,
+    "publicationDate": "2025-01-01",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "authors": [
+      "R. Mohandas",
+      "K. Srujan Raju",
+      "Arempula Sreenivasa Rao",
+      "K. Narayana Swamy",
+      "Mohit Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "R. Mohandas",
+        "orcid": null
+      },
+      {
+        "name": "K. Srujan Raju",
+        "orcid": null
+      },
+      {
+        "name": "Arempula Sreenivasa Rao",
+        "orcid": null
+      },
+      {
+        "name": "K. Narayana Swamy",
+        "orcid": null
+      },
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      }
+    ],
+    "venue": "SSRN Electronic Journal",
+    "publisher": "Elsevier BV",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.2139/ssrn.5088795",
+    "abstract": "The increased need of various services with different QoS (Quality of Service) requirements motivated the deployment of 5G wireless communication networks. While the one logical network approach was good in theory, today has given rise to a new technology called Network Slicing where multiple independent Logical Networks were provided on shared infrastructure that caters specifically for service specific requirements. However, a 5G network is far more dynamic and large scale so the concept of network slicing and resource allocation becomes significantly harder. This work has been made from our exploration to explore the deep learning approach based on CNN for better network slicing in 5G networks. The CNN algorithm is to search the spatial pattern in data, so we are able to provision resource allocation and QoS parameter for each slice automatically at network level. Network slicing framework allows great flexibility in responding to the highly dynamic network conditions and services demands, an advantage that is best leveraged with deep learning. CNN models discover spatial patterns in network data with high accuracy, which can be significantly beneficial to optimize resource usage and prediction for different network slices. This way, it enhances the QoS provisioning more than conventional workings eventually resulting in good network performance with higher resource utilization. This paper also discusses the trade-off between model complexity of CNNs and their corresponding improvement in logistic performance at practical deployment scenario when they are running on 5G networks, computational requirements (with natural scalability guarantees or not). By and large, deep learning is able to significantly improve the efficiency of 5G networks so they are more accommodating as well as adaptable to cater for various services &amp; applications being placed at the very top of the 5G ecosystem.",
+    "keywords": [
+      "Computer science",
+      "Distributed computing",
+      "Quality of service",
+      "Computer network",
+      "Scalability",
+      "Wireless network",
+      "Provisioning",
+      "Resource allocation",
+      "Flexibility (engineering)",
+      "Cellular network",
+      "Multi-frequency network",
+      "Radio access network",
+      "Heterogeneous network",
+      "Wireless",
+      "Database",
+      "Telecommunications",
+      "Base station",
+      "Software-Defined Networks and 5G",
+      "Advanced Computing and Algorithms"
+    ],
+    "researchAreas": [
+      "Artificial Intelligence",
+      "Software Engineering",
+      "Machine Learning"
+    ],
+    "citation": "R. Mohandas, K. Srujan Raju, Arempula Sreenivasa Rao, K. Narayana Swamy, Mohit Tiwari (2025). Performance Evaluation of AI-Driven Network Slicing in 5G Wireless Communication Networks. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.5088795",
+    "bibtex": "@misc{tiwari2025performance,\n  title = {Performance Evaluation of AI-Driven Network Slicing in 5G Wireless Communication Networks},\n  author = {R. Mohandas and K. Srujan Raju and Arempula Sreenivasa Rao and K. Narayana Swamy and Mohit Tiwari},\n  year = {2025},\n  booktitle = {SSRN Electronic Journal},\n  publisher = {Elsevier BV},\n  doi = {10.2139/ssrn.5088795}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.2139/ssrn.5088795",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.2139/ssrn.5088795"
     },
     "sources": [
       "ORCID",
@@ -20220,422 +20654,6 @@
     },
     "sources": [
       "ORCID",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.13140/rg.2.2.12056.78089",
-    "title": "successful completed Two Weeks Online National Level Faculty Development Program On “Devops”during the period of 28 Aug 2023 to 08 Sep 2023,Organized by Department of Information Technology of Army Institute of Technology in association with AIT CSI Branch.",
-    "year": 2023,
-    "publicationDate": "2023-01-01",
-    "type": "Other",
-    "sourceType": "data-set",
-    "authors": [
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": null,
-    "publisher": null,
-    "volume": null,
-    "issue": null,
-    "pages": null,
-    "doi": "10.13140/rg.2.2.12056.78089",
-    "abstract": null,
-    "keywords": [
-      "Information technology",
-      "Period (music)",
-      "Technology development",
-      "Professional development",
-      "Faculty development",
-      "Technology education",
-      "Education Methods and Technologies",
-      "Educational Robotics and Engineering",
-      "Mathematics Education and Programs"
-    ],
-    "researchAreas": [],
-    "citation": "Mohit Tiwari (2023). successful completed Two Weeks Online National Level Faculty Development Program On “Devops”during the period of 28 Aug 2023 to 08 Sep 2023,Organized by Department of Information Technology of Army Institute of Technology in association with AIT CSI Branch.. https://doi.org/10.13140/rg.2.2.12056.78089",
-    "bibtex": "@misc{tiwari2023successful,\n  title = {successful completed Two Weeks Online National Level Faculty Development Program On “Devops”during the period of 28 Aug 2023 to 08 Sep 2023,Organized by Department of Information Technology of Army Institute of Technology in association with AIT CSI Branch.},\n  author = {Mohit Tiwari},\n  year = {2023},\n  doi = {10.13140/rg.2.2.12056.78089}\n}",
-    "citationCount": 0,
-    "openAccess": "open",
-    "links": {
-      "doi": "https://doi.org/10.13140/rg.2.2.12056.78089",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.13140/rg.2.2.12056.78089"
-    },
-    "sources": [
-      "ORCID",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.13140/rg.2.2.18063.97444",
-    "title": "successfully completed One Week Faculty Development Programme on “From Research to Publication\" from 04.09.2023 to 11.09.2023.organized by ADHIYAMAN ARTS AND SCIENCE COLLEGE FOR WOMEN,Affiliated to Periyar University, Salem – 11.,Recognized under Sec. 2(f) & 12 (B) of the UGC Act, 1956 and (An ISO 9001:2015 Certified Institution),SRINIVASA NAGAR, UTHANGARAI (TK), KRISHNAGIRI (DT) – 635 207",
-    "year": 2023,
-    "publicationDate": "2023-01-01",
-    "type": "Other",
-    "sourceType": "data-set",
-    "authors": [
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": null,
-    "publisher": null,
-    "volume": null,
-    "issue": null,
-    "pages": null,
-    "doi": "10.13140/rg.2.2.18063.97444",
-    "abstract": null,
-    "keywords": [
-      "The arts",
-      "Faculty development",
-      "Professional development",
-      "Higher education",
-      "Career development",
-      "History of Computing Technologies",
-      "Art, Technology, and Culture",
-      "Communism, Protests, Social Movements"
-    ],
-    "researchAreas": [],
-    "citation": "Mohit Tiwari (2023). successfully completed One Week Faculty Development Programme on “From Research to Publication\" from 04.09.2023 to 11.09.2023.organized by ADHIYAMAN ARTS AND SCIENCE COLLEGE FOR WOMEN,Affiliated to Periyar University, Salem – 11.,Recognized under Sec. 2(f) & 12 (B) of the UGC Act, 1956 and (An ISO 9001:2015 Certified Institution),SRINIVASA NAGAR, UTHANGARAI (TK), KRISHNAGIRI (DT) – 635 207. https://doi.org/10.13140/rg.2.2.18063.97444",
-    "bibtex": "@misc{tiwari2023successfully,\n  title = {successfully completed One Week Faculty Development Programme on “From Research to Publication\" from 04.09.2023 to 11.09.2023.organized by ADHIYAMAN ARTS AND SCIENCE COLLEGE FOR WOMEN,Affiliated to Periyar University, Salem – 11.,Recognized under Sec. 2(f) & 12 (B) of the UGC Act, 1956 and (An ISO 9001:2015 Certified Institution),SRINIVASA NAGAR, UTHANGARAI (TK), KRISHNAGIRI (DT) – 635 207},\n  author = {Mohit Tiwari},\n  year = {2023},\n  doi = {10.13140/rg.2.2.18063.97444}\n}",
-    "citationCount": 0,
-    "openAccess": "open",
-    "links": {
-      "doi": "https://doi.org/10.13140/rg.2.2.18063.97444",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.13140/rg.2.2.18063.97444"
-    },
-    "sources": [
-      "ORCID",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.13140/rg.2.2.14282.34246",
-    "title": "successfully participated in the One Week National Level Faculty Development Program on Cloud Infrastructure (AWS) organized by CHRIST COLLEGE OF ENGINEERING AND TECHNOLOGY Puducherry in collaboration with Brainovision Solutions India Pvt Ltd and All India Council for Technical Education (AICTE) During the period of 21st to 25th August 2023. CERTIFICATE ID: B23NFDP3115",
-    "year": 2023,
-    "publicationDate": "2023-01-01",
-    "type": "Other",
-    "sourceType": "data-set",
-    "authors": [
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": null,
-    "publisher": null,
-    "volume": null,
-    "issue": null,
-    "pages": null,
-    "doi": "10.13140/rg.2.2.14282.34246",
-    "abstract": null,
-    "keywords": [
-      "Cloud computing",
-      "Faculty development",
-      "Engineering education",
-      "University faculty",
-      "Workforce development"
-    ],
-    "researchAreas": [
-      "Cloud Computing"
-    ],
-    "citation": "Mohit Tiwari (2023). successfully participated in the One Week National Level Faculty Development Program on Cloud Infrastructure (AWS) organized by CHRIST COLLEGE OF ENGINEERING AND TECHNOLOGY Puducherry in collaboration with Brainovision Solutions India Pvt Ltd and All India Council for Technical Education (AICTE) During the period of 21st to 25th August 2023. CERTIFICATE ID: B23NFDP3115. https://doi.org/10.13140/rg.2.2.14282.34246",
-    "bibtex": "@misc{tiwari2023successfully,\n  title = {successfully participated in the One Week National Level Faculty Development Program on Cloud Infrastructure (AWS) organized by CHRIST COLLEGE OF ENGINEERING AND TECHNOLOGY Puducherry in collaboration with Brainovision Solutions India Pvt Ltd and All India Council for Technical Education (AICTE) During the period of 21st to 25th August 2023. CERTIFICATE ID: B23NFDP3115},\n  author = {Mohit Tiwari},\n  year = {2023},\n  doi = {10.13140/rg.2.2.14282.34246}\n}",
-    "citationCount": 0,
-    "openAccess": "open",
-    "links": {
-      "doi": "https://doi.org/10.13140/rg.2.2.14282.34246",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.13140/rg.2.2.14282.34246"
-    },
-    "sources": [
-      "ORCID",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.58414/scientifictemper.2023.14.4.02",
-    "title": "Sustainable healthcare AI-enhanced materials discovery and design for eco-friendly and biocompatible medical applications",
-    "year": 2023,
-    "publicationDate": "2023-12-27",
-    "type": "Journal Article",
-    "sourceType": "journal-article",
-    "authors": [
-      "Iftikhar A. Tayubi",
-      "Mayur D. Jakhete",
-      "Spoorthi B. Shetty",
-      "Ashish Verma",
-      "Mohit Tiwari",
-      "S. Kiruba"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Iftikhar A. Tayubi",
-        "orcid": null
-      },
-      {
-        "name": "Mayur D. Jakhete",
-        "orcid": null
-      },
-      {
-        "name": "Spoorthi B. Shetty",
-        "orcid": null
-      },
-      {
-        "name": "Ashish Verma",
-        "orcid": null
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      },
-      {
-        "name": "S. Kiruba",
-        "orcid": null
-      }
-    ],
-    "venue": "The Scientific Temper",
-    "publisher": "The Scientific Temper",
-    "volume": "14",
-    "issue": "04",
-    "pages": "1066-1072",
-    "doi": "10.58414/scientifictemper.2023.14.4.02",
-    "abstract": "The present investigation explored the artificial intelligence (AI) applications in energy harvesting and sustainable healthcare materials. The process combines the creation of illustrative data with a rigorous assessment of the literature to understand the potential of AI in various disciplines. The ensuing data visualization highlights the prominence of artificial intelligence (AI) in material innovation and clarifies the ubiquity of biocompatible, sustainable, and advanced materials in the healthcare industry. The study analyses trade-offs between bias and variance in AI models for energy harvesting, illustrating the dynamic link between mistakes and model complexity. The research proceeds on to provide Artificial Intelligence (AI) solutions for PENG and TENG nanogenerators, outlining their uses in the phases of analysis, design, manufacture, and application. The findings highlight the growing importance of AI-enhanced materials in the healthcare industry and stress a steady transition to sustainability and biocompatibility. The results highlight that AI has the ability to completely change materials research and improve energy harvesting devices. The study highlighted the crucial role AI plays in developing sustainable healthcare materials and creative energy collecting techniques.",
-    "keywords": [
-      "Biocompatible material",
-      "Environmentally friendly",
-      "Nanotechnology",
-      "Engineering",
-      "Systems engineering",
-      "Materials science",
-      "Biomedical engineering",
-      "Molecular Communication and Nanonetworks"
-    ],
-    "researchAreas": [
-      "Artificial Intelligence"
-    ],
-    "citation": "Iftikhar A. Tayubi, Mayur D. Jakhete, Spoorthi B. Shetty, Ashish Verma, Mohit Tiwari, S. Kiruba (2023). Sustainable healthcare AI-enhanced materials discovery and design for eco-friendly and biocompatible medical applications. The Scientific Temper. https://doi.org/10.58414/scientifictemper.2023.14.4.02",
-    "bibtex": "@article{tiwari2023sustainable,\n  title = {Sustainable healthcare AI-enhanced materials discovery and design for eco-friendly and biocompatible medical applications},\n  author = {Iftikhar A. Tayubi and Mayur D. Jakhete and Spoorthi B. Shetty and Ashish Verma and Mohit Tiwari and S. Kiruba},\n  year = {2023},\n  journal = {The Scientific Temper},\n  publisher = {The Scientific Temper},\n  volume = {14},\n  number = {04},\n  pages = {1066-1072},\n  doi = {10.58414/scientifictemper.2023.14.4.02}\n}",
-    "citationCount": 3,
-    "openAccess": "open",
-    "links": {
-      "doi": "https://doi.org/10.58414/scientifictemper.2023.14.4.02",
-      "pdf": "https://scientifictemper.com/index.php/tst/article/download/942/537",
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.58414/scientifictemper.2023.14.4.02"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.1109/icacite57410.2023.10182674",
-    "title": "Systems For Identifying And Segmenting Facial Labels",
-    "year": 2023,
-    "publicationDate": "2023-05-12",
-    "type": "Conference Paper",
-    "sourceType": "conference-paper",
-    "authors": [
-      "Pavan Kumar",
-      "Rajeev Sobti",
-      "Swati Tyagi",
-      "Rajesh Singh",
-      "Bajila Swathi",
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Pavan Kumar",
-        "orcid": null
-      },
-      {
-        "name": "Rajeev Sobti",
-        "orcid": null
-      },
-      {
-        "name": "Swati Tyagi",
-        "orcid": null
-      },
-      {
-        "name": "Rajesh Singh",
-        "orcid": null
-      },
-      {
-        "name": "Bajila Swathi",
-        "orcid": null
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": "2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
-    "publisher": "IEEE",
-    "volume": null,
-    "issue": null,
-    "pages": "1932-1939",
-    "doi": "10.1109/icacite57410.2023.10182674",
-    "abstract": "To perform precise facial labelling, we suggest an edge-to-edge identification method in this study. According to their cutting-edge efficiency, fully convolutional networks have replaced other common algorithms in the domain of semantic categorization. Nevertheless, a broad FCN typically yields uniform and slick outcomes. Additionally, characteristics for some subcategories cannot be properly examined by FCN whenever the semantics categorization in collections, such as the face classification issue, is excessively imbalanced. To solve these issues, a pyramidal FCN initially encodes a face picture into multi-level characteristic mappings. Next, the characteristics of the various facial characteristics are retrieved independently using the enclosing box that a one-stage detecting head provides. The retrieved characteristics are processed by 3 category sub-networks to produce the appropriate segmentation accuracy. Direct decoding of the layer of skin is possible first from pyramidal FCN's rear end. The total segmented output is then produced by integrating the several sections. Furthermore, the suggested approach, which was tested on a database with only one face labelled row, may be utilized immediately to carry out complex multi-facial classification tasks without requiring any networking modifications or extra modules or data. With a modest size of the networking, the entire system can be taught from beginning to finish (12 MB). Studies demonstrate that the suggested strategy can produce more precise (one or multiple) facial labelling outcomes in comparison to earlier efforts and achieves cutting-edge outcomes inside the HELEN facial database..",
-    "keywords": [
-      "Computer science",
-      "Face (sociological concept)",
-      "Categorization",
-      "Artificial intelligence",
-      "Segmentation",
-      "Pattern recognition (psychology)",
-      "Enhanced Data Rates for GSM Evolution",
-      "Convolutional neural network",
-      "Semantics (computer science)",
-      "Identification (biology)",
-      "Facial recognition system",
-      "Biometric Identification and Security",
-      "Face and Expression Recognition",
-      "Face recognition and analysis"
-    ],
-    "researchAreas": [
-      "Artificial Intelligence",
-      "Cyber Security",
-      "Machine Learning",
-      "Cloud Computing"
-    ],
-    "citation": "Pavan Kumar, Rajeev Sobti, Swati Tyagi, Rajesh Singh, Bajila Swathi, Mohit Tiwari (2023). Systems For Identifying And Segmenting Facial Labels. 2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE). https://doi.org/10.1109/icacite57410.2023.10182674",
-    "bibtex": "@inproceedings{tiwari2023systems,\n  title = {Systems For Identifying And Segmenting Facial Labels},\n  author = {Pavan Kumar and Rajeev Sobti and Swati Tyagi and Rajesh Singh and Bajila Swathi and Mohit Tiwari},\n  year = {2023},\n  booktitle = {2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)},\n  publisher = {IEEE},\n  pages = {1932-1939},\n  doi = {10.1109/icacite57410.2023.10182674}\n}",
-    "citationCount": 0,
-    "openAccess": "unknown",
-    "links": {
-      "doi": "https://doi.org/10.1109/icacite57410.2023.10182674",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.1109/icacite57410.2023.10182674"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.1109/ic3i59117.2023.10397850",
-    "title": "The Empirical Analysis of Machine Learning-Based Techniques for Improving Cyber Security",
-    "year": 2023,
-    "publicationDate": "2023-09-14",
-    "type": "Conference Paper",
-    "sourceType": "conference-paper",
-    "authors": [
-      "Yerrolla Chanti",
-      "M. Chalapathi Rao",
-      "Ch. Srinivasa Reddy",
-      "Mohd. Yaseen Wani",
-      "Abdullah Samdani",
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Yerrolla Chanti",
-        "orcid": null
-      },
-      {
-        "name": "M. Chalapathi Rao",
-        "orcid": null
-      },
-      {
-        "name": "Ch. Srinivasa Reddy",
-        "orcid": null
-      },
-      {
-        "name": "Mohd. Yaseen Wani",
-        "orcid": null
-      },
-      {
-        "name": "Abdullah Samdani",
-        "orcid": null
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": "2023 6th International Conference on Contemporary Computing and Informatics (IC3I)",
-    "publisher": "IEEE",
-    "volume": null,
-    "issue": null,
-    "pages": "2248-2252",
-    "doi": "10.1109/ic3i59117.2023.10397850",
-    "abstract": "The absence of training statistics is still the major obstacle among the numerous that tend to cause cyberattack identification difficult to identify. Millions of consumers are still at risk due to an absence of knowledge about website activities and characteristics that could lead to an attack, even when businesses and companies utilize well-known network surveillance technologies. In reality, the majority of attacks happen not since attackers employ sophisticated programming and evasive strategies, yet rather since victims lack the fundamental skills needed to recognize and prevent the attacks.Regardless of these difficulties, machine learning (ML) is demonstrated to fundamentally alter our awareness of the context of cyberattacks. For this research, ML techniques were applied to data from phishing websites to improve cybersecurity by contrasting five techniques and offering knowledge that the broad accessible may employ to prevent common phishing traps. The research outcomes imply that the neural network (NN) technique is the most effective one. Since NNs are built on multi-layer perceptrons, the foundation of intelligence, phishing identification will eventually be automated and transformed into an artificial intelligence endeavor.",
-    "keywords": [
-      "Computer science",
-      "Phishing",
-      "Identification (biology)",
-      "Computer security",
-      "Context (archaeology)",
-      "Artificial intelligence",
-      "Attack patterns",
-      "Artificial neural network",
-      "Machine learning",
-      "Data science",
-      "Intrusion detection system",
-      "The Internet",
-      "World Wide Web",
-      "Network Security and Intrusion Detection",
-      "Advanced Malware Detection Techniques",
-      "Spam and Phishing Detection"
-    ],
-    "researchAreas": [
-      "Artificial Intelligence",
-      "Cyber Security",
-      "Machine Learning",
-      "Cloud Computing"
-    ],
-    "citation": "Yerrolla Chanti, M. Chalapathi Rao, Ch. Srinivasa Reddy, Mohd. Yaseen Wani, Abdullah Samdani, Mohit Tiwari (2023). The Empirical Analysis of Machine Learning-Based Techniques for Improving Cyber Security. 2023 6th International Conference on Contemporary Computing and Informatics (IC3I). https://doi.org/10.1109/ic3i59117.2023.10397850",
-    "bibtex": "@inproceedings{tiwari2023empirical,\n  title = {The Empirical Analysis of Machine Learning-Based Techniques for Improving Cyber Security},\n  author = {Yerrolla Chanti and M. Chalapathi Rao and Ch. Srinivasa Reddy and Mohd. Yaseen Wani and Abdullah Samdani and Mohit Tiwari},\n  year = {2023},\n  booktitle = {2023 6th International Conference on Contemporary Computing and Informatics (IC3I)},\n  publisher = {IEEE},\n  pages = {2248-2252},\n  doi = {10.1109/ic3i59117.2023.10397850}\n}",
-    "citationCount": 0,
-    "openAccess": "unknown",
-    "links": {
-      "doi": "https://doi.org/10.1109/ic3i59117.2023.10397850",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.1109/ic3i59117.2023.10397850"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
       "OpenAlex"
     ]
   }

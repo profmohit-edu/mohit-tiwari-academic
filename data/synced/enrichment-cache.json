@@ -18060,5 +18060,495 @@
       "publisherUrl": "https://doi.org/10.5281/zenodo.21830881"
     },
     "enrichedAt": "2026-08-10T04:52:17.633Z"
+  },
+  "10.2139/ssrn.7255078": {
+    "crossref": {
+      "title": "Cybersecurity Governance in Indian Higher Education Institutions: A Reproducible Computational Content Analysis and Organizational Maturity Architecture",
+      "authors": [
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": "Elsevier BV",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2026-01-01",
+      "type": "Preprint",
+      "abstract": "Indian higher education institutions (HEIs) depend on interconnected platforms for teaching, assessment, research, finance, admissions and student services, yet cybersecurity is often treated as an operational technology responsibility rather than an institutional governance capability. This study asks which governance domains recur across authoritative sources and how they can support a management-oriented maturity architecture for Indian HEIs. A structured integrative synthesis was followed by a reproducible computational content analysis of 37 governance statements drawn from seven openly accessible official sources. Each statement received an author-assigned primarydomain code and an independently reproducible rule-based prediction. The documentary analysis found universal source coverage for leadership and accountability, policy and compliance, and resource and capability (100% each); risk governance and monitoring and improvement appeared in six of seven sources (85.7% each), while culture and awareness appeared in four (57.1%). After every paraphrase and locator was checked against its official source and corrected where necessary, rule-based coding agreed with the author-assigned primary-domain codes for 26 of 37 statements (70.27%), with Cohen's kappa of 0.6452 when all observed categories, including Unclassified predictions, were retained. The 11 disagreements reveal semantic overlap among the domains rather than establishing measurement validity. The evidence informs a preliminary six-domain, five-level organizational maturity architecture. Its contribution is twofold: an auditable documentary result and a management-oriented design that translates fragmented obligations into governance questions and observable evidence. The study does not claim expert, institutional or construct validation; those remain subsequent empirical phases.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.7255078"
+    },
+    "openAlex": {
+      "title": "Cybersecurity Governance in Indian Higher Education Institutions: A Reproducible Computational Content Analysis and Organizational Maturity Architecture",
+      "authors": [
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "SSRN Electronic Journal",
+      "publisher": "RELX Group (Netherlands)",
+      "publicationDate": "2026-01-01",
+      "abstract": null,
+      "keywords": [
+        "Corporate governance",
+        "Content analysis",
+        "Maturity (psychological)",
+        "Information governance",
+        "Misappropriation",
+        "Higher education",
+        "Secure coding",
+        "Capability Maturity Model",
+        "Construct (python library)",
+        "Source code",
+        "Information and Cyber Security",
+        "Information Technology Governance and Strategy",
+        "Cybersecurity and Cyber Warfare Studies"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.2139/ssrn.7255078",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.7255078"
+    },
+    "enrichedAt": "2026-08-17T04:00:30.657Z"
+  },
+  "10.5281/zenodo.21911023": {
+    "crossref": null,
+    "openAlex": {
+      "title": "Reproducibility Evidence for Domain-Disjoint Evaluation of the PhiUSIIL Phishing URL Benchmark",
+      "authors": [
+        "Mohit Tiwari",
+        "Tripti Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Tripti Tiwari",
+          "orcid": "0000-0002-9016-1988"
+        }
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "publisher": "European Organization for Nuclear Research",
+      "publicationDate": "2026-08-13",
+      "abstract": "Frozen reproducibility evidence supporting the InCoWoCo 2026 conference manuscript ‘When Random Splits Mislead: Domain-Disjoint Evaluation of the PhiUSIIL Phishing URL Benchmark.’ The deposit is not a new release of the original PhiUSIIL dataset. It contains the frozen primary P1–P4 evaluation evidence plus separate authoritative Phase 7 feature-forensics and Phase 8 domain-disjoint feature-ablation archives. The study covers conservative canonical-URL deduplication; record-random and registered-domain-disjoint protocols; fixed-seed evaluation; prediction-derived metrics; bootstrap uncertainty and paired protocol comparisons; seen-versus-unseen-domain diagnostics; lexical sensitivity; feature forensics; and targeted ablation. The evidence demonstrates extreme internal PhiUSIIL benchmark separability under the evaluated controls. It does not establish target leakage, causality, memorization, or external, temporal, zero-day, campaign-level, or deployment generalization.",
+      "keywords": [
+        "Benchmark (surveying)",
+        "Protocol (science)",
+        "Phishing",
+        "Feature (linguistics)",
+        "Reproducibility",
+        "Software deployment"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.5281/zenodo.21911023",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.5281/zenodo.21911023"
+    },
+    "enrichedAt": "2026-08-17T04:00:30.680Z"
+  },
+  "10.2139/ssrn.5091206": {
+    "crossref": {
+      "title": "Comparative Analysis of Teacher Professional Development Models in Indian Higher Education: Implications for NEP Implementation",
+      "authors": [
+        "Mohit Tiwari",
+        "Tripti Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Tripti Tiwari",
+          "orcid": null
+        }
+      ],
+      "venue": null,
+      "publisher": "Elsevier BV",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2025-01-01",
+      "type": "Preprint",
+      "abstract": "Several types of instructor development programs in the advanced learning system in India are compared in this study, emphasizing how they align and what that means for the New Education Policy (NEP) as it is being implemented. Evaluating the efficacy of various professional growth methods is the main goal and determine the best approaches that support the goals of the NEP. The study's principal data source consists of semi-structured conversations with legislators and teachers, which were conducted using a method known as qualitative research. The method used to interpret the gathered data is thematic analysis. The crucial findings point to important constraints, similar as scarce coffers, shy executive support, and technological walls, and show that current professional development approaches are only kindly effective. Programs that are more specifically designed to meet the requirements of individual preceptors and institutional surrounds are desperately demanded, indeed in the face of favorable goods on tutoring quality. Comprehensive distribution and exposure programs are necessary, as substantiated by a considerable difference in preceptors' and lawmakers' knowledge and appreciation of NEP regulations. These findings point to the urgent need for implementation techniques and legislative adjustments that bring models of career growth that are more directly in line with NEP objectives. This study adds to the conversation about growth opportunities for teachers in Indian universities. It also derives a framework for enhancing the effectiveness and quality of such programs as well as legislative reforms that can be made.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.5091206"
+    },
+    "openAlex": {
+      "title": "Comparative Analysis of Teacher Professional Development Models in Indian Higher Education: Implications for NEP Implementation",
+      "authors": [
+        "Mohit Tiwari",
+        "Tripti Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Tripti Tiwari",
+          "orcid": "0000-0002-9016-1988"
+        }
+      ],
+      "venue": "SSRN Electronic Journal",
+      "publisher": "RELX Group (Netherlands)",
+      "publicationDate": "2025-01-01",
+      "abstract": null,
+      "keywords": [
+        "Professional development",
+        "Mathematics education",
+        "Pedagogy",
+        "Sociology",
+        "Political science",
+        "Psychology",
+        "Teacher Professional Development and Motivation",
+        "Teacher Education and Leadership Studies",
+        "Educational Practices and Challenges"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.2139/ssrn.5091206",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.5091206"
+    },
+    "enrichedAt": "2026-08-17T04:00:30.689Z"
+  },
+  "10.2139/ssrn.5076047": {
+    "crossref": {
+      "title": "Improvement of Secure Communication with IDS in a Decentralized Network using Deep Learning",
+      "authors": [
+        "M. Guru Vimal Kumar",
+        "P. Udayasankaran",
+        "T.R. Muhibur Rahman",
+        "P Shanmugaraja",
+        "P M D Ali Khan",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "M. Guru Vimal Kumar",
+          "orcid": null
+        },
+        {
+          "name": "P. Udayasankaran",
+          "orcid": null
+        },
+        {
+          "name": "T.R. Muhibur Rahman",
+          "orcid": null
+        },
+        {
+          "name": "P Shanmugaraja",
+          "orcid": null
+        },
+        {
+          "name": "P M D Ali Khan",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": "Elsevier BV",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2025-01-01",
+      "type": "Preprint",
+      "abstract": "The emergence of new lossless decentralized networks, due to the rapid evolution of decentralized networks, has unlocked new possibilities for secure communication, but this has brought some pain points in intrusion detection. Most importantly, a powerful scheme based on hybrid deep learning and optimized by the NAdam and conjugate gradient is presented to guarantee better robustness in distributed networks. This is achieved with a two-pronged training approach using NAdam and conjugate gradient optimizer methods to speed up the training of deep learning model. NAdam is a variant of the Adam optimization algorithm, which incorporates Nesterov momentum into the update function. Given the adaptive learning rate and momentum aspects, NAdam achieves faster convergence and better generalization performance. This is complemented by the conjugate gradient optimization method which results in a smoother subsequent learning of optimal model parameters that prevents the model from oscillating and possibly diverging during training. The incorporation of these advanced techniques contributes to several advantages in the proposed approach for decentralized networks. First of all, it significantly improves the accuracy of the intrusion detection by accurately reduction of false positives and false negatives. Second, the hybrid deep learning system allows the model to adjust and learn in evolving network conditions and provides continuous defense against new threats coming up. Finally, The combination of NAdam and conjugate gradient optimization techniques speeds up the training and makes the system applicable in real-time for large-scale decentralized networks. It is important to note that the existing results show that the implemented system can outperform traditional methods in addition to the deep learning techniques independently with a major advantage of being a decentralized system providing security and integrity for the data they interact with.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.5076047"
+    },
+    "openAlex": {
+      "title": "Improvement of Secure Communication with IDS in a Decentralized Network using Deep Learning",
+      "authors": [
+        "M. Guru Vimal Kumar",
+        "P. Udayasankaran",
+        "Tahsinur Rahman",
+        "P. Shanmugaraja",
+        "P M D Ali Khan",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "M. Guru Vimal Kumar",
+          "orcid": null
+        },
+        {
+          "name": "P. Udayasankaran",
+          "orcid": null
+        },
+        {
+          "name": "Tahsinur Rahman",
+          "orcid": "0009-0000-2082-6916"
+        },
+        {
+          "name": "P. Shanmugaraja",
+          "orcid": null
+        },
+        {
+          "name": "P M D Ali Khan",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0002-0384-3308"
+        }
+      ],
+      "venue": "SSRN Electronic Journal",
+      "publisher": "RELX Group (Netherlands)",
+      "publicationDate": "2025-01-01",
+      "abstract": null,
+      "keywords": [
+        "Computer science",
+        "Deep learning",
+        "Artificial intelligence",
+        "Computer security",
+        "Computer network",
+        "Network Security and Intrusion Detection",
+        "Internet Traffic Analysis and Secure E-voting",
+        "Advanced Steganography and Watermarking Techniques"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.2139/ssrn.5076047",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.5076047"
+    },
+    "enrichedAt": "2026-08-17T04:00:30.851Z"
+  },
+  "10.2139/ssrn.5075191": {
+    "crossref": {
+      "title": "Improving Security and Communication Protocols in Smart Grid using Deep Learning to Ensure Data Privacy",
+      "authors": [
+        "V.Anusha Sowbarnika",
+        "S. Thanga Ramya",
+        "D. Praveena",
+        "Lydia D. Issac",
+        "Suresh Babu Jugunta",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "V.Anusha Sowbarnika",
+          "orcid": null
+        },
+        {
+          "name": "S. Thanga Ramya",
+          "orcid": null
+        },
+        {
+          "name": "D. Praveena",
+          "orcid": null
+        },
+        {
+          "name": "Lydia D. Issac",
+          "orcid": null
+        },
+        {
+          "name": "Suresh Babu Jugunta",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": "Elsevier BV",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2025-01-01",
+      "type": "Preprint",
+      "abstract": "Data centers in the smart grid, which automate the business of electricity delivery through the integration of the electronic technology and the electrical infrastructure Because the smart grid relies on the transfer of sensitive data, keeping that data secure from unauthorized access and other cyber threats is extremely difficult. In particular, the issued system focuses on a new method, which exploring the CNN with RNN using LSTM networks to a smart grid security and communication protocol. Realizing this, the hybrid CNN, RNN, and LSTM models proposed in this manuscript hierarchically focus on multi-level domains for data privacy and security. Your CNN portion is great for grabbing the spatial features of the data being passed to it, which itself can help to get a read on whether the information being relayed is suspicious or not. On the other hand, the RNN part of the model is trained to recognize temporal dependencies within the data, allowing it to provide a system capable of recognizing sequences of actions[6] that may indicate potential threats or breaches. Moreover, LSTM module's ability to retain recent information helps it to learns from past data effectively before making predictions on future patterns, empowering the system to anticipate and address potential safety threats proactively. By using the hybrid of CNN, RNN, and LSTM, the smart grid can learn and adapt over time, making it more effective at detecting and preventing attacks, which in turn reduces the likelihood of data breaches and protects the privacy of data for both consumers and service providers. In addition, it is to mention that the secure message channels integration with the DNN-based protection system guarantees the security of those sensitive data while providing end-to-end encryption for the users.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.5075191"
+    },
+    "openAlex": {
+      "title": "Improving Security and Communication Protocols in Smart Grid using Deep Learning to Ensure Data Privacy",
+      "authors": [
+        "V.Anusha Sowbarnika",
+        "S. Ramya",
+        "D. Praveena",
+        "Lydia D. Issac",
+        "S. B. G. Tilak Babu",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "V.Anusha Sowbarnika",
+          "orcid": null
+        },
+        {
+          "name": "S. Ramya",
+          "orcid": "0000-0001-9181-8884"
+        },
+        {
+          "name": "D. Praveena",
+          "orcid": null
+        },
+        {
+          "name": "Lydia D. Issac",
+          "orcid": null
+        },
+        {
+          "name": "S. B. G. Tilak Babu",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "SSRN Electronic Journal",
+      "publisher": "RELX Group (Netherlands)",
+      "publicationDate": "2025-01-01",
+      "abstract": null,
+      "keywords": [
+        "Computer science",
+        "Smart grid",
+        "Computer security",
+        "Internet privacy",
+        "Engineering",
+        "Smart Grid Security and Resilience",
+        "Internet Traffic Analysis and Secure E-voting",
+        "Blockchain Technology Applications and Security"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.2139/ssrn.5075191",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.5075191"
+    },
+    "enrichedAt": "2026-08-17T04:00:30.858Z"
+  },
+  "10.2139/ssrn.5088795": {
+    "crossref": {
+      "title": "Performance Evaluation of AI-Driven Network Slicing in 5G Wireless Communication Networks",
+      "authors": [
+        "R. Mohandas",
+        "K. Srujan Raju",
+        "Arempula Sreenivasa Rao",
+        "K. Narayana Swamy",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "R. Mohandas",
+          "orcid": null
+        },
+        {
+          "name": "K. Srujan Raju",
+          "orcid": null
+        },
+        {
+          "name": "Arempula Sreenivasa Rao",
+          "orcid": null
+        },
+        {
+          "name": "K. Narayana Swamy",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": "Elsevier BV",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2025-01-01",
+      "type": "Preprint",
+      "abstract": "The increased need of various services with different QoS (Quality of Service) requirements motivated the deployment of 5G wireless communication networks. While the one logical network approach was good in theory, today has given rise to a new technology called Network Slicing where multiple independent Logical Networks were provided on shared infrastructure that caters specifically for service specific requirements. However, a 5G network is far more dynamic and large scale so the concept of network slicing and resource allocation becomes significantly harder. This work has been made from our exploration to explore the deep learning approach based on CNN for better network slicing in 5G networks. The CNN algorithm is to search the spatial pattern in data, so we are able to provision resource allocation and QoS parameter for each slice automatically at network level. Network slicing framework allows great flexibility in responding to the highly dynamic network conditions and services demands, an advantage that is best leveraged with deep learning. CNN models discover spatial patterns in network data with high accuracy, which can be significantly beneficial to optimize resource usage and prediction for different network slices. This way, it enhances the QoS provisioning more than conventional workings eventually resulting in good network performance with higher resource utilization. This paper also discusses the trade-off between model complexity of CNNs and their corresponding improvement in logistic performance at practical deployment scenario when they are running on 5G networks, computational requirements (with natural scalability guarantees or not). By and large, deep learning is able to significantly improve the efficiency of 5G networks so they are more accommodating as well as adaptable to cater for various services &amp; applications being placed at the very top of the 5G ecosystem.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.5088795"
+    },
+    "openAlex": {
+      "title": "Performance Evaluation of AI-Driven Network Slicing in 5G Wireless Communication Networks",
+      "authors": [
+        "Reenu Mohandas",
+        "K. Srujan Raju",
+        "Arempula Sreenivasa Rao",
+        "K. Kumara Swamy",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Reenu Mohandas",
+          "orcid": "0009-0006-0509-0051"
+        },
+        {
+          "name": "K. Srujan Raju",
+          "orcid": "0000-0001-5058-4313"
+        },
+        {
+          "name": "Arempula Sreenivasa Rao",
+          "orcid": "0000-0001-7144-6307"
+        },
+        {
+          "name": "K. Kumara Swamy",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "SSRN Electronic Journal",
+      "publisher": "RELX Group (Netherlands)",
+      "publicationDate": "2025-01-01",
+      "abstract": null,
+      "keywords": [
+        "Computer science",
+        "Distributed computing",
+        "Quality of service",
+        "Computer network",
+        "Scalability",
+        "Wireless network",
+        "Provisioning",
+        "Resource allocation",
+        "Flexibility (engineering)",
+        "Cellular network",
+        "Multi-frequency network",
+        "Radio access network",
+        "Heterogeneous network",
+        "Wireless",
+        "Database",
+        "Telecommunications",
+        "Base station",
+        "Software-Defined Networks and 5G",
+        "Advanced Computing and Algorithms"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.2139/ssrn.5088795",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.2139/ssrn.5088795"
+    },
+    "enrichedAt": "2026-08-17T04:00:30.886Z"
   }
 }

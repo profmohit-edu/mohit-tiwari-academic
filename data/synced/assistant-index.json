@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-24T04:03:31.507Z",
-  "documentCount": 337,
+  "generatedAt": "2026-08-31T09:40:47.459Z",
+  "documentCount": 340,
   "collectionCounts": {
     "Publications": 300,
-    "Projects": 16,
+    "Projects": 19,
     "Datasets": 1,
-    "Software": 6,
-    "GitHub": 15,
+    "Software": 7,
+    "GitHub": 18,
     "Patents": 0,
     "Teaching": 15,
     "Metrics": 14
@@ -10151,56 +10151,126 @@
       }
     },
     {
-      "id": "repository:1303651719",
+      "id": "repository:1346871553",
       "collections": [
         "Projects",
         "GitHub"
       ],
-      "title": "mohit-tiwari-academic",
-      "summary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
-      "content": "mohit-tiwari-academic Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi. TypeScript JavaScript CSS Research Platforms",
+      "title": "GeminiVault-Journal",
+      "summary": "Privacy-first AI journaling with secure longitudinal intelligence, built with Gemini, Firebase, Firestore, Secret Manager and Google Cloud Run.",
+      "content": "GeminiVault-Journal Privacy-first AI journaling with secure longitudinal intelligence, built with Gemini, Firebase, Firestore, Secret Manager and Google Cloud Run. Privacy-First Longitudinal AI Reflection System TypeScript CSS HTML AI",
       "year": 2026,
       "publicationType": null,
-      "researchAreas": [],
+      "researchAreas": [
+        "Artificial Intelligence",
+        "Cloud Computing"
+      ],
       "keywords": [
         "TypeScript",
-        "JavaScript",
         "CSS",
-        "Research Platforms"
+        "HTML",
+        "AI"
       ],
-      "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
+      "url": "https://github.com/profmohit-edu/GeminiVault-Journal",
       "metadata": {
-        "category": "Research Platforms",
+        "category": "AI",
         "language": "TypeScript",
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-08-17T04:00:55Z"
+        "updatedAt": "2026-08-28T15:27:53Z"
       }
     },
     {
-      "id": "repository:1327480509",
+      "id": "repository:1253679316",
       "collections": [
         "Projects",
-        "GitHub"
+        "GitHub",
+        "Teaching"
       ],
-      "title": "economics-for-engineers",
-      "summary": "A student-friendly GitBook for HS-301 Economics for Engineers",
-      "content": "economics-for-engineers A student-friendly GitBook for HS-301 Economics for Engineers Institution: Bharati Vidyapeeth's College of Engineering, New Delhi Utilities NOASSERTION",
+      "title": "campus-research-mentor",
+      "summary": "Gemini-Powered AI Research Mentoring Assistant",
+      "content": "campus-research-mentor Gemini-Powered AI Research Mentoring Assistant Python Dockerfile Procfile Teaching",
       "year": 2026,
       "publicationType": null,
       "researchAreas": [],
       "keywords": [
-        "Utilities"
+        "Python",
+        "Dockerfile",
+        "Procfile",
+        "Teaching"
       ],
-      "url": "https://github.com/profmohit-edu/economics-for-engineers",
+      "url": "https://github.com/profmohit-edu/campus-research-mentor",
       "metadata": {
-        "category": "Utilities",
-        "language": null,
+        "category": "Teaching",
+        "language": "Python",
         "stars": 0,
         "forks": 0,
-        "license": "NOASSERTION",
-        "updatedAt": "2026-08-08T06:54:44Z"
+        "license": null,
+        "updatedAt": "2026-08-28T11:27:14Z"
+      }
+    },
+    {
+      "id": "repository:1301265105",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "TechMindd-AI",
+      "summary": "TechMindd-AI is a production-oriented, workflow-driven content generation platform. A Director plans each run; dynamically discovered plugins generate, validate, score, and reflect on artifacts; the packaging layer emits Markdown, reports, metadata, a manifest, and a ZIP archive. It is available through a CLI, FastAPI service, and React dashboard.",
+      "content": "TechMindd-AI TechMindd-AI is a production-oriented, workflow-driven content generation platform. A Director plans each run; dynamically discovered plugins generate, validate, score, and reflect on artifacts; the packaging layer emits Markdown, reports, metadata, a manifest, and a ZIP archive. It is available through a CLI, FastAPI service, and React dashboard. Python TypeScript Dockerfile CSS Jinja HTML AI",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [
+        "Artificial Intelligence"
+      ],
+      "keywords": [
+        "Python",
+        "TypeScript",
+        "Dockerfile",
+        "CSS",
+        "Jinja",
+        "HTML",
+        "AI"
+      ],
+      "url": "https://github.com/profmohit-edu/TechMindd-AI",
+      "metadata": {
+        "category": "AI",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-08-28T07:41:08Z"
+      }
+    },
+    {
+      "id": "repository:1260173863",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "researchpulse-ai",
+      "summary": "AI-Driven Scholarly Intelligence and Research Impact Monitoring Platform",
+      "content": "researchpulse-ai AI-Driven Scholarly Intelligence and Research Impact Monitoring Platform AI-Driven Scholarly Intelligence and Research Impact Monitoring Prototype Python HTML Dockerfile AI MIT",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [
+        "Artificial Intelligence"
+      ],
+      "keywords": [
+        "Python",
+        "HTML",
+        "Dockerfile",
+        "AI"
+      ],
+      "url": "https://github.com/profmohit-edu/researchpulse-ai",
+      "metadata": {
+        "category": "AI",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updatedAt": "2026-08-27T20:24:04Z"
       }
     },
     {
@@ -10235,68 +10305,37 @@
         "stars": 0,
         "forks": 0,
         "license": "NOASSERTION",
-        "updatedAt": "2026-07-20T07:11:46Z"
+        "updatedAt": "2026-08-27T19:40:19Z"
       }
     },
     {
-      "id": "repository:1304208455",
+      "id": "repository:1156862922",
       "collections": [
         "Projects",
-        "GitHub"
+        "GitHub",
+        "Teaching"
       ],
-      "title": "econmentor-ai",
-      "summary": "AI-powered interactive economics decision laboratory for the IBM AI Builders Challenge",
-      "content": "econmentor-ai AI-powered interactive economics decision laboratory for the IBM AI Builders Challenge HTML AI NOASSERTION",
+      "title": "context-driven-engineering-learning-framework",
+      "summary": "Official Version 1.0 Release of the Context-Driven Engineering Learning Framework",
+      "content": "context-driven-engineering-learning-framework Official Version 1.0 Release of the Context-Driven Engineering Learning Framework Department: Computer Science and Engineering, Bharati Vidyapeeth's College of Engineering, New Delhi JavaScript HTML Teaching",
       "year": 2026,
       "publicationType": null,
       "researchAreas": [
-        "Artificial Intelligence"
+        "Software Engineering"
       ],
       "keywords": [
+        "JavaScript",
         "HTML",
-        "AI"
+        "Teaching"
       ],
-      "url": "https://github.com/profmohit-edu/econmentor-ai",
+      "url": "https://github.com/profmohit-edu/context-driven-engineering-learning-framework",
       "metadata": {
-        "category": "AI",
-        "language": "HTML",
-        "stars": 0,
-        "forks": 0,
-        "license": "NOASSERTION",
-        "updatedAt": "2026-07-17T16:58:08Z"
-      }
-    },
-    {
-      "id": "repository:1301265105",
-      "collections": [
-        "Projects",
-        "GitHub"
-      ],
-      "title": "TechMindd-AI",
-      "summary": "TechMindd-AI is a production-oriented, workflow-driven content generation platform. A Director plans each run; dynamically discovered plugins generate, validate, score, and reflect on artifacts; the packaging layer emits Markdown, reports, metadata, a manifest, and a ZIP archive. It is available through a CLI, FastAPI service, and React dashboard.",
-      "content": "TechMindd-AI TechMindd-AI is a production-oriented, workflow-driven content generation platform. A Director plans each run; dynamically discovered plugins generate, validate, score, and reflect on artifacts; the packaging layer emits Markdown, reports, metadata, a manifest, and a ZIP archive. It is available through a CLI, FastAPI service, and React dashboard. Python TypeScript Dockerfile CSS Jinja HTML AI",
-      "year": 2026,
-      "publicationType": null,
-      "researchAreas": [
-        "Artificial Intelligence"
-      ],
-      "keywords": [
-        "Python",
-        "TypeScript",
-        "Dockerfile",
-        "CSS",
-        "Jinja",
-        "HTML",
-        "AI"
-      ],
-      "url": "https://github.com/profmohit-edu/TechMindd-AI",
-      "metadata": {
-        "category": "AI",
-        "language": "Python",
+        "category": "Teaching",
+        "language": "JavaScript",
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-07-16T11:09:12Z"
+        "updatedAt": "2026-08-27T19:23:01Z"
       }
     },
     {
@@ -10308,7 +10347,7 @@
       ],
       "title": "sarmf-framework",
       "summary": "SARMF – Smart Contract Automated Remediation and Mitigation Framework (DOI-backed reproducible smart contract security engineering methodology)",
-      "content": "sarmf-framework SARMF – Smart Contract Automated Remediation and Mitigation Framework (DOI-backed reproducible smart contract security engineering methodology) https://profmohit-edu.github.io/sarmf-framework/ benchmark blockchain-security cybersecurity ethereum research-dataset smart-contracts solidity vulnerability-detection HTML Solidity TeX Research Software",
+      "content": "sarmf-framework SARMF – Smart Contract Automated Remediation and Mitigation Framework (DOI-backed reproducible smart contract security engineering methodology) SARMF — Smart Contract Automated Remediation and Mitigation Framework benchmark blockchain-security cybersecurity ethereum research-dataset smart-contracts solidity vulnerability-detection JavaScript HTML Solidity TeX Research Software",
       "year": 2026,
       "publicationType": null,
       "researchAreas": [
@@ -10326,6 +10365,7 @@
         "smart-contracts",
         "solidity",
         "vulnerability-detection",
+        "JavaScript",
         "HTML",
         "Solidity",
         "TeX",
@@ -10334,66 +10374,151 @@
       "url": "https://github.com/profmohit-edu/sarmf-framework",
       "metadata": {
         "category": "Research Software",
-        "language": "HTML",
+        "language": "JavaScript",
         "stars": 2,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-06-12T06:23:39Z"
+        "updatedAt": "2026-08-27T19:07:00Z"
       }
     },
     {
-      "id": "repository:1260173863",
+      "id": "repository:1311036521",
+      "collections": [
+        "Projects",
+        "GitHub",
+        "Software"
+      ],
+      "title": "XCorr",
+      "summary": "Cross-Analyzer Vulnerability Correlation Framework for Ethereum Smart Contracts",
+      "content": "XCorr Cross-Analyzer Vulnerability Correlation Framework for Ethereum Smart Contracts XCorr is an independently identifiable cross-analyzer vulnerability correlation prototype for Ethereum smart contracts, created by Mohit Tiwari, Department of Computer Science and Engineering, Bharati Vidyapeeth's College of Engineering, New Delhi. Python HTML Research Software NOASSERTION",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [
+        "Cyber Security",
+        "Software Engineering",
+        "Blockchain",
+        "Smart Contracts"
+      ],
+      "keywords": [
+        "Python",
+        "HTML",
+        "Research Software"
+      ],
+      "url": "https://github.com/profmohit-edu/XCorr",
+      "metadata": {
+        "category": "Research Software",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": "NOASSERTION",
+        "updatedAt": "2026-08-27T18:50:51Z"
+      }
+    },
+    {
+      "id": "repository:1348826040",
       "collections": [
         "Projects",
         "GitHub"
       ],
-      "title": "researchpulse-ai",
-      "summary": "AI-Driven Scholarly Intelligence and Research Impact Monitoring Platform",
-      "content": "researchpulse-ai AI-Driven Scholarly Intelligence and Research Impact Monitoring Platform AI-Driven Scholarly Intelligence and Research Impact Monitoring Platform Python Dockerfile AI MIT",
+      "title": "cse-hackbvp-platform",
+      "summary": "A compact web-based hackathon and project management platform created by Mohit Tiwari, Department of Computer Science and Engineering, Bharati Vidyapeeth's College of Engineering, New Delhi.",
+      "content": "cse-hackbvp-platform A compact web-based hackathon and project management platform created by Mohit Tiwari, Department of Computer Science and Engineering, Bharati Vidyapeeth's College of Engineering, New Delhi. HTML Research Platforms NOASSERTION",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "HTML",
+        "Research Platforms"
+      ],
+      "url": "https://github.com/profmohit-edu/cse-hackbvp-platform",
+      "metadata": {
+        "category": "Research Platforms",
+        "language": "HTML",
+        "stars": 0,
+        "forks": 0,
+        "license": "NOASSERTION",
+        "updatedAt": "2026-08-27T18:44:43Z"
+      }
+    },
+    {
+      "id": "repository:1304208455",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "econmentor-ai",
+      "summary": "AI-powered interactive economics decision laboratory for the IBM AI Builders Challenge",
+      "content": "econmentor-ai AI-powered interactive economics decision laboratory for the IBM AI Builders Challenge EconMentor-AI is an interactive engineering-economics decision laboratory created by Mohit Tiwari, Department of Computer Science and Engineering, Bharati Vidyapeeth's College of Engineering, New Delhi. HTML AI NOASSERTION",
       "year": 2026,
       "publicationType": null,
       "researchAreas": [
         "Artificial Intelligence"
       ],
       "keywords": [
-        "Python",
-        "Dockerfile",
+        "HTML",
         "AI"
       ],
-      "url": "https://github.com/profmohit-edu/researchpulse-ai",
+      "url": "https://github.com/profmohit-edu/econmentor-ai",
       "metadata": {
         "category": "AI",
-        "language": "Python",
+        "language": "HTML",
         "stars": 0,
         "forks": 0,
-        "license": "MIT",
-        "updatedAt": "2026-06-06T07:22:25Z"
+        "license": "NOASSERTION",
+        "updatedAt": "2026-08-27T18:34:47Z"
       }
     },
     {
-      "id": "repository:1253679316",
+      "id": "repository:1303651719",
       "collections": [
         "Projects",
-        "GitHub",
-        "Teaching"
+        "GitHub"
       ],
-      "title": "campus-research-mentor",
-      "summary": "Public GitHub repository.",
-      "content": "campus-research-mentor Teaching",
+      "title": "mohit-tiwari-academic",
+      "summary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
+      "content": "mohit-tiwari-academic Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi. TypeScript JavaScript CSS Research Platforms",
       "year": 2026,
       "publicationType": null,
       "researchAreas": [],
       "keywords": [
-        "Teaching"
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Research Platforms"
       ],
-      "url": "https://github.com/profmohit-edu/campus-research-mentor",
+      "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
       "metadata": {
-        "category": "Teaching",
-        "language": null,
+        "category": "Research Platforms",
+        "language": "TypeScript",
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-05-29T17:53:41Z"
+        "updatedAt": "2026-08-24T04:03:38Z"
+      }
+    },
+    {
+      "id": "repository:1327480509",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "economics-for-engineers",
+      "summary": "A student-friendly GitBook for HS-301 Economics for Engineers",
+      "content": "economics-for-engineers A student-friendly GitBook for HS-301 Economics for Engineers Institution: Bharati Vidyapeeth's College of Engineering, New Delhi Utilities NOASSERTION",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/economics-for-engineers",
+      "metadata": {
+        "category": "Utilities",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "license": "NOASSERTION",
+        "updatedAt": "2026-08-08T06:54:44Z"
       }
     },
     {
@@ -10516,35 +10641,6 @@
         "forks": 0,
         "license": null,
         "updatedAt": "2026-02-17T04:44:08Z"
-      }
-    },
-    {
-      "id": "repository:1156862922",
-      "collections": [
-        "Projects",
-        "GitHub",
-        "Teaching"
-      ],
-      "title": "context-driven-engineering-learning-framework",
-      "summary": "Official Version 1.0 Release of the Context-Driven Engineering Learning Framework",
-      "content": "context-driven-engineering-learning-framework Official Version 1.0 Release of the Context-Driven Engineering Learning Framework The Context-Driven Engineering Learning Framework is a structured pedagogical architecture designed to integrate decision-context reasoning into engineering management education. HTML Teaching",
-      "year": 2026,
-      "publicationType": null,
-      "researchAreas": [
-        "Software Engineering"
-      ],
-      "keywords": [
-        "HTML",
-        "Teaching"
-      ],
-      "url": "https://github.com/profmohit-edu/context-driven-engineering-learning-framework",
-      "metadata": {
-        "category": "Teaching",
-        "language": "HTML",
-        "stars": 0,
-        "forks": 0,
-        "license": null,
-        "updatedAt": "2026-02-16T09:07:28Z"
       }
     },
     {
@@ -11004,8 +11100,8 @@
         "Metrics"
       ],
       "title": "Projects",
-      "summary": "Projects: 15. Source: GitHub.",
-      "content": "projects Projects 15 GitHub ",
+      "summary": "Projects: 18. Source: GitHub.",
+      "content": "projects Projects 18 GitHub ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -11016,7 +11112,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 15,
+        "value": 18,
         "source": "GitHub",
         "status": "verified"
       }

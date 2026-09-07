@@ -42,6 +42,20 @@
     "orcidPath": "/0000-0003-1836-3451/work/215158804"
   },
   {
+    "id": "doi:10.1007/s10791-026-10540-z",
+    "putCode": 225786944,
+    "title": "Attention-guided deep embedding framework for heterogeneous vehicular clustering and cluster head selection in dynamic VANETs",
+    "year": 2026,
+    "publicationDate": "2026-09-04",
+    "type": "Journal Article",
+    "sourceType": "journal-article",
+    "venue": "Discover Computing",
+    "doi": "10.1007/s10791-026-10540-z",
+    "url": "http://dx.doi.org/10.1007/s10791-026-10540-z",
+    "sourceName": "Mohit Tiwari",
+    "orcidPath": "/0000-0003-1836-3451/work/225786944"
+  },
+  {
     "id": "doi:10.1016/j.cola.2026.101396",
     "putCode": 213246104,
     "title": "Automated code review systems using CodeBERT with multi-anchor space-aware temporal convolutional neural network",

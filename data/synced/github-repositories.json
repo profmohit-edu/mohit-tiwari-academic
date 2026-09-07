@@ -1,5 +1,29 @@
 [
   {
+    "id": 1303651719,
+    "name": "mohit-tiwari-academic",
+    "fullName": "profmohit-edu/mohit-tiwari-academic",
+    "description": null,
+    "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "TypeScript": 195561,
+      "JavaScript": 64136,
+      "CSS": 4140
+    },
+    "primaryLanguage": "TypeScript",
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "readmeSummary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
+    "category": "Research Platforms",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-07-17T06:33:39Z",
+    "updatedAt": "2026-08-31T09:43:48Z"
+  },
+  {
     "id": 1346871553,
     "name": "GeminiVault-Journal",
     "fullName": "profmohit-edu/GeminiVault-Journal",
@@ -248,30 +272,6 @@
     "fork": false,
     "createdAt": "2026-07-17T16:56:04Z",
     "updatedAt": "2026-08-27T18:34:47Z"
-  },
-  {
-    "id": 1303651719,
-    "name": "mohit-tiwari-academic",
-    "fullName": "profmohit-edu/mohit-tiwari-academic",
-    "description": null,
-    "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
-    "homepage": null,
-    "topics": [],
-    "languages": {
-      "TypeScript": 195561,
-      "JavaScript": 64136,
-      "CSS": 4140
-    },
-    "primaryLanguage": "TypeScript",
-    "stars": 0,
-    "forks": 0,
-    "license": null,
-    "readmeSummary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
-    "category": "Research Platforms",
-    "archived": false,
-    "fork": false,
-    "createdAt": "2026-07-17T06:33:39Z",
-    "updatedAt": "2026-08-24T04:03:38Z"
   },
   {
     "id": 1327480509,

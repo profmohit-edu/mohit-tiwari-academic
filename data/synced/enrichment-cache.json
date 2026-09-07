@@ -18550,5 +18550,105 @@
       "publisherUrl": "https://doi.org/10.2139/ssrn.5088795"
     },
     "enrichedAt": "2026-08-17T04:00:30.886Z"
+  },
+  "10.1007/s10791-026-10540-z": {
+    "crossref": {
+      "title": "Attention-guided deep embedding framework for heterogeneous vehicular clustering and cluster head selection in dynamic VANETs",
+      "authors": [
+        "Ajaybeer Kaur",
+        "Majid Hamid Ali",
+        "Parveen Kumar",
+        "Mohit Tiwari",
+        "Sergii Sharov"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Ajaybeer Kaur",
+          "orcid": null
+        },
+        {
+          "name": "Majid Hamid Ali",
+          "orcid": null
+        },
+        {
+          "name": "Parveen Kumar",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Sergii Sharov",
+          "orcid": null
+        }
+      ],
+      "venue": "Discover Computing",
+      "publisher": "Springer Science and Business Media LLC",
+      "volume": "29",
+      "issue": "1",
+      "pages": null,
+      "publicationDate": "2026-09-04",
+      "type": "Journal Article",
+      "abstract": null,
+      "keywords": [],
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s10791-026-10540-z.pdf",
+      "publisherUrl": "https://doi.org/10.1007/s10791-026-10540-z"
+    },
+    "openAlex": {
+      "title": "Attention-guided deep embedding framework for heterogeneous vehicular clustering and cluster head selection in dynamic VANETs",
+      "authors": [
+        "Ajaybeer Kaur",
+        "Majid Hamid Ali",
+        "Parveen Kumar",
+        "Mohit Tiwari",
+        "Sergii Sharov"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Ajaybeer Kaur",
+          "orcid": "0000-0002-3910-3803"
+        },
+        {
+          "name": "Majid Hamid Ali",
+          "orcid": "0000-0002-6532-1150"
+        },
+        {
+          "name": "Parveen Kumar",
+          "orcid": "0000-0002-6151-4422"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Sergii Sharov",
+          "orcid": null
+        }
+      ],
+      "venue": "Discover Computing",
+      "publisher": null,
+      "publicationDate": "2026-09-04",
+      "abstract": "Vehicular Ad Hoc Networks (VANETs) are a major enabling technology for Intelligent Transportation Systems (ITS), facilitating safety-critical, traffic-efficient vehicle-to-vehicle (V2V) communication. Nevertheless, due to the highly dynamic nature of the vehicular environment, heterogeneous mobility patterns that ensure stable clustering and consistent cluster head (CH) selection pose a challenge. Existing embedding-driven and graph-based vehicle clustering methods rely on localized, one-hop neighbourhood aggregation and assume homogeneous neighbour influence. To overcome these challenges, the paper proposes an attention-guided deep embedding framework that jointly models long-range structural interactions and heterogeneous vehicular influence, rather than restricting learning to immediate neighbours. The proposed algorithm trains latent vehicular representations that understand long-range structural interactions that go beyond immediate one-hop neighbourhoods using Deep Nonnegative Matrix Factorisation (DANMF). To capture the heterogeneous vehicle influence (varying mobility, distance over time of vehicles), the dominant connectivity patterns are highlighted by using an ensemble attention mechanism. This incorporates interaction-factor attention to highlight the high-weighted interaction patterns of latent representation, whereas, through vehicle-level proximity attention, the stable and behaviourally related neighbours are selectively highlighted. Clustering is done according to the learned embeddings, and cluster heads are selected based on the strongest affinity of vehicles to cluster centres, to guarantee that CHs represent varying influence of mobility and structural significance. Extensive simulations reveal that the proposed model outperforms baselines, with a maximum throughput of 7.1 $$\\:Mbps$$ , CH stability of 90%, and a minimum packet delay of 4.5 $$\\:ms$$ , which translates to 36% higher throughput, 32% more stable CHs, and 40% reduced packet delay than state-of-the-art techniques. Thus, this way, the proposed model provides a robust solution for stable V2V communication. Not applicable.",
+      "keywords": [
+        "Cluster analysis",
+        "Network packet",
+        "Selection (genetic algorithm)",
+        "Vehicular ad hoc network",
+        "Embedding",
+        "Stability (learning theory)",
+        "Intelligent transportation system",
+        "Cluster (spacecraft)",
+        "Vehicular Ad Hoc Networks (VANETs)",
+        "Opportunistic and Delay-Tolerant Networks",
+        "Traffic Prediction and Management Techniques"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.1007/s10791-026-10540-z",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s10791-026-10540-z.pdf",
+      "publisherUrl": "https://doi.org/10.1007/s10791-026-10540-z"
+    },
+    "enrichedAt": "2026-09-07T08:14:27.331Z"
   }
 }

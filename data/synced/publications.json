@@ -198,6 +198,84 @@
     ]
   },
   {
+    "id": "doi:10.1007/s10791-026-10540-z",
+    "title": "Attention-guided deep embedding framework for heterogeneous vehicular clustering and cluster head selection in dynamic VANETs",
+    "year": 2026,
+    "publicationDate": "2026-09-04",
+    "type": "Journal Article",
+    "sourceType": "journal-article",
+    "authors": [
+      "Ajaybeer Kaur",
+      "Majid Hamid Ali",
+      "Parveen Kumar",
+      "Mohit Tiwari",
+      "Sergii Sharov"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Ajaybeer Kaur",
+        "orcid": null
+      },
+      {
+        "name": "Majid Hamid Ali",
+        "orcid": null
+      },
+      {
+        "name": "Parveen Kumar",
+        "orcid": null
+      },
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      },
+      {
+        "name": "Sergii Sharov",
+        "orcid": null
+      }
+    ],
+    "venue": "Discover Computing",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "29",
+    "issue": "1",
+    "pages": null,
+    "doi": "10.1007/s10791-026-10540-z",
+    "abstract": "Vehicular Ad Hoc Networks (VANETs) are a major enabling technology for Intelligent Transportation Systems (ITS), facilitating safety-critical, traffic-efficient vehicle-to-vehicle (V2V) communication. Nevertheless, due to the highly dynamic nature of the vehicular environment, heterogeneous mobility patterns that ensure stable clustering and consistent cluster head (CH) selection pose a challenge. Existing embedding-driven and graph-based vehicle clustering methods rely on localized, one-hop neighbourhood aggregation and assume homogeneous neighbour influence. To overcome these challenges, the paper proposes an attention-guided deep embedding framework that jointly models long-range structural interactions and heterogeneous vehicular influence, rather than restricting learning to immediate neighbours. The proposed algorithm trains latent vehicular representations that understand long-range structural interactions that go beyond immediate one-hop neighbourhoods using Deep Nonnegative Matrix Factorisation (DANMF). To capture the heterogeneous vehicle influence (varying mobility, distance over time of vehicles), the dominant connectivity patterns are highlighted by using an ensemble attention mechanism. This incorporates interaction-factor attention to highlight the high-weighted interaction patterns of latent representation, whereas, through vehicle-level proximity attention, the stable and behaviourally related neighbours are selectively highlighted. Clustering is done according to the learned embeddings, and cluster heads are selected based on the strongest affinity of vehicles to cluster centres, to guarantee that CHs represent varying influence of mobility and structural significance. Extensive simulations reveal that the proposed model outperforms baselines, with a maximum throughput of 7.1 $$\\:Mbps$$ , CH stability of 90%, and a minimum packet delay of 4.5 $$\\:ms$$ , which translates to 36% higher throughput, 32% more stable CHs, and 40% reduced packet delay than state-of-the-art techniques. Thus, this way, the proposed model provides a robust solution for stable V2V communication. Not applicable.",
+    "keywords": [
+      "Cluster analysis",
+      "Network packet",
+      "Selection (genetic algorithm)",
+      "Vehicular ad hoc network",
+      "Embedding",
+      "Stability (learning theory)",
+      "Intelligent transportation system",
+      "Cluster (spacecraft)",
+      "Vehicular Ad Hoc Networks (VANETs)",
+      "Opportunistic and Delay-Tolerant Networks",
+      "Traffic Prediction and Management Techniques"
+    ],
+    "researchAreas": [
+      "Machine Learning"
+    ],
+    "citation": "Ajaybeer Kaur, Majid Hamid Ali, Parveen Kumar, Mohit Tiwari, Sergii Sharov (2026). Attention-guided deep embedding framework for heterogeneous vehicular clustering and cluster head selection in dynamic VANETs. Discover Computing. https://doi.org/10.1007/s10791-026-10540-z",
+    "bibtex": "@article{tiwari2026attentionguided,\n  title = {Attention-guided deep embedding framework for heterogeneous vehicular clustering and cluster head selection in dynamic VANETs},\n  author = {Ajaybeer Kaur and Majid Hamid Ali and Parveen Kumar and Mohit Tiwari and Sergii Sharov},\n  year = {2026},\n  journal = {Discover Computing},\n  publisher = {Springer Science and Business Media LLC},\n  volume = {29},\n  number = {1},\n  doi = {10.1007/s10791-026-10540-z}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.1007/s10791-026-10540-z",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s10791-026-10540-z.pdf",
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.1007/s10791-026-10540-z"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
     "id": "doi:10.1016/j.cola.2026.101396",
     "title": "Automated code review systems using CodeBERT with multi-anchor space-aware temporal convolutional neural network",
     "year": 2026,
@@ -20559,98 +20637,6 @@
       "github": null,
       "dataset": null,
       "publisher": "https://doi.org/10.13140/rg.2.2.18230.88646"
-    },
-    "sources": [
-      "ORCID",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.48550/arxiv.2306.15792",
-    "title": "Sidecars on the Central Lane: Impact of Network Proxies on Microservices",
-    "year": 2023,
-    "publicationDate": "2023-06-27",
-    "type": "Other",
-    "sourceType": "other",
-    "authors": [
-      "Prateek Sahu",
-      "Lucy S. Zheng",
-      "Marco Bueso",
-      "Shijia Wei",
-      "Neeraja J. Yadwadkar",
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Prateek Sahu",
-        "orcid": "0009-0000-5569-5856"
-      },
-      {
-        "name": "Lucy S. Zheng",
-        "orcid": null
-      },
-      {
-        "name": "Marco Bueso",
-        "orcid": null
-      },
-      {
-        "name": "Shijia Wei",
-        "orcid": "0000-0002-4513-5334"
-      },
-      {
-        "name": "Neeraja J. Yadwadkar",
-        "orcid": "0009-0007-7556-3069"
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": "arXiv (Cornell University)",
-    "publisher": "Cornell University",
-    "volume": null,
-    "issue": null,
-    "pages": null,
-    "doi": "10.48550/arxiv.2306.15792",
-    "abstract": "Cloud applications are moving away from monolithic model towards loosely-coupled microservices designs. Service meshes are widely used for implementing microservices applications mainly because they provide a modular architecture for modern applications by separating operational features from application business logic. Sidecar proxies in service meshes enable this modularity by applying security, networking, and monitoring policies on the traffic to and from services. To implement these policies, sidecars often execute complex chains of logic that vary across associated applications and end up unevenly impacting the performance of the overall application. Lack of understanding of how the sidecars impact the performance of microservice-based applications stands in the way of building performant and resource-efficient applications. To this end, we bring sidecar proxies in focus and argue that we need to deeply study their impact on the system performance and resource utilization. We identify and describe challenges in characterizing sidecars, namely the need for microarchitectural metrics and comprehensive methodologies, and discuss research directions where such characterization will help in building efficient service mesh infrastructure for microservice applications.",
-    "keywords": [
-      "Microservices",
-      "Computer science",
-      "Modular design",
-      "Modularity (biology)",
-      "Cloud computing",
-      "Service-oriented architecture",
-      "Service (business)",
-      "Distributed computing",
-      "Architecture",
-      "Polygon mesh",
-      "Resource (disambiguation)",
-      "Software engineering",
-      "Web service",
-      "World Wide Web",
-      "Computer network",
-      "Operating system",
-      "Software System Performance and Reliability",
-      "Cloud Computing and Resource Management",
-      "Software-Defined Networks and 5G"
-    ],
-    "researchAreas": [
-      "Cyber Security",
-      "Software Engineering",
-      "Cloud Computing"
-    ],
-    "citation": "Prateek Sahu, Lucy S. Zheng, Marco Bueso, Shijia Wei, Neeraja J. Yadwadkar, Mohit Tiwari (2023). Sidecars on the Central Lane: Impact of Network Proxies on Microservices. arXiv (Cornell University). https://doi.org/10.48550/arxiv.2306.15792",
-    "bibtex": "@misc{tiwari2023sidecars,\n  title = {Sidecars on the Central Lane: Impact of Network Proxies on Microservices},\n  author = {Prateek Sahu and Lucy S. Zheng and Marco Bueso and Shijia Wei and Neeraja J. Yadwadkar and Mohit Tiwari},\n  year = {2023},\n  booktitle = {arXiv (Cornell University)},\n  publisher = {Cornell University},\n  doi = {10.48550/arxiv.2306.15792}\n}",
-    "citationCount": 0,
-    "openAccess": "open",
-    "links": {
-      "doi": "https://doi.org/10.48550/arxiv.2306.15792",
-      "pdf": "https://arxiv.org/pdf/2306.15792",
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://arxiv.org/abs/2306.15792"
     },
     "sources": [
       "ORCID",

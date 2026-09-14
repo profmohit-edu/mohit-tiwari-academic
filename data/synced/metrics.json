@@ -2,7 +2,7 @@
   {
     "key": "publications",
     "label": "Publications",
-    "value": 604,
+    "value": 605,
     "source": "ORCID",
     "todo": null
   },
@@ -51,7 +51,7 @@
   {
     "key": "projects",
     "label": "Projects",
-    "value": 18,
+    "value": 19,
     "source": "GitHub",
     "todo": null
   },

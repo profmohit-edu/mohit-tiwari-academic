@@ -28,6 +28,20 @@
     "orcidPath": "/0000-0003-1836-3451/work/221812037"
   },
   {
+    "id": "doi:10.1142/s0218194026500671",
+    "putCode": 226231614,
+    "title": "An Advanced Dynamic Trust Management and Security Configuration Technology for Hybrid Cloud Mesh Architecture",
+    "year": 2026,
+    "publicationDate": "2026-09-09",
+    "type": "Journal Article",
+    "sourceType": "journal-article",
+    "venue": "International Journal of Software Engineering and Knowledge Engineering",
+    "doi": "10.1142/s0218194026500671",
+    "url": "https://doi.org/10.1142/S0218194026500671",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/226231614"
+  },
+  {
     "id": "doi:10.21203/rs.3.rs-9722330/v1",
     "putCode": 215158804,
     "title": "AoT-BTS: An Explainable Age-of-Trust Based Behavioral Scoring Framework for Real-Time Zero Trust Enforcement using SDN",

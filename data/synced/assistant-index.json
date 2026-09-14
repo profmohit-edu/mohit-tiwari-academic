@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-07T08:14:30.028Z",
-  "documentCount": 340,
+  "generatedAt": "2026-09-14T08:51:25.907Z",
+  "documentCount": 349,
   "collectionCounts": {
     "Publications": 300,
-    "Projects": 19,
+    "Projects": 28,
     "Datasets": 1,
     "Software": 7,
-    "GitHub": 18,
+    "GitHub": 27,
     "Patents": 0,
     "Teaching": 15,
     "Metrics": 14
@@ -70,6 +70,44 @@
         "citations": null,
         "openAccess": "unknown",
         "authors": ""
+      }
+    },
+    {
+      "id": "publication:doi:10.1142/s0218194026500671",
+      "collections": [
+        "Publications"
+      ],
+      "title": "An Advanced Dynamic Trust Management and Security Configuration Technology for Hybrid Cloud Mesh Architecture",
+      "summary": "This paper introduces a novel framework named Reinforcement Learning-based Zero Trust with Trust Score (RLZT-TS) architecture for advanced dynamic trust management and security. This integrates an RL algorithm, a dynamic trust scoring (DTS) model, and a Zero Trust architecture (ZTA) in a hybrid cloud mesh infrastructure. This model can effectively detect cyber threats. An Advanced Multi-Factor Authentication (AMFA) protocol has been implemented in the security layer to secure the data during transmission over the cloud networks. The novel feature of RLZT-TS is a closed-loop adaptive trust model, where the trust score is continuously updated using RL algorithms, the access policy is dynamical",
+      "content": "An Advanced Dynamic Trust Management and Security Configuration Technology for Hybrid Cloud Mesh Architecture Mohit Tiwari D Prabakar G. Manikandan C S Sandeep Rajat Bhardwaj This paper introduces a novel framework named Reinforcement Learning-based Zero Trust with Trust Score (RLZT-TS) architecture for advanced dynamic trust management and security. This integrates an RL algorithm, a dynamic trust scoring (DTS) model, and a Zero Trust architecture (ZTA) in a hybrid cloud mesh infrastructure. This model can effectively detect cyber threats. An Advanced Multi-Factor Authentication (AMFA) protocol has been implemented in the security layer to secure the data during transmission over the cloud networks. The novel feature of RLZT-TS is a closed-loop adaptive trust model, where the trust score is continuously updated using RL algorithms, the access policy is dynamically adjusted based on the trust score, and the authentication requirements are dynamically changed based on the predicted risk level. The developed framework is analyzed through the MATLAB simulation, and outcomes illustrate the significant enhancement in trust score accuracy (98%), attack detection rate (99%), resource utilization (8.82%), policy adaptability (98%), and latency (8.2[Formula: see text]ms). Mohit Tiwari, D Prabakar, G. Manikandan, C S Sandeep, Rajat Bhardwaj (2026). An Advanced Dynamic Trust Management and Security Configuration Technology for Hybrid Cloud Mesh Architecture. International Journal of Software Engineering and Knowledge Engineering. https://doi.org/10.1142/s0218194026500671 International Journal of Software Engineering and Knowledge Engineering World Scientific Pub Co Pte Ltd 10.1142/s0218194026500671 0 citations cited Cloud computing Trust management (information system) Cloud computing security Authentication (law) Scalability Access control Control reconfiguration Computer security model Cloud Data Security Solutions Cloud Computing and Resource Management Big Data and Digital Economy Cyber Security Software Engineering Cloud Computing ORCID Crossref OpenAlex",
+      "year": 2026,
+      "publicationType": "Journal Article",
+      "researchAreas": [
+        "Cyber Security",
+        "Software Engineering",
+        "Cloud Computing"
+      ],
+      "keywords": [
+        "Cloud computing",
+        "Trust management (information system)",
+        "Cloud computing security",
+        "Authentication (law)",
+        "Scalability",
+        "Access control",
+        "Control reconfiguration",
+        "Computer security model",
+        "Cloud Data Security Solutions",
+        "Cloud Computing and Resource Management",
+        "Big Data and Digital Economy"
+      ],
+      "url": "https://doi.org/10.1142/s0218194026500671",
+      "metadata": {
+        "doi": "10.1142/s0218194026500671",
+        "venue": "International Journal of Software Engineering and Knowledge Engineering",
+        "publisher": "World Scientific Pub Co Pte Ltd",
+        "citations": 0,
+        "openAccess": "unknown",
+        "authors": "Mohit Tiwari, D Prabakar, G. Manikandan, C S Sandeep, Rajat Bhardwaj"
       }
     },
     {
@@ -10107,37 +10145,286 @@
       }
     },
     {
-      "id": "publication:doi:10.13140/rg.2.2.18230.88646",
+      "id": "repository:1368473478",
       "collections": [
-        "Publications"
+        "Projects",
+        "GitHub"
       ],
-      "title": "served as a peer reviewer for the manuscript 'Cloud Based IoT Data Warehousing Technology for E-Healthcare: A Comprehensive Guide to E-Health Grids', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global",
-      "summary": "Mohit Tiwari (2023). served as a peer reviewer for the manuscript 'Cloud Based IoT Data Warehousing Technology for E-Healthcare: A Comprehensive Guide to E-Health Grids', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global. https://doi.org/10.13140/rg.2.2.18230.88646",
-      "content": "served as a peer reviewer for the manuscript 'Cloud Based IoT Data Warehousing Technology for E-Healthcare: A Comprehensive Guide to E-Health Grids', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global Mohit Tiwari Mohit Tiwari (2023). served as a peer reviewer for the manuscript 'Cloud Based IoT Data Warehousing Technology for E-Healthcare: A Comprehensive Guide to E-Health Grids', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global. https://doi.org/10.13140/rg.2.2.18230.88646 10.13140/rg.2.2.18230.88646 0 citations cited Peer review Process (computing) Internet of Things Peer-to-peer Data warehouse Mycorrhizal Fungi and Plant Interactions Genomics and Phylogenetic Studies Plant Pathogens and Fungal Diseases Cloud Computing Internet of Things ORCID OpenAlex",
-      "year": 2023,
-      "publicationType": "Other",
-      "researchAreas": [
-        "Cloud Computing",
-        "Internet of Things"
-      ],
+      "title": "CreatorOs",
+      "summary": "Creator-OS",
+      "content": "CreatorOs Creator-OS Stop juggling 10 tools. Start owning your creator empire — from one dashboard. JavaScript EJS CSS Python HTML Dockerfile Utilities",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
       "keywords": [
-        "Peer review",
-        "Process (computing)",
-        "Internet of Things",
-        "Peer-to-peer",
-        "Data warehouse",
-        "Mycorrhizal Fungi and Plant Interactions",
-        "Genomics and Phylogenetic Studies",
-        "Plant Pathogens and Fungal Diseases"
+        "JavaScript",
+        "EJS",
+        "CSS",
+        "Python",
+        "HTML",
+        "Dockerfile",
+        "Utilities"
       ],
-      "url": "https://doi.org/10.13140/rg.2.2.18230.88646",
+      "url": "https://github.com/profmohit-edu/CreatorOs",
       "metadata": {
-        "doi": "10.13140/rg.2.2.18230.88646",
-        "venue": null,
-        "publisher": null,
-        "citations": 0,
-        "openAccess": "open",
-        "authors": "Mohit Tiwari"
+        "category": "Utilities",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-09-13T14:41:23Z"
+      }
+    },
+    {
+      "id": "repository:1367345391",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "Truxify",
+      "summary": "Open-source Flutter logistics platform — contributors welcome",
+      "content": "Truxify Open-source Flutter logistics platform — contributors welcome Broker-Free · ML-Powered · Blockchain-Secured Freight Platform JavaScript Dart Python PLpgSQL Solidity Go C++ Rust C Shell Cuda CSS Kotlin TypeScript HTML Open Policy Agent Circom PowerShell CMake Dockerfile Makefile OCaml GLSL Research Platforms MIT",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "JavaScript",
+        "Dart",
+        "Python",
+        "PLpgSQL",
+        "Solidity",
+        "Go",
+        "C++",
+        "Rust",
+        "C",
+        "Shell",
+        "Cuda",
+        "CSS",
+        "Kotlin",
+        "TypeScript",
+        "HTML",
+        "Open Policy Agent",
+        "Circom",
+        "PowerShell",
+        "CMake",
+        "Dockerfile",
+        "Makefile",
+        "OCaml",
+        "GLSL",
+        "Research Platforms"
+      ],
+      "url": "https://github.com/profmohit-edu/Truxify",
+      "metadata": {
+        "category": "Research Platforms",
+        "language": "JavaScript",
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updatedAt": "2026-09-13T03:26:30Z"
+      }
+    },
+    {
+      "id": "repository:1367327801",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "Dockfleet",
+      "summary": "A fully Free and Open Source, local-first orchestration tool that helps solo developers and small teams run and manage multiple projects on a single machine or VPS using Docker containers.",
+      "content": "Dockfleet A fully Free and Open Source, local-first orchestration tool that helps solo developers and small teams run and manage multiple projects on a single machine or VPS using Docker containers. DockFleet – Self‑Healing Local Container Orchestrator Python HTML Utilities MIT",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Python",
+        "HTML",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/Dockfleet",
+      "metadata": {
+        "category": "Utilities",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updatedAt": "2026-09-12T13:34:45Z"
+      }
+    },
+    {
+      "id": "repository:1367319165",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "SecureFlow",
+      "summary": "The Digital Heist Defense System — AI-Powered GitHub Pull Request Security Scanner",
+      "content": "SecureFlow The Digital Heist Defense System — AI-Powered GitHub Pull Request Security Scanner TypeScript CSS Dockerfile Nix JavaScript Shell Utilities MIT",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "TypeScript",
+        "CSS",
+        "Dockerfile",
+        "Nix",
+        "JavaScript",
+        "Shell",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/SecureFlow",
+      "metadata": {
+        "category": "Utilities",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updatedAt": "2026-09-12T13:24:14Z"
+      }
+    },
+    {
+      "id": "repository:1366825839",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "TCalc",
+      "summary": "Scan a codebase once. See where its context goes, which model is enough for the job, and what your coding agent should read first.",
+      "content": "TCalc Scan a codebase once. See where its context goes, which model is enough for the job, and what your coding agent should read first. TypeScript JavaScript Kotlin CSS HTML Python Utilities MIT",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Kotlin",
+        "CSS",
+        "HTML",
+        "Python",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/TCalc",
+      "metadata": {
+        "category": "Utilities",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updatedAt": "2026-09-12T01:06:28Z"
+      }
+    },
+    {
+      "id": "repository:1366567835",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "AIproductfactory",
+      "summary": "Describe the outcome. Research the evidence. Approve the plan. Let the Factory code, run, verify and package the product.",
+      "content": "AIproductfactory Describe the outcome. Research the evidence. Approve the plan. Let the Factory code, run, verify and package the product. Python TypeScript JavaScript HTML TeX Shell CSS Utilities",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "TeX",
+        "Shell",
+        "CSS",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/AIproductfactory",
+      "metadata": {
+        "category": "Utilities",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-09-11T18:33:20Z"
+      }
+    },
+    {
+      "id": "repository:1366561517",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "Air-Quality-Intelligence",
+      "summary": "A local-first, open-source data engineering and analytics system for real-time air quality monitoring, anomaly detection, and near-term PM2.5 forecasting.",
+      "content": "Air-Quality-Intelligence A local-first, open-source data engineering and analytics system for real-time air quality monitoring, anomaly detection, and near-term PM2.5 forecasting. Python PLpgSQL Shell Makefile Utilities NOASSERTION",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Python",
+        "PLpgSQL",
+        "Shell",
+        "Makefile",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/Air-Quality-Intelligence",
+      "metadata": {
+        "category": "Utilities",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "license": "NOASSERTION",
+        "updatedAt": "2026-09-11T18:27:22Z"
+      }
+    },
+    {
+      "id": "repository:1366549528",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "LawSathi-Rag",
+      "summary": "Public GitHub repository.",
+      "content": "LawSathi-Rag Python TeX Utilities NOASSERTION",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Python",
+        "TeX",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/LawSathi-Rag",
+      "metadata": {
+        "category": "Utilities",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "license": "NOASSERTION",
+        "updatedAt": "2026-09-11T18:15:52Z"
+      }
+    },
+    {
+      "id": "repository:1365753498",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "net473t",
+      "summary": "Academic course website for Cloud Computing and Security (NET-473T), Department of Computer Science and Engineering, BVCOE, New Delhi.",
+      "content": "net473t Academic course website for Cloud Computing and Security (NET-473T), Department of Computer Science and Engineering, BVCOE, New Delhi. HTML CSS Utilities",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/net473t",
+      "metadata": {
+        "category": "Utilities",
+        "language": "HTML",
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-09-11T10:29:43Z"
       }
     },
     {
@@ -10165,7 +10452,7 @@
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-08-31T09:43:48Z"
+        "updatedAt": "2026-09-07T08:14:37Z"
       }
     },
     {
@@ -10929,8 +11216,8 @@
         "Metrics"
       ],
       "title": "Publications",
-      "summary": "Publications: 604. Source: ORCID.",
-      "content": "publications Publications 604 ORCID ",
+      "summary": "Publications: 605. Source: ORCID.",
+      "content": "publications Publications 605 ORCID ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -10941,7 +11228,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 604,
+        "value": 605,
         "source": "ORCID",
         "status": "verified"
       }
@@ -11090,8 +11377,8 @@
         "Metrics"
       ],
       "title": "Projects",
-      "summary": "Projects: 18. Source: GitHub.",
-      "content": "projects Projects 18 GitHub ",
+      "summary": "Projects: 19. Source: GitHub.",
+      "content": "projects Projects 19 GitHub ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -11102,7 +11389,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 18,
+        "value": 19,
         "source": "GitHub",
         "status": "verified"
       }

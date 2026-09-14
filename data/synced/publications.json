@@ -120,6 +120,86 @@
     ]
   },
   {
+    "id": "doi:10.1142/s0218194026500671",
+    "title": "An Advanced Dynamic Trust Management and Security Configuration Technology for Hybrid Cloud Mesh Architecture",
+    "year": 2026,
+    "publicationDate": "2026-09-09",
+    "type": "Journal Article",
+    "sourceType": "journal-article",
+    "authors": [
+      "Mohit Tiwari",
+      "D Prabakar",
+      "G. Manikandan",
+      "C S Sandeep",
+      "Rajat Bhardwaj"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      },
+      {
+        "name": "D Prabakar",
+        "orcid": "0009-0000-8141-6398"
+      },
+      {
+        "name": "G. Manikandan",
+        "orcid": "0000-0003-2666-0587"
+      },
+      {
+        "name": "C S Sandeep",
+        "orcid": "0000-0003-3269-7984"
+      },
+      {
+        "name": "Rajat Bhardwaj",
+        "orcid": "0000-0001-9410-7391"
+      }
+    ],
+    "venue": "International Journal of Software Engineering and Knowledge Engineering",
+    "publisher": "World Scientific Pub Co Pte Ltd",
+    "volume": null,
+    "issue": null,
+    "pages": "1-17",
+    "doi": "10.1142/s0218194026500671",
+    "abstract": "This paper introduces a novel framework named Reinforcement Learning-based Zero Trust with Trust Score (RLZT-TS) architecture for advanced dynamic trust management and security. This integrates an RL algorithm, a dynamic trust scoring (DTS) model, and a Zero Trust architecture (ZTA) in a hybrid cloud mesh infrastructure. This model can effectively detect cyber threats. An Advanced Multi-Factor Authentication (AMFA) protocol has been implemented in the security layer to secure the data during transmission over the cloud networks. The novel feature of RLZT-TS is a closed-loop adaptive trust model, where the trust score is continuously updated using RL algorithms, the access policy is dynamically adjusted based on the trust score, and the authentication requirements are dynamically changed based on the predicted risk level. The developed framework is analyzed through the MATLAB simulation, and outcomes illustrate the significant enhancement in trust score accuracy (98%), attack detection rate (99%), resource utilization (8.82%), policy adaptability (98%), and latency (8.2[Formula: see text]ms).",
+    "keywords": [
+      "Cloud computing",
+      "Trust management (information system)",
+      "Cloud computing security",
+      "Authentication (law)",
+      "Scalability",
+      "Access control",
+      "Control reconfiguration",
+      "Computer security model",
+      "Cloud Data Security Solutions",
+      "Cloud Computing and Resource Management",
+      "Big Data and Digital Economy"
+    ],
+    "researchAreas": [
+      "Cyber Security",
+      "Software Engineering",
+      "Cloud Computing"
+    ],
+    "citation": "Mohit Tiwari, D Prabakar, G. Manikandan, C S Sandeep, Rajat Bhardwaj (2026). An Advanced Dynamic Trust Management and Security Configuration Technology for Hybrid Cloud Mesh Architecture. International Journal of Software Engineering and Knowledge Engineering. https://doi.org/10.1142/s0218194026500671",
+    "bibtex": "@article{tiwari2026advanced,\n  title = {An Advanced Dynamic Trust Management and Security Configuration Technology for Hybrid Cloud Mesh Architecture},\n  author = {Mohit Tiwari and D Prabakar and G. Manikandan and C S Sandeep and Rajat Bhardwaj},\n  year = {2026},\n  journal = {International Journal of Software Engineering and Knowledge Engineering},\n  publisher = {World Scientific Pub Co Pte Ltd},\n  pages = {1-17},\n  doi = {10.1142/s0218194026500671}\n}",
+    "citationCount": 0,
+    "openAccess": "unknown",
+    "links": {
+      "doi": "https://doi.org/10.1142/s0218194026500671",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.1142/s0218194026500671"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
     "id": "doi:10.21203/rs.3.rs-9722330/v1",
     "title": "AoT-BTS: An Explainable Age-of-Trust Based Behavioral Scoring Framework for Real-Time Zero Trust Enforcement using SDN",
     "year": 2026,
@@ -20582,61 +20662,6 @@
       "github": null,
       "dataset": null,
       "publisher": "https://doi.org/10.13140/rg.2.2.15714.30401"
-    },
-    "sources": [
-      "ORCID",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.13140/rg.2.2.18230.88646",
-    "title": "served as a peer reviewer for the manuscript 'Cloud Based IoT Data Warehousing Technology for E-Healthcare: A Comprehensive Guide to E-Health Grids', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global",
-    "year": 2023,
-    "publicationDate": "2023-01-01",
-    "type": "Other",
-    "sourceType": "other",
-    "authors": [
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": null,
-    "publisher": null,
-    "volume": null,
-    "issue": null,
-    "pages": null,
-    "doi": "10.13140/rg.2.2.18230.88646",
-    "abstract": null,
-    "keywords": [
-      "Peer review",
-      "Process (computing)",
-      "Internet of Things",
-      "Peer-to-peer",
-      "Data warehouse",
-      "Mycorrhizal Fungi and Plant Interactions",
-      "Genomics and Phylogenetic Studies",
-      "Plant Pathogens and Fungal Diseases"
-    ],
-    "researchAreas": [
-      "Cloud Computing",
-      "Internet of Things"
-    ],
-    "citation": "Mohit Tiwari (2023). served as a peer reviewer for the manuscript 'Cloud Based IoT Data Warehousing Technology for E-Healthcare: A Comprehensive Guide to E-Health Grids', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global. https://doi.org/10.13140/rg.2.2.18230.88646",
-    "bibtex": "@misc{tiwari2023served,\n  title = {served as a peer reviewer for the manuscript 'Cloud Based IoT Data Warehousing Technology for E-Healthcare: A Comprehensive Guide to E-Health Grids', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global},\n  author = {Mohit Tiwari},\n  year = {2023},\n  doi = {10.13140/rg.2.2.18230.88646}\n}",
-    "citationCount": 0,
-    "openAccess": "open",
-    "links": {
-      "doi": "https://doi.org/10.13140/rg.2.2.18230.88646",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.13140/rg.2.2.18230.88646"
     },
     "sources": [
       "ORCID",

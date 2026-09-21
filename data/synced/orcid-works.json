@@ -210,6 +210,20 @@
     "orcidPath": "/0000-0003-1836-3451/work/222030203"
   },
   {
+    "id": "doi:10.4018/979-8-2600-1533-9.ch008",
+    "putCode": 227050563,
+    "title": "Edge-Aware Smart Sensor Architectures Integrating IoT and Machine Learning for Intelligent Public Safety Networks",
+    "year": 2026,
+    "publicationDate": "2026-09-25",
+    "type": "Book Chapter",
+    "sourceType": "book-chapter",
+    "venue": null,
+    "doi": "10.4018/979-8-2600-1533-9.ch008",
+    "url": "https://doi.org/10.4018/979-8-2600-1533-9.ch008",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/227050563"
+  },
+  {
     "id": "doi:10.7910/dvn/isqf8d",
     "putCode": 221966672,
     "title": "HEI Cybersecurity Governance and Policy Evidence Catalogue",
@@ -390,6 +404,20 @@
     "url": "https://doi.org/10.4018/979-8-2600-0008-3.ch010",
     "sourceName": "Crossref",
     "orcidPath": "/0000-0003-1836-3451/work/210443680"
+  },
+  {
+    "id": "doi:10.21203/rs.3.rs-11028181/v1",
+    "putCode": 226775702,
+    "title": "Transformation-Specific Robustness Evaluation of a Machine Learning-Based Network Intrusion Detection System Under Controlled Feature Perturbations",
+    "year": 2026,
+    "publicationDate": "2026-09-15",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.21203/rs.3.rs-11028181/v1",
+    "url": "https://doi.org/10.21203/rs.3.rs-11028181/v1",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/226775702"
   },
   {
     "id": "orcid:210296541",

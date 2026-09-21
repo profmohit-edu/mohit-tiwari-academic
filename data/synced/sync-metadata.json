@@ -1,23 +1,23 @@
 {
   "orcid": {
     "orcidId": "0000-0003-1836-3451",
-    "rawGroupCount": 1057,
-    "deduplicatedWorkCount": 680,
+    "rawGroupCount": 1059,
+    "deduplicatedWorkCount": 682,
     "sitePublicationCount": 300,
     "enrichedPublicationCount": 224,
-    "synchronizedAt": "2026-09-14T08:51:21.585Z"
+    "synchronizedAt": "2026-09-21T08:52:52.656Z"
   },
   "github": {
     "username": "profmohit-edu",
-    "repositoryCount": 27,
+    "repositoryCount": 33,
     "categoryCounts": {
-      "Utilities": 10,
-      "Research Platforms": 3,
-      "AI": 5,
+      "Utilities": 12,
+      "AI": 8,
+      "Research Platforms": 4,
       "Teaching": 5,
       "Research Software": 3,
       "Cyber Security": 1
     },
-    "synchronizedAt": "2026-09-14T08:51:25.892Z"
+    "synchronizedAt": "2026-09-21T08:52:58.006Z"
   }
 }

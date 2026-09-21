@@ -941,6 +941,93 @@
     ]
   },
   {
+    "id": "doi:10.4018/979-8-2600-1533-9.ch008",
+    "title": "Edge-Aware Smart Sensor Architectures Integrating IoT and Machine Learning for Intelligent Public Safety Networks",
+    "year": 2026,
+    "publicationDate": "2026-09-25",
+    "type": "Book Chapter",
+    "sourceType": "book-chapter",
+    "authors": [
+      "Mohit Tiwari",
+      "Sunil Kr Pandey",
+      "Hastimal Jangid",
+      "C. S. Preetham Reddy",
+      "Ayesha Siddiqa",
+      "Vishwesh Nagamalla"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      },
+      {
+        "name": "Sunil Kr Pandey",
+        "orcid": "0000-0002-8085-2275"
+      },
+      {
+        "name": "Hastimal Jangid",
+        "orcid": "0009-0001-4532-5197"
+      },
+      {
+        "name": "C. S. Preetham Reddy",
+        "orcid": null
+      },
+      {
+        "name": "Ayesha Siddiqa",
+        "orcid": null
+      },
+      {
+        "name": "Vishwesh Nagamalla",
+        "orcid": "0000-0001-7255-166X"
+      }
+    ],
+    "venue": "Advances in Wireless Technologies and Telecommunication",
+    "publisher": "IGI Global Scientific Publishing",
+    "volume": null,
+    "issue": null,
+    "pages": "189-214",
+    "doi": "10.4018/979-8-2600-1533-9.ch008",
+    "abstract": "Every day the need for Real-time Intelligence, Low-latency and Large-scale Data Processing capabilities for adaptive Public Safety Systems will become more important as the environment continues to change. In order to address this need, this research makes a proposal for an Edge-enhanced Smart Sensor System that combines IoT devices and Machine Learning Technologies to create intelligent safety systems. The overall architecture of the Edge-enhanced Smart Sensor System is a combination of IoT Sensors (Location-specific), Edge-based Data Preprocessing (Low-latency, Scalable, Efficient) and using a CNN-GRU Model for multimodal processing (text, audio and video). The coordination of Edge and Cloud systems will result in Low-latency, Scalable and Efficient Processing Solutions to provide an Adaptive Intelligent System supporting Public Safety. The system is evaluated both in terms of detection performance and latency (96.4% and 285 ms, respectively), which are better than cloud-based systems. It also has consistent performance with growing sensor loads and noise, showing its resilience.",
+    "keywords": [
+      "Cloud computing",
+      "Scalability",
+      "Internet of Things",
+      "Intelligent sensor",
+      "Wireless sensor network",
+      "Data processing",
+      "Key (lock)",
+      "Data pre-processing",
+      "Intelligent decision support system",
+      "IoT and Edge/Fog Computing",
+      "Air Quality Monitoring and Forecasting",
+      "Energy Efficient Wireless Sensor Networks"
+    ],
+    "researchAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Cloud Computing",
+      "Internet of Things"
+    ],
+    "citation": "Mohit Tiwari, Sunil Kr Pandey, Hastimal Jangid, C. S. Preetham Reddy, Ayesha Siddiqa, Vishwesh Nagamalla (2026). Edge-Aware Smart Sensor Architectures Integrating IoT and Machine Learning for Intelligent Public Safety Networks. Advances in Wireless Technologies and Telecommunication. https://doi.org/10.4018/979-8-2600-1533-9.ch008",
+    "bibtex": "@incollection{tiwari2026edgeaware,\n  title = {Edge-Aware Smart Sensor Architectures Integrating IoT and Machine Learning for Intelligent Public Safety Networks},\n  author = {Mohit Tiwari and Sunil Kr Pandey and Hastimal Jangid and C. S. Preetham Reddy and Ayesha Siddiqa and Vishwesh Nagamalla},\n  year = {2026},\n  booktitle = {Advances in Wireless Technologies and Telecommunication},\n  publisher = {IGI Global Scientific Publishing},\n  pages = {189-214},\n  doi = {10.4018/979-8-2600-1533-9.ch008}\n}",
+    "citationCount": 0,
+    "openAccess": "unknown",
+    "links": {
+      "doi": "https://doi.org/10.4018/979-8-2600-1533-9.ch008",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.4018/979-8-2600-1533-9.ch008"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
     "id": "doi:10.7910/dvn/isqf8d",
     "title": "HEI Cybersecurity Governance and Policy Evidence Catalogue",
     "year": 2026,
@@ -1774,6 +1861,71 @@
       "github": null,
       "dataset": null,
       "publisher": "https://doi.org/10.4018/979-8-2600-0008-3.ch010"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
+    "id": "doi:10.21203/rs.3.rs-11028181/v1",
+    "title": "Transformation-Specific Robustness Evaluation of a Machine Learning-Based Network Intrusion Detection System Under Controlled Feature Perturbations",
+    "year": 2026,
+    "publicationDate": "2026-09-15",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "authors": [
+      "Mohit Tiwari",
+      "Riya Mehdiratta"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      },
+      {
+        "name": "Riya Mehdiratta",
+        "orcid": "0009-0008-8848-915X"
+      }
+    ],
+    "venue": "Research Square",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "doi": "10.21203/rs.3.rs-11028181/v1",
+    "abstract": "Abstract Network intrusion detection systems (NIDS) are commonly evaluated on fixed benchmark datasets, but high performance on clean data does not necessarily indicate robustness to controlled changes in network-traffic features. This study presents a transformation-specific robustness evaluation of machine-learning-based NIDS using the UNSW-NB15 dataset. Multilayer perceptron (MLP) and Random Forest (RF) classifiers were evaluated under controlled perturbations of flow duration, timing/jitter, and time-to-live (TTL) features. The perturbations preserve the original class labels and modify selected feature values by predefined magnitudes, allowing the sensitivity of detection models to be examined independently of changes in the underlying labels. Flow-duration and timing/jitter perturbations produced negligible changes in detection performance over the evaluated ranges, whereas negative TTL perturbations produced substantially larger degradation in threshold-dependent TPR for the MLP, demonstrating transformation-dependent robustness. To further investigate TTL sensitivity, we evaluated a TTL-aware SCARF training configuration against an Original SCARF baseline using the same three random seeds (42, 123, and 2026) and the same dTTL test conditions. On clean test data, Original SCARF achieved a TPR of 0.7585 ± 0.0291, AUROC of 0.8927 ± 0.0107, and AUPRC of 0.9171 ± 0.0101, while TTL-aware SCARF achieved a comparable TPR of 0.7596 ± 0.0308, AUROC of 0.8910 ± 0.0102, and AUPRC of 0.9154 ± 0.0094. Under negative dTTL perturbations, TTL-aware SCARF consistently showed lower TPR degradation than Original SCARF. The reduction in TPR degradation ranged from 36.7% to 39.7% across the evaluated negative dTTL levels. AUROC and AUPRC remained comparatively stable despite the observed changes in TPR, highlighting the distinction between threshold-dependent detection performance and overall ranking quality. Overall, the results demonstrate that robustness in NIDS is transformation- and model-dependent. The findings also show that improved clean predictive performance and robustness to controlled feature perturbations should be evaluated as separate properties. The TTL-aware SCARF configuration provides a consistent improvement in robustness under the specific controlled dTTL perturbations evaluated, while the results should not be interpreted as evidence of robustness to general packet-level network change",
+    "keywords": [
+      "Robustness (evolution)",
+      "Random forest",
+      "Pattern recognition (psychology)",
+      "Intrusion",
+      "Intrusion detection system",
+      "Multilayer perceptron",
+      "Artificial neural network",
+      "Feature extraction",
+      "Network Security and Intrusion Detection",
+      "Network Packet Processing and Optimization",
+      "Internet Traffic Analysis and Secure E-voting"
+    ],
+    "researchAreas": [
+      "Artificial Intelligence",
+      "Cyber Security",
+      "Machine Learning"
+    ],
+    "citation": "Mohit Tiwari, Riya Mehdiratta (2026). Transformation-Specific Robustness Evaluation of a Machine Learning-Based Network Intrusion Detection System Under Controlled Feature Perturbations. Research Square. https://doi.org/10.21203/rs.3.rs-11028181/v1",
+    "bibtex": "@misc{tiwari2026transformationspecific,\n  title = {Transformation-Specific Robustness Evaluation of a Machine Learning-Based Network Intrusion Detection System Under Controlled Feature Perturbations},\n  author = {Mohit Tiwari and Riya Mehdiratta},\n  year = {2026},\n  booktitle = {Research Square},\n  publisher = {Springer Science and Business Media LLC},\n  doi = {10.21203/rs.3.rs-11028181/v1}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.21203/rs.3.rs-11028181/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11028181/latest.pdf",
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.21203/rs.3.rs-11028181/v1"
     },
     "sources": [
       "ORCID",
@@ -20529,142 +20681,6 @@
     "sources": [
       "ORCID",
       "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.1109/gcitc60406.2023.10426303",
-    "title": "Security and Privacy Challenges in Distributed Database Management Systems",
-    "year": 2023,
-    "publicationDate": "2023-12-01",
-    "type": "Conference Paper",
-    "sourceType": "conference-paper",
-    "authors": [
-      "Santosh Kumar",
-      "Kishor Kumar Dash",
-      "Bhargav Reddy Piduru",
-      "K. Rajkumar",
-      "Bandi Bhaskar",
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Santosh Kumar",
-        "orcid": null
-      },
-      {
-        "name": "Kishor Kumar Dash",
-        "orcid": null
-      },
-      {
-        "name": "Bhargav Reddy Piduru",
-        "orcid": null
-      },
-      {
-        "name": "K. Rajkumar",
-        "orcid": null
-      },
-      {
-        "name": "Bandi Bhaskar",
-        "orcid": null
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": "2023 Global Conference on Information Technologies and Communications (GCITC)",
-    "publisher": "IEEE",
-    "volume": null,
-    "issue": null,
-    "pages": "1-6",
-    "doi": "10.1109/gcitc60406.2023.10426303",
-    "abstract": "This research aims to investigate the challenge of recognizing and evaluating distributed database management system (DDBMS) security and privacy challenges and also to describe important danger indicators that may lead to possible data security difficulties in distributing resources, both tangible and functioning. An investigation of the primary DDBMS security and privacy challenges that can be found while developing and managing a standard DDBMS meant for supporting data procedures and offering data services was conducted as a component of this research. The data assessment was produced depending on the findings of surveys and questionnaires administered to DDBS security and privacy professionals with varying degrees of training and emphases in their operations within this expertise field. The findings of the research include a list of primary risk variables based on their significance and frequency in practice, and also a spotlight on the most important security and privacy measures. This article summarizes data on traditional methods to illustrate data security challenges employing statistical, qualitative, and mixed evaluation, and also the most recent techniques depending on smart categorization and examination of DDBS security and privacy challenge factors and functioning with huge amounts of data.",
-    "keywords": [
-      "Computer science",
-      "Computer security",
-      "Information privacy",
-      "Distributed database",
-      "Internet privacy",
-      "Database",
-      "Access Control and Trust",
-      "Cloud Data Security Solutions",
-      "Data Quality and Management"
-    ],
-    "researchAreas": [
-      "Cyber Security",
-      "Cloud Computing"
-    ],
-    "citation": "Santosh Kumar, Kishor Kumar Dash, Bhargav Reddy Piduru, K. Rajkumar, Bandi Bhaskar, Mohit Tiwari (2023). Security and Privacy Challenges in Distributed Database Management Systems. 2023 Global Conference on Information Technologies and Communications (GCITC). https://doi.org/10.1109/gcitc60406.2023.10426303",
-    "bibtex": "@inproceedings{tiwari2023security,\n  title = {Security and Privacy Challenges in Distributed Database Management Systems},\n  author = {Santosh Kumar and Kishor Kumar Dash and Bhargav Reddy Piduru and K. Rajkumar and Bandi Bhaskar and Mohit Tiwari},\n  year = {2023},\n  booktitle = {2023 Global Conference on Information Technologies and Communications (GCITC)},\n  publisher = {IEEE},\n  pages = {1-6},\n  doi = {10.1109/gcitc60406.2023.10426303}\n}",
-    "citationCount": 0,
-    "openAccess": "unknown",
-    "links": {
-      "doi": "https://doi.org/10.1109/gcitc60406.2023.10426303",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.1109/gcitc60406.2023.10426303"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.13140/rg.2.2.15714.30401",
-    "title": "served as a peer reviewer for the manuscript 'A Study and Analysis on Diagnosis of Melanoma Cancer with Deep Learning: A Case Study', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global",
-    "year": 2023,
-    "publicationDate": "2023-01-01",
-    "type": "Other",
-    "sourceType": "data-set",
-    "authors": [
-      "Mohit Tiwari"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      }
-    ],
-    "venue": null,
-    "publisher": null,
-    "volume": null,
-    "issue": null,
-    "pages": null,
-    "doi": "10.13140/rg.2.2.15714.30401",
-    "abstract": null,
-    "keywords": [
-      "Peer review",
-      "Cancer",
-      "Melanoma",
-      "Process (computing)",
-      "MEDLINE",
-      "Mycorrhizal Fungi and Plant Interactions",
-      "Genomics and Phylogenetic Studies",
-      "Plant Pathogens and Fungal Diseases"
-    ],
-    "researchAreas": [
-      "Artificial Intelligence"
-    ],
-    "citation": "Mohit Tiwari (2023). served as a peer reviewer for the manuscript 'A Study and Analysis on Diagnosis of Melanoma Cancer with Deep Learning: A Case Study', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global. https://doi.org/10.13140/rg.2.2.15714.30401",
-    "bibtex": "@misc{tiwari2023served,\n  title = {served as a peer reviewer for the manuscript 'A Study and Analysis on Diagnosis of Melanoma Cancer with Deep Learning: A Case Study', contributing to the rigorous, double-blind peer review process for the upcoming publication in 'Federated Learning and AI for Healthcare 5.0' by IGI Global},\n  author = {Mohit Tiwari},\n  year = {2023},\n  doi = {10.13140/rg.2.2.15714.30401}\n}",
-    "citationCount": 0,
-    "openAccess": "open",
-    "links": {
-      "doi": "https://doi.org/10.13140/rg.2.2.15714.30401",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.13140/rg.2.2.15714.30401"
-    },
-    "sources": [
-      "ORCID",
       "OpenAlex"
     ]
   }

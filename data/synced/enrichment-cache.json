@@ -18750,5 +18750,186 @@
       "publisherUrl": "https://doi.org/10.1142/s0218194026500671"
     },
     "enrichedAt": "2026-09-14T08:51:21.557Z"
+  },
+  "10.21203/rs.3.rs-11028181/v1": {
+    "crossref": {
+      "title": "Transformation-Specific Robustness Evaluation of a Machine Learning-Based Network Intrusion Detection System Under Controlled Feature Perturbations",
+      "authors": [
+        "Mohit Tiwari",
+        "Riya Mehdiratta"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Riya Mehdiratta",
+          "orcid": "0009-0008-8848-915X"
+        }
+      ],
+      "venue": null,
+      "publisher": "Springer Science and Business Media LLC",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2026-09-15",
+      "type": "Preprint",
+      "abstract": "Abstract Network intrusion detection systems (NIDS) are commonly evaluated on fixed benchmark datasets, but high performance on clean data does not necessarily indicate robustness to controlled changes in network-traffic features. This study presents a transformation-specific robustness evaluation of machine-learning-based NIDS using the UNSW-NB15 dataset. Multilayer perceptron (MLP) and Random Forest (RF) classifiers were evaluated under controlled perturbations of flow duration, timing/jitter, and time-to-live (TTL) features. The perturbations preserve the original class labels and modify selected feature values by predefined magnitudes, allowing the sensitivity of detection models to be examined independently of changes in the underlying labels. Flow-duration and timing/jitter perturbations produced negligible changes in detection performance over the evaluated ranges, whereas negative TTL perturbations produced substantially larger degradation in threshold-dependent TPR for the MLP, demonstrating transformation-dependent robustness. To further investigate TTL sensitivity, we evaluated a TTL-aware SCARF training configuration against an Original SCARF baseline using the same three random seeds (42, 123, and 2026) and the same dTTL test conditions. On clean test data, Original SCARF achieved a TPR of 0.7585 ± 0.0291, AUROC of 0.8927 ± 0.0107, and AUPRC of 0.9171 ± 0.0101, while TTL-aware SCARF achieved a comparable TPR of 0.7596 ± 0.0308, AUROC of 0.8910 ± 0.0102, and AUPRC of 0.9154 ± 0.0094. Under negative dTTL perturbations, TTL-aware SCARF consistently showed lower TPR degradation than Original SCARF. The reduction in TPR degradation ranged from 36.7% to 39.7% across the evaluated negative dTTL levels. AUROC and AUPRC remained comparatively stable despite the observed changes in TPR, highlighting the distinction between threshold-dependent detection performance and overall ranking quality. Overall, the results demonstrate that robustness in NIDS is transformation- and model-dependent. The findings also show that improved clean predictive performance and robustness to controlled feature perturbations should be evaluated as separate properties. The TTL-aware SCARF configuration provides a consistent improvement in robustness under the specific controlled dTTL perturbations evaluated, while the results should not be interpreted as evidence of robustness to general packet-level network change",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.21203/rs.3.rs-11028181/v1"
+    },
+    "openAlex": {
+      "title": "Transformation-Specific Robustness Evaluation of a Machine Learning-Based Network Intrusion Detection System Under Controlled Feature Perturbations",
+      "authors": [
+        "Mohit Tiwari",
+        "Riya Mehdiratta"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Riya Mehdiratta",
+          "orcid": "0009-0008-8848-915X"
+        }
+      ],
+      "venue": "Research Square",
+      "publisher": null,
+      "publicationDate": "2026-09-15",
+      "abstract": null,
+      "keywords": [
+        "Robustness (evolution)",
+        "Random forest",
+        "Pattern recognition (psychology)",
+        "Intrusion",
+        "Intrusion detection system",
+        "Multilayer perceptron",
+        "Artificial neural network",
+        "Feature extraction",
+        "Network Security and Intrusion Detection",
+        "Network Packet Processing and Optimization",
+        "Internet Traffic Analysis and Secure E-voting"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.21203/rs.3.rs-11028181/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11028181/latest.pdf",
+      "publisherUrl": "https://doi.org/10.21203/rs.3.rs-11028181/v1"
+    },
+    "enrichedAt": "2026-09-21T08:52:52.610Z"
+  },
+  "10.4018/979-8-2600-1533-9.ch008": {
+    "crossref": {
+      "title": "Edge-Aware Smart Sensor Architectures Integrating IoT and Machine Learning for Intelligent Public Safety Networks",
+      "authors": [
+        "Mohit Tiwari",
+        "Sunil Kr Pandey",
+        "Hastimal Jangid",
+        "C. S. Preetham Reddy",
+        "Ayesha Siddiqa",
+        "Vishwesh Nagamalla"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Sunil Kr Pandey",
+          "orcid": "0000-0002-8085-2275"
+        },
+        {
+          "name": "Hastimal Jangid",
+          "orcid": "0009-0001-4532-5197"
+        },
+        {
+          "name": "C. S. Preetham Reddy",
+          "orcid": null
+        },
+        {
+          "name": "Ayesha Siddiqa",
+          "orcid": null
+        },
+        {
+          "name": "Vishwesh Nagamalla",
+          "orcid": "0000-0001-7255-166X"
+        }
+      ],
+      "venue": "Advances in Wireless Technologies and Telecommunication",
+      "publisher": "IGI Global Scientific Publishing",
+      "volume": null,
+      "issue": null,
+      "pages": "189-214",
+      "publicationDate": "2026-09-25",
+      "type": "Book Chapter",
+      "abstract": "Every day the need for Real-time Intelligence, Low-latency and Large-scale Data Processing capabilities for adaptive Public Safety Systems will become more important as the environment continues to change. In order to address this need, this research makes a proposal for an Edge-enhanced Smart Sensor System that combines IoT devices and Machine Learning Technologies to create intelligent safety systems. The overall architecture of the Edge-enhanced Smart Sensor System is a combination of IoT Sensors (Location-specific), Edge-based Data Preprocessing (Low-latency, Scalable, Efficient) and using a CNN-GRU Model for multimodal processing (text, audio and video). The coordination of Edge and Cloud systems will result in Low-latency, Scalable and Efficient Processing Solutions to provide an Adaptive Intelligent System supporting Public Safety. The system is evaluated both in terms of detection performance and latency (96.4% and 285 ms, respectively), which are better than cloud-based systems. It also has consistent performance with growing sensor loads and noise, showing its resilience.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.4018/979-8-2600-1533-9.ch008"
+    },
+    "openAlex": {
+      "title": "Edge-Aware Smart Sensor Architectures Integrating IoT and Machine Learning for Intelligent Public Safety Networks",
+      "authors": [
+        "Mohit Tiwari",
+        "Sunil Kr Pandey",
+        "Hastimal Jangid",
+        "Ch. Reddy",
+        "Ayesha Siddiqa",
+        "Vishwesh Nagamalla"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        },
+        {
+          "name": "Sunil Kr Pandey",
+          "orcid": "0000-0002-8085-2275"
+        },
+        {
+          "name": "Hastimal Jangid",
+          "orcid": null
+        },
+        {
+          "name": "Ch. Reddy",
+          "orcid": null
+        },
+        {
+          "name": "Ayesha Siddiqa",
+          "orcid": null
+        },
+        {
+          "name": "Vishwesh Nagamalla",
+          "orcid": "0000-0001-7255-166X"
+        }
+      ],
+      "venue": "Advances in wireless technologies and telecommunication book series",
+      "publisher": "IGI Global",
+      "publicationDate": "2026-09-17",
+      "abstract": "Every day the need for Real-time Intelligence, Low-latency and Large-scale Data Processing capabilities for adaptive Public Safety Systems will become more important as the environment continues to change. In order to address this need, this research makes a proposal for an Edge-enhanced Smart Sensor System that combines IoT devices and Machine Learning Technologies to create intelligent safety systems. The overall architecture of the Edge-enhanced Smart Sensor System is a combination of IoT Sensors (Location-specific), Edge-based Data Preprocessing (Low-latency, Scalable, Efficient) and using a CNN-GRU Model for multimodal processing (text, audio and video). The coordination of Edge and Cloud systems will result in Low-latency, Scalable and Efficient Processing Solutions to provide an Adaptive Intelligent System supporting Public Safety. The system is evaluated both in terms of detection performance and latency (96.4% and 285 ms, respectively), which are better than cloud-based systems. It also has consistent performance with growing sensor loads and noise, showing its resilience.",
+      "keywords": [
+        "Cloud computing",
+        "Scalability",
+        "Internet of Things",
+        "Intelligent sensor",
+        "Wireless sensor network",
+        "Data processing",
+        "Key (lock)",
+        "Data pre-processing",
+        "Intelligent decision support system",
+        "IoT and Edge/Fog Computing",
+        "Air Quality Monitoring and Forecasting",
+        "Energy Efficient Wireless Sensor Networks"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.4018/979-8-2600-1533-9.ch008"
+    },
+    "enrichedAt": "2026-09-21T08:52:52.616Z"
   }
 }

@@ -1,5 +1,29 @@
 [
   {
+    "id": 1303651719,
+    "name": "mohit-tiwari-academic",
+    "fullName": "profmohit-edu/mohit-tiwari-academic",
+    "description": null,
+    "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "TypeScript": 195561,
+      "JavaScript": 64136,
+      "CSS": 4140
+    },
+    "primaryLanguage": "TypeScript",
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "readmeSummary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
+    "category": "Research Platforms",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-07-17T06:33:39Z",
+    "updatedAt": "2026-09-21T08:53:03Z"
+  },
+  {
     "id": 1373262683,
     "name": "AnimateHub",
     "fullName": "profmohit-edu/AnimateHub",
@@ -179,30 +203,6 @@
     "fork": true,
     "createdAt": "2026-09-14T14:53:03Z",
     "updatedAt": "2026-09-14T14:53:03Z"
-  },
-  {
-    "id": 1303651719,
-    "name": "mohit-tiwari-academic",
-    "fullName": "profmohit-edu/mohit-tiwari-academic",
-    "description": null,
-    "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
-    "homepage": null,
-    "topics": [],
-    "languages": {
-      "TypeScript": 195561,
-      "JavaScript": 64136,
-      "CSS": 4140
-    },
-    "primaryLanguage": "TypeScript",
-    "stars": 0,
-    "forks": 0,
-    "license": null,
-    "readmeSummary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
-    "category": "Research Platforms",
-    "archived": false,
-    "fork": false,
-    "createdAt": "2026-07-17T06:33:39Z",
-    "updatedAt": "2026-09-14T08:51:32Z"
   },
   {
     "id": 1368473478,

@@ -18931,5 +18931,220 @@
       "publisherUrl": "https://doi.org/10.4018/979-8-2600-1533-9.ch008"
     },
     "enrichedAt": "2026-09-21T08:52:52.616Z"
+  },
+  "10.1016/j.sajb.2024.04.037": {
+    "crossref": {
+      "title": "Guardians of wheat: Unleashing transgenerational immune priming with Trichoderma against spot blotch",
+      "authors": [
+        "Menka Tiwari",
+        "Prashant Singh"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Menka Tiwari",
+          "orcid": null
+        },
+        {
+          "name": "Prashant Singh",
+          "orcid": "0000-0002-7630-4786"
+        }
+      ],
+      "venue": "South African Journal of Botany",
+      "publisher": "Elsevier BV",
+      "volume": "169",
+      "issue": null,
+      "pages": "242-254",
+      "publicationDate": "2024-06-01",
+      "type": "Journal Article",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1016/j.sajb.2024.04.037"
+    },
+    "openAlex": {
+      "title": "Guardians of wheat: Unleashing transgenerational immune priming with Trichoderma against spot blotch",
+      "authors": [
+        "Menka Tiwari",
+        "Prashant Singh"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Menka Tiwari",
+          "orcid": "0009-0000-1648-698X"
+        },
+        {
+          "name": "Prashant Singh",
+          "orcid": "0000-0002-7630-4786"
+        }
+      ],
+      "venue": "South African Journal of Botany",
+      "publisher": "Elsevier BV",
+      "publicationDate": "2024-04-27",
+      "abstract": "Plants encounter various biotic stresses in their natural habitat, prompting the exploration of innovative protective measures to bolster their immune defences against pathogens. An effective strategy involves priming plant immunity, conferring enduring and comprehensive protection. Defence priming, characterized by heightened responsiveness to attackers following prior stress exposure, intriguingly manifests transgenerationally, transmitting the memory of priming to subsequent plant generations. In our investigation, we delved into the phenomenon of transgenerational immune priming (TGIP) in wheat facilitated by Trichoderma , spanning from the parental generation (G0) to the grand progeny (G2) generation. Successful establishment of transgenerational priming in the G2 generation was achieved by initially priming the G0 generation of wheat with Trichoderma . To assess priming inheritance, seeds from the G1 generation were collected, and both primed and non-primed wheat plants' grand progeny (G2 generation) were cultivated in soil. Subsequent evaluation encompassed the disease phenotype, biochemical parameters, and yield-related traits of the G2 generation wheat when confronted with Bipolaris sorokiniana , the causal agent of spot blotch disease. Our analysis revealed that the G2 generation of primed wheat displayed superior protection against spot blotch compared to non-primed wheat. Biochemical studies indicated no activation of defensive responses in the absence of disease pressure in G2 wheat plants. However, upon pathogen challenge, the grand progeny of primed wheat exhibited a robust defence response, surpassing that of non-primed wheat. This targeted defence response enabled efficient resource utilization and mitigated yield penalties. Furthermore, under biotic stress conditions, the grand progeny of primed wheat exhibited enhanced yield parameters compared to non-primed wheat. Our findings provide conclusive evidence that Trichoderma -mediated priming against B. sorokiniana can be inherited successfully from the parental (G0) generation to the grand progeny (G2) generation of wheat. This study represents the initial documentation of Trichoderma -mediated TGIP in wheat against B. sorokiniana , holding significant promise for sustainable agriculture by offering an environmentally friendly alternative to chemical pesticides.",
+      "keywords": [
+        "Transgenerational epigenetics",
+        "Biology",
+        "Priming (agriculture)",
+        "Leaf spot",
+        "Botany",
+        "Germination",
+        "Genetics",
+        "Transgenic Plants and Applications",
+        "CRISPR and Genetic Engineering",
+        "Plant tissue culture and regeneration"
+      ],
+      "citationCount": 9,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.1016/j.sajb.2024.04.037",
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1016/j.sajb.2024.04.037"
+    },
+    "enrichedAt": "2026-09-28T09:42:05.391Z"
+  },
+  "10.1016/j.lddd.2026.100571": {
+    "crossref": {
+      "title": "AI in forensic toxicology: Machine learning for detection, classification, and prediction of Illicit substances",
+      "authors": [
+        "Jitesh kumar",
+        "Jana Bhaskara Rao",
+        "Nikhat Akhtar",
+        "Pawan Mandal",
+        "Mukesh Soni",
+        "Neha Shree Bhatnagar",
+        "Sudipta Banerjee",
+        "Sahil Bhan",
+        "Touseef Begum",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Jitesh kumar",
+          "orcid": null
+        },
+        {
+          "name": "Jana Bhaskara Rao",
+          "orcid": null
+        },
+        {
+          "name": "Nikhat Akhtar",
+          "orcid": null
+        },
+        {
+          "name": "Pawan Mandal",
+          "orcid": null
+        },
+        {
+          "name": "Mukesh Soni",
+          "orcid": null
+        },
+        {
+          "name": "Neha Shree Bhatnagar",
+          "orcid": "0009-0004-2017-1912"
+        },
+        {
+          "name": "Sudipta Banerjee",
+          "orcid": null
+        },
+        {
+          "name": "Sahil Bhan",
+          "orcid": null
+        },
+        {
+          "name": "Touseef Begum",
+          "orcid": null
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "Letters in Drug Design & Discovery",
+      "publisher": "Elsevier BV",
+      "volume": null,
+      "issue": null,
+      "pages": "100571",
+      "publicationDate": "2026-09-01",
+      "type": "Journal Article",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1016/j.lddd.2026.100571"
+    },
+    "openAlex": {
+      "title": "AI in forensic toxicology: Machine learning for detection, classification, and prediction of Illicit substances",
+      "authors": [
+        "Jitesh Kumar",
+        "Jana Bhaskara Rao",
+        "Nikhat Akhtar",
+        "Pawan Mandal",
+        "Mukesh Soni",
+        "Neha Shree Bhatnagar",
+        "Sudipta Banerjee",
+        "Sahil Bhan",
+        "Touseef Begum",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Jitesh Kumar",
+          "orcid": "0000-0002-1115-9063"
+        },
+        {
+          "name": "Jana Bhaskara Rao",
+          "orcid": null
+        },
+        {
+          "name": "Nikhat Akhtar",
+          "orcid": null
+        },
+        {
+          "name": "Pawan Mandal",
+          "orcid": "0000-0003-0442-9392"
+        },
+        {
+          "name": "Mukesh Soni",
+          "orcid": null
+        },
+        {
+          "name": "Neha Shree Bhatnagar",
+          "orcid": "0009-0004-2017-1912"
+        },
+        {
+          "name": "Sudipta Banerjee",
+          "orcid": "0000-0003-0150-6794"
+        },
+        {
+          "name": "Sahil Bhan",
+          "orcid": "0009-0009-9130-2648"
+        },
+        {
+          "name": "Touseef Begum",
+          "orcid": "0000-0002-2794-164X"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "Letters in Drug Design & Discovery",
+      "publisher": "Bentham Science Publishers",
+      "publicationDate": "2026-09-01",
+      "abstract": "Artificial intelligence (AI) and machine learning (ML) are increasingly transforming forensic toxicology by improving the detection, classification, and interpretation of illicit substances. Conventional analytical techniques such as gas chromatography-mass spectrometry (GC-MS) and liquid chromatography-mass spectrometry (LC-MS/MS) remain essential tools in toxicological investigations; however, the growing complexity of toxicological datasets and the rapid emergence of novel psychoactive substances (NPS) require more advanced computational approaches. Machine learning algorithms including support vector machines, random forests, artificial neural networks, and deep learning models have demonstrated strong potential for analyzing high-dimensional spectral data, identifying structural analogues, predicting metabolic pathways, and supporting toxicological interpretation. These approaches enable more efficient pattern recognition in mass spectrometry and metabolomics data, facilitating faster identification of emerging substances and improving analytical sensitivity. This review examines recent developments in the application of machine learning in forensic toxicology, focusing on its role in illicit substance detection, structural classification, and predictive toxicology. Key challenges, including data availability, model interpretability, reproducibility, and legal admissibility of AI-generated evidence, are critically discussed. Future perspectives such as explainable AI, federated learning, and integration with high-throughput analytical platforms are also highlighted. Overall, the integration of machine learning with forensic analytical workflows offers significant opportunities to enhance the accuracy, efficiency, and reliability of toxicological investigations.",
+      "keywords": [
+        "Forensic science",
+        "Forensic toxicology",
+        "Training set",
+        "Pattern recognition (psychology)",
+        "Forensic Toxicology and Drug Analysis",
+        "Big Data and Digital Economy",
+        "Explainable Artificial Intelligence (XAI)"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.1016/j.lddd.2026.100571",
+      "pdf": "https://www.sciencedirect.com/science/article/pii/S1570180826003015/pdf",
+      "publisherUrl": "https://doi.org/10.1016/j.lddd.2026.100571"
+    },
+    "enrichedAt": "2026-09-28T09:42:06.134Z"
   }
 }

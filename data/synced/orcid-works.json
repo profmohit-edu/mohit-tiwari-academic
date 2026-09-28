@@ -14,6 +14,20 @@
     "orcidPath": "/0000-0003-1836-3451/work/210443678"
   },
   {
+    "id": "doi:10.1016/j.lddd.2026.100571",
+    "putCode": 227772890,
+    "title": "AI in forensic toxicology: Machine learning for detection, classification, and prediction of Illicit substances",
+    "year": 2026,
+    "publicationDate": "2026-09-01",
+    "type": "Journal Article",
+    "sourceType": "journal-article",
+    "venue": "Letters in Drug Design & Discovery",
+    "doi": "10.1016/j.lddd.2026.100571",
+    "url": "https://doi.org/10.1016/j.lddd.2026.100571",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/227772890"
+  },
+  {
     "id": "doi:10.6084/m9.figshare.33088022",
     "putCode": 221812037,
     "title": "AICMF-HEI Research Instruments and Validation Codebook",
@@ -1890,6 +1904,20 @@
     "orcidPath": "/0000-0003-1836-3451/work/166467550"
   },
   {
+    "id": "doi:10.1016/j.sajb.2024.04.037",
+    "putCode": 205896220,
+    "title": "Guardians of wheat: Unleashing transgenerational immune priming with Trichoderma against spot blotch",
+    "year": 2024,
+    "publicationDate": "2024-01-01",
+    "type": "Journal Article",
+    "sourceType": "journal-article",
+    "venue": "South African Journal of Botany",
+    "doi": "10.1016/j.sajb.2024.04.037",
+    "url": "https://publons.com/wos-op/publon/78516622/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896220"
+  },
+  {
     "id": "doi:10.1109/icaccm61117.2024.11059187",
     "putCode": 188895736,
     "title": "Hybrid Optimization Algorithms for Dynamic and Static Power Reduction in Low-Power VLSI Circuits",
@@ -1998,7 +2026,7 @@
     "venue": "Clinical Pharmacology & Therapeutics",
     "doi": "10.1002/cpt.3105",
     "url": "https://publons.com/wos-op/publon/66465443/",
-    "sourceName": "Clarivate SSO",
+    "sourceName": "Web of Science Researcher Profiles",
     "orcidPath": "/0000-0003-1836-3451/work/205896204"
   },
   {
@@ -2908,7 +2936,7 @@
     "venue": "ArXiv",
     "doi": null,
     "url": "https://publons.com/wos-op/publon/66867271/",
-    "sourceName": "Clarivate SSO",
+    "sourceName": "Web of Science Researcher Profiles",
     "orcidPath": "/0000-0003-1836-3451/work/205896205"
   },
   {
@@ -4084,7 +4112,7 @@
     "venue": "MedRxiv",
     "doi": "10.1101/2023.08.30.23294367",
     "url": "https://publons.com/wos-op/publon/64064671/",
-    "sourceName": "Clarivate SSO",
+    "sourceName": "Web of Science Researcher Profiles",
     "orcidPath": "/0000-0003-1836-3451/work/205896203"
   },
   {
@@ -4462,7 +4490,7 @@
     "venue": "Proceedings of the International Workshop on Hardware and Architectural Support for Security and Privacy, Hasp",
     "doi": "10.1145/3623652.3623672",
     "url": "https://publons.com/wos-op/publon/65453617/",
-    "sourceName": "Clarivate SSO",
+    "sourceName": "Web of Science Researcher Profiles",
     "orcidPath": "/0000-0003-1836-3451/work/205896206"
   },
   {
@@ -5092,7 +5120,7 @@
     "venue": "Frontiers in Plant Science",
     "doi": "10.3389/fpls.2022.1050765",
     "url": "https://publons.com/wos-op/publon/73289624/",
-    "sourceName": "Clarivate SSO",
+    "sourceName": "Web of Science Researcher Profiles",
     "orcidPath": "/0000-0003-1836-3451/work/205896221"
   },
   {
@@ -5246,7 +5274,7 @@
     "venue": "Plant Stress",
     "doi": "10.1016/j.stress.2022.100072",
     "url": "https://publons.com/wos-op/publon/57703302/",
-    "sourceName": "Clarivate SSO",
+    "sourceName": "Web of Science Researcher Profiles",
     "orcidPath": "/0000-0003-1836-3451/work/205896219"
   },
   {
@@ -6049,31 +6077,31 @@
   },
   {
     "id": "doi:10.1111/ffe.13150",
-    "putCode": 213246045,
+    "putCode": 205896233,
     "title": "Experimental investigation on evolution of surface damage and topography parameters during rolling contact fatigue tests",
     "year": 2020,
     "publicationDate": "2020-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "FATIGUE & FRACTURE OF ENGINEERING MATERIALS & STRUCTURES",
+    "venue": "Fatigue & Fracture of Engineering Materials & Structures",
     "doi": "10.1111/ffe.13150",
-    "url": "https://doi.org/10.1111/ffe.13150",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246045"
+    "url": "https://publons.com/wos-op/publon/37080913/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896233"
   },
   {
     "id": "doi:10.1007/978-981-15-1451-7_41",
-    "putCode": 213246042,
+    "putCode": 205896224,
     "title": "Home Automation Using IoT-Based Controller",
     "year": 2020,
     "publicationDate": "2020-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "COGNITIVE INFORMATICS AND SOFT COMPUTING",
+    "venue": "Advances in Intelligent Systems and Computing",
     "doi": "10.1007/978-981-15-1451-7_41",
-    "url": "https://doi.org/10.1007/978-981-15-1451-7_41",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246042"
+    "url": "https://publons.com/wos-op/publon/49149706/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896224"
   },
   {
     "id": "doi:10.1080/02522667.2020.1730077",
@@ -6506,7 +6534,7 @@
     "venue": "Journal of Tribology",
     "doi": "10.1115/1.4042676",
     "url": "https://publons.com/wos-op/publon/39903750/",
-    "sourceName": "Clarivate SSO",
+    "sourceName": "Web of Science Researcher Profiles",
     "orcidPath": "/0000-0003-1836-3451/work/205896228"
   },
   {
@@ -6534,22 +6562,22 @@
     "venue": "Lubrication Science",
     "doi": "10.1002/ls.1459",
     "url": "https://publons.com/wos-op/publon/37611056/",
-    "sourceName": "Clarivate SSO",
+    "sourceName": "Web of Science Researcher Profiles",
     "orcidPath": "/0000-0003-1836-3451/work/205896229"
   },
   {
     "id": "doi:10.1088/2051-672x/ab042e",
-    "putCode": 213246050,
+    "putCode": 205896236,
     "title": "Investigation on metallic contact conditions using ECR technique by performing rolling/sliding experiments",
     "year": 2019,
     "publicationDate": "2019-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "SURFACE TOPOGRAPHY-METROLOGY AND PROPERTIES",
+    "venue": "Surface Topography: Metrology and Properties",
     "doi": "10.1088/2051-672x/ab042e",
-    "url": "https://doi.org/10.1088/2051-672x/ab042e",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246050"
+    "url": "https://publons.com/wos-op/publon/3936731/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896236"
   },
   {
     "id": "doi:10.1145/3297858.3304037",
@@ -6581,17 +6609,17 @@
   },
   {
     "id": "doi:10.1088/2051-672x/ab0860",
-    "putCode": 213246049,
+    "putCode": 205896232,
     "title": "Tribological investigation of copper and AISI 304 steel during dry sliding wear",
     "year": 2019,
     "publicationDate": "2019-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "SURFACE TOPOGRAPHY-METROLOGY AND PROPERTIES",
+    "venue": "Surface Topography: Metrology and Properties",
     "doi": "10.1088/2051-672x/ab0860",
-    "url": "https://doi.org/10.1088/2051-672x/ab0860",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246049"
+    "url": "https://publons.com/wos-op/publon/14250313/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896232"
   },
   {
     "id": "doi:10.1109/hst.2019.8740838",
@@ -6637,17 +6665,17 @@
   },
   {
     "id": "doi:10.1088/2051-672x/aae81b",
-    "putCode": 213246053,
+    "putCode": 205896240,
     "title": "3D numerical wear model for determining the change in surface topography",
     "year": 2018,
     "publicationDate": "2018-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "SURFACE TOPOGRAPHY-METROLOGY AND PROPERTIES",
+    "venue": "Surface Topography: Metrology and Properties",
     "doi": "10.1088/2051-672x/aae81b",
-    "url": "https://doi.org/10.1088/2051-672x/aae81b",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246053"
+    "url": "https://publons.com/wos-op/publon/2805708/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896240"
   },
   {
     "id": "doi:10.23919/date.2018.8342207",
@@ -6707,17 +6735,17 @@
   },
   {
     "id": "doi:10.1088/2051-672x/aaed86",
-    "putCode": 213246052,
+    "putCode": 205896241,
     "title": "The relation between fractal signature and topography parameters: a numerical and experimental study",
     "year": 2018,
     "publicationDate": "2018-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "SURFACE TOPOGRAPHY-METROLOGY AND PROPERTIES",
+    "venue": "Surface Topography: Metrology and Properties",
     "doi": "10.1088/2051-672x/aaed86",
-    "url": "https://doi.org/10.1088/2051-672x/aaed86",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246052"
+    "url": "https://publons.com/wos-op/publon/2712968/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896241"
   },
   {
     "id": "doi:10.1145/3240765.3273057",
@@ -6748,18 +6776,18 @@
     "orcidPath": "/0000-0003-1836-3451/work/185174645"
   },
   {
-    "id": "orcid:213246055",
-    "putCode": 213246055,
+    "id": "orcid:205896214",
+    "putCode": 205896214,
     "title": "Binary Ring-LWI-Hardware with Power Side-Channel Countermeasures",
     "year": 2018,
     "publicationDate": "2018-01-01",
-    "type": "Journal Article",
-    "sourceType": "journal-article",
-    "venue": "PROCEEDINGS OF THE 2018 DESIGN, AUTOMATION & TEST IN EUROPE CONFERENCE & EXHIBITION (DATE)",
+    "type": "Conference Paper",
+    "sourceType": "conference-paper",
+    "venue": "Design, Automation and Test in Europe Conference (DATE)",
     "doi": null,
-    "url": null,
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246055"
+    "url": "https://publons.com/wos-op/publon/62201652/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896214"
   },
   {
     "id": "orcid:188895724",
@@ -6861,17 +6889,17 @@
   },
   {
     "id": "doi:10.1115/1.4034960",
-    "putCode": 213246060,
+    "putCode": 205896218,
     "title": "Topography Analysis of Random Anisotropic Gaussian Rough Surfaces",
     "year": 2017,
     "publicationDate": "2017-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "JOURNAL OF TRIBOLOGY-TRANSACTIONS OF THE ASME",
+    "venue": "Journal of Tribology",
     "doi": "10.1115/1.4034960",
-    "url": "https://doi.org/10.1115/1.4034960",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246060"
+    "url": "https://publons.com/wos-op/publon/430818/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896218"
   },
   {
     "id": "orcid:138739948",
@@ -7980,18 +8008,18 @@
     "orcidPath": "/0000-0003-1836-3451/work/185174540"
   },
   {
-    "id": "orcid:213246082",
-    "putCode": 213246082,
+    "id": "orcid:205896212",
+    "putCode": 205896212,
     "title": "Fighting Fire with Fire: Modeling the Datacenter-Scale Effects of Targeted Super lattice Thermal Management",
     "year": 2011,
     "publicationDate": "2011-01-01",
-    "type": "Journal Article",
-    "sourceType": "journal-article",
-    "venue": "ISCA 2011: PROCEEDINGS OF THE 38TH ANNUAL INTERNATIONAL SYMPOSIUM ON COMPUTER ARCHITECTURE",
+    "type": "Conference Paper",
+    "sourceType": "conference-paper",
+    "venue": "ACM/IEEE Annual International Symposium on Computer Architecture (ISCA)",
     "doi": null,
-    "url": null,
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246082"
+    "url": "https://publons.com/wos-op/publon/47786694/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896212"
   },
   {
     "id": "orcid:185174476",
@@ -8022,18 +8050,18 @@
     "orcidPath": "/0000-0003-1836-3451/work/171820340"
   },
   {
-    "id": "orcid:213246079",
-    "putCode": 213246079,
+    "id": "orcid:205896238",
+    "putCode": 205896238,
     "title": "Prediction of Breakout Noise from a Rectangular Duct with Compliant Walls",
     "year": 2011,
     "publicationDate": "2011-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "INTERNATIONAL JOURNAL OF ACOUSTICS AND VIBRATION",
+    "venue": "The International Journal of Acoustics and Vibration",
     "doi": null,
-    "url": null,
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246079"
+    "url": "https://publons.com/wos-op/publon/71650415/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896238"
   },
   {
     "id": "orcid:171820185",
@@ -8051,17 +8079,17 @@
   },
   {
     "id": "doi:10.1121/1.3463801",
-    "putCode": 213246091,
+    "putCode": 205896216,
     "title": "Analytical prediction of break-out noise from a reactive rectangular plenum with four flexible walls",
     "year": 2010,
     "publicationDate": "2010-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "JOURNAL OF THE ACOUSTICAL SOCIETY OF AMERICA",
+    "venue": "The Journal of the Acoustical Society of America",
     "doi": "10.1121/1.3463801",
-    "url": "https://doi.org/10.1121/1.3463801",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246091"
+    "url": "https://publons.com/wos-op/publon/71650412/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896216"
   },
   {
     "id": "doi:10.1109/asap.2010.5540946",
@@ -8148,18 +8176,18 @@
     "orcidPath": "/0000-0003-1836-3451/work/138740030"
   },
   {
-    "id": "orcid:213246092",
-    "putCode": 213246092,
+    "id": "orcid:205896209",
+    "putCode": 205896209,
     "title": "Bearing Wear Due To Mechanical Stresses And Electrical Currents",
     "year": 2010,
     "publicationDate": "2010-01-01",
-    "type": "Journal Article",
-    "sourceType": "journal-article",
-    "venue": "PROCEEDINGS OF THE ASME/STLE INTERNATIONAL JOINT TRIBOLOGY CONFERENCE - 2009",
+    "type": "Conference Paper",
+    "sourceType": "conference-paper",
+    "venue": "ASME/STLE International Joint Tribology Conference",
     "doi": null,
-    "url": null,
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246092"
+    "url": "https://publons.com/wos-op/publon/71650418/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896209"
   },
   {
     "id": "orcid:171820044",
@@ -8218,18 +8246,18 @@
     "orcidPath": "/0000-0003-1836-3451/work/171820081"
   },
   {
-    "id": "orcid:213246059",
-    "putCode": 213246059,
+    "id": "orcid:205896230",
+    "putCode": 205896230,
     "title": "Networking of Paperless Offices in Technical Institutes of India",
     "year": 2010,
     "publicationDate": "2010-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "INTERNATIONAL JOURNAL OF COMPUTER SCIENCE AND NETWORK SECURITY",
+    "venue": "International Journal of Computer Science and Network Security",
     "doi": null,
-    "url": null,
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246059"
+    "url": "https://publons.com/wos-op/publon/62201655/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896230"
   },
   {
     "id": "orcid:185174675",
@@ -8317,17 +8345,17 @@
   },
   {
     "id": "doi:10.1260/135101009790291246",
-    "putCode": 213246090,
+    "putCode": 205896231,
     "title": "Prediction of Breakout Noise from Acoustically Lagged Rectangular HVAC Ducts",
     "year": 2009,
     "publicationDate": "2009-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "BUILDING ACOUSTICS",
+    "venue": "Building Acoustics",
     "doi": "10.1260/135101009790291246",
-    "url": "https://doi.org/10.1260/135101009790291246",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246090"
+    "url": "https://publons.com/wos-op/publon/71650419/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896231"
   },
   {
     "id": "doi:10.1109/pact.2009.38",
@@ -8345,17 +8373,17 @@
   },
   {
     "id": "doi:10.1016/j.jsv.2009.01.035",
-    "putCode": 213246097,
+    "putCode": 205896235,
     "title": "Transmission loss analysis of rectangular expansion chamber with arbitrary location of inlet/outlet by means of Green's functions",
     "year": 2009,
     "publicationDate": "2009-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "JOURNAL OF SOUND AND VIBRATION",
+    "venue": "Journal of Sound and Vibration",
     "doi": "10.1016/j.jsv.2009.01.035",
-    "url": "https://doi.org/10.1016/j.jsv.2009.01.035",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246097"
+    "url": "https://publons.com/wos-op/publon/71650411/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896235"
   },
   {
     "id": "orcid:185174602",
@@ -8415,17 +8443,17 @@
   },
   {
     "id": "doi:10.1121/1.2977671",
-    "putCode": 213246030,
+    "putCode": 205896227,
     "title": "Analytical prediction of the breakout noise from a rectangular cavity with one compliant wall",
     "year": 2008,
     "publicationDate": "2008-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "JOURNAL OF THE ACOUSTICAL SOCIETY OF AMERICA",
+    "venue": "The Journal of the Acoustical Society of America",
     "doi": "10.1121/1.2977671",
-    "url": "https://doi.org/10.1121/1.2977671",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246030"
+    "url": "https://publons.com/wos-op/publon/47900173/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896227"
   },
   {
     "id": "orcid:185174574",
@@ -8653,17 +8681,17 @@
   },
   {
     "id": "doi:10.3397/1.2839699",
-    "putCode": 213246088,
+    "putCode": 205896237,
     "title": "Experimental characterization of a nonlinear hydraulic engine mount",
     "year": 2003,
     "publicationDate": "2003-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "NOISE CONTROL ENGINEERING JOURNAL",
+    "venue": "Noise Control Engineering Journal",
     "doi": "10.3397/1.2839699",
-    "url": "https://doi.org/10.3397/1.2839699",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246088"
+    "url": "https://publons.com/wos-op/publon/71650407/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896237"
   },
   {
     "id": "doi:10.1016/s0022-460x(03)00076-2",
@@ -8751,31 +8779,31 @@
   },
   {
     "id": "doi:10.1006/jsvi.1999.3108",
-    "putCode": 213246102,
+    "putCode": 205896239,
     "title": "Dynamic response of an unbalanced rotor supported on ball bearings",
     "year": 2000,
     "publicationDate": "2000-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "JOURNAL OF SOUND AND VIBRATION",
+    "venue": "Journal of Sound and Vibration",
     "doi": "10.1006/jsvi.1999.3108",
-    "url": "https://doi.org/10.1006/jsvi.1999.3108",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246102"
+    "url": "https://publons.com/wos-op/publon/40414636/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896239"
   },
   {
     "id": "doi:10.1006/jsvi.1999.3109",
-    "putCode": 213246101,
+    "putCode": 205896217,
     "title": "Effect of radial internal clearance of a ball, bearing on the dynamics of a balanced horizontal rotor",
     "year": 2000,
     "publicationDate": "2000-01-01",
     "type": "Journal Article",
     "sourceType": "journal-article",
-    "venue": "JOURNAL OF SOUND AND VIBRATION",
+    "venue": "Journal of Sound and Vibration",
     "doi": "10.1006/jsvi.1999.3109",
-    "url": "https://doi.org/10.1006/jsvi.1999.3109",
-    "sourceName": "Web of Science",
-    "orcidPath": "/0000-0003-1836-3451/work/213246101"
+    "url": "https://publons.com/wos-op/publon/38973194/",
+    "sourceName": "Web of Science Researcher Profiles",
+    "orcidPath": "/0000-0003-1836-3451/work/205896217"
   },
   {
     "id": "orcid:213246100",
@@ -9000,20 +9028,6 @@
     "url": null,
     "sourceName": "Mohit Tiwari",
     "orcidPath": "/0000-0003-1836-3451/work/171820172"
-  },
-  {
-    "id": "doi:10.1016/j.sajb.2024.04.037",
-    "putCode": 185174461,
-    "title": "Guardians of Wheat: Unleashing Transgenerational Immune Priming with Trichoderma Against Spot Blotch",
-    "year": null,
-    "publicationDate": null,
-    "type": "Journal Article",
-    "sourceType": "journal-article",
-    "venue": "Available at SSRN 4536475",
-    "doi": "10.1016/j.sajb.2024.04.037",
-    "url": "https://doi.org/10.1016/j.sajb.2024.04.037",
-    "sourceName": "Mohit Tiwari",
-    "orcidPath": "/0000-0003-1836-3451/work/185174461"
   },
   {
     "id": "orcid:171820232",

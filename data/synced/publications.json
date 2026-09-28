@@ -85,6 +85,106 @@
     ]
   },
   {
+    "id": "doi:10.1016/j.lddd.2026.100571",
+    "title": "AI in forensic toxicology: Machine learning for detection, classification, and prediction of Illicit substances",
+    "year": 2026,
+    "publicationDate": "2026-09-01",
+    "type": "Journal Article",
+    "sourceType": "journal-article",
+    "authors": [
+      "Jitesh kumar",
+      "Jana Bhaskara Rao",
+      "Nikhat Akhtar",
+      "Pawan Mandal",
+      "Mukesh Soni",
+      "Neha Shree Bhatnagar",
+      "Sudipta Banerjee",
+      "Sahil Bhan",
+      "Touseef Begum",
+      "Mohit Tiwari"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Jitesh kumar",
+        "orcid": null
+      },
+      {
+        "name": "Jana Bhaskara Rao",
+        "orcid": null
+      },
+      {
+        "name": "Nikhat Akhtar",
+        "orcid": null
+      },
+      {
+        "name": "Pawan Mandal",
+        "orcid": null
+      },
+      {
+        "name": "Mukesh Soni",
+        "orcid": null
+      },
+      {
+        "name": "Neha Shree Bhatnagar",
+        "orcid": "0009-0004-2017-1912"
+      },
+      {
+        "name": "Sudipta Banerjee",
+        "orcid": null
+      },
+      {
+        "name": "Sahil Bhan",
+        "orcid": null
+      },
+      {
+        "name": "Touseef Begum",
+        "orcid": null
+      },
+      {
+        "name": "Mohit Tiwari",
+        "orcid": "0000-0003-1836-3451"
+      }
+    ],
+    "venue": "Letters in Drug Design & Discovery",
+    "publisher": "Elsevier BV",
+    "volume": null,
+    "issue": null,
+    "pages": "100571",
+    "doi": "10.1016/j.lddd.2026.100571",
+    "abstract": "Artificial intelligence (AI) and machine learning (ML) are increasingly transforming forensic toxicology by improving the detection, classification, and interpretation of illicit substances. Conventional analytical techniques such as gas chromatography-mass spectrometry (GC-MS) and liquid chromatography-mass spectrometry (LC-MS/MS) remain essential tools in toxicological investigations; however, the growing complexity of toxicological datasets and the rapid emergence of novel psychoactive substances (NPS) require more advanced computational approaches. Machine learning algorithms including support vector machines, random forests, artificial neural networks, and deep learning models have demonstrated strong potential for analyzing high-dimensional spectral data, identifying structural analogues, predicting metabolic pathways, and supporting toxicological interpretation. These approaches enable more efficient pattern recognition in mass spectrometry and metabolomics data, facilitating faster identification of emerging substances and improving analytical sensitivity. This review examines recent developments in the application of machine learning in forensic toxicology, focusing on its role in illicit substance detection, structural classification, and predictive toxicology. Key challenges, including data availability, model interpretability, reproducibility, and legal admissibility of AI-generated evidence, are critically discussed. Future perspectives such as explainable AI, federated learning, and integration with high-throughput analytical platforms are also highlighted. Overall, the integration of machine learning with forensic analytical workflows offers significant opportunities to enhance the accuracy, efficiency, and reliability of toxicological investigations.",
+    "keywords": [
+      "Forensic science",
+      "Forensic toxicology",
+      "Training set",
+      "Pattern recognition (psychology)",
+      "Forensic Toxicology and Drug Analysis",
+      "Big Data and Digital Economy",
+      "Explainable Artificial Intelligence (XAI)"
+    ],
+    "researchAreas": [
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
+    "citation": "Jitesh kumar, Jana Bhaskara Rao, Nikhat Akhtar, Pawan Mandal, Mukesh Soni, Neha Shree Bhatnagar, Sudipta Banerjee, Sahil Bhan, Touseef Begum, Mohit Tiwari (2026). AI in forensic toxicology: Machine learning for detection, classification, and prediction of Illicit substances. Letters in Drug Design & Discovery. https://doi.org/10.1016/j.lddd.2026.100571",
+    "bibtex": "@article{tiwari2026forensic,\n  title = {AI in forensic toxicology: Machine learning for detection, classification, and prediction of Illicit substances},\n  author = {Jitesh kumar and Jana Bhaskara Rao and Nikhat Akhtar and Pawan Mandal and Mukesh Soni and Neha Shree Bhatnagar and Sudipta Banerjee and Sahil Bhan and Touseef Begum and Mohit Tiwari},\n  year = {2026},\n  journal = {Letters in Drug Design & Discovery},\n  publisher = {Elsevier BV},\n  pages = {100571},\n  doi = {10.1016/j.lddd.2026.100571}\n}",
+    "citationCount": 0,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.lddd.2026.100571",
+      "pdf": "https://www.sciencedirect.com/science/article/pii/S1570180826003015/pdf",
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.1016/j.lddd.2026.100571"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
     "id": "doi:10.6084/m9.figshare.33088022",
     "title": "AICMF-HEI Research Instruments and Validation Codebook",
     "year": 2026,
@@ -8978,6 +9078,68 @@
       "github": null,
       "dataset": null,
       "publisher": "https://doi.org/10.1007/978-3-031-67195-1_50"
+    },
+    "sources": [
+      "ORCID",
+      "Crossref",
+      "OpenAlex"
+    ]
+  },
+  {
+    "id": "doi:10.1016/j.sajb.2024.04.037",
+    "title": "Guardians of wheat: Unleashing transgenerational immune priming with Trichoderma against spot blotch",
+    "year": 2024,
+    "publicationDate": "2024-06-01",
+    "type": "Journal Article",
+    "sourceType": "journal-article",
+    "authors": [
+      "Menka Tiwari",
+      "Prashant Singh"
+    ],
+    "authorIdentifiers": [
+      {
+        "name": "Menka Tiwari",
+        "orcid": null
+      },
+      {
+        "name": "Prashant Singh",
+        "orcid": "0000-0002-7630-4786"
+      }
+    ],
+    "venue": "South African Journal of Botany",
+    "publisher": "Elsevier BV",
+    "volume": "169",
+    "issue": null,
+    "pages": "242-254",
+    "doi": "10.1016/j.sajb.2024.04.037",
+    "abstract": "Plants encounter various biotic stresses in their natural habitat, prompting the exploration of innovative protective measures to bolster their immune defences against pathogens. An effective strategy involves priming plant immunity, conferring enduring and comprehensive protection. Defence priming, characterized by heightened responsiveness to attackers following prior stress exposure, intriguingly manifests transgenerationally, transmitting the memory of priming to subsequent plant generations. In our investigation, we delved into the phenomenon of transgenerational immune priming (TGIP) in wheat facilitated by Trichoderma , spanning from the parental generation (G0) to the grand progeny (G2) generation. Successful establishment of transgenerational priming in the G2 generation was achieved by initially priming the G0 generation of wheat with Trichoderma . To assess priming inheritance, seeds from the G1 generation were collected, and both primed and non-primed wheat plants' grand progeny (G2 generation) were cultivated in soil. Subsequent evaluation encompassed the disease phenotype, biochemical parameters, and yield-related traits of the G2 generation wheat when confronted with Bipolaris sorokiniana , the causal agent of spot blotch disease. Our analysis revealed that the G2 generation of primed wheat displayed superior protection against spot blotch compared to non-primed wheat. Biochemical studies indicated no activation of defensive responses in the absence of disease pressure in G2 wheat plants. However, upon pathogen challenge, the grand progeny of primed wheat exhibited a robust defence response, surpassing that of non-primed wheat. This targeted defence response enabled efficient resource utilization and mitigated yield penalties. Furthermore, under biotic stress conditions, the grand progeny of primed wheat exhibited enhanced yield parameters compared to non-primed wheat. Our findings provide conclusive evidence that Trichoderma -mediated priming against B. sorokiniana can be inherited successfully from the parental (G0) generation to the grand progeny (G2) generation of wheat. This study represents the initial documentation of Trichoderma -mediated TGIP in wheat against B. sorokiniana , holding significant promise for sustainable agriculture by offering an environmentally friendly alternative to chemical pesticides.",
+    "keywords": [
+      "Transgenerational epigenetics",
+      "Biology",
+      "Priming (agriculture)",
+      "Leaf spot",
+      "Botany",
+      "Germination",
+      "Genetics",
+      "Transgenic Plants and Applications",
+      "CRISPR and Genetic Engineering",
+      "Plant tissue culture and regeneration"
+    ],
+    "researchAreas": [
+      "Cyber Security"
+    ],
+    "citation": "Menka Tiwari, Prashant Singh (2024). Guardians of wheat: Unleashing transgenerational immune priming with Trichoderma against spot blotch. South African Journal of Botany. https://doi.org/10.1016/j.sajb.2024.04.037",
+    "bibtex": "@article{tiwari2024guardians,\n  title = {Guardians of wheat: Unleashing transgenerational immune priming with Trichoderma against spot blotch},\n  author = {Menka Tiwari and Prashant Singh},\n  year = {2024},\n  journal = {South African Journal of Botany},\n  publisher = {Elsevier BV},\n  volume = {169},\n  pages = {242-254},\n  doi = {10.1016/j.sajb.2024.04.037}\n}",
+    "citationCount": 9,
+    "openAccess": "open",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.sajb.2024.04.037",
+      "pdf": null,
+      "slides": null,
+      "video": null,
+      "github": null,
+      "dataset": null,
+      "publisher": "https://doi.org/10.1016/j.sajb.2024.04.037"
     },
     "sources": [
       "ORCID",
@@ -20495,188 +20657,6 @@
       "github": null,
       "dataset": null,
       "publisher": "https://doi.org/10.1109/icesc57686.2023.10193493"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.1109/icacite57410.2023.10182589",
-    "title": "Role of Cyber security in Gaming technology",
-    "year": 2023,
-    "publicationDate": "2023-05-12",
-    "type": "Conference Paper",
-    "sourceType": "conference-paper",
-    "authors": [
-      "Saumitra Chattopadhyay",
-      "Nikhilesh",
-      "Vijay Prakash R",
-      "Mohit Tiwari",
-      "Tripti Tiwari",
-      "Dhiraj Kapila"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Saumitra Chattopadhyay",
-        "orcid": null
-      },
-      {
-        "name": "Nikhilesh",
-        "orcid": null
-      },
-      {
-        "name": "Vijay Prakash R",
-        "orcid": null
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      },
-      {
-        "name": "Tripti Tiwari",
-        "orcid": null
-      },
-      {
-        "name": "Dhiraj Kapila",
-        "orcid": null
-      }
-    ],
-    "venue": "2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
-    "publisher": "IEEE",
-    "volume": null,
-    "issue": null,
-    "pages": "446-451",
-    "doi": "10.1109/icacite57410.2023.10182589",
-    "abstract": "Internet addiction has become a popular entertainment for many youthful people in the modern era due to the Internet's quick development. However, never-ending streams of cyber security concerns have surfaced in online games in recent years, catching the eye of many game developers. The game's common cyber security issues include information leaks and cyberattacks. These issues will cost players money, either directly or indirectly. In order to improve the gaming user experience, many gaming companies are strengthening the safety and stability of their networks or gaming systems. By introducing the background, a few prevalent cyber security threats, and a potential latent solution, this article has investigated the cybersecurity risks in online games. We looked into various types of threats to gauge the degree of cyber security risk related to gaming. The main objective of the study is role of cyber security in Gaming Technology. This research report includes statistics gathered from the Antivirus Security Network, which handles cyber security data from Kaspersky product customers. These numbers show how frequently and how many of our product's users came into contact with gaming-related cybersecurity threats during in the reporting period.",
-    "keywords": [
-      "Computer security",
-      "Computer science",
-      "The Internet",
-      "Internet privacy",
-      "Order (exchange)",
-      "Entertainment",
-      "Cyber threats",
-      "Product (mathematics)",
-      "Security through obscurity",
-      "Cloud computing security",
-      "Business",
-      "Security information and event management",
-      "Cloud computing",
-      "World Wide Web",
-      "Internet of Things and AI",
-      "Smart Systems and Machine Learning",
-      "Blockchain Technology Applications and Security"
-    ],
-    "researchAreas": [
-      "Cyber Security",
-      "Blockchain",
-      "Machine Learning",
-      "Cloud Computing",
-      "Internet of Things"
-    ],
-    "citation": "Saumitra Chattopadhyay, Nikhilesh, Vijay Prakash R, Mohit Tiwari, Tripti Tiwari, Dhiraj Kapila (2023). Role of Cyber security in Gaming technology. 2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE). https://doi.org/10.1109/icacite57410.2023.10182589",
-    "bibtex": "@inproceedings{tiwari2023cyber,\n  title = {Role of Cyber security in Gaming technology},\n  author = {Saumitra Chattopadhyay and Nikhilesh and Vijay Prakash R and Mohit Tiwari and Tripti Tiwari and Dhiraj Kapila},\n  year = {2023},\n  booktitle = {2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)},\n  publisher = {IEEE},\n  pages = {446-451},\n  doi = {10.1109/icacite57410.2023.10182589}\n}",
-    "citationCount": 1,
-    "openAccess": "unknown",
-    "links": {
-      "doi": "https://doi.org/10.1109/icacite57410.2023.10182589",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.1109/icacite57410.2023.10182589"
-    },
-    "sources": [
-      "ORCID",
-      "Crossref",
-      "OpenAlex"
-    ]
-  },
-  {
-    "id": "doi:10.1109/icscds56580.2023.10104903",
-    "title": "Routing Protocols of Wireless Sensor Networks in Smart Cities",
-    "year": 2023,
-    "publicationDate": "2023-03-23",
-    "type": "Conference Paper",
-    "sourceType": "conference-paper",
-    "authors": [
-      "Ranjan Walia",
-      "Dilip Kumar Jang Bahadur Saini",
-      "S. K. Shah",
-      "Madhira Srinivas",
-      "Mohit Tiwari",
-      "Kishor Golla"
-    ],
-    "authorIdentifiers": [
-      {
-        "name": "Ranjan Walia",
-        "orcid": null
-      },
-      {
-        "name": "Dilip Kumar Jang Bahadur Saini",
-        "orcid": null
-      },
-      {
-        "name": "S. K. Shah",
-        "orcid": null
-      },
-      {
-        "name": "Madhira Srinivas",
-        "orcid": null
-      },
-      {
-        "name": "Mohit Tiwari",
-        "orcid": "0000-0003-1836-3451"
-      },
-      {
-        "name": "Kishor Golla",
-        "orcid": null
-      }
-    ],
-    "venue": "2023 International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)",
-    "publisher": "IEEE",
-    "volume": null,
-    "issue": null,
-    "pages": "1477-1482",
-    "doi": "10.1109/icscds56580.2023.10104903",
-    "abstract": "The investigation on smart cities using WSN-wireless sensor networks seems to be able to benefit from the development of the Internet of Things (IoT) since both of the technologies’ goals were comparable. Simultaneously with them, research on managing mobile crowd sensing (MCS) and WSN innovations encounter fresh potential and difficulties, particularly when implemented in a sizable context like a smart city setting. However, fresh approaches are being put out to handle current WSN and resource utilization challenges. To integrate the two technologies of sensing WSN and MCS, this study suggests a hybrid routing protocol depending on the RPL protocol. The idea is to assist the fixed nodes of WSN to improve performance by appropriately using MCS nodes. A fixed WSN has been used to evaluate the suggested protocol to examine the effect of integration on WSN functionality. When compared to RPL without MCS integration, the proposed findings show a good improvement in packet distribution proportion of 17% higher, end-to-end latency of 50% lesser, and energy usage of 25% less. Hence this research believes that the hybrid-RPL protocol may be effective for sensing and data acquisition, particularly in urban and smart city situations.",
-    "keywords": [
-      "Computer network",
-      "Wireless sensor network",
-      "Computer science",
-      "Routing (electronic design automation)",
-      "Geographic routing",
-      "Routing protocol",
-      "Wireless Routing Protocol",
-      "Wireless",
-      "Key distribution in wireless sensor networks",
-      "Dynamic Source Routing",
-      "Link-state routing protocol",
-      "Wireless network",
-      "Telecommunications",
-      "IoT Networks and Protocols",
-      "Energy Efficient Wireless Sensor Networks",
-      "IoT and Edge/Fog Computing"
-    ],
-    "researchAreas": [
-      "Cloud Computing",
-      "Internet of Things"
-    ],
-    "citation": "Ranjan Walia, Dilip Kumar Jang Bahadur Saini, S. K. Shah, Madhira Srinivas, Mohit Tiwari, Kishor Golla (2023). Routing Protocols of Wireless Sensor Networks in Smart Cities. 2023 International Conference on Sustainable Computing and Data Communication Systems (ICSCDS). https://doi.org/10.1109/icscds56580.2023.10104903",
-    "bibtex": "@inproceedings{tiwari2023routing,\n  title = {Routing Protocols of Wireless Sensor Networks in Smart Cities},\n  author = {Ranjan Walia and Dilip Kumar Jang Bahadur Saini and S. K. Shah and Madhira Srinivas and Mohit Tiwari and Kishor Golla},\n  year = {2023},\n  booktitle = {2023 International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)},\n  publisher = {IEEE},\n  pages = {1477-1482},\n  doi = {10.1109/icscds56580.2023.10104903}\n}",
-    "citationCount": 3,
-    "openAccess": "unknown",
-    "links": {
-      "doi": "https://doi.org/10.1109/icscds56580.2023.10104903",
-      "pdf": null,
-      "slides": null,
-      "video": null,
-      "github": null,
-      "dataset": null,
-      "publisher": "https://doi.org/10.1109/icscds56580.2023.10104903"
     },
     "sources": [
       "ORCID",

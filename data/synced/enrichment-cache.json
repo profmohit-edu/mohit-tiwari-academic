@@ -19146,5 +19146,65 @@
       "publisherUrl": "https://doi.org/10.1016/j.lddd.2026.100571"
     },
     "enrichedAt": "2026-09-28T09:42:06.134Z"
+  },
+  "10.17504/protocols.io.2bvjroz55lk5/v1": {
+    "crossref": {
+      "title": "Prediction-Point, Feature-Admissibility and Leakage Audit Protocol for Supervised Predictive AI Studies v1",
+      "authors": [
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": "Springer Science and Business Media LLC",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2026-10-06",
+      "type": "Preprint",
+      "abstract": "Predictive artificial intelligence studies can report apparently strong performance while relying on predictors, transformations, or modelling procedures that would not be legitimate at the intended prediction point. Such problems include target-derived predictors, post-outcome information, temporally unavailable variables, inappropriate partitioning, duplicate or related observations across partitions, preprocessing before data separation, feature selection using evaluation data, and repeated use of a test set during model development. This protocol provides a domain-independent, reproducible procedure for auditing construct validity, prediction-time feature availability, feature admissibility, data leakage, partition integrity, preprocessing boundaries, model-selection practices, and robustness in supervised predictive-AI studies. It is applicable to classification and regression tasks in software engineering, healthcare, finance, cybersecurity, education, business analytics, and other data-driven disciplines. The protocol begins with a Prediction-Point Contract defining the target, unit of prediction, observation window, prediction point, outcome window, intended use, and legitimate information boundary. Every candidate predictor is then evaluated through a Feature Admissibility Record addressing construct meaning, provenance, temporal availability, target dependence, derivational dependence, and partition-specific learning. Pipeline-level risks are separately documented in a Leakage Register and Partition and Preprocessing Audit. Questionable predictors or modelling decisions are subjected to sensitivity and ablation analysis. The protocol concludes with a structured audit decision of PASS, CONDITIONAL, or FAIL. Required outputs are a Prediction-Point Contract, Feature Admissibility Matrix, Leakage Register, Partition and Preprocessing Audit, Sensitivity and Ablation Record, and Final Audit Checklist. The protocol is intended to make predictive-model validity claims more transparent, reproducible, auditable, and comparable across application domains. The protocol may be applied prospectively before model development, retrospectively to an existing study, or during peer review or replication.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.17504/protocols.io.2bvjroz55lk5/v1"
+    },
+    "openAlex": {
+      "title": "Prediction-Point, Feature-Admissibility and Leakage Audit Protocol for Supervised Predictive AI Studies v1",
+      "authors": [
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": null,
+      "publicationDate": "2026-10-06",
+      "abstract": "Predictive artificial intelligence studies can report apparently strong performance while relying on predictors, transformations, or modelling procedures that would not be legitimate at the intended prediction point. Such problems include target-derived predictors, post-outcome information, temporally unavailable variables, inappropriate partitioning, duplicate or related observations across partitions, preprocessing before data separation, feature selection using evaluation data, and repeated use of a test set during model development. This protocol provides a domain-independent, reproducible procedure for auditing construct validity, prediction-time feature availability, feature admissibility, data leakage, partition integrity, preprocessing boundaries, model-selection practices, and robustness in supervised predictive-AI studies. It is applicable to classification and regression tasks in software engineering, healthcare, finance, cybersecurity, education, business analytics, and other data-driven disciplines. The protocol begins with a Prediction-Point Contract defining the target, unit of prediction, observation window, prediction point, outcome window, intended use, and legitimate information boundary. Every candidate predictor is then evaluated through a Feature Admissibility Record addressing construct meaning, provenance, temporal availability, target dependence, derivational dependence, and partition-specific learning. Pipeline-level risks are separately documented in a Leakage Register and Partition and Preprocessing Audit. Questionable predictors or modelling decisions are subjected to sensitivity and ablation analysis. The protocol concludes with a structured audit decision of PASS, CONDITIONAL, or FAIL. Required outputs are a Prediction-Point Contract, Feature Admissibility Matrix, Leakage Register, Partition and Preprocessing Audit, Sensitivity and Ablation Record, and Final Audit Checklist. The protocol is intended to make predictive-model validity claims more transparent, reproducible, auditable, and comparable across application domains. The protocol may be applied prospectively before model development, retrospectively to an existing study, or during peer review or replication.",
+      "keywords": [
+        "data leakage",
+        "audit protocol",
+        "data partitioning",
+        "model selection",
+        "reproducibility",
+        "sensitivity analysis",
+        "ablation study",
+        "model robustness",
+        "Machine Learning and Data Classification",
+        "Ethics and Social Impacts of AI",
+        "Scientific Computing and Data Management"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.17504/protocols.io.2bvjroz55lk5/v1",
+      "pdf": "https://www.protocols.io/view/prediction-point-feature-admissibility-and-leakage-2bvjroz55lk5/v1.pdf",
+      "publisherUrl": "https://doi.org/10.17504/protocols.io.2bvjroz55lk5/v1"
+    },
+    "enrichedAt": "2026-10-12T10:43:32.709Z"
   }
 }

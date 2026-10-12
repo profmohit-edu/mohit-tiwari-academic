@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T10:21:38.154Z",
+  "generatedAt": "2026-10-12T10:43:38.076Z",
   "documentCount": 355,
   "collectionCounts": {
     "Publications": 300,
@@ -746,6 +746,45 @@
         "citations": 1,
         "openAccess": "unknown",
         "authors": "Divyanshu Sinha, Sachin Gupta, Isha Das, Shrabani Mallick, Vinay Prasad Tamta, Sanda Sri Harsha, Mohit Tiwari, Dilora Abdurakhimova, Gunjan Shandilya"
+      }
+    },
+    {
+      "id": "publication:doi:10.17504/protocols.io.2bvjroz55lk5/v1",
+      "collections": [
+        "Publications"
+      ],
+      "title": "Prediction-Point, Feature-Admissibility and Leakage Audit Protocol for Supervised Predictive AI Studies v1",
+      "summary": "Predictive artificial intelligence studies can report apparently strong performance while relying on predictors, transformations, or modelling procedures that would not be legitimate at the intended prediction point. Such problems include target-derived predictors, post-outcome information, temporally unavailable variables, inappropriate partitioning, duplicate or related observations across partitions, preprocessing before data separation, feature selection using evaluation data, and repeated use of a test set during model development. This protocol provides a domain-independent, reproducible procedure for auditing construct validity, prediction-time feature availability, feature admissibil",
+      "content": "Prediction-Point, Feature-Admissibility and Leakage Audit Protocol for Supervised Predictive AI Studies v1 Mohit Tiwari Predictive artificial intelligence studies can report apparently strong performance while relying on predictors, transformations, or modelling procedures that would not be legitimate at the intended prediction point. Such problems include target-derived predictors, post-outcome information, temporally unavailable variables, inappropriate partitioning, duplicate or related observations across partitions, preprocessing before data separation, feature selection using evaluation data, and repeated use of a test set during model development. This protocol provides a domain-independent, reproducible procedure for auditing construct validity, prediction-time feature availability, feature admissibility, data leakage, partition integrity, preprocessing boundaries, model-selection practices, and robustness in supervised predictive-AI studies. It is applicable to classification and regression tasks in software engineering, healthcare, finance, cybersecurity, education, business analytics, and other data-driven disciplines. The protocol begins with a Prediction-Point Contract defining the target, unit of prediction, observation window, prediction point, outcome window, intended use, and legitimate information boundary. Every candidate predictor is then evaluated through a Feature Admissibility Record addressing construct meaning, provenance, temporal availability, target dependence, derivational dependence, and partition-specific learning. Pipeline-level risks are separately documented in a Leakage Register and Partition and Preprocessing Audit. Questionable predictors or modelling decisions are subjected to sensitivity and ablation analysis. The protocol concludes with a structured audit decision of PASS, CONDITIONAL, or FAIL. Required outputs are a Prediction-Point Contract, Feature Admissibility Matrix, Leakage Register, Partition and Preprocessing Audit, Sensitivity and Ablation Record, and Final Audit Checklist. The protocol is intended to make predictive-model validity claims more transparent, reproducible, auditable, and comparable across application domains. The protocol may be applied prospectively before model development, retrospectively to an existing study, or during peer review or replication. Mohit Tiwari (2026). Prediction-Point, Featur",
+      "year": 2026,
+      "publicationType": "Preprint",
+      "researchAreas": [
+        "Artificial Intelligence",
+        "Cyber Security",
+        "Software Engineering",
+        "Machine Learning"
+      ],
+      "keywords": [
+        "data leakage",
+        "audit protocol",
+        "data partitioning",
+        "model selection",
+        "reproducibility",
+        "sensitivity analysis",
+        "ablation study",
+        "model robustness",
+        "Machine Learning and Data Classification",
+        "Ethics and Social Impacts of AI",
+        "Scientific Computing and Data Management"
+      ],
+      "url": "https://doi.org/10.17504/protocols.io.2bvjroz55lk5/v1",
+      "metadata": {
+        "doi": "10.17504/protocols.io.2bvjroz55lk5/v1",
+        "venue": null,
+        "publisher": "Springer Science and Business Media LLC",
+        "citations": 0,
+        "openAccess": "open",
+        "authors": "Mohit Tiwari"
       }
     },
     {
@@ -10095,46 +10134,6 @@
       }
     },
     {
-      "id": "publication:doi:10.1109/icesc57686.2023.10193493",
-      "collections": [
-        "Publications"
-      ],
-      "title": "Revolutionizing IoT Network Security with Deep Learning-Anomaly Detection Model",
-      "summary": "The term “Internet of Things” (IoT) is used to describe the collection of data and the connectivity of items to the web that requires little to no human interaction. The IoT is a network of interconnected devices that can collect and disseminate information. Increased security and privacy worries accompany the launch of new devices due to the proliferation of Internet connections and the development of cutting-edge technology like the IoT. These days, the IoT is used everywhere, but especially in logistics, manufacturing, and healthcare. While these emerging IoT applications greatly enhance the usefulness of smart objects, they also present new security risks. Because of this, adapting exist",
-      "content": "Revolutionizing IoT Network Security with Deep Learning-Anomaly Detection Model Manish Vyas R Vijayaganth Jigyasha Chandhok Aviral Srivastava S. Arumugam Mohit Tiwari The term “Internet of Things” (IoT) is used to describe the collection of data and the connectivity of items to the web that requires little to no human interaction. The IoT is a network of interconnected devices that can collect and disseminate information. Increased security and privacy worries accompany the launch of new devices due to the proliferation of Internet connections and the development of cutting-edge technology like the IoT. These days, the IoT is used everywhere, but especially in logistics, manufacturing, and healthcare. While these emerging IoT applications greatly enhance the usefulness of smart objects, they also present new security risks. Because of this, adapting existing intrusion detection systems (IDS) for use with IoT networks is a topic of intense study. Many IDS experts have found success with machine learning (ML) and deep learning (DL) techniques. By combining deep extraction through the Convolutional autoencoder with deep learning to identify the best features, this work delivers an improved IDS that can be used for anomaly detection. Improves to the deep learning approach include an evaluation of hyperparameter effectiveness, a stage of feature pruning using an autoencoder neural network, and an examination of the sturdiness of the most effective deep neural networks for circumstances exaggerated by Gaussian noise over some of the features in question. Despite the noise, the results show that the formed IoT dataset is useful for anomaly detection with deep learning methods. Manish Vyas, R Vijayaganth, Jigyasha Chandhok, Aviral Srivastava, S. Arumugam, Mohit Tiwari (2023). Revolutionizing IoT Network Security with Deep Learning-Anomaly Detection Model. 2023 4th International Conference on Electronics and Sustainable Communication Systems (ICESC). https://doi.org/10.1109/icesc57686.2023.10193493 2023 4th International Conference on Electronics and Sustainable Communication Systems (ICESC) IEEE 10.1109/icesc57686.2023.10193493 1 citations cited Computer science Anomaly detection Deep learning Internet of Things Anomaly (physics) Network security Computer security Artificial intelligence Network Security and Intrusion Detection Advanced Malware Detection Techniques ",
-      "year": 2023,
-      "publicationType": "Conference Paper",
-      "researchAreas": [
-        "Artificial Intelligence",
-        "Cyber Security",
-        "Machine Learning",
-        "Cloud Computing",
-        "Internet of Things"
-      ],
-      "keywords": [
-        "Computer science",
-        "Anomaly detection",
-        "Deep learning",
-        "Internet of Things",
-        "Anomaly (physics)",
-        "Network security",
-        "Computer security",
-        "Artificial intelligence",
-        "Network Security and Intrusion Detection",
-        "Advanced Malware Detection Techniques",
-        "Anomaly Detection Techniques and Applications"
-      ],
-      "url": "https://doi.org/10.1109/icesc57686.2023.10193493",
-      "metadata": {
-        "doi": "10.1109/icesc57686.2023.10193493",
-        "venue": "2023 4th International Conference on Electronics and Sustainable Communication Systems (ICESC)",
-        "publisher": "IEEE",
-        "citations": 1,
-        "openAccess": "unknown",
-        "authors": "Manish Vyas, R Vijayaganth, Jigyasha Chandhok, Aviral Srivastava, S. Arumugam, Mohit Tiwari"
-      }
-    },
-    {
       "id": "repository:1303651719",
       "collections": [
         "Projects",
@@ -10159,7 +10158,7 @@
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-09-28T09:42:17Z"
+        "updatedAt": "2026-10-05T10:21:43Z"
       }
     },
     {
@@ -11392,8 +11391,8 @@
         "Metrics"
       ],
       "title": "Publications",
-      "summary": "Publications: 608. Source: ORCID.",
-      "content": "publications Publications 608 ORCID ",
+      "summary": "Publications: 609. Source: ORCID.",
+      "content": "publications Publications 609 ORCID ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -11404,7 +11403,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 608,
+        "value": 609,
         "source": "ORCID",
         "status": "verified"
       }

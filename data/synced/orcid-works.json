@@ -294,6 +294,20 @@
     "orcidPath": "/0000-0003-1836-3451/work/202943167"
   },
   {
+    "id": "doi:10.17504/protocols.io.2bvjroz55lk5/v1",
+    "putCode": 228979508,
+    "title": "Prediction-Point, Feature-Admissibility and Leakage Audit Protocol for Supervised Predictive AI Studies v1",
+    "year": 2026,
+    "publicationDate": "2026-10-06",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.17504/protocols.io.2bvjroz55lk5/v1",
+    "url": "https://doi.org/10.17504/protocols.io.2bvjroz55lk5/v1",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/228979508"
+  },
+  {
     "id": "doi:10.4018/979-8-3373-7779-7.ch002",
     "putCode": 207395515,
     "title": "Quantum Machine Intelligence",

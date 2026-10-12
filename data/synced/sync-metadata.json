@@ -1,11 +1,11 @@
 {
   "orcid": {
     "orcidId": "0000-0003-1836-3451",
-    "rawGroupCount": 1060,
-    "deduplicatedWorkCount": 683,
+    "rawGroupCount": 1061,
+    "deduplicatedWorkCount": 684,
     "sitePublicationCount": 300,
     "enrichedPublicationCount": 224,
-    "synchronizedAt": "2026-10-05T10:21:33.245Z"
+    "synchronizedAt": "2026-10-12T10:43:32.752Z"
   },
   "github": {
     "username": "profmohit-edu",
@@ -18,6 +18,6 @@
       "Research Software": 3,
       "Cyber Security": 1
     },
-    "synchronizedAt": "2026-10-05T10:21:38.130Z"
+    "synchronizedAt": "2026-10-12T10:43:38.053Z"
   }
 }

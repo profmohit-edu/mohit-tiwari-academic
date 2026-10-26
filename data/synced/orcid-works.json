@@ -1,5 +1,19 @@
 [
   {
+    "id": "doi:10.1007/978-981-95-0465-7_27",
+    "putCode": 230505090,
+    "title": "Fuzzy Mathematical Modeling-Based Sustainability Assessment in Distributed Generation Through Intelligent Systems",
+    "year": 2027,
+    "publicationDate": "2027-01-01",
+    "type": "Book Chapter",
+    "sourceType": "book-chapter",
+    "venue": null,
+    "doi": "10.1007/978-981-95-0465-7_27",
+    "url": "https://doi.org/10.1007/978-981-95-0465-7_27",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/230505090"
+  },
+  {
     "id": "doi:10.4018/979-8-2600-0008-3.ch006",
     "putCode": 210443678,
     "title": "A Cloud–Edge–Fog Hybrid Architecture for Productive IoT-Based Smart City Operation",

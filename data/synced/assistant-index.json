@@ -1,17 +1,51 @@
 {
-  "generatedAt": "2026-10-19T08:47:53.359Z",
-  "documentCount": 355,
+  "generatedAt": "2026-10-26T08:49:58.892Z",
+  "documentCount": 356,
   "collectionCounts": {
     "Publications": 300,
-    "Projects": 34,
+    "Projects": 35,
     "Datasets": 1,
     "Software": 7,
-    "GitHub": 33,
+    "GitHub": 34,
     "Patents": 0,
     "Teaching": 15,
     "Metrics": 14
   },
   "documents": [
+    {
+      "id": "publication:doi:10.1007/978-981-95-0465-7_27",
+      "collections": [
+        "Publications"
+      ],
+      "title": "Fuzzy Mathematical Modeling-Based Sustainability Assessment in Distributed Generation Through Intelligent Systems",
+      "summary": "Sakshi Taaresh Khanna, A. P. Pushpalatha, Utpal Saikia, M. Clement Joe Anand, S. Indrakumar, Mohit Tiwari (2026). Fuzzy Mathematical Modeling-Based Sustainability Assessment in Distributed Generation Through Intelligent Systems. Algorithms for Intelligent Systems. https://doi.org/10.1007/978-981-95-0465-7_27",
+      "content": "Fuzzy Mathematical Modeling-Based Sustainability Assessment in Distributed Generation Through Intelligent Systems Sakshi Taaresh Khanna A. P. Pushpalatha Utpal Saikia M. Clement Joe Anand S. Indrakumar Mohit Tiwari Sakshi Taaresh Khanna, A. P. Pushpalatha, Utpal Saikia, M. Clement Joe Anand, S. Indrakumar, Mohit Tiwari (2026). Fuzzy Mathematical Modeling-Based Sustainability Assessment in Distributed Generation Through Intelligent Systems. Algorithms for Intelligent Systems. https://doi.org/10.1007/978-981-95-0465-7_27 Algorithms for Intelligent Systems Springer Nature Singapore 10.1007/978-981-95-0465-7_27 0 citations cited distributed generation sustainability assessment triangular fuzzy numbers renewable energy systems Lagrange multipliers dual optimization Fuzzy Systems and Optimization Fuzzy Logic and Control Systems Energy and Environmental Sustainability Artificial Intelligence ORCID Crossref OpenAlex",
+      "year": 2026,
+      "publicationType": "Book Chapter",
+      "researchAreas": [
+        "Artificial Intelligence"
+      ],
+      "keywords": [
+        "distributed generation",
+        "sustainability assessment",
+        "triangular fuzzy numbers",
+        "renewable energy systems",
+        "Lagrange multipliers",
+        "dual optimization",
+        "Fuzzy Systems and Optimization",
+        "Fuzzy Logic and Control Systems",
+        "Energy and Environmental Sustainability"
+      ],
+      "url": "https://doi.org/10.1007/978-981-95-0465-7_27",
+      "metadata": {
+        "doi": "10.1007/978-981-95-0465-7_27",
+        "venue": "Algorithms for Intelligent Systems",
+        "publisher": "Springer Nature Singapore",
+        "citations": 0,
+        "openAccess": "unknown",
+        "authors": "Sakshi Taaresh Khanna, A. P. Pushpalatha, Utpal Saikia, M. Clement Joe Anand, S. Indrakumar, Mohit Tiwari"
+      }
+    },
     {
       "id": "publication:doi:10.4018/979-8-2600-0008-3.ch006",
       "collections": [
@@ -10095,42 +10129,30 @@
       }
     },
     {
-      "id": "publication:doi:10.1109/icaiss58487.2023.10250493",
+      "id": "repository:1433456410",
       "collections": [
-        "Publications"
+        "Projects",
+        "GitHub"
       ],
-      "title": "Recognition and Integration of AI with IoT for Innovative Decision Making Techniques in Cyber Physical Systems",
-      "summary": "With the integration of Internet of Things (IoT) devices and the demand for effective decision-making methods, cyber-physical systems (CPS) are getting more complicated. In CPS, machine learning (ML) has become a potent technique for processing and analyzing massive volumes of data. The problem remains in optimizing ML algorithms to accomplish quick and accurate decision-making. To overcome this difficulty, we provide a novel strategy in this paper that integrates ML with Particle Swarm Optimisation (PSO) and IoT. The suggested framework optimizes ML algorithms for CPS using PSO, an optimization technique inspired by nature. To find the optimum solution in a multidimensional space, PSO imita",
-      "content": "Recognition and Integration of AI with IoT for Innovative Decision Making Techniques in Cyber Physical Systems Shivakumar Nethani Lingala Sivaranjani Marrapu Aswini Kumar Bechoo Lal Mohit Tiwari With the integration of Internet of Things (IoT) devices and the demand for effective decision-making methods, cyber-physical systems (CPS) are getting more complicated. In CPS, machine learning (ML) has become a potent technique for processing and analyzing massive volumes of data. The problem remains in optimizing ML algorithms to accomplish quick and accurate decision-making. To overcome this difficulty, we provide a novel strategy in this paper that integrates ML with Particle Swarm Optimisation (PSO) and IoT. The suggested framework optimizes ML algorithms for CPS using PSO, an optimization technique inspired by nature. To find the optimum solution in a multidimensional space, PSO imitates the behavior of a swarm of particles. Our goal is to improve the precision and effectiveness of decision-making processes in CPS by combining PSO with ML techniques. Additionally, by integrating IoT devices into CPS, a wealth of real-time data is made available, enabling the collection of diverse and dynamic data from numerous sources. Our method uses this data to analyze patterns, trends, and anomalies using ML algorithms, enabling wise decision-making in real time. The advantages of our suggested strategy are dual. First, PSO optimization increases the efficiency of ML algorithms and lessens the computational complexity related to large-scale datasets. Second, the framework's inclusion of IoT devices makes it possible to employ real-time data, leading to more precise and rapid decision-making. Shivakumar Nethani, Lingala Sivaranjani, Marrapu Aswini Kumar, Bechoo Lal, Mohit Tiwari (2023). Recognition and Integration of AI with IoT for Innovative Decision Making Techniques in Cyber Physical Systems. 2023 Second International Conference on Augmented Intelligence and Sustainable Systems (ICAISS). https://doi.org/10.1109/icaiss58487.2023.10250493 2023 Second International Conference on Augmented Intelligence and Sustainable Systems (ICAISS) IEEE 10.1109/icaiss58487.2023.10250493 1 citations cited Computer science Particle swarm optimization Cyber-physical system Internet of Things Artificial intelligence Machine learning Data mining Distributed computing Air Quality Monitoring an",
-      "year": 2023,
-      "publicationType": "Conference Paper",
-      "researchAreas": [
-        "Artificial Intelligence",
-        "Cyber Security",
-        "Machine Learning",
-        "Internet of Things"
-      ],
+      "title": "RestoreProof",
+      "summary": "Local backup recovery verification with SHA-256 integrity checks and recovery evidence.",
+      "content": "RestoreProof Local backup recovery verification with SHA-256 integrity checks and recovery evidence. File-level backup recovery verification for THREWS ODYSSEY 2026. Python HTML Utilities MIT",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
       "keywords": [
-        "Computer science",
-        "Particle swarm optimization",
-        "Cyber-physical system",
-        "Internet of Things",
-        "Artificial intelligence",
-        "Machine learning",
-        "Data mining",
-        "Distributed computing",
-        "Air Quality Monitoring and Forecasting",
-        "Impact of AI and Big Data on Business and Society",
-        "Economic and Technological Systems Analysis"
+        "Python",
+        "HTML",
+        "Utilities"
       ],
-      "url": "https://doi.org/10.1109/icaiss58487.2023.10250493",
+      "url": "https://github.com/profmohit-edu/RestoreProof",
       "metadata": {
-        "doi": "10.1109/icaiss58487.2023.10250493",
-        "venue": "2023 Second International Conference on Augmented Intelligence and Sustainable Systems (ICAISS)",
-        "publisher": "IEEE",
-        "citations": 1,
-        "openAccess": "unknown",
-        "authors": "Shivakumar Nethani, Lingala Sivaranjani, Marrapu Aswini Kumar, Bechoo Lal, Mohit Tiwari"
+        "category": "Utilities",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updatedAt": "2026-10-25T17:34:07Z"
       }
     },
     {
@@ -10158,7 +10180,7 @@
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-10-12T10:43:43Z"
+        "updatedAt": "2026-10-19T08:47:58Z"
       }
     },
     {
@@ -11391,8 +11413,8 @@
         "Metrics"
       ],
       "title": "Publications",
-      "summary": "Publications: 609. Source: ORCID.",
-      "content": "publications Publications 609 ORCID ",
+      "summary": "Publications: 610. Source: ORCID.",
+      "content": "publications Publications 610 ORCID ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -11403,7 +11425,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 609,
+        "value": 610,
         "source": "ORCID",
         "status": "verified"
       }
@@ -11552,8 +11574,8 @@
         "Metrics"
       ],
       "title": "Projects",
-      "summary": "Projects: 19. Source: GitHub.",
-      "content": "projects Projects 19 GitHub ",
+      "summary": "Projects: 20. Source: GitHub.",
+      "content": "projects Projects 20 GitHub ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -11564,7 +11586,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 19,
+        "value": 20,
         "source": "GitHub",
         "status": "verified"
       }

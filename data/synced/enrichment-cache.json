@@ -19206,5 +19206,113 @@
       "publisherUrl": "https://doi.org/10.17504/protocols.io.2bvjroz55lk5/v1"
     },
     "enrichedAt": "2026-10-12T10:43:32.709Z"
+  },
+  "10.1007/978-981-95-0465-7_27": {
+    "crossref": {
+      "title": "Fuzzy Mathematical Modeling-Based Sustainability Assessment in Distributed Generation Through Intelligent Systems",
+      "authors": [
+        "Sakshi Taaresh Khanna",
+        "A. P. Pushpalatha",
+        "Utpal Saikia",
+        "M. Clement Joe Anand",
+        "S. Indrakumar",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Sakshi Taaresh Khanna",
+          "orcid": "0009-0006-2936-8708"
+        },
+        {
+          "name": "A. P. Pushpalatha",
+          "orcid": "0000-0002-0799-7961"
+        },
+        {
+          "name": "Utpal Saikia",
+          "orcid": "0000-0003-0235-6871"
+        },
+        {
+          "name": "M. Clement Joe Anand",
+          "orcid": "0000-0002-1959-7631"
+        },
+        {
+          "name": "S. Indrakumar",
+          "orcid": "0000-0001-8158-5730"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "Algorithms for Intelligent Systems",
+      "publisher": "Springer Nature Singapore",
+      "volume": null,
+      "issue": null,
+      "pages": "349-362",
+      "publicationDate": "2026-10-06",
+      "type": "Book Chapter",
+      "abstract": null,
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1007/978-981-95-0465-7_27"
+    },
+    "openAlex": {
+      "title": "Fuzzy Mathematical Modeling-Based Sustainability Assessment in Distributed Generation Through Intelligent Systems",
+      "authors": [
+        "Sakshi Taaresh Khanna",
+        "A. Pushpalatha",
+        "Utpal Saikia",
+        "M. Clement Joe Anand",
+        "S. Indrakumar",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Sakshi Taaresh Khanna",
+          "orcid": "0009-0006-2936-8708"
+        },
+        {
+          "name": "A. Pushpalatha",
+          "orcid": "0000-0002-0799-7961"
+        },
+        {
+          "name": "Utpal Saikia",
+          "orcid": "0000-0003-0235-6871"
+        },
+        {
+          "name": "M. Clement Joe Anand",
+          "orcid": "0000-0002-1959-7631"
+        },
+        {
+          "name": "S. Indrakumar",
+          "orcid": "0000-0001-8158-5730"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "Algorithms for intelligent systems",
+      "publisher": "Springer Nature",
+      "publicationDate": "2026-10-06",
+      "abstract": null,
+      "keywords": [
+        "distributed generation",
+        "sustainability assessment",
+        "triangular fuzzy numbers",
+        "renewable energy systems",
+        "Lagrange multipliers",
+        "dual optimization",
+        "Fuzzy Systems and Optimization",
+        "Fuzzy Logic and Control Systems",
+        "Energy and Environmental Sustainability"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessUrl": null,
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.1007/978-981-95-0465-7_27"
+    },
+    "enrichedAt": "2026-10-26T08:49:53.357Z"
   }
 }

@@ -1,5 +1,28 @@
 [
   {
+    "id": 1433456410,
+    "name": "RestoreProof",
+    "fullName": "profmohit-edu/RestoreProof",
+    "description": "Local backup recovery verification with SHA-256 integrity checks and recovery evidence.",
+    "url": "https://github.com/profmohit-edu/RestoreProof",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "Python": 16269,
+      "HTML": 13604
+    },
+    "primaryLanguage": "Python",
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "readmeSummary": "File-level backup recovery verification for THREWS ODYSSEY 2026.",
+    "category": "Utilities",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-10-25T17:29:55Z",
+    "updatedAt": "2026-10-25T17:34:07Z"
+  },
+  {
     "id": 1303651719,
     "name": "mohit-tiwari-academic",
     "fullName": "profmohit-edu/mohit-tiwari-academic",
@@ -21,7 +44,7 @@
     "archived": false,
     "fork": false,
     "createdAt": "2026-07-17T06:33:39Z",
-    "updatedAt": "2026-10-12T10:43:43Z"
+    "updatedAt": "2026-10-19T08:47:58Z"
   },
   {
     "id": 1373262683,

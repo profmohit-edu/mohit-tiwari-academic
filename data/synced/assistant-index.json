@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T08:49:58.892Z",
+  "generatedAt": "2026-11-02T10:58:19.869Z",
   "documentCount": 356,
   "collectionCounts": {
     "Publications": 300,
@@ -10129,33 +10129,6 @@
       }
     },
     {
-      "id": "repository:1433456410",
-      "collections": [
-        "Projects",
-        "GitHub"
-      ],
-      "title": "RestoreProof",
-      "summary": "Local backup recovery verification with SHA-256 integrity checks and recovery evidence.",
-      "content": "RestoreProof Local backup recovery verification with SHA-256 integrity checks and recovery evidence. File-level backup recovery verification for THREWS ODYSSEY 2026. Python HTML Utilities MIT",
-      "year": 2026,
-      "publicationType": null,
-      "researchAreas": [],
-      "keywords": [
-        "Python",
-        "HTML",
-        "Utilities"
-      ],
-      "url": "https://github.com/profmohit-edu/RestoreProof",
-      "metadata": {
-        "category": "Utilities",
-        "language": "Python",
-        "stars": 0,
-        "forks": 0,
-        "license": "MIT",
-        "updatedAt": "2026-10-25T17:34:07Z"
-      }
-    },
-    {
       "id": "repository:1303651719",
       "collections": [
         "Projects",
@@ -10180,7 +10153,34 @@
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-10-19T08:47:58Z"
+        "updatedAt": "2026-10-26T08:50:05Z"
+      }
+    },
+    {
+      "id": "repository:1433456410",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "RestoreProof",
+      "summary": "Local backup recovery verification with SHA-256 integrity checks and recovery evidence.",
+      "content": "RestoreProof Local backup recovery verification with SHA-256 integrity checks and recovery evidence. File-level backup recovery verification for THREWS ODYSSEY 2026. Python HTML Utilities MIT",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Python",
+        "HTML",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/RestoreProof",
+      "metadata": {
+        "category": "Utilities",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updatedAt": "2026-10-25T17:34:07Z"
       }
     },
     {

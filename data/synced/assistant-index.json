@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-02T10:58:19.869Z",
-  "documentCount": 356,
+  "generatedAt": "2026-11-09T11:26:06.312Z",
+  "documentCount": 360,
   "collectionCounts": {
     "Publications": 300,
-    "Projects": 35,
+    "Projects": 39,
     "Datasets": 1,
     "Software": 7,
-    "GitHub": 34,
+    "GitHub": 38,
     "Patents": 0,
     "Teaching": 15,
     "Metrics": 14
@@ -10129,6 +10129,110 @@
       }
     },
     {
+      "id": "repository:1446000375",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "model-loading-defense-boundaries",
+      "summary": "Coverage boundaries of machine learning model loading defenses",
+      "content": "model-loading-defense-boundaries Coverage boundaries of machine learning model loading defenses Python Utilities",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Python",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/model-loading-defense-boundaries",
+      "metadata": {
+        "category": "Utilities",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-11-04T17:59:10Z"
+      }
+    },
+    {
+      "id": "repository:1445936857",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "embedding-model-migration-review",
+      "summary": "Embedding-model migration for retrieval: a critical review of compatibility targets and evaluation evidence",
+      "content": "embedding-model-migration-review Embedding-model migration for retrieval: a critical review of compatibility targets and evaluation evidence Python Utilities",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Python",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/embedding-model-migration-review",
+      "metadata": {
+        "category": "Utilities",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-11-04T17:04:18Z"
+      }
+    },
+    {
+      "id": "repository:1445027223",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "secret-scanning-evaluation-review",
+      "summary": "What secret scanning evaluations measure — reproducibility materials",
+      "content": "secret-scanning-evaluation-review What secret scanning evaluations measure — reproducibility materials Python Utilities",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Python",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/secret-scanning-evaluation-review",
+      "metadata": {
+        "category": "Utilities",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-11-04T01:42:56Z"
+      }
+    },
+    {
+      "id": "repository:1443984085",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "paired-f1-missing-labels",
+      "summary": "Sharp bounds for paired F1 comparisons with missing evaluation labels",
+      "content": "paired-f1-missing-labels Sharp bounds for paired F1 comparisons with missing evaluation labels Python Utilities",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "Python",
+        "Utilities"
+      ],
+      "url": "https://github.com/profmohit-edu/paired-f1-missing-labels",
+      "metadata": {
+        "category": "Utilities",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-11-03T08:28:15Z"
+      }
+    },
+    {
       "id": "repository:1303651719",
       "collections": [
         "Projects",
@@ -10153,7 +10257,7 @@
         "stars": 0,
         "forks": 0,
         "license": null,
-        "updatedAt": "2026-10-26T08:50:05Z"
+        "updatedAt": "2026-11-02T10:58:25Z"
       }
     },
     {
@@ -11574,8 +11678,8 @@
         "Metrics"
       ],
       "title": "Projects",
-      "summary": "Projects: 20. Source: GitHub.",
-      "content": "projects Projects 20 GitHub ",
+      "summary": "Projects: 24. Source: GitHub.",
+      "content": "projects Projects 24 GitHub ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -11586,7 +11690,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 20,
+        "value": 24,
         "source": "GitHub",
         "status": "verified"
       }

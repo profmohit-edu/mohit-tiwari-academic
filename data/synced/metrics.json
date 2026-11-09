@@ -51,7 +51,7 @@
   {
     "key": "projects",
     "label": "Projects",
-    "value": 20,
+    "value": 24,
     "source": "GitHub",
     "todo": null
   },

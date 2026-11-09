@@ -1,5 +1,93 @@
 [
   {
+    "id": 1446000375,
+    "name": "model-loading-defense-boundaries",
+    "fullName": "profmohit-edu/model-loading-defense-boundaries",
+    "description": null,
+    "url": "https://github.com/profmohit-edu/model-loading-defense-boundaries",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "Python": 3200
+    },
+    "primaryLanguage": "Python",
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "readmeSummary": "Coverage boundaries of machine learning model loading defenses",
+    "category": "Utilities",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-11-04T17:45:48Z",
+    "updatedAt": "2026-11-04T17:59:10Z"
+  },
+  {
+    "id": 1445936857,
+    "name": "embedding-model-migration-review",
+    "fullName": "profmohit-edu/embedding-model-migration-review",
+    "description": null,
+    "url": "https://github.com/profmohit-edu/embedding-model-migration-review",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "Python": 8407
+    },
+    "primaryLanguage": "Python",
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "readmeSummary": "Embedding-model migration for retrieval: a critical review of compatibility targets and evaluation evidence",
+    "category": "Utilities",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-11-04T16:48:04Z",
+    "updatedAt": "2026-11-04T17:04:18Z"
+  },
+  {
+    "id": 1445027223,
+    "name": "secret-scanning-evaluation-review",
+    "fullName": "profmohit-edu/secret-scanning-evaluation-review",
+    "description": null,
+    "url": "https://github.com/profmohit-edu/secret-scanning-evaluation-review",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "Python": 1227
+    },
+    "primaryLanguage": "Python",
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "readmeSummary": "What secret scanning evaluations measure — reproducibility materials",
+    "category": "Utilities",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-11-04T01:31:20Z",
+    "updatedAt": "2026-11-04T01:42:56Z"
+  },
+  {
+    "id": 1443984085,
+    "name": "paired-f1-missing-labels",
+    "fullName": "profmohit-edu/paired-f1-missing-labels",
+    "description": null,
+    "url": "https://github.com/profmohit-edu/paired-f1-missing-labels",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "Python": 23823
+    },
+    "primaryLanguage": "Python",
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "readmeSummary": "Sharp bounds for paired F1 comparisons with missing evaluation labels",
+    "category": "Utilities",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-11-03T08:01:08Z",
+    "updatedAt": "2026-11-03T08:28:15Z"
+  },
+  {
     "id": 1303651719,
     "name": "mohit-tiwari-academic",
     "fullName": "profmohit-edu/mohit-tiwari-academic",
@@ -21,7 +109,7 @@
     "archived": false,
     "fork": false,
     "createdAt": "2026-07-17T06:33:39Z",
-    "updatedAt": "2026-10-26T08:50:05Z"
+    "updatedAt": "2026-11-02T10:58:25Z"
   },
   {
     "id": 1433456410,

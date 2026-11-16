@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T11:26:06.312Z",
+  "generatedAt": "2026-11-16T11:08:49.424Z",
   "documentCount": 360,
   "collectionCounts": {
     "Publications": 300,
@@ -10129,6 +10129,34 @@
       }
     },
     {
+      "id": "repository:1303651719",
+      "collections": [
+        "Projects",
+        "GitHub"
+      ],
+      "title": "mohit-tiwari-academic",
+      "summary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
+      "content": "mohit-tiwari-academic Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi. TypeScript JavaScript CSS Research Platforms",
+      "year": 2026,
+      "publicationType": null,
+      "researchAreas": [],
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Research Platforms"
+      ],
+      "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
+      "metadata": {
+        "category": "Research Platforms",
+        "language": "TypeScript",
+        "stars": 0,
+        "forks": 0,
+        "license": null,
+        "updatedAt": "2026-11-09T11:26:11Z"
+      }
+    },
+    {
       "id": "repository:1446000375",
       "collections": [
         "Projects",
@@ -10230,34 +10258,6 @@
         "forks": 0,
         "license": null,
         "updatedAt": "2026-11-03T08:28:15Z"
-      }
-    },
-    {
-      "id": "repository:1303651719",
-      "collections": [
-        "Projects",
-        "GitHub"
-      ],
-      "title": "mohit-tiwari-academic",
-      "summary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
-      "content": "mohit-tiwari-academic Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi. TypeScript JavaScript CSS Research Platforms",
-      "year": 2026,
-      "publicationType": null,
-      "researchAreas": [],
-      "keywords": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Research Platforms"
-      ],
-      "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
-      "metadata": {
-        "category": "Research Platforms",
-        "language": "TypeScript",
-        "stars": 0,
-        "forks": 0,
-        "license": null,
-        "updatedAt": "2026-11-02T10:58:25Z"
       }
     },
     {

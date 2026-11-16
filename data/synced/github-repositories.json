@@ -1,5 +1,29 @@
 [
   {
+    "id": 1303651719,
+    "name": "mohit-tiwari-academic",
+    "fullName": "profmohit-edu/mohit-tiwari-academic",
+    "description": null,
+    "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
+    "homepage": null,
+    "topics": [],
+    "languages": {
+      "TypeScript": 195561,
+      "JavaScript": 64136,
+      "CSS": 4140
+    },
+    "primaryLanguage": "TypeScript",
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "readmeSummary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
+    "category": "Research Platforms",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2026-07-17T06:33:39Z",
+    "updatedAt": "2026-11-09T11:26:11Z"
+  },
+  {
     "id": 1446000375,
     "name": "model-loading-defense-boundaries",
     "fullName": "profmohit-edu/model-loading-defense-boundaries",
@@ -86,30 +110,6 @@
     "fork": false,
     "createdAt": "2026-11-03T08:01:08Z",
     "updatedAt": "2026-11-03T08:28:15Z"
-  },
-  {
-    "id": 1303651719,
-    "name": "mohit-tiwari-academic",
-    "fullName": "profmohit-edu/mohit-tiwari-academic",
-    "description": null,
-    "url": "https://github.com/profmohit-edu/mohit-tiwari-academic",
-    "homepage": null,
-    "topics": [],
-    "languages": {
-      "TypeScript": 195561,
-      "JavaScript": 64136,
-      "CSS": 4140
-    },
-    "primaryLanguage": "TypeScript",
-    "stars": 0,
-    "forks": 0,
-    "license": null,
-    "readmeSummary": "Production academic website for Mohit Tiwari, Assistant Professor in the Department of Computer Science & Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi.",
-    "category": "Research Platforms",
-    "archived": false,
-    "fork": false,
-    "createdAt": "2026-07-17T06:33:39Z",
-    "updatedAt": "2026-11-02T10:58:25Z"
   },
   {
     "id": 1433456410,
@@ -523,7 +523,7 @@
     "homepage": null,
     "topics": [],
     "languages": {
-      "HTML": 14994,
+      "HTML": 16432,
       "CSS": 8592
     },
     "primaryLanguage": "HTML",

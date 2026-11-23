@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T11:08:49.706Z",
+  "generatedAt": "2026-11-23T12:27:22.472Z",
   "recordsChecked": 300,
   "criticalIssueCount": 0,
   "integrity": {
@@ -21,19 +21,19 @@
       "coveragePercent": 91
     },
     "publisher": {
-      "missing": 98,
+      "missing": 97,
       "total": 300,
-      "coveragePercent": 67.3
+      "coveragePercent": 67.7
     },
     "abstract": {
-      "missing": 115,
+      "missing": 114,
       "total": 300,
-      "coveragePercent": 61.7
+      "coveragePercent": 62
     },
     "keywords": {
-      "missing": 76,
+      "missing": 77,
       "total": 300,
-      "coveragePercent": 74.7
+      "coveragePercent": 74.3
     },
     "researchAreas": {
       "missing": 47,
@@ -46,9 +46,9 @@
       "coveragePercent": 75
     },
     "authorOrcidIds": {
-      "missing": 905,
+      "missing": 902,
       "total": 1156,
-      "coveragePercent": 21.7
+      "coveragePercent": 22
     }
   },
   "notes": [

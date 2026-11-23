@@ -252,6 +252,20 @@
     "orcidPath": "/0000-0003-1836-3451/work/227050563"
   },
   {
+    "id": "doi:10.21203/rs.3.rs-11739412/v1",
+    "putCode": 233969172,
+    "title": "FedGuard: An Explainable Centralized Fraud-Detection Baseline on PaySim and IEEE-CIS",
+    "year": 2026,
+    "publicationDate": "2026-11-19",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.21203/rs.3.rs-11739412/v1",
+    "url": "https://doi.org/10.21203/rs.3.rs-11739412/v1",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/233969172"
+  },
+  {
     "id": "doi:10.7910/dvn/isqf8d",
     "putCode": 221966672,
     "title": "HEI Cybersecurity Governance and Policy Evidence Catalogue",
@@ -432,6 +446,20 @@
     "url": "https://doi.org/10.17504/protocols.io.bp2l6eyxdgqe/v1",
     "sourceName": "Crossref",
     "orcidPath": "/0000-0003-1836-3451/work/206455801"
+  },
+  {
+    "id": "doi:10.21203/rs.3.rs-11814023/v1",
+    "putCode": 234292259,
+    "title": "TCA-DARE: A Task-Complexity-Aware Dynamic Agent Routing Framework for Multi-Agent LLM Systems",
+    "year": 2026,
+    "publicationDate": "2026-11-23",
+    "type": "Preprint",
+    "sourceType": "preprint",
+    "venue": null,
+    "doi": "10.21203/rs.3.rs-11814023/v1",
+    "url": "https://doi.org/10.21203/rs.3.rs-11814023/v1",
+    "sourceName": "Crossref",
+    "orcidPath": "/0000-0003-1836-3451/work/234292259"
   },
   {
     "id": "doi:10.4018/979-8-2600-0008-3.ch010",

@@ -19314,5 +19314,132 @@
       "publisherUrl": "https://doi.org/10.1007/978-981-95-0465-7_27"
     },
     "enrichedAt": "2026-10-26T08:49:53.357Z"
+  },
+  "10.21203/rs.3.rs-11739412/v1": {
+    "crossref": {
+      "title": "FedGuard: An Explainable Centralized Fraud-Detection Baseline on PaySim and IEEE-CIS",
+      "authors": [
+        "Naman Dugar",
+        "Anvi Tyagi",
+        "Riyanshu",
+        "Prof. Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Naman Dugar",
+          "orcid": "0009-0005-2119-4128"
+        },
+        {
+          "name": "Anvi Tyagi",
+          "orcid": "0009-0007-4091-9897"
+        },
+        {
+          "name": "Riyanshu",
+          "orcid": "0009-0007-6984-2782"
+        },
+        {
+          "name": "Prof. Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": "Springer Science and Business Media LLC",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2026-11-19",
+      "type": "Preprint",
+      "abstract": "Abstract Fraud detection is difficult because fraudulent transactions are rare, data differ across domains, and strong predictive models can be hard to review. We present FedGuard, an explainable centralized baseline evaluated separately on two public benchmark domains: PaySim, a synthetic mobile-money dataset with 6.36 million transactions and 0.13% fraud, and IEEE-CIS, an anonymized card-not-present e-commerce dataset with 590,540 labeled transactions and 3.5% fraud. The records were split into train, validation, and test partitions before any preprocessing was fitted. Train-only preprocessing and sampling were used in four model families and 195 candidate fits. Thresholds were selected using validation data to maximize recall subject to an FPR no greater than 1%. On the held-out test split, the selected LightGBM model reached AP 0.997968, recall 99.76%, and FPR 0.003567% on PaySim; for IEEE-CIS, AP was 0.756757, recall 68.80%, and FPR 1.017758%, slightly above the validation target. TreeSHAP contributions for the selected tree model sum with the baseline value to the model raw output; they are not calibrated probabilities. The codebase includes a 55-case software test suite, which checks implementation behavior rather than trained-model performance. This work does not implement federated learning, differential privacy, or secure aggregation.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.21203/rs.3.rs-11739412/v1"
+    },
+    "openAlex": {
+      "title": "FedGuard: An Explainable Centralized Fraud-Detection Baseline on PaySim and IEEE-CIS",
+      "authors": [
+        "Naman Dugar",
+        "Anvi Tyagi",
+        "Riyanshu",
+        "Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Naman Dugar",
+          "orcid": "0009-0005-2119-4128"
+        },
+        {
+          "name": "Anvi Tyagi",
+          "orcid": "0009-0007-4091-9897"
+        },
+        {
+          "name": "Riyanshu",
+          "orcid": "0009-0007-6984-2782"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": "Research Square",
+      "publisher": null,
+      "publicationDate": "2026-11-19",
+      "abstract": "Fraud detection is difficult because fraudulent transactions are rare, data differ across domains, and strong predictive models can be hard to review. We present FedGuard, an explainable centralized baseline evaluated separately on two public benchmark domains: PaySim, a synthetic mobile-money dataset with 6.36 million transactions and 0.13% fraud, and IEEE-CIS, an anonymized card-not-present e-commerce dataset with 590,540 labeled transactions and 3.5% fraud. The records were split into train, validation, and test partitions before any preprocessing was fitted. Train-only preprocessing and sampling were used in four model families and 195 candidate fits. Thresholds were selected using validation data to maximize recall subject to an FPR no greater than 1%. On the held-out test split, the selected LightGBM model reached AP 0.997968, recall 99.76%, and FPR 0.003567% on PaySim; for IEEE-CIS, AP was 0.756757, recall 68.80%, and FPR 1.017758%, slightly above the validation target. TreeSHAP contributions for the selected tree model sum with the baseline value to the model raw output; they are not calibrated probabilities. The codebase includes a 55-case software test suite, which checks implementation behavior rather than trained-model performance. This work does not implement federated learning, differential privacy, or secure aggregation.",
+      "keywords": [
+        "fraud detection",
+        "explainable machine learning",
+        "mobile money transactions",
+        "LightGBM",
+        "TreeSHAP",
+        "model selection",
+        "threshold selection",
+        "software testing",
+        "Imbalanced Data Classification Techniques",
+        "Privacy-Preserving Technologies in Data",
+        "Explainable Artificial Intelligence (XAI)"
+      ],
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessUrl": "https://doi.org/10.21203/rs.3.rs-11739412/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11739412/latest.pdf",
+      "publisherUrl": "https://doi.org/10.21203/rs.3.rs-11739412/v1"
+    },
+    "enrichedAt": "2026-11-23T12:27:15.354Z"
+  },
+  "10.21203/rs.3.rs-11814023/v1": {
+    "crossref": {
+      "title": "TCA-DARE: A Task-Complexity-Aware Dynamic Agent Routing Framework for Multi-Agent LLM Systems",
+      "authors": [
+        "Moksha Arora",
+        "Bhawna Mittal",
+        "Prof. Mohit Tiwari"
+      ],
+      "authorIdentifiers": [
+        {
+          "name": "Moksha Arora",
+          "orcid": "0009-0001-0016-6057"
+        },
+        {
+          "name": "Bhawna Mittal",
+          "orcid": "0009-0004-7962-4648"
+        },
+        {
+          "name": "Prof. Mohit Tiwari",
+          "orcid": "0000-0003-1836-3451"
+        }
+      ],
+      "venue": null,
+      "publisher": "Springer Science and Business Media LLC",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publicationDate": "2026-11-23",
+      "type": "Preprint",
+      "abstract": "Abstract Autonomous Large Language Model (LLM) agents have demonstrated significant capability in complex problem-solving. However, existing multi-agent systems predominantly rely on fixed, static execution topologies where a predefined suite of specialist agents is invoked sequentially regardless of query complexity. This rigid paradigm imposes a heavy computational tax, leading to inflated token consumption, high execution latency, and elevated operational costs on simple to moderately complex tasks. In this paper, we propose TCA-DARE (Task-Complexity-Aware Dynamic Agent Routing and Execution), an adaptive multi-agent framework that evaluates incoming academic requests prior to agent instantiation and allocates a minimal viable agent topology. By combining a lightweight four-feature mathematical complexity-scoring router (Layer 1), a dynamic specialist agent pool (Layer 2), a source-grounding verification guardrail (Layer 3, specified for future integration), and a telemetry logger (Layer 4), the framework routes queries across three distinct execution topologies: single-agent extraction (C₁), dual-pipeline synthesis (C₂), and full multi-agent orchestration (C₃). We present the complete system architecture, formal routing algorithm, and an implemented (not yet experimentally executed) local Python prototype built on Ollama (llama3) and tiktoken, alongside a structured multi-tier evaluation protocol designed for upcoming empirical validation against static multi-agent baselines.",
+      "keywords": [],
+      "pdf": null,
+      "publisherUrl": "https://doi.org/10.21203/rs.3.rs-11814023/v1"
+    },
+    "openAlex": null,
+    "enrichedAt": "2026-11-23T12:27:15.870Z"
   }
 }

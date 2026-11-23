@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T11:08:49.424Z",
+  "generatedAt": "2026-11-23T12:27:22.158Z",
   "documentCount": 360,
   "collectionCounts": {
     "Publications": 300,
@@ -641,6 +641,45 @@
       }
     },
     {
+      "id": "publication:doi:10.21203/rs.3.rs-11739412/v1",
+      "collections": [
+        "Publications"
+      ],
+      "title": "FedGuard: An Explainable Centralized Fraud-Detection Baseline on PaySim and IEEE-CIS",
+      "summary": "Abstract Fraud detection is difficult because fraudulent transactions are rare, data differ across domains, and strong predictive models can be hard to review. We present FedGuard, an explainable centralized baseline evaluated separately on two public benchmark domains: PaySim, a synthetic mobile-money dataset with 6.36 million transactions and 0.13% fraud, and IEEE-CIS, an anonymized card-not-present e-commerce dataset with 590,540 labeled transactions and 3.5% fraud. The records were split into train, validation, and test partitions before any preprocessing was fitted. Train-only preprocessing and sampling were used in four model families and 195 candidate fits. Thresholds were selected us",
+      "content": "FedGuard: An Explainable Centralized Fraud-Detection Baseline on PaySim and IEEE-CIS Naman Dugar Anvi Tyagi Riyanshu Prof. Mohit Tiwari Abstract Fraud detection is difficult because fraudulent transactions are rare, data differ across domains, and strong predictive models can be hard to review. We present FedGuard, an explainable centralized baseline evaluated separately on two public benchmark domains: PaySim, a synthetic mobile-money dataset with 6.36 million transactions and 0.13% fraud, and IEEE-CIS, an anonymized card-not-present e-commerce dataset with 590,540 labeled transactions and 3.5% fraud. The records were split into train, validation, and test partitions before any preprocessing was fitted. Train-only preprocessing and sampling were used in four model families and 195 candidate fits. Thresholds were selected using validation data to maximize recall subject to an FPR no greater than 1%. On the held-out test split, the selected LightGBM model reached AP 0.997968, recall 99.76%, and FPR 0.003567% on PaySim; for IEEE-CIS, AP was 0.756757, recall 68.80%, and FPR 1.017758%, slightly above the validation target. TreeSHAP contributions for the selected tree model sum with the baseline value to the model raw output; they are not calibrated probabilities. The codebase includes a 55-case software test suite, which checks implementation behavior rather than trained-model performance. This work does not implement federated learning, differential privacy, or secure aggregation. Naman Dugar, Anvi Tyagi, Riyanshu, Prof. Mohit Tiwari (2026). FedGuard: An Explainable Centralized Fraud-Detection Baseline on PaySim and IEEE-CIS. Research Square. https://doi.org/10.21203/rs.3.rs-11739412/v1 Research Square Springer Science and Business Media LLC 10.21203/rs.3.rs-11739412/v1 0 citations cited fraud detection explainable machine learning mobile money transactions LightGBM TreeSHAP model selection threshold selection software testing Imbalanced Data Classification Techniques Privacy-Preserving Technologies in Data Explainable Artificial Intelligence (XAI) Artificial Intelligence Cyber Security Software Engineering Machine Learning ORCID Crossref OpenAlex",
+      "year": 2026,
+      "publicationType": "Preprint",
+      "researchAreas": [
+        "Artificial Intelligence",
+        "Cyber Security",
+        "Software Engineering",
+        "Machine Learning"
+      ],
+      "keywords": [
+        "fraud detection",
+        "explainable machine learning",
+        "mobile money transactions",
+        "LightGBM",
+        "TreeSHAP",
+        "model selection",
+        "threshold selection",
+        "software testing",
+        "Imbalanced Data Classification Techniques",
+        "Privacy-Preserving Technologies in Data",
+        "Explainable Artificial Intelligence (XAI)"
+      ],
+      "url": "https://doi.org/10.21203/rs.3.rs-11739412/v1",
+      "metadata": {
+        "doi": "10.21203/rs.3.rs-11739412/v1",
+        "venue": "Research Square",
+        "publisher": "Springer Science and Business Media LLC",
+        "citations": 0,
+        "openAccess": "open",
+        "authors": "Naman Dugar, Anvi Tyagi, Riyanshu, Prof. Mohit Tiwari"
+      }
+    },
+    {
       "id": "publication:doi:10.7910/dvn/isqf8d",
       "collections": [
         "Publications"
@@ -1112,6 +1151,28 @@
         "citations": 0,
         "openAccess": "open",
         "authors": "Mohit Tiwari"
+      }
+    },
+    {
+      "id": "publication:doi:10.21203/rs.3.rs-11814023/v1",
+      "collections": [
+        "Publications"
+      ],
+      "title": "TCA-DARE: A Task-Complexity-Aware Dynamic Agent Routing Framework for Multi-Agent LLM Systems",
+      "summary": "Abstract Autonomous Large Language Model (LLM) agents have demonstrated significant capability in complex problem-solving. However, existing multi-agent systems predominantly rely on fixed, static execution topologies where a predefined suite of specialist agents is invoked sequentially regardless of query complexity. This rigid paradigm imposes a heavy computational tax, leading to inflated token consumption, high execution latency, and elevated operational costs on simple to moderately complex tasks. In this paper, we propose TCA-DARE (Task-Complexity-Aware Dynamic Agent Routing and Execution), an adaptive multi-agent framework that evaluates incoming academic requests prior to agent insta",
+      "content": "TCA-DARE: A Task-Complexity-Aware Dynamic Agent Routing Framework for Multi-Agent LLM Systems Moksha Arora Bhawna Mittal Prof. Mohit Tiwari Abstract Autonomous Large Language Model (LLM) agents have demonstrated significant capability in complex problem-solving. However, existing multi-agent systems predominantly rely on fixed, static execution topologies where a predefined suite of specialist agents is invoked sequentially regardless of query complexity. This rigid paradigm imposes a heavy computational tax, leading to inflated token consumption, high execution latency, and elevated operational costs on simple to moderately complex tasks. In this paper, we propose TCA-DARE (Task-Complexity-Aware Dynamic Agent Routing and Execution), an adaptive multi-agent framework that evaluates incoming academic requests prior to agent instantiation and allocates a minimal viable agent topology. By combining a lightweight four-feature mathematical complexity-scoring router (Layer 1), a dynamic specialist agent pool (Layer 2), a source-grounding verification guardrail (Layer 3, specified for future integration), and a telemetry logger (Layer 4), the framework routes queries across three distinct execution topologies: single-agent extraction (C₁), dual-pipeline synthesis (C₂), and full multi-agent orchestration (C₃). We present the complete system architecture, formal routing algorithm, and an implemented (not yet experimentally executed) local Python prototype built on Ollama (llama3) and tiktoken, alongside a structured multi-tier evaluation protocol designed for upcoming empirical validation against static multi-agent baselines. Moksha Arora, Bhawna Mittal, Prof. Mohit Tiwari (2026). TCA-DARE: A Task-Complexity-Aware Dynamic Agent Routing Framework for Multi-Agent LLM Systems. https://doi.org/10.21203/rs.3.rs-11814023/v1 Springer Science and Business Media LLC 10.21203/rs.3.rs-11814023/v1 ORCID Crossref",
+      "year": 2026,
+      "publicationType": "Preprint",
+      "researchAreas": [],
+      "keywords": [],
+      "url": "https://doi.org/10.21203/rs.3.rs-11814023/v1",
+      "metadata": {
+        "doi": "10.21203/rs.3.rs-11814023/v1",
+        "venue": null,
+        "publisher": "Springer Science and Business Media LLC",
+        "citations": null,
+        "openAccess": "unknown",
+        "authors": "Moksha Arora, Bhawna Mittal, Prof. Mohit Tiwari"
       }
     },
     {
@@ -10061,74 +10122,6 @@
       }
     },
     {
-      "id": "publication:doi:10.13140/rg.2.2.14418.32968",
-      "collections": [
-        "Publications"
-      ],
-      "title": "participated in Two Weeks Faculty Development Programme on Recent Trends in Quantum Computing. The programme was organized by the Department of Computer Science and Engineering, B.S. Abdur Rahman Crescent Institute of Science and Technology,, from October 16, 2023, to October 31, 2023.",
-      "summary": "Mohit Tiwari (2023). participated in Two Weeks Faculty Development Programme on Recent Trends in Quantum Computing. The programme was organized by the Department of Computer Science and Engineering, B.S. Abdur Rahman Crescent Institute of Science and Technology,, from October 16, 2023, to October 31, 2023.. https://doi.org/10.13140/rg.2.2.14418.32968",
-      "content": "participated in Two Weeks Faculty Development Programme on Recent Trends in Quantum Computing. The programme was organized by the Department of Computer Science and Engineering, B.S. Abdur Rahman Crescent Institute of Science and Technology,, from October 16, 2023, to October 31, 2023. Mohit Tiwari Mohit Tiwari (2023). participated in Two Weeks Faculty Development Programme on Recent Trends in Quantum Computing. The programme was organized by the Department of Computer Science and Engineering, B.S. Abdur Rahman Crescent Institute of Science and Technology,, from October 16, 2023, to October 31, 2023.. https://doi.org/10.13140/rg.2.2.14418.32968 10.13140/rg.2.2.14418.32968 0 citations cited Faculty development Professional development University faculty Quantum computer Banana Cultivation and Research Plant Pathogenic Bacteria Studies Plant Micronutrient Interactions and Effects ORCID OpenAlex",
-      "year": 2023,
-      "publicationType": "Other",
-      "researchAreas": [],
-      "keywords": [
-        "Faculty development",
-        "Professional development",
-        "University faculty",
-        "Quantum computer",
-        "Banana Cultivation and Research",
-        "Plant Pathogenic Bacteria Studies",
-        "Plant Micronutrient Interactions and Effects"
-      ],
-      "url": "https://doi.org/10.13140/rg.2.2.14418.32968",
-      "metadata": {
-        "doi": "10.13140/rg.2.2.14418.32968",
-        "venue": null,
-        "publisher": null,
-        "citations": 0,
-        "openAccess": "open",
-        "authors": "Mohit Tiwari"
-      }
-    },
-    {
-      "id": "publication:doi:10.3390/engproc2023059117",
-      "collections": [
-        "Publications"
-      ],
-      "title": "Predicting Employee Turnover: A Systematic Machine Learning Approach for Resource Conservation and Workforce Stability",
-      "summary": "A company’s most valuable resource is its workforce, which includes each worker. Because of the crucial role that employees play in the success of an organization, measuring employee turnover rate has become one of the most important metrics that businesses are concentrating on in the modern era. Attrition may occasionally arise owing to unavoidable circumstances such as moving to a distant place, retirement, etc. But when attrition begins creating holes in the pockets of an organization, it is necessary to monitor the situation closely. When hiring new staff, a company must use a significant quantity of its available resources. The process of rehiring employees needs to be eliminated, and a",
-      "content": "Predicting Employee Turnover: A Systematic Machine Learning Approach for Resource Conservation and Workforce Stability Parmod Kumar Sagar Balu Gaikwad Shunmugavel Thanga Ramya Tripti Tiwari Mohit Tiwari Binod Kumar A company’s most valuable resource is its workforce, which includes each worker. Because of the crucial role that employees play in the success of an organization, measuring employee turnover rate has become one of the most important metrics that businesses are concentrating on in the modern era. Attrition may occasionally arise owing to unavoidable circumstances such as moving to a distant place, retirement, etc. But when attrition begins creating holes in the pockets of an organization, it is necessary to monitor the situation closely. When hiring new staff, a company must use a significant quantity of its available resources. The process of rehiring employees needs to be eliminated, and a strong workforce needs to be maintained, so it is necessary to adapt the analysis of systematic machine learning models. From these models, a suitable model that gauges the risk of attrition may then be selected. This not only helps an organization save money by preserving its resources but also assists in preserving the status quo of its staff. Parmod Kumar, Sagar Balu Gaikwad, Shunmugavel Thanga Ramya, Tripti Tiwari, Mohit Tiwari, Binod Kumar (2023). Predicting Employee Turnover: A Systematic Machine Learning Approach for Resource Conservation and Workforce Stability. RAiSE-2023. https://doi.org/10.3390/engproc2023059117 RAiSE-2023 MDPI 10.3390/engproc2023059117 16 citations cited Workforce Computer science Resource (disambiguation) Stability (learning theory) Knowledge management Business Machine learning Economics AI and HR Technologies Advanced X-ray and CT Imaging Artificial Intelligence in Healthcare and Education Artificial Intelligence Machine Learning Cloud Computing ORCID Crossref OpenAlex",
-      "year": 2023,
-      "publicationType": "Conference Paper",
-      "researchAreas": [
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Cloud Computing"
-      ],
-      "keywords": [
-        "Workforce",
-        "Computer science",
-        "Resource (disambiguation)",
-        "Stability (learning theory)",
-        "Knowledge management",
-        "Business",
-        "Machine learning",
-        "Economics",
-        "AI and HR Technologies",
-        "Advanced X-ray and CT Imaging",
-        "Artificial Intelligence in Healthcare and Education"
-      ],
-      "url": "https://doi.org/10.3390/engproc2023059117",
-      "metadata": {
-        "doi": "10.3390/engproc2023059117",
-        "venue": "RAiSE-2023",
-        "publisher": "MDPI",
-        "citations": 16,
-        "openAccess": "open",
-        "authors": "Parmod Kumar, Sagar Balu Gaikwad, Shunmugavel Thanga Ramya, Tripti Tiwari, Mohit Tiwari, Binod Kumar"
-      }
-    },
-    {
       "id": "repository:1303651719",
       "collections": [
         "Projects",
@@ -11517,8 +11510,8 @@
         "Metrics"
       ],
       "title": "Publications",
-      "summary": "Publications: 610. Source: ORCID.",
-      "content": "publications Publications 610 ORCID ",
+      "summary": "Publications: 612. Source: ORCID.",
+      "content": "publications Publications 612 ORCID ",
       "year": null,
       "publicationType": null,
       "researchAreas": [],
@@ -11529,7 +11522,7 @@
       ],
       "url": null,
       "metadata": {
-        "value": 610,
+        "value": 612,
         "source": "ORCID",
         "status": "verified"
       }
